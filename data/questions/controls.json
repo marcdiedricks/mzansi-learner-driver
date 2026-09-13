@@ -1,10 +1,175 @@
 {
   "pack_id": "0.1c-controls-pilot",
   "section": "controls",
-  "status": "foundation_only",
+  "status": "source_verified_pilot",
   "source_ids": [
-    "SRC-008",
-    "SRC-009"
+    "SRC-008"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "controls-001",
+      "section": "controls",
+      "topic": "steering",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 4",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "Which control is used to steer a light motor vehicle?",
+          "options": [
+            "Steering wheel",
+            "Parking brake",
+            "Gear lever"
+          ],
+          "explanation": "The steering wheel is the primary control used to direct the vehicle."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "controls-002",
+      "section": "controls",
+      "topic": "automatic-transmission",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — automatic vehicle note",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "Which control is not fitted as a driver pedal in an automatic vehicle?",
+          "options": [
+            "Clutch",
+            "Brake",
+            "Accelerator"
+          ],
+          "explanation": "Automatic vehicles do not have a clutch control for the driver."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "controls-003",
+      "section": "controls",
+      "topic": "braking",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 9",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "Which pedal is the service brake control in a light motor vehicle?",
+          "options": [
+            "Brake pedal",
+            "Accelerator pedal",
+            "Clutch pedal"
+          ],
+          "explanation": "The brake pedal is the vehicle control used for normal service braking."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "controls-004",
+      "section": "controls",
+      "topic": "acceleration",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 10",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "Which pedal controls acceleration in a light motor vehicle?",
+          "options": [
+            "Accelerator",
+            "Brake",
+            "Clutch"
+          ],
+          "explanation": "The accelerator is the control used to increase engine power and vehicle speed."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "controls-005",
+      "section": "controls",
+      "topic": "indicators",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 5",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "Which control operates the vehicle's direction indicators?",
+          "options": [
+            "Indicator light switch",
+            "Window wiper control",
+            "Parking brake"
+          ],
+          "explanation": "The indicator light switch operates the direction indicators used to signal an intended change of direction."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    }
+  ]
 }
