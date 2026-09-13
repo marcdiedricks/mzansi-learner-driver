@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mzansi Learner Driver Question",
+  "type": "object",
+  "required": [
+    "id",
+    "section",
+    "topic",
+    "vehicle_group",
+    "difficulty",
+    "source",
+    "verification_status",
+    "language",
+    "correct_index",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(rules|signs|controls)-[0-9]{3,}$"
+    },
+    "section": {
+      "enum": [
+        "rules",
+        "signs",
+        "controls"
+      ]
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vehicle_group": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "code1",
+          "code2",
+          "code3",
+          "all"
+        ]
+      }
+    },
+    "difficulty": {
+      "enum": [
+        "basic",
+        "intermediate",
+        "advanced"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "verification_status"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-[0-9]{3}$"
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "draft",
+            "source_verified"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "verification_status": {
+      "enum": [
+        "DRAFT",
+        "SOURCE_VERIFIED",
+        "CONTENT_QA",
+        "LANGUAGE_QA",
+        "RELEASED"
+      ]
+    },
+    "language": {
+      "type": "object",
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "object",
+          "required": [
+            "question",
+            "options",
+            "explanation"
+          ],
+          "properties": {
+            "question": {
+              "type": "string",
+              "minLength": 1
+            },
+            "options": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 4,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "explanation": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "af": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "xh": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "correct_index": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "image_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "translation_status": {
+      "type": "object",
+      "properties": {
+        "af": {
+          "enum": [
+            "not_started",
+            "draft",
+            "human_reviewed",
+            "released"
+          ]
+        },
+        "xh": {
+          "enum": [
+            "not_started",
+            "draft",
+            "human_reviewed",
+            "released"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
