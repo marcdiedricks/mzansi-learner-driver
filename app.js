@@ -189,7 +189,7 @@ async function renderReady() {
   const pct = Math.round((stats.correct/stats.total)*100);
   const sectionOK = Object.values(stats.bySection).every(s => (s.correct/s.total) >= .85);
   const ready = orientationDone && sectionOK && stats.total >= 6;
-  box.innerHTML = \`<div class="result-card \${ready ? "status-good" : "status-warn"}"><span class="screen-chip \${ready ? "green" : "orange"}">\${ready ? "READYNESS CHECK" : "KEEP PRACTISING"}</span>
+  box.innerHTML = \`<div class="result-card \${ready ? "status-good" : "status-warn"}"><span class="screen-chip \${ready ? "green" : "orange"}">\${ready ? "READINESS CHECK" : "KEEP PRACTISING"}</span>
     <div class="result-title">\${ready ? "Ready for more serious mock practice" : "Not ready yet"}</div>
     <p><strong>Practice accuracy:</strong> \${pct}%</p>
     <p><strong>Computer test orientation:</strong> \${orientationDone ? "Complete" : "Not complete"}</p>
