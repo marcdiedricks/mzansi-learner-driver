@@ -70,28 +70,28 @@ async function loadQuestions() {
 
 function renderQuestion(q, container, onDone) {
   const sectionLabel = q.section === "rules" ? "RULES" : q.section === "signs" ? "SIGNS" : "CONTROLS";
-  container.innerHTML = \`
+  container.innerHTML = `
     <div class="question-card">
       <div class="question-meta">
-        <span class="section-pill \${q.section}">\${sectionLabel}</span>
+        <span class="section-pill ${q.section}">${sectionLabel}</span>
         <span class="question-count">SAMPLE QUESTION</span>
       </div>
-      <h3>\${q.question}</h3>
+      <h3>${q.question}</h3>
       <div id="answers"></div>
       <div id="feedback"></div>
-    </div>\`;
+    </div>`;
   const answers = container.querySelector("#answers");
   q.options.forEach((opt, idx) => {
     const b = document.createElement("button");
     b.className = "answer-btn";
     const letter = String.fromCharCode(65 + idx);
-    b.innerHTML = \`<span class="option-letter">\${letter}</span><span>\${opt}</span>\`;
+    b.innerHTML = `<span class="option-letter">${letter}</span><span>${opt}</span>`;
     b.onclick = () => {
       answers.querySelectorAll("button").forEach(x => x.classList.remove("selected"));
       b.classList.add("selected");
       const correct = idx === q.correct_index;
       const feedback = container.querySelector("#feedback");
-      feedback.innerHTML = \`<div class="feedback \${correct ? "" : "bad"}"><strong>\${correct ? "Correct" : "Not quite"}</strong><br>\${q.explanation}</div>\`;
+      feedback.innerHTML = `<div class="feedback ${correct ? "" : "bad"}"><strong>${correct ? "Correct" : "Not quite"}</strong><br>${q.explanation}</div>`;
       onDone(correct, q);
       answers.querySelectorAll("button").forEach(x => x.disabled = true);
     };
@@ -158,7 +158,7 @@ async function finishMock() {
   history.unshift(result);
   await dbSet("mockHistory", history.slice(0, 10));
   const pct = Math.round((result.score / result.total) * 100);
-  box.innerHTML = \`<div class="result-card status-info"><span class="screen-chip purple">MOCK COMPLETE</span><div class="score-large">\${result.score}/\${result.total}</div><p>You answered \${pct}% correctly in this sample.</p><p class="small">This is a sample proof build, not an official CLLT score.</p></div>\`;
+  box.innerHTML = `<div class="result-card status-info"><span class="screen-chip purple">MOCK COMPLETE</span><div class="score-large">${result.score}/${result.total}</div><p>You answered ${pct}% correctly in this sample.</p><p class="small">This is a sample proof build, not an official CLLT score.</p></div>`;
   refreshHome();
 }
 
@@ -167,14 +167,14 @@ async function renderWeak() {
   const stats = await dbGet("practiceStats", {bySection:{}});
   const rows = Object.entries(stats.bySection || {});
   if (!rows.length) {
-    box.innerHTML = \`<div class="result-card status-info"><div class="result-title">Nothing to show yet</div><p>Complete some practice questions first. Your weaker areas will appear here.</p></div>\`;
+    box.innerHTML = `<div class="result-card status-info"><div class="result-title">Nothing to show yet</div><p>Complete some practice questions first. Your weaker areas will appear here.</p></div>`;
     return;
   }
   rows.sort((a,b) => (a[1].correct/a[1].total) - (b[1].correct/b[1].total));
   box.innerHTML = rows.map(([section,s]) => {
     const pct = Math.round((s.correct/s.total)*100);
     const statusClass = pct >= 85 ? "status-good" : "status-warn";
-    return \`<div class="result-card \${statusClass}"><div class="result-title">\${section.charAt(0).toUpperCase() + section.slice(1)}</div><p><strong>\${pct}%</strong> correct in practice.</p></div>\`;
+    return `<div class="result-card ${statusClass}"><div class="result-title">${section.charAt(0).toUpperCase() + section.slice(1)}</div><p><strong>${pct}%</strong> correct in practice.</p></div>`;
   }).join("");
 }
 
@@ -183,24 +183,24 @@ async function renderReady() {
   const orientationDone = await dbGet("orientationDone", false);
   const stats = await dbGet("practiceStats", {total:0, correct:0, bySection:{}});
   if (!stats.total) {
-    box.innerHTML = \`<div class="result-card status-warn"><span class="screen-chip orange">NEXT STEP</span><div class="result-title">Not ready yet</div><p>Complete the digital orientation and some practice first.</p></div>\`;
+    box.innerHTML = `<div class="result-card status-warn"><span class="screen-chip orange">NEXT STEP</span><div class="result-title">Not ready yet</div><p>Complete the digital orientation and some practice first.</p></div>`;
     return;
   }
   const pct = Math.round((stats.correct/stats.total)*100);
   const sectionOK = Object.values(stats.bySection).every(s => (s.correct/s.total) >= .85);
   const ready = orientationDone && sectionOK && stats.total >= 6;
-  box.innerHTML = \`<div class="result-card \${ready ? "status-good" : "status-warn"}"><span class="screen-chip \${ready ? "green" : "orange"}">\${ready ? "READINESS CHECK" : "KEEP PRACTISING"}</span>
-    <div class="result-title">\${ready ? "Ready for more serious mock practice" : "Not ready yet"}</div>
-    <p><strong>Practice accuracy:</strong> \${pct}%</p>
-    <p><strong>Computer test orientation:</strong> \${orientationDone ? "Complete" : "Not complete"}</p>
-    <p class="small">This readiness message is a training indicator, not an official prediction of your test result.</p></div>\`;
+  box.innerHTML = `<div class="result-card ${ready ? "status-good" : "status-warn"}"><span class="screen-chip ${ready ? "green" : "orange"}">${ready ? "READINESS CHECK" : "KEEP PRACTISING"}</span>
+    <div class="result-title">${ready ? "Ready for more serious mock practice" : "Not ready yet"}</div>
+    <p><strong>Practice accuracy:</strong> ${pct}%</p>
+    <p><strong>Computer test orientation:</strong> ${orientationDone ? "Complete" : "Not complete"}</p>
+    <p class="small">This readiness message is a training indicator, not an official prediction of your test result.</p></div>`;
 }
 
 async function renderOrientation() {
   const box = document.getElementById("orientationBox");
   const done = await dbGet("orientationDone", false);
   if (done) {
-    box.innerHTML = \`<div class="result-card status-good"><span class="screen-chip green">COMPLETE</span><div class="result-title">Digital orientation complete</div><p>You can repeat it at any time.</p><button id="repeatOrientation" class="next-btn">Repeat orientation</button></div>\`;
+    box.innerHTML = `<div class="result-card status-good"><span class="screen-chip green">COMPLETE</span><div class="result-title">Digital orientation complete</div><p>You can repeat it at any time.</p><button id="repeatOrientation" class="next-btn">Repeat orientation</button></div>`;
     document.getElementById("repeatOrientation").onclick = () => { state.orientationStep = 0; runOrientationStep(); };
     return;
   }
@@ -212,13 +212,13 @@ function runOrientationStep() {
   const box = document.getElementById("orientationBox");
   const steps = [
     {
-      html: \`<div class="orientation-steps"><span class="active"></span><span></span><span></span></div><div class="question-card orientation-card"><span class="screen-chip gold">STEP 1 OF 3</span><h3>Tap a button</h3><p>Tap the large button below, just as you would on a test screen.</p><button id="oriAction" class="next-btn">Tap me</button></div>\`,
+      html: `<div class="orientation-steps"><span class="active"></span><span></span><span></span></div><div class="question-card orientation-card"><span class="screen-chip gold">STEP 1 OF 3</span><h3>Tap a button</h3><p>Tap the large button below, just as you would on a test screen.</p><button id="oriAction" class="next-btn">Tap me</button></div>`,
       bind: () => document.getElementById("oriAction").onclick = nextOrientation
     },
     {
-      html: \`<div class="orientation-steps"><span class="active"></span><span class="active"></span><span></span></div><div class="question-card orientation-card"><span class="screen-chip gold">STEP 2 OF 3</span><h3>Select and change an answer</h3><p>Select one answer, then change your selection before continuing.</p>
+      html: `<div class="orientation-steps"><span class="active"></span><span class="active"></span><span></span></div><div class="question-card orientation-card"><span class="screen-chip gold">STEP 2 OF 3</span><h3>Select and change an answer</h3><p>Select one answer, then change your selection before continuing.</p>
         <button class="answer-btn oriChoice"><span class="option-letter">A</span><span>Answer A</span></button><button class="answer-btn oriChoice"><span class="option-letter">B</span><span>Answer B</span></button>
-        <button id="oriNext" class="next-btn" disabled>Next</button></div>\`,
+        <button id="oriNext" class="next-btn" disabled>Next</button></div>`,
       bind: () => {
         let count = 0, last = null;
         document.querySelectorAll(".oriChoice").forEach(b => b.onclick = () => {
@@ -232,7 +232,7 @@ function runOrientationStep() {
       }
     },
     {
-      html: \`<div class="orientation-steps"><span class="active"></span><span class="active"></span><span class="active"></span></div><div class="question-card orientation-card"><span class="screen-chip gold">STEP 3 OF 3</span><h3>Finish the screen</h3><p>Read the screen carefully and tap <strong>Finish</strong>.</p><button id="oriFinish" class="next-btn">Finish</button></div>\`,
+      html: `<div class="orientation-steps"><span class="active"></span><span class="active"></span><span class="active"></span></div><div class="question-card orientation-card"><span class="screen-chip gold">STEP 3 OF 3</span><h3>Finish the screen</h3><p>Read the screen carefully and tap <strong>Finish</strong>.</p><button id="oriFinish" class="next-btn">Finish</button></div>`,
       bind: () => document.getElementById("oriFinish").onclick = finishOrientation
     }
   ];
@@ -249,7 +249,7 @@ function nextOrientation() {
 async function finishOrientation() {
   await dbSet("orientationDone", true);
   document.getElementById("orientationBox").innerHTML =
-    \`<div class="result-card status-good"><span class="screen-chip green">COMPLETE</span><div class="result-title">Computer test orientation complete</div><p>You have practised selecting and changing an answer and moving to the next screen.</p></div>\`;
+    `<div class="result-card status-good"><span class="screen-chip green">COMPLETE</span><div class="result-title">Computer test orientation complete</div><p>You have practised selecting and changing an answer and moving to the next screen.</p></div>`;
   refreshHome();
 }
 
@@ -258,9 +258,9 @@ async function refreshHome() {
   const stats = await dbGet("practiceStats", {total:0, correct:0});
   const mockHistory = await dbGet("mockHistory", []);
   const parts = [];
-  parts.push(\`Computer orientation: \${orientationDone ? "complete" : "not complete"}\`);
-  parts.push(\`Practice questions: \${stats.total || 0}\`);
-  parts.push(\`Mock tests: \${mockHistory.length}\`);
+  parts.push(`Computer orientation: ${orientationDone ? "complete" : "not complete"}`);
+  parts.push(`Practice questions: ${stats.total || 0}`);
+  parts.push(`Mock tests: ${mockHistory.length}`);
   document.getElementById("homeProgress").textContent = parts.join(" · ");
 }
 
