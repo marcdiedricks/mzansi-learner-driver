@@ -1,7 +1,7 @@
 {
   "pack_id": "0.1c-signs-pilot",
   "section": "signs",
-  "status": "source_verified_pilot",
+  "status": "content_qa_passed_internal",
   "source_ids": [
     "SRC-007"
   ],
@@ -19,7 +19,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §1 — signs in general",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What is the main purpose of a regulatory road sign?",
@@ -52,7 +52,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §1 — ordinary sign shapes",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What is the ordinary shape of most warning signs?",
@@ -85,7 +85,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §1 — ordinary sign shapes",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What is the ordinary shape of guidance signs?",
@@ -118,7 +118,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §3.1 — Stop sign R1.1",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What must you do at a STOP sign when a stop line is marked?",
@@ -151,7 +151,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §3.1 — Stop sign R1.1",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "At a STOP sign with no stop line, where should the front of the vehicle come to a standstill?",
@@ -184,7 +184,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — Stop line RTM1",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What does a stop line mean if there is no STOP sign next to it?",
@@ -217,7 +217,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — Yield line RTM2",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What should you do at a yield line?",
@@ -250,7 +250,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — Pedestrian crossing lines RTM3/RTM4",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "When pedestrians are crossing or waiting to cross at marked pedestrian crossing lines, what should a driver do?",
@@ -283,7 +283,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — No overtaking lines RM1",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What is the main restriction of a no-overtaking line on a two-way road?",
@@ -316,7 +316,7 @@
         "locator": "NaTIS Road Traffic Signs v1.00 §8 — Traffic lights",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What should you normally do when a traffic light turns amber?",
