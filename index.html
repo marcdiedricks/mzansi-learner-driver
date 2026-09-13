@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Offline-first CLLT learner driver preparation">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>Mzansi Learner Driver</title>
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">CLLT PREP</p>
+      <h1>Mzansi Learner Driver</h1>
+      <p class="tagline">Offline-first learner licence preparation</p>
+    </div>
+    <span id="offlineBadge" class="badge">Checking connection…</span>
+  </header>
+
+  <main id="app" class="container">
+    <section id="homeView" class="view active">
+      <div class="notice">
+        <strong>Practice tool.</strong>
+        This is not the official learner's licence test and does not contain confidential CLLT questions.
+      </div>
+
+      <div class="menu-grid">
+        <button data-view="learnView">Learn</button>
+        <button data-view="practiceView">Practise</button>
+        <button data-view="mockView">Mock Test</button>
+        <button data-view="weakView">My Weak Areas</button>
+        <button data-view="readyView">Am I Ready?</button>
+        <button data-view="orientationView" class="primary">First Computer Test?</button>
+      </div>
+
+      <div class="progress-card">
+        <h2>Your progress</h2>
+        <p id="homeProgress">No activity yet.</p>
+      </div>
+    </section>
+
+    <section id="learnView" class="view">
+      <button class="back">← Home</button>
+      <h2>Learn</h2>
+      <div class="topic-list">
+        <article><h3>Rules of the Road</h3><p>Learn the basic rules that control safe road use.</p></article>
+        <article><h3>Road Signs & Markings</h3><p>Recognise signs, signals and road markings.</p></article>
+        <article><h3>Vehicle Controls</h3><p>Understand common controls used in the relevant vehicle class.</p></article>
+      </div>
+    </section>
+
+    <section id="practiceView" class="view">
+      <button class="back">← Home</button>
+      <h2>Practise</h2>
+      <div id="practiceBox"></div>
+    </section>
+
+    <section id="mockView" class="view">
+      <button class="back">← Home</button>
+      <h2>Mock Test</h2>
+      <p>This first proof build uses only a short sample set.</p>
+      <button id="startMock">Start 3-question mock</button>
+      <div id="mockBox"></div>
+    </section>
+
+    <section id="weakView" class="view">
+      <button class="back">← Home</button>
+      <h2>My Weak Areas</h2>
+      <div id="weakBox"></div>
+    </section>
+
+    <section id="readyView" class="view">
+      <button class="back">← Home</button>
+      <h2>Am I Ready?</h2>
+      <div id="readyBox"></div>
+    </section>
+
+    <section id="orientationView" class="view">
+      <button class="back">← Home</button>
+      <h2>First Computer Test?</h2>
+      <p>This short exercise teaches the screen controls before any driving knowledge is tested.</p>
+      <div id="orientationBox"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

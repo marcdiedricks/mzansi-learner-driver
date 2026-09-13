@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rules-001",
+    "section": "rules",
+    "topic": "safe-following",
+    "vehicle_group": [
+      "code2",
+      "code3"
+    ],
+    "difficulty": "basic",
+    "question": "Why should a driver keep a safe following distance?",
+    "options": [
+      "To have enough time and space to react safely",
+      "To prevent other vehicles from overtaking",
+      "To make the journey shorter"
+    ],
+    "correct_index": 0,
+    "explanation": "A safe following distance gives the driver more time and space to react if traffic ahead slows or stops.",
+    "source_id": "SRC-SAMPLE-01",
+    "verification_status": "sample-only"
+  },
+  {
+    "id": "signs-001",
+    "section": "signs",
+    "topic": "regulatory-signs",
+    "vehicle_group": [
+      "code1",
+      "code2",
+      "code3"
+    ],
+    "difficulty": "basic",
+    "question": "What should you do when you approach a STOP sign?",
+    "options": [
+      "Stop fully and proceed only when it is safe",
+      "Slow down but continue if the road looks clear",
+      "Sound the horn and continue"
+    ],
+    "correct_index": 0,
+    "explanation": "A STOP sign requires a complete stop. Continue only when it is safe to do so.",
+    "source_id": "SRC-SAMPLE-02",
+    "verification_status": "sample-only"
+  },
+  {
+    "id": "controls-001",
+    "section": "controls",
+    "topic": "basic-controls",
+    "vehicle_group": [
+      "code2"
+    ],
+    "difficulty": "basic",
+    "question": "Which control is used to steer a motor vehicle?",
+    "options": [
+      "Steering wheel",
+      "Parking brake",
+      "Accelerator pedal"
+    ],
+    "correct_index": 0,
+    "explanation": "The steering wheel is the primary control used to direct the vehicle left or right.",
+    "source_id": "SRC-SAMPLE-03",
+    "verification_status": "sample-only"
+  }
+]

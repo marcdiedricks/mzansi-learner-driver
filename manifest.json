@@ -1,0 +1,10 @@
+{
+  "name": "Mzansi Learner Driver — CLLT Prep",
+  "short_name": "Mzansi Learner",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "Offline-first CLLT learner driver preparation for South Africa",
+  "icons": []
+}
