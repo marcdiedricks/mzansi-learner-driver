@@ -1,0 +1,10 @@
+{
+  "pack_id": "0.1c-signs-pilot",
+  "section": "signs",
+  "status": "foundation_only",
+  "source_ids": [
+    "SRC-007",
+    "SRC-009"
+  ],
+  "items": []
+}
