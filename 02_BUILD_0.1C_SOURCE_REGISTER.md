@@ -117,11 +117,12 @@ Controls relevant to the learner's vehicle group.
 **Status:** PRIMARY CONTENT SOURCE  
 **Copyright control:** Use as authoritative reference. Do not reproduce the whole manual.
 
-### SRC-008 — NaTIS: Vehicle Controls
-**Authority:** National learner-driver study material  
-**URL:** https://www.natis.gov.za/index.php/downloads/learner-driver-manual?download=5%3Avehicle-controls-manual-draft1  
-**Status:** PRIMARY CONTENT SOURCE / VERSION LABEL REQUIRES CARE  
-**Control note:** Current NaTIS-hosted material is authoritative for study preparation, but the surfaced document carries a draft/version label. Question-level source notes must preserve that caveat until a final-version document is located.
+### SRC-008 — NaTIS / Department of Transport: Vehicle Components and Controls
+**Authority:** National learner-driver manual  
+**Document:** SA Learner Driver Manual — Vehicle Components and Controls, Version 1.00, June 2012  
+**URL:** https://www.natis.gov.za/images/learners/3_Vehicle_Controls_Manual_v100_Jun_2012.pdf  
+**Status:** PRIMARY CONTENT SOURCE — FINAL VERSION LOCATED  
+**Control note:** Use as the authoritative reference for component/control identification. Write original learner-facing questions and explanations.
 
 ### SRC-009 — Government Gazette No. 28446 / Notice R.93 (7 April 2006)
 **Authority:** Gazetted legal baseline  
