@@ -1,0 +1,10 @@
+{
+  "pack_id": "0.1c-controls-pilot",
+  "section": "controls",
+  "status": "foundation_only",
+  "source_ids": [
+    "SRC-008",
+    "SRC-009"
+  ],
+  "items": []
+}
