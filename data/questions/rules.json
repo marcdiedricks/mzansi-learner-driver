@@ -1,7 +1,7 @@
 {
   "pack_id": "0.1c-rules-pilot",
   "section": "rules",
-  "status": "source_verified_pilot",
+  "status": "content_qa_passed_internal",
   "source_ids": [
     "SRC-006"
   ],
@@ -19,7 +19,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.27 — general speed limits",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "Unless a road sign shows a different limit, what is the general speed limit on a public road in an urban area?",
@@ -52,7 +52,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.27 — general speed limits",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What is the general speed limit on a public road outside an urban area when it is not a freeway and no other limit is shown?",
@@ -85,7 +85,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.27 — general speed limits",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "What is the general speed limit on a freeway when no lower limit is shown?",
@@ -119,7 +119,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.1.2 — light and heavy motor vehicle lamps",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "When must a light or heavy motor vehicle normally have its headlamps, rear lamps and number-plate lamps switched on?",
@@ -152,7 +152,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.1.1 — motorcycles",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "When riding a motorcycle on a public road, when should the headlamp be switched on?",
@@ -185,7 +185,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.2 — main beam",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "When should you dip your main-beam headlights?",
@@ -219,7 +219,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.17 — seat belts",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "If rear-seat seat belts are fitted, what must rear-seat passengers do while the vehicle is being driven?",
@@ -253,7 +253,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.17.1 — children",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "If an appropriate child restraint is available for a child in a motor vehicle, what should the driver ensure?",
@@ -286,7 +286,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.45 — overtaking/passing",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "When overtaking another vehicle travelling in the same direction, what is the normal side to pass on?",
@@ -319,7 +319,7 @@
         "locator": "NaTIS Rules of the Road v1.01 §6.45 — overtaking/passing",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "May you exceed the speed limit just because you are overtaking another vehicle?",
