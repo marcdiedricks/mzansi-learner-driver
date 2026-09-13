@@ -1,10 +1,340 @@
 {
   "pack_id": "0.1c-signs-pilot",
   "section": "signs",
-  "status": "foundation_only",
+  "status": "source_verified_pilot",
   "source_ids": [
-    "SRC-007",
-    "SRC-009"
+    "SRC-007"
   ],
-  "items": []
+  "items": [
+    {
+      "id": "signs-001",
+      "section": "signs",
+      "topic": "sign-groups",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §1 — signs in general",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What is the main purpose of a regulatory road sign?",
+          "options": [
+            "To regulate or control what road users may or must do",
+            "To advertise nearby businesses",
+            "To show only tourist attractions"
+          ],
+          "explanation": "Regulatory signs control road-user actions by prohibiting or commanding specific behaviour."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-002",
+      "section": "signs",
+      "topic": "sign-shapes",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §1 — ordinary sign shapes",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What is the ordinary shape of most warning signs?",
+          "options": [
+            "Triangular",
+            "Round",
+            "Rectangular"
+          ],
+          "explanation": "Warning signs are ordinarily triangular and alert road users to hazards or dangerous conditions."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-003",
+      "section": "signs",
+      "topic": "sign-shapes",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §1 — ordinary sign shapes",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What is the ordinary shape of guidance signs?",
+          "options": [
+            "Rectangular",
+            "Triangular",
+            "Octagonal"
+          ],
+          "explanation": "Guidance signs are ordinarily rectangular and help road users with direction and route guidance."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-004",
+      "section": "signs",
+      "topic": "stop-sign",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §3.1 — Stop sign R1.1",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What must you do at a STOP sign when a stop line is marked?",
+          "options": [
+            "Stop behind the stop line",
+            "Slow down and continue if the road looks clear",
+            "Stop only if another vehicle is coming"
+          ],
+          "explanation": "At a STOP sign you must bring the vehicle to a complete stop behind the stop line and proceed only when it is safe."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-005",
+      "section": "signs",
+      "topic": "stop-sign",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §3.1 — Stop sign R1.1",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "At a STOP sign with no stop line, where should the front of the vehicle come to a standstill?",
+          "options": [
+            "In line with the STOP sign",
+            "Ten metres before the sign",
+            "After entering the intersection"
+          ],
+          "explanation": "If there is no stop line, the front of the vehicle should stop in line with the STOP sign."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-006",
+      "section": "signs",
+      "topic": "stop-line",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — Stop line RTM1",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What does a stop line mean if there is no STOP sign next to it?",
+          "options": [
+            "It still requires you to stop",
+            "It only marks a parking area",
+            "It may be ignored if traffic is light"
+          ],
+          "explanation": "A stop line has the same stop requirement even when no STOP sign is present."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-007",
+      "section": "signs",
+      "topic": "yield-line",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — Yield line RTM2",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What should you do at a yield line?",
+          "options": [
+            "Give priority to traffic crossing your path",
+            "Always stop for at least five seconds",
+            "Accelerate before entering the intersection"
+          ],
+          "explanation": "A yield line means you must give way to road users crossing or wanting to cross your path."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-008",
+      "section": "signs",
+      "topic": "pedestrian-crossing",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — Pedestrian crossing lines RTM3/RTM4",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "When pedestrians are crossing or waiting to cross at marked pedestrian crossing lines, what should a driver do?",
+          "options": [
+            "Give them priority by slowing down or stopping",
+            "Sound the horn and continue",
+            "Drive around them if there is space"
+          ],
+          "explanation": "Marked pedestrian crossings require drivers to look out for pedestrians and give them priority."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-009",
+      "section": "signs",
+      "topic": "no-overtaking-line",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "intermediate",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §7.1 — No overtaking lines RM1",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What is the main restriction of a no-overtaking line on a two-way road?",
+          "options": [
+            "Do not drive with any part of your vehicle on the right-hand side of the line, except for limited permitted cases",
+            "You must drive exactly on the line",
+            "You may cross it whenever the road ahead looks clear"
+          ],
+          "explanation": "A no-overtaking line normally prohibits driving to the right of the line, with only limited exceptions such as certain direct-access or stationary-obstruction situations."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "signs-010",
+      "section": "signs",
+      "topic": "traffic-signals",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §8 — Traffic lights",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "SOURCE_VERIFIED",
+      "language": {
+        "en": {
+          "question": "What should you normally do when a traffic light turns amber?",
+          "options": [
+            "Stop, unless stopping cannot be done safely",
+            "Speed up to cross before red",
+            "Treat it the same as a green light"
+          ],
+          "explanation": "Amber means stop, except where stopping cannot be done safely."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    }
+  ]
 }
