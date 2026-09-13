@@ -1,7 +1,7 @@
 {
   "pack_id": "0.1c-controls-pilot",
   "section": "controls",
-  "status": "source_verified_pilot",
+  "status": "content_qa_passed_internal",
   "source_ids": [
     "SRC-008"
   ],
@@ -19,7 +19,7 @@
         "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 4",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "Which control is used to steer a light motor vehicle?",
@@ -52,7 +52,7 @@
         "locator": "NaTIS Vehicle Components and Controls — automatic vehicle note",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "Which control is not fitted as a driver pedal in an automatic vehicle?",
@@ -85,7 +85,7 @@
         "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 9",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "Which pedal is the service brake control in a light motor vehicle?",
@@ -118,7 +118,7 @@
         "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 10",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "Which pedal controls acceleration in a light motor vehicle?",
@@ -151,7 +151,7 @@
         "locator": "NaTIS Vehicle Components and Controls v1.00 §2.2 — component 5",
         "verification_status": "source_verified"
       },
-      "verification_status": "SOURCE_VERIFIED",
+      "verification_status": "CONTENT_QA",
       "language": {
         "en": {
           "question": "Which control operates the vehicle's direction indicators?",
