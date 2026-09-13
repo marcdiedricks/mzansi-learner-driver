@@ -1,4 +1,4 @@
-const CACHE = "mzansi-learner-driver-v0.1b-01";
+const CACHE = "mzansi-learner-driver-v0.1b-02";
 const ASSETS = [
   "./",
   "./index.html",
