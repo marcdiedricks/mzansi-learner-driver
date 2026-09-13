@@ -1,11 +1,13 @@
-const CACHE = "mzansi-learner-driver-v0.1b-03";
+const CACHE = "mzansi-learner-driver-v0.1c-01";
 const ASSETS = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
   "./manifest.json",
-  "./data/sample-questions.json"
+  "./data/questions/rules.json",
+  "./data/questions/signs.json",
+  "./data/questions/controls.json"
 ];
 
 self.addEventListener("install", event => {
@@ -24,6 +26,7 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
+
   event.respondWith(
     caches.match(event.request).then(cached =>
       cached || fetch(event.request).then(response => {

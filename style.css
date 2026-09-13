@@ -415,3 +415,20 @@ h1 { margin: 0; font-size: clamp(1.25rem, 5vw, 1.55rem); line-height: 1.13; }
   .view { animation: none; }
   .menu-card, .answer-btn { transition: none; }
 }
+
+.answer-btn.correct-answer {
+  border-color: #15803d;
+  background: #edf9f0;
+}
+.answer-btn.correct-answer .option-letter {
+  background: #15803d;
+  color: #fff;
+}
+.answer-btn.wrong-answer {
+  border-color: #c2410c;
+  background: #fff4ee;
+}
+.answer-btn.wrong-answer .option-letter {
+  background: #c2410c;
+  color: #fff;
+}

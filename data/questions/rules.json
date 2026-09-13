@@ -1,0 +1,343 @@
+{
+  "pack_id": "0.1c-rules-pilot",
+  "section": "rules",
+  "status": "content_qa_passed_internal",
+  "source_ids": [
+    "SRC-006"
+  ],
+  "items": [
+    {
+      "id": "rules-001",
+      "section": "rules",
+      "topic": "general-speed-limits",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.27 — general speed limits",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Unless a road sign shows a different limit, what is the general speed limit on a public road in an urban area?",
+          "options": [
+            "60 km/h",
+            "80 km/h",
+            "100 km/h"
+          ],
+          "explanation": "The general limit in an urban area is 60 km/h unless a road traffic sign sets another limit."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-002",
+      "section": "rules",
+      "topic": "general-speed-limits",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.27 — general speed limits",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the general speed limit on a public road outside an urban area when it is not a freeway and no other limit is shown?",
+          "options": [
+            "80 km/h",
+            "100 km/h",
+            "120 km/h"
+          ],
+          "explanation": "The general limit outside an urban area, on a public road that is not a freeway, is 100 km/h unless another limit is displayed."
+        }
+      },
+      "correct_index": 1,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-003",
+      "section": "rules",
+      "topic": "general-speed-limits",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.27 — general speed limits",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the general speed limit on a freeway when no lower limit is shown?",
+          "options": [
+            "100 km/h",
+            "110 km/h",
+            "120 km/h"
+          ],
+          "explanation": "The general freeway speed limit is 120 km/h unless a lower speed limit is indicated."
+        }
+      },
+      "correct_index": 2,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-004",
+      "section": "rules",
+      "topic": "vehicle-lights",
+      "vehicle_group": [
+        "code2",
+        "code3"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.2 — light and heavy motor vehicle lamps",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When must a light or heavy motor vehicle normally have its headlamps, rear lamps and number-plate lamps switched on?",
+          "options": [
+            "Only when it is raining",
+            "Between sunset and sunrise, and when visibility is poor",
+            "Only on freeways"
+          ],
+          "explanation": "These lamps must be on between sunset and sunrise and also when poor light or weather makes people and vehicles difficult to see."
+        }
+      },
+      "correct_index": 1,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-005",
+      "section": "rules",
+      "topic": "motorcycle-lights",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.1 — motorcycles",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When riding a motorcycle on a public road, when should the headlamp be switched on?",
+          "options": [
+            "At all times",
+            "Only after sunset",
+            "Only in bad weather"
+          ],
+          "explanation": "The motorcycle headlamp must be lit while riding on a public road during both day and night."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-006",
+      "section": "rules",
+      "topic": "main-beam",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.2 — main beam",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When should you dip your main-beam headlights?",
+          "options": [
+            "For oncoming traffic and when following another vehicle",
+            "Only when driving below 60 km/h",
+            "Only when entering a parking area"
+          ],
+          "explanation": "The learner manual says to dip the main beam for oncoming traffic and when following another vehicle."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-007",
+      "section": "rules",
+      "topic": "seat-belts",
+      "vehicle_group": [
+        "code2",
+        "code3"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.17 — seat belts",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If rear-seat seat belts are fitted, what must rear-seat passengers do while the vehicle is being driven?",
+          "options": [
+            "Wear the seat belts",
+            "Wear them only on freeways",
+            "Use them only at night"
+          ],
+          "explanation": "Where rear-seat belts are fitted, rear-seat passengers must wear them while the vehicle is being driven."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-008",
+      "section": "rules",
+      "topic": "child-restraints",
+      "vehicle_group": [
+        "code2",
+        "code3"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.17.1 — children",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If an appropriate child restraint is available for a child in a motor vehicle, what should the driver ensure?",
+          "options": [
+            "The child uses the child restraint",
+            "The child sits in the front seat",
+            "The child holds the seat belt without fastening it"
+          ],
+          "explanation": "The driver must ensure that a child uses an appropriate child restraint when one is available."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-009",
+      "section": "rules",
+      "topic": "overtaking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — overtaking/passing",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When overtaking another vehicle travelling in the same direction, what is the normal side to pass on?",
+          "options": [
+            "The right, at a safe distance",
+            "The left, in every situation",
+            "Either side without checking"
+          ],
+          "explanation": "The normal rule is to pass on the right at a safe distance and return left only when safely clear."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    },
+    {
+      "id": "rules-010",
+      "section": "rules",
+      "topic": "overtaking-speed",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — overtaking/passing",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May you exceed the speed limit just because you are overtaking another vehicle?",
+          "options": [
+            "Yes, for a few seconds",
+            "No",
+            "Only on a freeway"
+          ],
+          "explanation": "Overtaking does not allow a driver or rider to exceed the applicable speed limit."
+        }
+      },
+      "correct_index": 1,
+      "image_ref": null,
+      "translation_status": {
+        "af": "not_started",
+        "xh": "not_started"
+      },
+      "version": "0.1c-pilot1"
+    }
+  ]
+}
