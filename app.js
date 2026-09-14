@@ -91,6 +91,10 @@ function currentViewId() {
 function showView(id) {
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById(id).classList.add("active");
+  if (accessibilityPanel && id !== "homeView") {
+    accessibilityPanel.classList.add("hidden");
+    accessibilityToggle.setAttribute("aria-expanded", "false");
+  }
   if (id === "practiceView") renderPractice();
   if (id === "weakView") renderWeak();
   if (id === "readyView") renderReady();
