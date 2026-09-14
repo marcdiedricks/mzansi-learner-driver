@@ -495,17 +495,23 @@ async function renderStudyGuide() {
     box.innerHTML = `<div class="result-card status-warn"><div class="result-title">${tr("packUnavailable")}</div></div>`;
     return;
   }
+
+  const positionKey = pathwayKey(`studyIndex:${state.studySection}`);
+  state.studyIndex = await dbGet(positionKey, state.studyIndex);
   if (state.studyIndex >= pool.length) state.studyIndex = 0;
   if (state.studyIndex < 0) state.studyIndex = pool.length - 1;
+
   const q = pool[state.studyIndex];
   const txt = questionText(q);
   const correct = txt.options[q.correct_index];
-  const key = pathwayKey(`studySeen:${state.studySection}`);
-  const seen = await dbGet(key, []);
+  const seenKey = pathwayKey(`studySeen:${state.studySection}`);
+  const seen = await dbGet(seenKey, []);
   if (!seen.includes(q.id)) {
     seen.push(q.id);
-    await dbSet(key, seen);
+    await dbSet(seenKey, seen);
   }
+  await dbSet(positionKey, state.studyIndex);
+
   const progress = `${seen.length}/${pool.length}`;
   box.innerHTML = `
     <div class="question-card">
@@ -526,8 +532,17 @@ async function renderStudyGuide() {
         <button id="studyNext" class="next-btn" type="button">${tr("nextStudy")}</button>
       </div>
     </div>`;
-  document.getElementById("studyPrev").onclick = () => { state.studyIndex--; renderStudyGuide(); };
-  document.getElementById("studyNext").onclick = () => { state.studyIndex++; renderStudyGuide(); };
+
+  document.getElementById("studyPrev").onclick = async () => {
+    state.studyIndex = state.studyIndex <= 0 ? pool.length - 1 : state.studyIndex - 1;
+    await dbSet(positionKey, state.studyIndex);
+    renderStudyGuide();
+  };
+  document.getElementById("studyNext").onclick = async () => {
+    state.studyIndex = state.studyIndex >= pool.length - 1 ? 0 : state.studyIndex + 1;
+    await dbSet(positionKey, state.studyIndex);
+    renderStudyGuide();
+  };
   refreshHome();
 }
 function updatePracticeFocusUI() {
