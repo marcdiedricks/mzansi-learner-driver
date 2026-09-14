@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r5-github-only",
+  "pack_id": "rules-expansion-r6-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1285,6 +1285,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r5"
+    },
+    {
+      "id": "rules-028",
+      "section": "rules",
+      "topic": "driving-signals",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road — driving signals: indicate intention to change direction, reduce speed or stop",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When must you give a clear driving signal to other road users?",
+          "options": [
+            "Before changing direction, reducing speed or stopping",
+            "Only before turning right",
+            "Only when another driver sounds a hooter"
+          ],
+          "explanation": "The learner manual requires a clear signal of your intention before changing direction, reducing speed or stopping."
+        },
+        "af": {
+          "question": "Wanneer moet jy 'n duidelike bestuursein aan ander padgebruikers gee?",
+          "options": [
+            "Voordat jy van rigting verander, spoed verminder of stop",
+            "Slegs voordat jy regs draai",
+            "Slegs wanneer 'n ander bestuurder toeter"
+          ],
+          "explanation": "Die leerderhandleiding vereis 'n duidelike sein van jou voorneme voordat jy van rigting verander, spoed verminder of stop."
+        },
+        "xh": {
+          "question": "Kufuneka unike nini abanye abasebenzisi bendlela uphawu olucacileyo lokuqhuba?",
+          "options": [
+            "Phambi kokutshintsha icala, ukunciphisa isantya okanye ukuma",
+            "Kuphela phambi kokujika ngasekunene",
+            "Kuphela xa omnye umqhubi esebenzisa ihorn"
+          ],
+          "explanation": "Incwadi yomfundi ifuna uphawu olucacileyo lwenjongo yakho phambi kokutshintsha icala, ukunciphisa isantya okanye ukuma."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "rules-029",
+      "section": "rules",
+      "topic": "turning-left",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road — turning at an intersection: left turn",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Before turning left at an intersection, where should you position your vehicle when it is safe to do so?",
+          "options": [
+            "As close as possible to the left side of the road",
+            "As close as possible to the right side of the road",
+            "In the centre of the road"
+          ],
+          "explanation": "Before turning left, the learner manual says to indicate in good time and keep as close as safely possible to the left side of the road."
+        },
+        "af": {
+          "question": "Waar moet jy jou voertuig plaas voordat jy links by 'n kruising draai, wanneer dit veilig is om dit te doen?",
+          "options": [
+            "So na as moontlik aan die linkerkant van die pad",
+            "So na as moontlik aan die regterkant van die pad",
+            "In die middel van die pad"
+          ],
+          "explanation": "Voordat jy links draai, sê die leerderhandleiding jy moet betyds aandui en so veilig moontlik naby die linkerkant van die pad hou."
+        },
+        "xh": {
+          "question": "Phambi kokujika ngasekhohlo kwisiphambuka, kufuneka usibeke phi isithuthi xa kukhuselekile ukwenza njalo?",
+          "options": [
+            "Kufutshane kangangoko kunokwenzeka kwicala lasekhohlo lendlela",
+            "Kufutshane kangangoko kunokwenzeka kwicala lasekunene lendlela",
+            "Embindini wendlela"
+          ],
+          "explanation": "Phambi kokujika ngasekhohlo, incwadi yomfundi ithi kufuneka ubonise injongo yakho kwangethuba uze uhlale kufutshane kangangoko kukhuselekile kwicala lasekhohlo lendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "rules-030",
+      "section": "rules",
+      "topic": "turning-right",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road — turning at an intersection: right turn and yield to oncoming traffic",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Before turning right at an intersection, what must you do about traffic approaching from ahead?",
+          "options": [
+            "Yield right of way and turn only when it is clear and safe",
+            "Turn first because you are already at the intersection",
+            "Sound the hooter and turn immediately"
+          ],
+          "explanation": "Before turning right, the learner manual says to indicate in good time, yield to traffic approaching from ahead and turn only when it is clear and safe."
+        },
+        "af": {
+          "question": "Wat moet jy doen met verkeer wat van voor af nader voordat jy regs by 'n kruising draai?",
+          "options": [
+            "Gee voorrang en draai slegs wanneer dit oop en veilig is",
+            "Draai eerste omdat jy reeds by die kruising is",
+            "Toeter en draai onmiddellik"
+          ],
+          "explanation": "Voordat jy regs draai, sê die leerderhandleiding jy moet betyds aandui, voorrang gee aan verkeer wat van voor af nader en slegs draai wanneer dit oop en veilig is."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kwizithuthi ezisondela ngaphambili phambi kokujika ngasekunene kwisiphambuka?",
+          "options": [
+            "Zinike ilungelo lokudlula uze ujike kuphela xa indlela icacile kwaye ikhuselekile",
+            "Jika kuqala kuba sele usesiphambukeni",
+            "Sebenzisa ihorn uze ujike ngoko nangoko"
+          ],
+          "explanation": "Phambi kokujika ngasekunene, incwadi yomfundi ithi kufuneka ubonise injongo yakho kwangethuba, unike indlela kwizithuthi ezisondela ngaphambili uze ujike kuphela xa kucacile kwaye kukhuselekile."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
     }
   ]
 }
