@@ -2041,6 +2041,210 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "content-completion-1"
+    },
+    {
+      "id": "signs-075",
+      "section": "signs",
+      "topic": "railway-flashing-red-signal",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — flashing red signal at a railway crossing",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a flashing red signal at a railway crossing mean?",
+          "options": [
+            "A train is coming; do not proceed until the light stops flashing and it is safe",
+            "Proceed quickly before the train arrives",
+            "Treat it as an ordinary green signal"
+          ],
+          "explanation": "At a railway crossing, a flashing red signal warns that a train is coming. Do not proceed until the signal stops flashing and it is safe."
+        },
+        "af": {
+          "question": "Wat beteken 'n flikkerende rooi sein by 'n spoorwegoorgang?",
+          "options": [
+            "'n Trein kom; moenie voortgaan totdat die lig ophou flikker en dit veilig is nie",
+            "Ry vinnig oor voordat die trein aankom",
+            "Behandel dit soos 'n gewone groen sein"
+          ],
+          "explanation": "By 'n spoorwegoorgang waarsku 'n flikkerende rooi sein dat 'n trein kom. Moenie voortgaan totdat die sein ophou flikker en dit veilig is nie."
+        },
+        "xh": {
+          "question": "Ithetha ntoni isibane esibomvu esidanyazayo kwindawo yokuwela uloliwe?",
+          "options": [
+            "Uloliwe uyeza; musa ukuqhubeka de isibane siyeke ukudanyaza kwaye kukhuselekile",
+            "Dlula ngokukhawuleza ngaphambi kokufika kukaloliwe",
+            "Siphathe njengesibane esiluhlaza esiqhelekileyo"
+          ],
+          "explanation": "Kwindawo yokuwela uloliwe, isibane esibomvu esidanyazayo silumkisa ukuba uloliwe uyeza. Musa ukuqhubeka de siyeke ukudanyaza kwaye kukhuselekile."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-076",
+      "section": "signs",
+      "topic": "overhead-green-lane-arrow",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — overhead lane direction control steady green downward arrow S16",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a steady green downward arrow above a traffic lane mean?",
+          "options": [
+            "You may use the lane",
+            "The lane is closed",
+            "You must stop in the lane"
+          ],
+          "explanation": "A steady green downward arrow indicates that the lane below it may be used."
+        },
+        "af": {
+          "question": "Wat beteken 'n vaste groen pyl wat bo 'n verkeersbaan afwaarts wys?",
+          "options": [
+            "Jy mag die baan gebruik",
+            "Die baan is gesluit",
+            "Jy moet in die baan stop"
+          ],
+          "explanation": "'n Vaste groen afwaartse pyl dui aan dat die baan daaronder gebruik mag word."
+        },
+        "xh": {
+          "question": "Lithetha ntoni utolo oluluhlaza olungaguqukiyo olukhomba ezantsi ngaphezulu komzila?",
+          "options": [
+            "Ungawusebenzisa loo mzila",
+            "Umzila uvaliwe",
+            "Kufuneka ume kuloo mzila"
+          ],
+          "explanation": "Utolo oluluhlaza olukhomba ezantsi lubonisa ukuba umzila ongaphantsi kwalo unokusetyenziswa."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-077",
+      "section": "signs",
+      "topic": "overhead-yellow-lane-arrow",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — overhead lane direction control yellow arrow S18/S19",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a yellow overhead lane arrow pointing left or right tell you?",
+          "options": [
+            "The lane is closed ahead; leave it in the direction shown",
+            "The lane is permanently reserved for parking",
+            "You must reverse in the lane"
+          ],
+          "explanation": "The yellow arrow warns that your lane is closed ahead and directs you to leave the lane in the arrow's direction."
+        },
+        "af": {
+          "question": "Wat sê 'n geel oorhoofse baanpyl wat links of regs wys vir jou?",
+          "options": [
+            "Die baan sluit voor; verlaat dit in die aangeduide rigting",
+            "Die baan is permanent vir parkering gereserveer",
+            "Jy moet in die baan agteruit ry"
+          ],
+          "explanation": "Die geel pyl waarsku dat jou baan voor sluit en wys in watter rigting jy die baan moet verlaat."
+        },
+        "xh": {
+          "question": "Lithetha ntoni utolo olutyheli olungaphezulu komzila olukhomba ngasekhohlo okanye ngasekunene?",
+          "options": [
+            "Umzila uvaliwe ngaphambili; phuma kuwo kwicala eliboniswe lutolo",
+            "Umzila ugcinelwe ukupaka ngokusisigxina",
+            "Kufuneka ubuyele umva kuloo mzila"
+          ],
+          "explanation": "Utolo olutyheli lumkisa ukuba umzila wakho uvaliwe ngaphambili kwaye lukubonisa icala omele uphume ngalo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-078",
+      "section": "signs",
+      "topic": "pedestrian-red-figure-signal",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — red pedestrian figure light signal",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a steady red pedestrian figure signal tell a pedestrian who has not started crossing?",
+          "options": [
+            "Do not start crossing; wait for the green pedestrian signal",
+            "Cross immediately",
+            "Walk in the traffic lane"
+          ],
+          "explanation": "The red pedestrian figure tells pedestrians who have not entered the roadway to wait for the green pedestrian signal."
+        },
+        "af": {
+          "question": "Wat sê 'n vaste rooi voetgangerfiguursein vir 'n voetganger wat nog nie begin oorsteek het nie?",
+          "options": [
+            "Moenie begin oorsteek nie; wag vir die groen voetgangersein",
+            "Steek onmiddellik oor",
+            "Loop in die verkeersbaan"
+          ],
+          "explanation": "Die rooi voetgangerfiguur sê vir voetgangers wat nog nie die rybaan betree het nie om vir die groen voetgangersein te wag."
+        },
+        "xh": {
+          "question": "Ithetha ntoni i-signal yomntu obomvu engaguqukiyo kumhambi ngeenyawo ongekaqali ukuwela?",
+          "options": [
+            "Musa ukuqala ukuwela; linda i-signal yomntu eluhlaza",
+            "Wela ngoko nangoko",
+            "Hamba kumzila wezithuthi"
+          ],
+          "explanation": "I-signal yomntu obomvu ixelela abahambi ngeenyawo abangekangeni endleleni ukuba balinde i-signal yomntu eluhlaza."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
     }
   ]
 }
