@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r6-github-only",
+  "pack_id": "rules-expansion-r7-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1438,6 +1438,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r6"
+    },
+    {
+      "id": "rules-031",
+      "section": "rules",
+      "topic": "freeway-stopping",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.56 — stopping on a freeway",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When may you stop a vehicle on a freeway?",
+          "options": [
+            "Only when directed by a road sign or traffic officer, in a designated stopping area, or for a reason beyond your control",
+            "Whenever you want to check your phone",
+            "Whenever you want to rest on the shoulder"
+          ],
+          "explanation": "The learner manual says stopping on a freeway is allowed only when directed by a sign or traffic officer, in a designated stopping or parking area, or for a reason beyond your control."
+        },
+        "af": {
+          "question": "Wanneer mag jy 'n voertuig op 'n snelweg stop?",
+          "options": [
+            "Slegs wanneer 'n padteken of verkeersbeampte dit vereis, in 'n aangewese stopgebied, of om 'n rede buite jou beheer",
+            "Wanneer jy jou selfoon wil nagaan",
+            "Wanneer jy op die skouer wil rus"
+          ],
+          "explanation": "Die leerderhandleiding sê stop op 'n snelweg is slegs toegelaat wanneer 'n teken of verkeersbeampte dit vereis, in 'n aangewese stop- of parkeergebied, of om 'n rede buite jou beheer."
+        },
+        "xh": {
+          "question": "Ungasima nini isithuthi kuhola wendlela?",
+          "options": [
+            "Kuphela xa uphawu lwendlela okanye igosa lezendlela likuyalela, kwindawo emiselweyo yokuma, okanye ngenxa yesizathu esingaphaya kolawulo lwakho",
+            "Nanini na ufuna ukujonga ifowuni",
+            "Nanini na ufuna ukuphumla ecaleni kwendlela"
+          ],
+          "explanation": "Incwadi yomfundi ithi ukuma kuhola wendlela kuvumelekile kuphela xa uphawu okanye igosa lezendlela likuyalela, kwindawo emiselweyo yokuma okanye yokupaka, okanye ngenxa yesizathu esingaphaya kolawulo lwakho."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "rules-032",
+      "section": "rules",
+      "topic": "freeway-on-ramp-merging",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.56 — allow a vehicle ahead to merge from an on-ramp",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "On a freeway, what should you do when you notice a vehicle in front of you trying to merge from an on-ramp?",
+          "options": [
+            "Allow the vehicle to merge in front of you",
+            "Accelerate to block the vehicle from merging",
+            "Move closer so there is no gap"
+          ],
+          "explanation": "The learner manual says that when a vehicle ahead is trying to merge from an on-ramp, you should allow it to merge in front of you."
+        },
+        "af": {
+          "question": "Wat moet jy op 'n snelweg doen wanneer jy sien dat 'n voertuig voor jou vanaf 'n oprit probeer invoeg?",
+          "options": [
+            "Laat die voertuig voor jou invoeg",
+            "Versnel om te keer dat die voertuig invoeg",
+            "Ry nader sodat daar geen gaping is nie"
+          ],
+          "explanation": "Die leerderhandleiding sê dat wanneer 'n voertuig voor jou vanaf 'n oprit probeer invoeg, jy dit voor jou moet laat invoeg."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kuhola wendlela xa ubona isithuthi esiphambi kwakho sizama ukungena sisuka kwindlela yokungena?",
+          "options": [
+            "Sivumele singene phambi kwakho",
+            "Khawulezisa ukuze usithintele ekungeneni",
+            "Sondela ngakumbi ukuze kungabikho sithuba"
+          ],
+          "explanation": "Incwadi yomfundi ithi xa isithuthi esiphambi kwakho sizama ukungena sisuka kwindlela yokungena, kufuneka usivumele singene phambi kwakho."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "rules-033",
+      "section": "rules",
+      "topic": "entering-crossing-public-road",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.59 — crossing or entering a public road",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When may you cross or enter a public road?",
+          "options": [
+            "Only when there is enough clear distance to do so without obstructing or endangering traffic",
+            "As soon as your front wheels reach the roadway",
+            "Whenever another vehicle flashes its headlights"
+          ],
+          "explanation": "The learner manual says you may cross or enter a public road only when you can do so safely without obstructing or endangering other traffic."
+        },
+        "af": {
+          "question": "Wanneer mag jy 'n openbare pad oorsteek of binnegaan?",
+          "options": [
+            "Slegs wanneer daar genoeg oop afstand is om dit te doen sonder om verkeer te hinder of in gevaar te stel",
+            "Sodra jou voorwiele die rybaan bereik",
+            "Wanneer 'n ander voertuig sy ligte flits"
+          ],
+          "explanation": "Die leerderhandleiding sê jy mag 'n openbare pad slegs oorsteek of binnegaan wanneer jy dit veilig kan doen sonder om ander verkeer te hinder of in gevaar te stel."
+        },
+        "xh": {
+          "question": "Ungayiwela okanye ungene nini kwindlela kawonke-wonke?",
+          "options": [
+            "Kuphela xa kukho umgama ocacileyo owaneleyo ukuze wenze njalo ngaphandle kokuthintela okanye ukubeka ezinye izithuthi emngciphekweni",
+            "Nje ukuba amavili angaphambili afike endleleni",
+            "Nanini na esinye isithuthi sikukhanyisela izibane"
+          ],
+          "explanation": "Incwadi yomfundi ithi ungawela okanye ungene kwindlela kawonke-wonke kuphela xa unokwenza njalo ngokukhuselekileyo ngaphandle kokuthintela okanye ukubeka ezinye izithuthi emngciphekweni."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
     }
   ]
 }
