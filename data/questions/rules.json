@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r7-github-only",
+  "pack_id": "rules-expansion-r8-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1591,6 +1591,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r7"
+    },
+    {
+      "id": "rules-034",
+      "section": "rules",
+      "topic": "reversing-safely",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.49 — reversing only when it can be done safely",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When may you reverse a vehicle on a public road?",
+          "options": [
+            "Only when it can be done safely",
+            "Whenever your hazard lights are on",
+            "Whenever another driver waits for you"
+          ],
+          "explanation": "The learner manual states that a vehicle may be reversed only when this can be done safely."
+        },
+        "af": {
+          "question": "Wanneer mag jy 'n voertuig op 'n openbare pad agteruit ry?",
+          "options": [
+            "Slegs wanneer dit veilig gedoen kan word",
+            "Wanneer jou noodligte aan is",
+            "Wanneer 'n ander bestuurder vir jou wag"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n voertuig slegs agteruit gery mag word wanneer dit veilig gedoen kan word."
+        },
+        "xh": {
+          "question": "Ungasibuyisela nini isithuthi umva kwindlela kawonke-wonke?",
+          "options": [
+            "Kuphela xa kunokwenziwa ngokukhuselekileyo",
+            "Nanini na izibane zesilumkiso zivuliwe",
+            "Nanini na omnye umqhubi ekulindile"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba isithuthi singabuyiselwa umva kuphela xa kunokwenziwa ngokukhuselekileyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
+    },
+    {
+      "id": "rules-035",
+      "section": "rules",
+      "topic": "driver-control-and-view",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.49 — driver/rider must retain complete control and full view of roadway and traffic ahead",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must a driver or rider be able to maintain while the vehicle is moving?",
+          "options": [
+            "Complete control of the vehicle and a full view of the roadway and traffic ahead",
+            "A view only through the rear-view mirror",
+            "One hand free for another task"
+          ],
+          "explanation": "The learner manual requires the driver or rider to keep complete control of the vehicle and a full view of the roadway and traffic ahead."
+        },
+        "af": {
+          "question": "Wat moet 'n bestuurder of ryer kan behou terwyl die voertuig beweeg?",
+          "options": [
+            "Volledige beheer oor die voertuig en 'n volle uitsig oor die pad en verkeer vorentoe",
+            "Slegs 'n uitsig deur die truspieël",
+            "Een hand vry vir 'n ander taak"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat die bestuurder of ryer volledige beheer oor die voertuig en 'n volle uitsig oor die pad en verkeer vorentoe behou."
+        },
+        "xh": {
+          "question": "Kufuneka umqhubi okanye umkhweli akwazi ukugcina ntoni ngexesha isithuthi sihamba?",
+          "options": [
+            "Ulawulo olupheleleyo lwesithuthi kunye nombono opheleleyo wendlela nezithuthi ezingaphambili",
+            "Umbono kuphela ngesipili sangasemva",
+            "Isandla esinye sikhululekile somnye umsebenzi"
+          ],
+          "explanation": "Incwadi yomfundi ifuna umqhubi okanye umkhweli agcine ulawulo olupheleleyo lwesithuthi kunye nombono opheleleyo wendlela nezithuthi ezingaphambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
+    },
+    {
+      "id": "rules-036",
+      "section": "rules",
+      "topic": "stopping-facing-oncoming-traffic",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.48 — no stopping on right-hand side facing oncoming traffic",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May you stop on the right-hand side of the roadway facing oncoming traffic?",
+          "options": [
+            "No",
+            "Yes, if you keep the engine running",
+            "Yes, if you stop for less than one minute"
+          ],
+          "explanation": "The learner manual lists stopping on the right-hand side of the roadway facing oncoming traffic as prohibited."
+        },
+        "af": {
+          "question": "Mag jy aan die regterkant van die rybaan stop terwyl jy aankomende verkeer in die gesig staar?",
+          "options": [
+            "Nee",
+            "Ja, as die enjin aan bly",
+            "Ja, as jy minder as een minuut stop"
+          ],
+          "explanation": "Die leerderhandleiding noem stop aan die regterkant van die rybaan met jou voertuig na aankomende verkeer gerig as verbode."
+        },
+        "xh": {
+          "question": "Ngaba ungema kwicala lasekunene lendlela ujonge izithuthi eziza ngakuwe?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba injini ishiywe isebenza",
+            "Ewe, ukuba ume ngaphantsi komzuzu omnye"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba ukuma kwicala lasekunene lendlela ujonge izithuthi eziza ngakuwe akuvumelekanga."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
     }
   ]
 }
