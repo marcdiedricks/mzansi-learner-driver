@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r3-github-only",
+  "pack_id": "rules-expansion-r4-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -978,6 +978,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r3"
+    },
+    {
+      "id": "rules-022",
+      "section": "rules",
+      "topic": "mobile-phone-use",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.52 — cell phones",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May you drive or ride on a public road while holding a mobile phone or other communication device in your hand?",
+          "options": [
+            "No",
+            "Yes, if traffic is moving slowly",
+            "Yes, if you use only one hand"
+          ],
+          "explanation": "The learner manual states that a driver or rider may not hold a cellular or mobile telephone or other communication device while driving or riding on a public road."
+        },
+        "af": {
+          "question": "Mag jy op 'n openbare pad bestuur of ry terwyl jy 'n selfoon of ander kommunikasietoestel in jou hand hou?",
+          "options": [
+            "Nee",
+            "Ja, as verkeer stadig beweeg",
+            "Ja, as jy net een hand gebruik"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n bestuurder of ryer nie 'n selfoon of ander kommunikasietoestel mag vashou terwyl hy of sy op 'n openbare pad bestuur of ry nie."
+        },
+        "xh": {
+          "question": "Ngaba ungakwazi ukuqhuba okanye ukukhwela kwindlela kawonke-wonke ubambe ifowuni ephathwayo okanye esinye isixhobo sonxibelelwano ngesandla?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba izithuthi zihamba kancinci",
+            "Ewe, ukuba usebenzisa isandla esinye kuphela"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba umqhubi okanye umkhweli akavumelekanga ukubamba ifowuni ephathwayo okanye esinye isixhobo sonxibelelwano xa eqhuba okanye ekhwele kwindlela kawonke-wonke."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "rules-023",
+      "section": "rules",
+      "topic": "pedestrian-crossing-right-of-way",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.53 — pedestrians right of way at pedestrian crossings",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must a driver or rider do for a pedestrian who is crossing the roadway within a pedestrian crossing?",
+          "options": [
+            "Yield right of way and slow down or stop if necessary",
+            "Sound the horn and continue at the same speed",
+            "Pass in front of the pedestrian if there is enough space"
+          ],
+          "explanation": "The learner manual requires drivers and riders to yield right of way and slow down or stop if necessary for a pedestrian using a pedestrian crossing."
+        },
+        "af": {
+          "question": "Wat moet 'n bestuurder of ryer doen vir 'n voetganger wat die rybaan binne 'n voetgangeroorgang oorsteek?",
+          "options": [
+            "Gee voorrang en verminder spoed of stop indien nodig",
+            "Gebruik die toeter en hou dieselfde spoed",
+            "Ry voor die voetganger verby as daar genoeg plek is"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat bestuurders en ryers voorrang aan 'n voetganger by 'n voetgangeroorgang gee en stadiger ry of stop indien nodig."
+        },
+        "xh": {
+          "question": "Kufuneka umqhubi okanye umkhweli enze ntoni kumhambi ngeenyawo owela indlela ngaphakathi kwendawo yokuwela yabahambi ngeenyawo?",
+          "options": [
+            "Mnike ilungelo lokudlula uze ucothe okanye ume xa kuyimfuneko",
+            "Sebenzisa ihorn uze uqhubeke ngesantya esifanayo",
+            "Dlula phambi kwakhe ukuba kukho indawo eyaneleyo"
+          ],
+          "explanation": "Incwadi yomfundi ifuna abaqhubi nabakhweli banike umhambi ngeenyawo ilungelo lokudlula baze bacothe okanye beme xa kuyimfuneko kwindawo yokuwela yabahambi ngeenyawo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "rules-024",
+      "section": "rules",
+      "topic": "passing-stopped-vehicle-pedestrian-crossing",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.53 — do not pass a vehicle stopped at a pedestrian crossing",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If a vehicle has stopped at a pedestrian crossing, may you pass that stopped vehicle?",
+          "options": [
+            "No",
+            "Yes, if you cannot see a pedestrian",
+            "Yes, if your lane looks clear"
+          ],
+          "explanation": "The learner manual says another driver or rider may not pass a vehicle that has stopped at a pedestrian crossing."
+        },
+        "af": {
+          "question": "As 'n voertuig by 'n voetgangeroorgang gestop het, mag jy daardie stilstaande voertuig verbysteek?",
+          "options": [
+            "Nee",
+            "Ja, as jy geen voetganger kan sien nie",
+            "Ja, as jou baan skoon lyk"
+          ],
+          "explanation": "Die leerderhandleiding sê 'n ander bestuurder of ryer mag nie 'n voertuig verbysteek wat by 'n voetgangeroorgang gestop het nie."
+        },
+        "xh": {
+          "question": "Ukuba isithuthi simile kwindawo yokuwela yabahambi ngeenyawo, ngaba ungadlula kweso sithuthi simileyo?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba awuboni mhambi ngeenyawo",
+            "Ewe, ukuba umzila wakho ubonakala ucacile"
+          ],
+          "explanation": "Incwadi yomfundi ithi omnye umqhubi okanye umkhweli akavumelekanga ukudlula kwisithuthi esimileyo kwindawo yokuwela yabahambi ngeenyawo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
     }
   ]
 }

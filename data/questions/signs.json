@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r3-github-only",
+  "pack_id": "signs-expansion-r4-github-only",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -974,6 +974,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r3"
+    },
+    {
+      "id": "signs-020",
+      "section": "signs",
+      "topic": "keep-left",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §3.2 — Keep left sign R103",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Keep left sign require you to do?",
+          "options": [
+            "Pass to the left of the obstruction",
+            "Pass to the right of the obstruction",
+            "Stop before the obstruction"
+          ],
+          "explanation": "The Keep left sign tells you to pass to the left of the obstruction where the sign is displayed."
+        },
+        "af": {
+          "question": "Wat vereis 'n Hou Links-teken van jou?",
+          "options": [
+            "Gaan links van die hindernis verby",
+            "Gaan regs van die hindernis verby",
+            "Stop voor die hindernis"
+          ],
+          "explanation": "Die Hou Links-teken sê jy moet links van die hindernis verbygaan waar die teken vertoon word."
+        },
+        "xh": {
+          "question": "Uphawu oluthi Hlala ngasekhohlo lufuna wenze ntoni?",
+          "options": [
+            "Dlula kwicala lasekhohlo lomqobo",
+            "Dlula kwicala lasekunene lomqobo",
+            "Yima phambi komqobo"
+          ],
+          "explanation": "Uphawu oluthi Hlala ngasekhohlo lukuxelela ukuba udlule kwicala lasekhohlo lomqobo apho uphawu luboniswe khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "signs-021",
+      "section": "signs",
+      "topic": "proceed-straight-only",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §3.2 — Proceed straight only sign R107",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Proceed straight only sign require you to do at the intersection?",
+          "options": [
+            "Continue straight only",
+            "Turn left only",
+            "Turn right only"
+          ],
+          "explanation": "The sign requires traffic to proceed only in the direction shown by the arrow, which in this case is straight ahead."
+        },
+        "af": {
+          "question": "Wat vereis 'n Gaan Slegs Reguit-teken van jou by die kruising?",
+          "options": [
+            "Gaan slegs reguit aan",
+            "Draai slegs links",
+            "Draai slegs regs"
+          ],
+          "explanation": "Die teken vereis dat verkeer slegs in die rigting van die pyl beweeg, in hierdie geval reguit vorentoe."
+        },
+        "xh": {
+          "question": "Uphawu oluthi Qhubeka ngqo kuphela lufuna wenze ntoni kwisiphambuka?",
+          "options": [
+            "Qhubeka uye ngqo kuphela",
+            "Jika ngasekhohlo kuphela",
+            "Jika ngasekunene kuphela"
+          ],
+          "explanation": "Uphawu lufuna izithuthi zihambe kuphela kwicala eliboniswe lutolo, kulo mzekelo ziye ngqo phambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "signs-022",
+      "section": "signs",
+      "topic": "turn-left-only",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 §3.2 — Turn left only sign R108",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Turn left sign require you to do at the intersection ahead?",
+          "options": [
+            "Turn left as directed",
+            "Turn right as directed",
+            "Continue straight only"
+          ],
+          "explanation": "This compulsory-direction sign requires traffic to turn left as indicated."
+        },
+        "af": {
+          "question": "Wat vereis 'n Draai Links-teken van jou by die kruising vorentoe?",
+          "options": [
+            "Draai links soos aangedui",
+            "Draai regs soos aangedui",
+            "Gaan slegs reguit aan"
+          ],
+          "explanation": "Hierdie verpligte rigtingsteken vereis dat verkeer links draai soos aangedui."
+        },
+        "xh": {
+          "question": "Uphawu oluthi Jika ngasekhohlo lufuna wenze ntoni kwisiphambuka esingaphambili?",
+          "options": [
+            "Jika ngasekhohlo njengoko kubonisiwe",
+            "Jika ngasekunene njengoko kubonisiwe",
+            "Qhubeka uye ngqo kuphela"
+          ],
+          "explanation": "Olu phawu lwendlela olunyanzelekileyo lufuna izithuthi zijike ngasekhohlo njengoko kubonisiwe."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
     }
   ]
 }
