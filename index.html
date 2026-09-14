@@ -4,165 +4,115 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#12355b">
-  <meta name="description" content="Offline-first CLLT learner driver preparation">
+  <meta name="description" content="Offline-first multilingual CLLT learner driver preparation">
   <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/mzansi-learner.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <title>Mzansi Learner Driver</title>
 </head>
 <body>
   <header class="app-header">
-    <div class="brand-row">
-      <div class="brand-mark" aria-hidden="true"><span></span></div>
-      <div class="brand-copy">
-        <p class="eyebrow">CLLT PREP · SOUTH AFRICA</p>
-        <h1>Mzansi Learner Driver</h1>
-        <p class="tagline">Learn with confidence. Practise anywhere.</p>
+    <div class="header-main">
+      <div class="brand-row">
+        <div class="brand-mark" aria-hidden="true"><span></span></div>
+        <div class="brand-copy">
+          <p class="eyebrow">CLLT PREP · SOUTH AFRICA</p>
+          <h1>Mzansi Learner Driver</h1>
+          <p class="tagline" data-i18n="tagline">Learn with confidence. Practise anywhere.</p>
+        </div>
       </div>
+      <span id="offlineBadge" class="badge">Checking connection…</span>
     </div>
-    <span id="offlineBadge" class="badge">Checking connection…</span>
+    <div class="language-switcher" role="group" aria-label="Language">
+      <button class="lang-btn active" data-lang="en" type="button">EN</button>
+      <button class="lang-btn" data-lang="af" type="button">AF</button>
+      <button class="lang-btn" data-lang="xh" type="button">XH</button>
+    </div>
   </header>
 
   <main id="app" class="container">
     <section id="homeView" class="view active">
-      <div class="welcome-card">
-        <div>
-          <span class="kicker">YOUR LEARNING JOURNEY</span>
-          <h2>Get ready for the computerised learner's licence test</h2>
-          <p>Short lessons, simple practice and digital-test confidence. Built to keep working when your data is off.</p>
-        </div>
+      <div id="installCard" class="install-card hidden">
+        <div><strong data-i18n="install">Install app</strong><p data-i18n="installHelp">Install Mzansi Learner Driver on this phone for reliable offline relaunch.</p></div>
+        <button id="installApp" class="install-btn" type="button" data-i18n="install">Install app</button>
       </div>
 
-      <div class="notice">
-        <span class="notice-icon" aria-hidden="true">i</span>
-        <div>
-          <strong>Practice preparation</strong>
-          <p>This is not the official learner's licence test and does not contain confidential CLLT questions.</p>
-        </div>
-      </div>
+      <div class="welcome-card"><div>
+        <span class="kicker" data-i18n="journeyKicker">YOUR LEARNING JOURNEY</span>
+        <h2 data-i18n="welcomeTitle">Get ready for the computerised learner's licence test</h2>
+        <p data-i18n="welcomeText">Short lessons, simple practice and digital-test confidence. Built to keep working when your data is off.</p>
+      </div></div>
 
-      <div class="section-heading">
-        <div>
-          <span class="kicker">CHOOSE A STEP</span>
-          <h2>What would you like to do?</h2>
-        </div>
-      </div>
+      <div class="notice"><span class="notice-icon" aria-hidden="true">i</span><div>
+        <strong data-i18n="noticeTitle">Practice preparation</strong>
+        <p data-i18n="noticeText">This is not the official learner's licence test and does not contain confidential CLLT questions.</p>
+      </div></div>
+
+      <div class="section-heading"><div>
+        <span class="kicker" data-i18n="chooseKicker">CHOOSE A STEP</span>
+        <h2 data-i18n="chooseTitle">What would you like to do?</h2>
+      </div></div>
 
       <div class="menu-grid">
-        <button class="menu-card tone-blue" data-view="learnView">
-          <span class="menu-number">01</span>
-          <span class="menu-copy"><strong>Learn</strong><small>Rules, signs and vehicle controls</small></span>
-          <span class="chevron">›</span>
-        </button>
-        <button class="menu-card tone-teal" data-view="practiceView">
-          <span class="menu-number">02</span>
-          <span class="menu-copy"><strong>Practise</strong><small>Answer questions and learn from mistakes</small></span>
-          <span class="chevron">›</span>
-        </button>
-        <button class="menu-card tone-purple" data-view="mockView">
-          <span class="menu-number">03</span>
-          <span class="menu-copy"><strong>Mock Test</strong><small>Try a short test-style session</small></span>
-          <span class="chevron">›</span>
-        </button>
-        <button class="menu-card tone-orange" data-view="weakView">
-          <span class="menu-number">04</span>
-          <span class="menu-copy"><strong>My Weak Areas</strong><small>See where you need more practice</small></span>
-          <span class="chevron">›</span>
-        </button>
-        <button class="menu-card tone-green" data-view="readyView">
-          <span class="menu-number">05</span>
-          <span class="menu-copy"><strong>Am I Ready?</strong><small>Check your current preparation status</small></span>
-          <span class="chevron">›</span>
-        </button>
-        <button class="menu-card tone-gold featured" data-view="orientationView">
-          <span class="menu-number">START</span>
-          <span class="menu-copy"><strong>First Computer Test?</strong><small>Learn how to use a digital test screen</small></span>
-          <span class="chevron">›</span>
-        </button>
+        <button class="menu-card tone-blue" data-view="learnView"><span class="menu-number">01</span><span class="menu-copy"><strong data-i18n="learn">Learn</strong><small data-i18n="learnDesc">Rules, signs and vehicle controls</small></span><span class="chevron">›</span></button>
+        <button class="menu-card tone-teal" data-view="practiceView"><span class="menu-number">02</span><span class="menu-copy"><strong data-i18n="practise">Practise</strong><small data-i18n="practiseDesc">Answer questions and learn from mistakes</small></span><span class="chevron">›</span></button>
+        <button class="menu-card tone-purple" data-view="mockView"><span class="menu-number">03</span><span class="menu-copy"><strong data-i18n="mock">Mock Test</strong><small data-i18n="mockDesc">Try a short test-style session</small></span><span class="chevron">›</span></button>
+        <button class="menu-card tone-orange" data-view="weakView"><span class="menu-number">04</span><span class="menu-copy"><strong data-i18n="weak">My Weak Areas</strong><small data-i18n="weakDesc">See where you need more practice</small></span><span class="chevron">›</span></button>
+        <button class="menu-card tone-green" data-view="readyView"><span class="menu-number">05</span><span class="menu-copy"><strong data-i18n="ready">Am I Ready?</strong><small data-i18n="readyDesc">Check your current preparation status</small></span><span class="chevron">›</span></button>
+        <button class="menu-card tone-gold featured" data-view="orientationView"><span class="menu-number" data-i18n="start">START</span><span class="menu-copy"><strong data-i18n="firstComputer">First Computer Test?</strong><small data-i18n="firstComputerDesc">Learn how to use a digital test screen</small></span><span class="chevron">›</span></button>
       </div>
 
       <div class="progress-card">
-        <div class="progress-topline">
-          <div>
-            <span class="kicker">YOUR PROGRESS</span>
-            <h2>Keep going</h2>
-          </div>
-          <span class="progress-dot" aria-hidden="true"></span>
-        </div>
+        <div class="progress-topline"><div><span class="kicker" data-i18n="progressKicker">YOUR PROGRESS</span><h2 data-i18n="keepGoing">Keep going</h2></div><span class="progress-dot" aria-hidden="true"></span></div>
         <p id="homeProgress">No activity yet.</p>
-        <div class="progress-note">Your progress is stored on this device.</div>
+        <div class="progress-note" data-i18n="storedDevice">Your progress is stored on this device.</div>
       </div>
     </section>
 
     <section id="learnView" class="view">
-      <button class="back">← Back to home</button>
-      <div class="screen-heading">
-        <span class="screen-chip blue">LEARN</span>
-        <h2>Build your knowledge</h2>
-        <p>Work through the three core areas at your own pace.</p>
-      </div>
+      <button class="back" data-i18n="backHome">← Back to home</button>
+      <div class="screen-heading"><span class="screen-chip blue" data-i18n="learnUpper">LEARN</span><h2 data-i18n="buildKnowledge">Build your knowledge</h2><p data-i18n="learnIntro">Work through the three core areas at your own pace.</p></div>
       <div class="topic-list">
-        <article class="topic-card topic-blue"><span class="topic-no">01</span><div><h3>Rules of the Road</h3><p>Learn the basic rules that control safe road use.</p></div></article>
-        <article class="topic-card topic-teal"><span class="topic-no">02</span><div><h3>Road Signs & Markings</h3><p>Recognise signs, signals and road markings.</p></div></article>
-        <article class="topic-card topic-purple"><span class="topic-no">03</span><div><h3>Vehicle Controls</h3><p>Understand common controls used in the relevant vehicle class.</p></div></article>
+        <article class="topic-card topic-blue"><span class="topic-no">01</span><div><h3 data-i18n="rulesTitle">Rules of the Road</h3><p data-i18n="rulesDesc">Learn the basic rules that control safe road use.</p></div></article>
+        <article class="topic-card topic-teal"><span class="topic-no">02</span><div><h3 data-i18n="signsTitle">Road Signs & Markings</h3><p data-i18n="signsDesc">Recognise signs, signals and road markings.</p></div></article>
+        <article class="topic-card topic-purple"><span class="topic-no">03</span><div><h3 data-i18n="controlsTitle">Vehicle Controls</h3><p data-i18n="controlsDesc">Understand common controls used in the relevant vehicle class.</p></div></article>
       </div>
     </section>
 
     <section id="practiceView" class="view">
-      <button class="back">← Back to home</button>
-      <div class="screen-heading">
-        <span class="screen-chip teal">PRACTISE</span>
-        <h2>Learn by doing</h2>
-        <p>Code 2 Light Vehicle pilot. Choose an answer, then read the explanation.</p>
-      </div>
+      <button class="back" data-i18n="backHome">← Back to home</button>
+      <div class="screen-heading"><span class="screen-chip teal" data-i18n="practiseUpper">PRACTISE</span><h2 data-i18n="learnDoing">Learn by doing</h2><p data-i18n="practiceIntro">Code 2 Light Vehicle pilot. Choose an answer, then read the explanation.</p></div>
       <div id="practiceBox"></div>
     </section>
 
     <section id="mockView" class="view">
-      <button class="back">← Back to home</button>
-      <div class="screen-heading">
-        <span class="screen-chip purple">MOCK TEST</span>
-        <h2>Try a test-style session</h2>
-        <p>Code 2 Light Vehicle pilot. One Rules, one Signs and one Controls question. This is not the official CLLT.</p>
-      </div>
-      <button id="startMock" class="action-button">Start 3-question mock <span>→</span></button>
+      <button class="back" data-i18n="backHome">← Back to home</button>
+      <div class="screen-heading"><span class="screen-chip purple" data-i18n="mockUpper">MOCK TEST</span><h2 data-i18n="testStyle">Try a test-style session</h2><p data-i18n="mockIntro">Code 2 Light Vehicle pilot. One Rules, one Signs and one Controls question. This is not the official CLLT.</p></div>
+      <button id="startMock" class="action-button"><span id="startMockText" data-i18n="startMock">Start 3-question mock</span><span>→</span></button>
       <div id="mockBox"></div>
     </section>
 
     <section id="weakView" class="view">
-      <button class="back">← Back to home</button>
-      <div class="screen-heading">
-        <span class="screen-chip orange">WEAK AREAS</span>
-        <h2>Know what to practise next</h2>
-        <p>Your weaker sections will appear here as you practise.</p>
-      </div>
+      <button class="back" data-i18n="backHome">← Back to home</button>
+      <div class="screen-heading"><span class="screen-chip orange" data-i18n="weakUpper">WEAK AREAS</span><h2 data-i18n="weakTitle">Know what to practise next</h2><p data-i18n="weakIntro">Your weaker sections will appear here as you practise.</p></div>
       <div id="weakBox"></div>
     </section>
 
     <section id="readyView" class="view">
-      <button class="back">← Back to home</button>
-      <div class="screen-heading">
-        <span class="screen-chip green">READINESS</span>
-        <h2>Am I ready?</h2>
-        <p>Use this as a learning guide, not as a guarantee of an official result.</p>
-      </div>
+      <button class="back" data-i18n="backHome">← Back to home</button>
+      <div class="screen-heading"><span class="screen-chip green" data-i18n="readinessUpper">READINESS</span><h2 data-i18n="ready">Am I Ready?</h2><p data-i18n="readyIntro">Use this as a learning guide, not as a guarantee of an official result.</p></div>
       <div id="readyBox"></div>
     </section>
 
     <section id="orientationView" class="view">
-      <button class="back">← Back to home</button>
-      <div class="screen-heading">
-        <span class="screen-chip gold">DIGITAL CONFIDENCE</span>
-        <h2>First computer test?</h2>
-        <p>Practise the screen controls before you are tested on driving knowledge.</p>
-      </div>
+      <button class="back" data-i18n="backHome">← Back to home</button>
+      <div class="screen-heading"><span class="screen-chip gold" data-i18n="digitalConfidence">DIGITAL CONFIDENCE</span><h2 data-i18n="firstComputer">First Computer Test?</h2><p data-i18n="orientationIntro">Practise the screen controls before you are tested on driving knowledge.</p></div>
       <div id="orientationBox"></div>
     </section>
   </main>
 
-  <footer class="app-footer">
-    <p>Offline-first · Low-data · Learner-focused</p>
-  </footer>
-
+  <footer class="app-footer"><p data-i18n="footer">Offline-first · Low-data · Learner-focused · EN · AF · XH</p></footer>
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
