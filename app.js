@@ -6,7 +6,8 @@ const state = {
   mockScore: 0,
   mockAnswers: [],
   orientationStep: 0,
-  lastPracticeId: null
+  lastPracticeId: null,
+  practiceSection: "all"
 };
 
 const DB_NAME = "mzansiLearnerDriverDB";
@@ -91,6 +92,7 @@ async function changePathway(group) {
   stopSpeech();
   state.activeVehicleGroup = group;
   state.lastPracticeId = null;
+  state.practiceSection = "all";
   state.mockQuestions = [];
   state.mockIndex = 0;
   state.mockScore = 0;
@@ -304,7 +306,10 @@ function showView(id) {
     accessibilityPanel.classList.add("hidden");
     accessibilityToggle.setAttribute("aria-expanded", "false");
   }
-  if (id === "practiceView") renderPractice();
+  if (id === "practiceView") {
+    updatePracticeFocusUI();
+    renderPractice();
+  }
   if (id === "weakView") renderWeak();
   if (id === "readyView") renderReady();
   if (id === "orientationView") renderOrientation();
@@ -437,8 +442,31 @@ function isEligibleForActiveVehicle(q) {
 function eligibleQuestions(section = null) {
   return state.questions.filter(q => isEligibleForActiveVehicle(q) && (!section || q.section === section));
 }
+function updatePracticeFocusUI() {
+  document.querySelectorAll(".practice-focus-btn").forEach(btn => {
+    const active = btn.dataset.practiceSection === state.practiceSection;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+}
+
+function setPracticeSection(section) {
+  if (!["all","rules","signs","controls"].includes(section)) return;
+  if (state.practiceSection === section) return;
+  stopSpeech();
+  state.practiceSection = section;
+  state.lastPracticeId = null;
+  updatePracticeFocusUI();
+  if (currentViewId() === "practiceView") renderPractice();
+}
+
+document.querySelectorAll(".practice-focus-btn").forEach(btn => {
+  btn.addEventListener("click", () => setPracticeSection(btn.dataset.practiceSection));
+});
+
 function choosePracticeQuestion() {
-  const eligible = eligibleQuestions();
+  const section = state.practiceSection === "all" ? null : state.practiceSection;
+  const eligible = eligibleQuestions(section);
   const candidates = eligible.filter(q => q.id !== state.lastPracticeId);
   const pool = candidates.length ? candidates : eligible;
   const q = pool[Math.floor(Math.random() * pool.length)];
