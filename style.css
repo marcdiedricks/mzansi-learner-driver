@@ -704,3 +704,24 @@ html.large-text .practice-focus-buttons{
 html.high-contrast .review-item{
   border-top:2px solid #000;
 }
+
+
+/* MULTILINGUAL HEADER CONSISTENCY — prevent long translated status text from squeezing the brand */
+@media (max-width:480px){
+  .header-main{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    gap:.65rem;
+  }
+  .brand-row{
+    width:100%;
+    min-width:0;
+  }
+  .brand-copy{
+    flex:1 1 auto;
+    min-width:0;
+  }
+  .badge{
+    justify-self:end;
+  }
+}
