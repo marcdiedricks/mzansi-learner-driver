@@ -1,5 +1,5 @@
 {
-  "pack_id": "0.1c-signs-pilot",
+  "pack_id": "signs-expansion-r1",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -515,6 +515,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "0.1c-r1"
+    },
+    {
+      "id": "signs-011",
+      "section": "signs",
+      "topic": "no-entry",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — No entry sign R3",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do when a No Entry sign applies to the road, carriageway or lane ahead?",
+          "options": [
+            "Do not enter",
+            "Enter only if no traffic is coming",
+            "Enter slowly"
+          ],
+          "explanation": "A No Entry sign means traffic may not proceed past the sign into that road, carriageway or lane."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer 'n Geen Toegang-teken op die pad, rybaan of baan voor jou van toepassing is?",
+          "options": [
+            "Moenie ingaan nie",
+            "Gaan net in as daar geen verkeer aankom nie",
+            "Gaan stadig in"
+          ],
+          "explanation": "'n Geen Toegang-teken beteken dat verkeer nie verby die teken in daardie pad, rybaan of baan mag beweeg nie."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa uphawu oluthi Akungenwa lusebenza kwindlela okanye kumzila ongaphambili?",
+          "options": [
+            "Musa ukungena",
+            "Ngena kuphela xa kungekho zithuthi zizayo",
+            "Ngena kancinci"
+          ],
+          "explanation": "Uphawu oluthi Akungenwa luthetha ukuba izithuthi azivumelekanga ukudlula kulo zingene kuloo ndlela okanye mzila."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r1"
+    },
+    {
+      "id": "signs-012",
+      "section": "signs",
+      "topic": "yield-traffic-circle",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Yield at traffic circle sign R2.2",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when approaching a Yield at traffic circle sign?",
+          "options": [
+            "Look for other vehicles, yield as required and stop if necessary",
+            "Speed up to enter before other traffic",
+            "Ignore vehicles already in the circle"
+          ],
+          "explanation": "At this sign you must look for other vehicles, yield to traffic with priority and stop if necessary."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n Gee Pad by Verkeersirkel-teken nader?",
+          "options": [
+            "Kyk vir ander voertuie, gee pad waar nodig en stop indien nodig",
+            "Versnel om voor ander verkeer in te gaan",
+            "Ignoreer voertuie wat reeds in die sirkel is"
+          ],
+          "explanation": "By hierdie teken moet jy vir ander voertuie uitkyk, aan verkeer met voorrang padgee en stop indien nodig."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa usondela kuphawu lokunika indlela kwisangqa sezithuthi?",
+          "options": [
+            "Jonga ezinye izithuthi, nikezela indlela xa kufuneka uze ume xa kuyimfuneko",
+            "Khawulezisa ukuze ungene kuqala",
+            "Ungazihoyi izithuthi esele zikwisangqa"
+          ],
+          "explanation": "Kolu phawu kufuneka ujonge ezinye izithuthi, unike indlela kwizithuthi ezinelungelo lokudlula kuqala uze ume xa kuyimfuneko."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r1"
+    },
+    {
+      "id": "signs-013",
+      "section": "signs",
+      "topic": "children-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Children warning sign W308/TW308",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What action should you take when you see a Children warning sign?",
+          "options": [
+            "Slow down and watch carefully for children",
+            "Increase speed to clear the area quickly",
+            "Use the horn continuously"
+          ],
+          "explanation": "The sign warns that children may cross unexpectedly, so slow down and watch carefully for them."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n Waarskuwing vir Kinders-teken sien?",
+          "options": [
+            "Verminder spoed en kyk versigtig uit vir kinders",
+            "Verhoog spoed om vinnig deur die gebied te beweeg",
+            "Gebruik die toeter aanhoudend"
+          ],
+          "explanation": "Die teken waarsku dat kinders onverwags kan oorsteek, daarom moet jy spoed verminder en versigtig vir hulle uitkyk."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa ubona uphawu olulumkisa ngabantwana?",
+          "options": [
+            "Cotha uze ujonge abantwana ngononophelo",
+            "Nyusa isantya ukuze udlule ngokukhawuleza",
+            "Sebenzisa ihorn ngokuqhubekayo"
+          ],
+          "explanation": "Uphawu lumkisa ukuba abantwana banokuwela ngendlela engalindelekanga, ngoko kufuneka ucothe uze ubajonge ngononophelo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r1"
     }
   ]
 }
