@@ -432,3 +432,14 @@ h1 { margin: 0; font-size: clamp(1.25rem, 5vw, 1.55rem); line-height: 1.13; }
   background: #c2410c;
   color: #fff;
 }
+
+.header-main{display:flex;justify-content:space-between;gap:.9rem;align-items:flex-start;width:100%}
+.app-header{flex-direction:column}
+.language-switcher{z-index:2;display:flex;gap:.45rem;width:100%;padding-top:.2rem}
+.lang-btn{min-width:48px;min-height:38px;border-radius:999px;border:1px solid rgba(255,255,255,.45);background:rgba(255,255,255,.1);color:#fff;font-weight:850;letter-spacing:.04em}
+.lang-btn.active{background:#fff;color:var(--navy);border-color:#fff}
+.lang-btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.install-card{display:flex;gap:.8rem;align-items:center;justify-content:space-between;background:#e9f7f4;border:1px solid #b9dfd9;border-left:5px solid var(--teal);border-radius:14px;padding:.85rem;margin-bottom:.85rem}
+.install-card p{margin:.2rem 0 0;color:var(--muted);font-size:.82rem;line-height:1.35}
+.install-btn{flex:0 0 auto;border:0;border-radius:10px;background:var(--teal);color:#fff;font-weight:800;padding:.7rem .8rem}
+.install-card.hidden{display:none}

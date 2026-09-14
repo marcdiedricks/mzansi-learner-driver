@@ -1,7 +1,7 @@
 {
   "pack_id": "0.1c-rules-pilot",
   "section": "rules",
-  "status": "content_qa_passed_internal",
+  "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
     "SRC-006"
   ],
@@ -29,15 +29,33 @@
             "100 km/h"
           ],
           "explanation": "The general limit in an urban area is 60 km/h unless a road traffic sign sets another limit."
+        },
+        "af": {
+          "question": "Tensy 'n padteken 'n ander limiet aandui, wat is die algemene spoedgrens op 'n openbare pad in 'n stedelike gebied?",
+          "options": [
+            "60 km/h",
+            "80 km/h",
+            "100 km/h"
+          ],
+          "explanation": "Die algemene limiet in 'n stedelike gebied is 60 km/h tensy 'n padverkeersteken 'n ander limiet bepaal."
+        },
+        "xh": {
+          "question": "Ngaphandle kokuba uphawu lwendlela lubonisa omnye umda, ngowuphi umda wesantya oqhelekileyo kwindlela kawonke-wonke kummandla wedolophu?",
+          "options": [
+            "60 km/h",
+            "80 km/h",
+            "100 km/h"
+          ],
+          "explanation": "Umda oqhelekileyo kummandla wedolophu yi-60 km/h ngaphandle kokuba uphawu lwendlela lubeka omnye umda."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-002",
@@ -62,15 +80,33 @@
             "120 km/h"
           ],
           "explanation": "The general limit outside an urban area, on a public road that is not a freeway, is 100 km/h unless another limit is displayed."
+        },
+        "af": {
+          "question": "Wat is die algemene spoedgrens op 'n openbare pad buite 'n stedelike gebied wanneer dit nie 'n snelweg is nie en geen ander limiet aangedui word nie?",
+          "options": [
+            "80 km/h",
+            "100 km/h",
+            "120 km/h"
+          ],
+          "explanation": "Die algemene limiet buite 'n stedelike gebied op 'n openbare pad wat nie 'n snelweg is nie, is 100 km/h tensy 'n ander limiet aangedui word."
+        },
+        "xh": {
+          "question": "Ngowuphi umda wesantya oqhelekileyo kwindlela kawonke-wonke engaphandle kommandla wedolophu xa ingengohola wendlela kwaye kungekho mnye umda obonisiweyo?",
+          "options": [
+            "80 km/h",
+            "100 km/h",
+            "120 km/h"
+          ],
+          "explanation": "Umda oqhelekileyo ngaphandle kommandla wedolophu kwindlela kawonke-wonke engeyiyo uhola wendlela yi-100 km/h, ngaphandle kokuba kuboniswe omnye umda."
         }
       },
       "correct_index": 1,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-003",
@@ -95,15 +131,33 @@
             "120 km/h"
           ],
           "explanation": "The general freeway speed limit is 120 km/h unless a lower speed limit is indicated."
+        },
+        "af": {
+          "question": "Wat is die algemene spoedgrens op 'n snelweg wanneer geen laer limiet aangedui word nie?",
+          "options": [
+            "100 km/h",
+            "110 km/h",
+            "120 km/h"
+          ],
+          "explanation": "Die algemene spoedgrens op 'n snelweg is 120 km/h tensy 'n laer spoedgrens aangedui word."
+        },
+        "xh": {
+          "question": "Ngowuphi umda wesantya oqhelekileyo kuhola wendlela xa kungekho mda usezantsi obonisiweyo?",
+          "options": [
+            "100 km/h",
+            "110 km/h",
+            "120 km/h"
+          ],
+          "explanation": "Umda wesantya oqhelekileyo kuhola wendlela yi-120 km/h ngaphandle kokuba kuboniswe umda ophantsi."
         }
       },
       "correct_index": 2,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-004",
@@ -129,15 +183,33 @@
             "Only on freeways"
           ],
           "explanation": "These lamps must be on between sunset and sunrise and also when poor light or weather makes people and vehicles difficult to see."
+        },
+        "af": {
+          "question": "Wanneer moet 'n ligte of swaar motorvoertuig gewoonlik sy hoofligte, agterligte en nommerplaatligte aanskakel?",
+          "options": [
+            "Slegs wanneer dit reën",
+            "Tussen sonsondergang en sonsopkoms, en wanneer sig swak is",
+            "Slegs op snelweë"
+          ],
+          "explanation": "Hierdie ligte moet tussen sonsondergang en sonsopkoms aan wees, en ook wanneer swak lig of weer mense en voertuie moeilik sigbaar maak."
+        },
+        "xh": {
+          "question": "Kufuneka nini isithuthi esilula okanye esinzima sikhanyise izibane zangaphambili, zangasemva nezepheyiti yenombolo?",
+          "options": [
+            "Kuphela xa kunetha",
+            "Phakathi kokutshona kwelanga nokuphuma kwelanga, naxa ukubona kungacacanga",
+            "Kuphela koohola bendlela"
+          ],
+          "explanation": "Ezi zibane kufuneka zikhanyiswe phakathi kokutshona kwelanga nokuphuma kwelanga, kwanaxa ukukhanya okanye imozulu yenza abantu nezithuthi kube nzima ukuzibona."
         }
       },
       "correct_index": 1,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-005",
@@ -162,15 +234,33 @@
             "Only in bad weather"
           ],
           "explanation": "The motorcycle headlamp must be lit while riding on a public road during both day and night."
+        },
+        "af": {
+          "question": "Wanneer jy met 'n motorfiets op 'n openbare pad ry, wanneer moet die hooflig aangeskakel wees?",
+          "options": [
+            "Te alle tye",
+            "Slegs ná sonsondergang",
+            "Slegs in slegte weer"
+          ],
+          "explanation": "Die motorfiets se hooflig moet brand terwyl jy op 'n openbare pad ry, bedags sowel as snags."
+        },
+        "xh": {
+          "question": "Xa ukhwele isithuthuthu kwindlela kawonke-wonke, kufuneka isibane sangaphambili sikhanyiswe nini?",
+          "options": [
+            "Ngalo lonke ixesha",
+            "Kuphela emva kokutshona kwelanga",
+            "Kuphela kwimozulu embi"
+          ],
+          "explanation": "Isibane sangaphambili sesithuthuthu kufuneka sikhanyiswe xa usihamba kwindlela kawonke-wonke emini nasebusuku."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-006",
@@ -195,15 +285,33 @@
             "Only when entering a parking area"
           ],
           "explanation": "The learner manual says to dip the main beam for oncoming traffic and when following another vehicle."
+        },
+        "af": {
+          "question": "Wanneer moet jy jou helder hoofligte verdof?",
+          "options": [
+            "Vir aankomende verkeer en wanneer jy 'n ander voertuig volg",
+            "Slegs wanneer jy stadiger as 60 km/h ry",
+            "Slegs wanneer jy 'n parkeerarea binnegaan"
+          ],
+          "explanation": "Die leerderhandleiding sê jy moet die helder ligte verdof vir aankomende verkeer en wanneer jy 'n ander voertuig volg."
+        },
+        "xh": {
+          "question": "Kufuneka uzithobe nini izibane zakho eziphezulu?",
+          "options": [
+            "Xa kukho izithuthi eziza ngakuwe naxa ulandela esinye isithuthi",
+            "Kuphela xa uqhuba ngaphantsi kwe-60 km/h",
+            "Kuphela xa ungena kwindawo yokupaka"
+          ],
+          "explanation": "Incwadi yomfundi ithi izibane eziphezulu mazithotywe xa kukho izithuthi eziza ngakuwe naxa ulandela esinye isithuthi."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-007",
@@ -229,15 +337,33 @@
             "Use them only at night"
           ],
           "explanation": "Where rear-seat belts are fitted, rear-seat passengers must wear them while the vehicle is being driven."
+        },
+        "af": {
+          "question": "As veiligheidsgordels op die agtersitplekke aangebring is, wat moet passasiers agter doen terwyl die voertuig bestuur word?",
+          "options": [
+            "Die veiligheidsgordels dra",
+            "Dit slegs op snelweë dra",
+            "Dit slegs snags gebruik"
+          ],
+          "explanation": "Waar agtersitplek-veiligheidsgordels aangebring is, moet passasiers dit dra terwyl die voertuig bestuur word."
+        },
+        "xh": {
+          "question": "Ukuba amabhanti okhuseleko afakwe kwizihlalo zangasemva, kufuneka benze ntoni abakhweli basemva xa isithuthi siqhutywa?",
+          "options": [
+            "Babhinqe amabhanti okhuseleko",
+            "Bawabhinqe kuphela koohola bendlela",
+            "Bawasebenzise kuphela ebusuku"
+          ],
+          "explanation": "Xa amabhanti okhuseleko afakwe kwizihlalo zangasemva, abakhweli basemva kufuneka bawabhinqe xa isithuthi siqhutywa."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-008",
@@ -263,15 +389,33 @@
             "The child holds the seat belt without fastening it"
           ],
           "explanation": "The driver must ensure that a child uses an appropriate child restraint when one is available."
+        },
+        "af": {
+          "question": "As 'n geskikte kinderbeveiliging vir 'n kind in 'n motorvoertuig beskikbaar is, wat moet die bestuurder verseker?",
+          "options": [
+            "Dat die kind die kinderbeveiliging gebruik",
+            "Dat die kind op die voorste sitplek sit",
+            "Dat die kind die veiligheidsgordel vashou sonder om dit vas te maak"
+          ],
+          "explanation": "Die bestuurder moet verseker dat 'n kind 'n geskikte kinderbeveiliging gebruik wanneer een beskikbaar is."
+        },
+        "xh": {
+          "question": "Ukuba kukho isixhobo esifanelekileyo sokhuseleko lomntwana kwisithuthi, kufuneka umqhubi aqinisekise ntoni?",
+          "options": [
+            "Umntwana usebenzisa isixhobo sokhuseleko lomntwana",
+            "Umntwana uhlala kwisihlalo sangaphambili",
+            "Umntwana ubamba ibhanti lokhuseleko engalibophanga"
+          ],
+          "explanation": "Umqhubi kufuneka aqinisekise ukuba umntwana usebenzisa isixhobo esifanelekileyo sokhuseleko xa sikhona."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-009",
@@ -296,15 +440,33 @@
             "Either side without checking"
           ],
           "explanation": "The normal rule is to pass on the right at a safe distance and return left only when safely clear."
+        },
+        "af": {
+          "question": "Wanneer jy 'n ander voertuig verbysteek wat in dieselfde rigting ry, aan watter kant moet jy normaalweg verbygaan?",
+          "options": [
+            "Regs, op 'n veilige afstand",
+            "Links, in elke situasie",
+            "Enige kant sonder om te kyk"
+          ],
+          "explanation": "Die normale reël is om regs op 'n veilige afstand verby te gaan en eers links terug te beweeg wanneer dit veilig is."
+        },
+        "xh": {
+          "question": "Xa udlula esinye isithuthi esihamba kwicala elifanayo, ngeliphi icala oqhele ukudlula kulo?",
+          "options": [
+            "Ngasekunene, ugcine umgama okhuselekileyo",
+            "Ngasekhohlo, kuzo zonke iimeko",
+            "Naliphi na icala ngaphandle kokujonga"
+          ],
+          "explanation": "Umgaqo oqhelekileyo kukudlula ngasekunene ugcine umgama okhuselekileyo, uze ubuyele ngasekhohlo kuphela xa kukhuselekile."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "rules-010",
@@ -329,15 +491,33 @@
             "Only on a freeway"
           ],
           "explanation": "Overtaking does not allow a driver or rider to exceed the applicable speed limit."
+        },
+        "af": {
+          "question": "Mag jy die spoedgrens oorskry net omdat jy 'n ander voertuig verbysteek?",
+          "options": [
+            "Ja, vir 'n paar sekondes",
+            "Nee",
+            "Slegs op 'n snelweg"
+          ],
+          "explanation": "Verbysteek laat nie 'n bestuurder of ryer toe om die toepaslike spoedgrens te oorskry nie."
+        },
+        "xh": {
+          "question": "Ungawugqitha umda wesantya kuba nje udlula esinye isithuthi?",
+          "options": [
+            "Ewe, imizuzwana embalwa",
+            "Hayi",
+            "Kuphela kuhola wendlela"
+          ],
+          "explanation": "Ukudlula esinye isithuthi akumvumeli umqhubi okanye umkhweli wesithuthuthu ukuba agqithe umda wesantya osebenzayo."
         }
       },
       "correct_index": 1,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     }
   ]
 }

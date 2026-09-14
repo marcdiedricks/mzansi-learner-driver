@@ -1,10 +1,25 @@
 {
+  "id": "./",
   "name": "Mzansi Learner Driver — CLLT Prep",
   "short_name": "Mzansi Learner",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait-primary",
   "background_color": "#eef3f7",
   "theme_color": "#12355b",
-  "description": "Offline-first CLLT learner driver preparation for South Africa",
-  "icons": []
+  "description": "Offline-first multilingual CLLT learner driver preparation for South Africa",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/mzansi-learner.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }

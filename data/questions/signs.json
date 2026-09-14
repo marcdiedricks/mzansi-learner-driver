@@ -1,7 +1,7 @@
 {
   "pack_id": "0.1c-signs-pilot",
   "section": "signs",
-  "status": "content_qa_passed_internal",
+  "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
     "SRC-007"
   ],
@@ -29,15 +29,33 @@
             "To show only tourist attractions"
           ],
           "explanation": "Regulatory signs control road-user actions by prohibiting or commanding specific behaviour."
+        },
+        "af": {
+          "question": "Wat is die hoofdoel van 'n regulatoriese padteken?",
+          "options": [
+            "Om te reguleer of te beheer wat padgebruikers mag of moet doen",
+            "Om nabygeleë besighede te adverteer",
+            "Om slegs toeriste-aantreklikhede aan te dui"
+          ],
+          "explanation": "Regulatoriese tekens beheer padgebruikers se optrede deur sekere gedrag te verbied of voor te skryf."
+        },
+        "xh": {
+          "question": "Yintoni eyona njongo iphambili yophawu lwendlela olumiselayo?",
+          "options": [
+            "Ukulawula oko abasebenzisi bendlela abanokukwenza okanye ekufuneka bekwenzile",
+            "Ukubhengeza amashishini akufuphi",
+            "Ukubonisa kuphela iindawo zabakhenkethi"
+          ],
+          "explanation": "Iimpawu ezimiselayo zilawula izenzo zabasebenzisi bendlela ngokuthintela okanye ngokuyalela indlela ethile yokuziphatha."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-002",
@@ -62,15 +80,33 @@
             "Rectangular"
           ],
           "explanation": "Warning signs are ordinarily triangular and alert road users to hazards or dangerous conditions."
+        },
+        "af": {
+          "question": "Wat is die gewone vorm van die meeste waarskuwingstekens?",
+          "options": [
+            "Driehoekig",
+            "Rond",
+            "Reghoekig"
+          ],
+          "explanation": "Waarskuwingstekens is gewoonlik driehoekig en waarsku padgebruikers teen gevare of gevaarlike toestande."
+        },
+        "xh": {
+          "question": "Yeyiphi imilo eqhelekileyo yeempawu ezininzi zesilumkiso?",
+          "options": [
+            "Unxantathu",
+            "Isangqa",
+            "Uxande"
+          ],
+          "explanation": "Iimpawu zesilumkiso zidla ngokuba ngoonxantathu kwaye zilumkisa abasebenzisi bendlela ngeengozi okanye iimeko ezinobungozi."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-003",
@@ -95,15 +131,33 @@
             "Octagonal"
           ],
           "explanation": "Guidance signs are ordinarily rectangular and help road users with direction and route guidance."
+        },
+        "af": {
+          "question": "Wat is die gewone vorm van rigting- en leidingstekens?",
+          "options": [
+            "Reghoekig",
+            "Driehoekig",
+            "Agthoekig"
+          ],
+          "explanation": "Leidingstekens is gewoonlik reghoekig en help padgebruikers met rigting en roeteleiding."
+        },
+        "xh": {
+          "question": "Yeyiphi imilo eqhelekileyo yeempawu zesikhokelo?",
+          "options": [
+            "Uxande",
+            "Unxantathu",
+            "Unxantathu onamacala asibhozo"
+          ],
+          "explanation": "Iimpawu zesikhokelo zidla ngokuba luxande kwaye zinceda abasebenzisi bendlela ngolwalathiso nendlela emayilandelwe."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-004",
@@ -128,15 +182,33 @@
             "Stop only if another vehicle is coming"
           ],
           "explanation": "At a STOP sign you must bring the vehicle to a complete stop behind the stop line and proceed only when it is safe."
+        },
+        "af": {
+          "question": "Wat moet jy by 'n STOP-teken doen wanneer 'n stoplyn gemerk is?",
+          "options": [
+            "Stop agter die stoplyn",
+            "Verminder spoed en ry voort as die pad oop lyk",
+            "Stop slegs as 'n ander voertuig aankom"
+          ],
+          "explanation": "By 'n STOP-teken moet jy die voertuig heeltemal agter die stoplyn tot stilstand bring en eers voortgaan wanneer dit veilig is."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kuphawu lwe-STOP xa kukho umgca wokuma?",
+          "options": [
+            "Yima emva komgca wokuma",
+            "Cotha uze uqhubeke ukuba indlela ibonakala icacile",
+            "Yima kuphela xa kukho esinye isithuthi esiza"
+          ],
+          "explanation": "Kuphawo lwe-STOP kufuneka umise isithuthi ngokupheleleyo emva komgca wokuma uze uqhubeke kuphela xa kukhuselekile."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-005",
@@ -161,15 +233,33 @@
             "After entering the intersection"
           ],
           "explanation": "If there is no stop line, the front of the vehicle should stop in line with the STOP sign."
+        },
+        "af": {
+          "question": "By 'n STOP-teken sonder 'n stoplyn, waar moet die voorkant van die voertuig tot stilstand kom?",
+          "options": [
+            "In lyn met die STOP-teken",
+            "Tien meter voor die teken",
+            "Nadat jy die kruising binnegegaan het"
+          ],
+          "explanation": "As daar geen stoplyn is nie, moet die voorkant van die voertuig in lyn met die STOP-teken stop."
+        },
+        "xh": {
+          "question": "Kuphawo lwe-STOP olungenamgca wokuma, umphambili wesithuthi kufuneka ume phi?",
+          "options": [
+            "Ulingane nophawu lwe-STOP",
+            "Iimitha ezilishumi phambi kophawu",
+            "Emva kokungena esiphambanweni"
+          ],
+          "explanation": "Ukuba akukho mgca wokuma, umphambili wesithuthi kufuneka ume ulingane nophawu lwe-STOP."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-006",
@@ -194,15 +284,33 @@
             "It may be ignored if traffic is light"
           ],
           "explanation": "A stop line has the same stop requirement even when no STOP sign is present."
+        },
+        "af": {
+          "question": "Wat beteken 'n stoplyn as daar geen STOP-teken langsaan is nie?",
+          "options": [
+            "Dit vereis steeds dat jy stop",
+            "Dit merk slegs 'n parkeergebied",
+            "Dit kan geïgnoreer word as verkeer min is"
+          ],
+          "explanation": "'n Stoplyn vereis steeds dat jy stop, selfs wanneer daar geen STOP-teken is nie."
+        },
+        "xh": {
+          "question": "Uthetha ukuthini umgca wokuma xa kungekho phawu lwe-STOP ecaleni kwawo?",
+          "options": [
+            "Usafuna ukuba ume",
+            "Ubonisa kuphela indawo yokupaka",
+            "Ungawuhoya xa izithuthi zimbalwa"
+          ],
+          "explanation": "Umgca wokuma usafuna ukuba ume nangona kungekho phawu lwe-STOP."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-007",
@@ -227,15 +335,33 @@
             "Accelerate before entering the intersection"
           ],
           "explanation": "A yield line means you must give way to road users crossing or wanting to cross your path."
+        },
+        "af": {
+          "question": "Wat moet jy by 'n toegeelyn doen?",
+          "options": [
+            "Voorrang gee aan verkeer wat jou pad kruis",
+            "Altyd vir minstens vyf sekondes stop",
+            "Versnel voordat jy die kruising binnegaan"
+          ],
+          "explanation": "'n Toegeelyn beteken jy moet padgee aan padgebruikers wat jou pad kruis of wil kruis."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kumgca wokunikezela indlela?",
+          "options": [
+            "Nika indlela kwizithuthi eziwela indlela yakho",
+            "Soloko ume ubuncinane imizuzwana emihlanu",
+            "Khawulezisa phambi kokungena esiphambanweni"
+          ],
+          "explanation": "Umgca wokunikezela indlela uthetha ukuba kufuneka unike indlela kubasebenzisi bendlela abawela okanye abafuna ukuwela indlela yakho."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-008",
@@ -260,15 +386,33 @@
             "Drive around them if there is space"
           ],
           "explanation": "Marked pedestrian crossings require drivers to look out for pedestrians and give them priority."
+        },
+        "af": {
+          "question": "Wanneer voetgangers by gemerkte voetoorganglyne oorsteek of wag om oor te steek, wat moet 'n bestuurder doen?",
+          "options": [
+            "Gee hulle voorrang deur stadiger te ry of te stop",
+            "Toeter en ry voort",
+            "Ry om hulle as daar plek is"
+          ],
+          "explanation": "Gemerkte voetoorgange vereis dat bestuurders vir voetgangers uitkyk en aan hulle voorrang gee."
+        },
+        "xh": {
+          "question": "Xa abahambi ngeenyawo bewela okanye belinde ukuwela kumgca ophawulweyo wabahambi ngeenyawo, kufuneka umqhubi enze ntoni?",
+          "options": [
+            "Banike kuqala ngokucotha okanye ngokuma",
+            "Khalisa ixilongo uze uqhubeke",
+            "Bajikeleze ngemoto ukuba kukho indawo"
+          ],
+          "explanation": "Iindawo eziphawulweyo zokuwela zabahambi ngeenyawo zifuna abaqhubi babajonge kwaye babanike kuqala."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-009",
@@ -293,15 +437,33 @@
             "You may cross it whenever the road ahead looks clear"
           ],
           "explanation": "A no-overtaking line normally prohibits driving to the right of the line, with only limited exceptions such as certain direct-access or stationary-obstruction situations."
+        },
+        "af": {
+          "question": "Wat is die hoofbeperking van 'n geen-verbysteeklyn op 'n tweerigtingpad?",
+          "options": [
+            "Moenie met enige deel van jou voertuig regs van die lyn ry nie, behalwe in beperkte toegelate gevalle",
+            "Jy moet presies op die lyn ry",
+            "Jy mag dit oorsteek wanneer die pad voor jou oop lyk"
+          ],
+          "explanation": "'n Geen-verbysteeklyn verbied jou normaalweg om regs van die lyn te ry, met slegs beperkte uitsonderings soos sekere direkte toegang of stilstaande versperrings."
+        },
+        "xh": {
+          "question": "Yintoni eyona nto ithintelwa ngumgca ongavumeli ukudlula kwindlela enamacala amabini?",
+          "options": [
+            "Musa ukuqhuba naliphi na icandelo lesithuthi sakho ngasekunene komgca, ngaphandle kweemeko ezithile ezivumelekileyo",
+            "Kufuneka uqhube kanye phezu komgca",
+            "Ungawuwela nanini na xa indlela engaphambili ibonakala icacile"
+          ],
+          "explanation": "Umgca ongavumeli ukudlula udla ngokukuthintela ekuqhubeni ngasekunene kwawo, ngaphandle kweemeko ezimbalwa ezivumelekileyo ezifana nokungena ngqo okanye ukudlula umqobo omileyo."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "signs-010",
@@ -326,15 +488,33 @@
             "Treat it the same as a green light"
           ],
           "explanation": "Amber means stop, except where stopping cannot be done safely."
+        },
+        "af": {
+          "question": "Wat moet jy normaalweg doen wanneer 'n verkeerslig amber word?",
+          "options": [
+            "Stop, tensy dit nie veilig gedoen kan word nie",
+            "Versnel om oor te gaan voordat dit rooi word",
+            "Behandel dit dieselfde as 'n groen lig"
+          ],
+          "explanation": "Amber beteken stop, behalwe waar dit nie veilig moontlik is om te stop nie."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa irobhothi ijika ibe yi-amber?",
+          "options": [
+            "Yima, ngaphandle kokuba ukumisa akunakwenziwa ngokukhuselekileyo",
+            "Khawulezisa ukuze uwelele phambi kokuba ibe bomvu",
+            "Yiphathe njengokukhanya okuluhlaza"
+          ],
+          "explanation": "I-amber ithetha ukuba yima, ngaphandle kokuba ukumisa akunakwenziwa ngokukhuselekileyo."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     }
   ]
 }
