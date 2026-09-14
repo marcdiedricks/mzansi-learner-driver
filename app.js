@@ -349,14 +349,14 @@ window.addEventListener("online", updateConnection);
 window.addEventListener("offline", updateConnection);
 
 async function loadQuestions() {
-  const paths = ["data/questions/rules.json","data/questions/signs.json","data/questions/controls.json","data/questions/motorcycle.json"];
+  const paths = ["data/questions/rules.json","data/questions/signs.json","data/questions/controls.json","data/questions/motorcycle.json","data/questions/completion-rules.json","data/questions/completion-signs.json","data/questions/completion-controls.json"];
   const responses = await Promise.all(paths.map(path => fetch(path)));
   const packs = await Promise.all(responses.map(res => {
     if (!res.ok) throw new Error("Question pack failed to load");
     return res.json();
   }));
   state.questions = packs.flatMap(pack => pack.items || []);
-  if (state.questions.length !== 88) throw new Error("Expected 88 pilot questions");
+  if (state.questions.length !== 166) throw new Error("Expected 166 completion questions");
   if (!eligibleQuestions().length) throw new Error("No Code 2 pilot questions available");
 }
 function questionText(q) {
@@ -365,9 +365,20 @@ function questionText(q) {
 function sectionLabel(section) {
   return section === "rules" ? tr("rules") : section === "signs" ? tr("signs") : tr("controls");
 }
+function shuffleArray(values) {
+  const a = [...values];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
   stopSpeech();
   const txt = questionText(q);
+  const displayOptions = shuffleArray(txt.options.map((text, originalIndex) => ({text, originalIndex})));
+  const speechTxt = {...txt, options: displayOptions.map(x => x.text)};
   const questionId = `question-${q.id}-${Math.random().toString(36).slice(2,8)}`;
   container.innerHTML = `
     <div class="question-card">
@@ -387,29 +398,29 @@ function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
   const questionSpeechButton = container.querySelector(".question-speech-btn");
   const questionSpeechStatus = container.querySelector(".speech-status");
   questionSpeechButton.onclick = () => speakText(
-    buildQuestionSpeech(txt),
+    buildQuestionSpeech(speechTxt),
     questionSpeechButton,
     questionSpeechStatus,
     "readAloud"
   );
 
-  txt.options.forEach((opt, idx) => {
+  displayOptions.forEach((entry, displayIndex) => {
     const b = document.createElement("button");
     b.className = "answer-btn";
-    b.dataset.index = String(idx);
+    b.dataset.originalIndex = String(entry.originalIndex);
     b.setAttribute("aria-pressed", "false");
-    b.innerHTML = `<span class="option-letter">${String.fromCharCode(65 + idx)}</span><span>${opt}</span>`;
+    b.innerHTML = `<span class="option-letter">${String.fromCharCode(65 + displayIndex)}</span><span>${entry.text}</span>`;
     b.onclick = () => {
       answers.querySelectorAll("button").forEach(x => x.classList.remove("selected"));
       b.classList.add("selected");
-      const correct = idx === q.correct_index;
+      const correct = entry.originalIndex === q.correct_index;
       if (correct) {
         b.classList.add("correct-answer");
         b.insertAdjacentHTML("beforeend", `<span class="answer-state">${tr("correctAnswer")}</span>`);
       } else {
         b.classList.add("wrong-answer");
         b.insertAdjacentHTML("beforeend", `<span class="answer-state">${tr("wrongAnswer")}</span>`);
-        const correctButton = answers.querySelector(`button[data-index="${q.correct_index}"]`);
+        const correctButton = answers.querySelector(`button[data-original-index="${q.correct_index}"]`);
         if (correctButton) {
           correctButton.classList.add("correct-answer");
           correctButton.insertAdjacentHTML("beforeend", `<span class="answer-state">${tr("correctAnswer")}</span>`);
@@ -516,11 +527,18 @@ async function renderPractice() {
     box.appendChild(n); refreshHome();
   });
 }
-function randomFromSection(section) {
-  const pool = eligibleQuestions(section);
-  return pool[Math.floor(Math.random() * pool.length)];
+function sampleFromSection(section, count) {
+  const pool = shuffleArray(eligibleQuestions(section));
+  if (pool.length < count) throw new Error(`Not enough ${section} questions for 64-question practice simulation`);
+  return pool.slice(0, count);
 }
-function buildMockSet() { return ["rules","signs","controls"].map(randomFromSection); }
+function buildMockSet() {
+  return [
+    ...sampleFromSection("rules", 28),
+    ...sampleFromSection("signs", 28),
+    ...sampleFromSection("controls", 8)
+  ];
+}
 const startMockButton = document.getElementById("startMock");
 startMockButton.addEventListener("click", () => {
   state.mockQuestions = buildMockSet(); state.mockIndex = 0; state.mockScore = 0; state.mockAnswers = [];
@@ -555,12 +573,19 @@ async function finishMock() {
   stopSpeech();
   const box = document.getElementById("mockBox");
   const result = {date:new Date().toISOString(), score:state.mockScore, total:state.mockQuestions.length, answers:state.mockAnswers};
+  const sectionScores = {
+    rules: result.answers.filter(a=>a.section==="rules"&&a.correct).length,
+    signs: result.answers.filter(a=>a.section==="signs"&&a.correct).length,
+    controls: result.answers.filter(a=>a.section==="controls"&&a.correct).length
+  };
+  result.sectionScores = sectionScores;
+  result.practiceTargetMet = sectionScores.rules >= 22 && sectionScores.signs >= 23 && sectionScores.controls >= 6;
   const history = await dbGet(pathwayKey("mockHistory"), []); history.unshift(result); await dbSet(pathwayKey("mockHistory"), history.slice(0,10));
   const pct = Math.round((result.score/result.total)*100);
-  const resultText = lang() === "af" ? `Jy het ${pct}% korrek beantwoord in hierdie CLLT-styl loodsproeftoets.`
-    : lang() === "xh" ? `Uphendule ${pct}% ngokuchanekileyo kolu vavanyo lokuziqhelisa lwe-CLLT.`
-    : `You answered ${pct}% correctly in this CLLT-style pilot mock.`;
-  box.innerHTML = `<div class="result-card status-info"><span class="screen-chip purple">${tr("mockComplete")}</span><div class="score-large">${result.score}/${result.total}</div><p>${resultText}</p><p class="small">${tr("notOfficialScore")}</p></div>`;
+  const resultText = lang() === "af" ? `Jy het ${pct}% korrek beantwoord in hierdie 64-vraag CLLT-styl oefensessie.`
+    : lang() === "xh" ? `Uphendule ${pct}% ngokuchanekileyo kolu qheliselo lwe-CLLT olunemibuzo engama-64.`
+    : `You answered ${pct}% correctly in this 64-question CLLT-style practice session.`;
+  box.innerHTML = `<div class="result-card ${result.practiceTargetMet?"status-good":"status-warn"}"><span class="screen-chip purple">${tr("mockComplete")}</span><div class="score-large">${result.score}/${result.total}</div><p>${resultText}</p><p><strong>${tr("rules")}:</strong> ${sectionScores.rules}/28 &nbsp; <strong>${tr("signs")}:</strong> ${sectionScores.signs}/28 &nbsp; <strong>${tr("controls")}:</strong> ${sectionScores.controls}/8</p><p><strong>${result.practiceTargetMet?tr("practiceTargetMet"):tr("practiceTargetNotMet")}</strong></p><p class="small">${tr("notOfficialScore")}</p></div>`;
   startMockButton.classList.remove("hidden"); setStartMockLabel("startAnother"); refreshHome();
 }
 async function renderWeak() {
@@ -582,11 +607,13 @@ async function renderReady() {
   const stats=await dbGet(pathwayKey("practiceStats"),{total:0,correct:0,bySection:{}});
   if(!stats.total){box.innerHTML=`<div class="result-card status-warn"><span class="screen-chip orange">${tr("nextStep")}</span><div class="result-title">${tr("notReady")}</div><p>${tr("completeOrientationPractice")}</p></div>`;return;}
   const pct=Math.round((stats.correct/stats.total)*100);
+  const minimums={rules:28,signs:28,controls:8};
   const required=["rules","signs","controls"];
-  const all=required.every(s=>stats.bySection?.[s]?.total>0);
-  const sectionOK=all&&required.every(s=>(stats.bySection[s].correct/stats.bySection[s].total)>=.85);
-  const ready=orientationDone&&sectionOK&&stats.total>=6;
-  box.innerHTML=`<div class="result-card ${ready?"status-good":"status-warn"}"><span class="screen-chip ${ready?"green":"orange"}">${ready?tr("readinessCheck"):tr("keepPractising")}</span><div class="result-title">${ready?tr("seriousMock"):tr("notReady")}</div><p><strong>${tr("practiceAccuracy")}</strong> ${pct}%</p><p><strong>${tr("allSections")}</strong> ${all?tr("yes"):tr("notYet")}</p><p><strong>${tr("orientation")}</strong> ${orientationDone?tr("complete"):tr("notComplete")}</p><p class="small">${tr("readinessNote")}</p></div>`;
+  const coverageOK=required.every(s=>(stats.bySection?.[s]?.total||0)>=minimums[s]);
+  const sectionOK=coverageOK&&required.every(s=>(stats.bySection[s].correct/stats.bySection[s].total)>=.85);
+  const ready=orientationDone&&sectionOK;
+  const coverageText=required.map(s=>`${sectionLabel(s)} ${stats.bySection?.[s]?.total||0}/${minimums[s]}`).join(" · ");
+  box.innerHTML=`<div class="result-card ${ready?"status-good":"status-warn"}"><span class="screen-chip ${ready?"green":"orange"}">${ready?tr("readinessCheck"):tr("keepPractising")}</span><div class="result-title">${ready?tr("seriousMock"):tr("notReady")}</div><p><strong>${tr("practiceAccuracy")}</strong> ${pct}%</p><p><strong>${tr("practiceCoverage")}</strong> ${coverageText}</p><p><strong>${tr("orientation")}</strong> ${orientationDone?tr("complete"):tr("notComplete")}</p><p class="small">${tr("readinessNote")}</p></div>`;
 }
 async function renderOrientation() {
   const box=document.getElementById("orientationBox");
