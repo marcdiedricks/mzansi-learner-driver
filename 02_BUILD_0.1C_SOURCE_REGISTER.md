@@ -260,3 +260,33 @@ Only after the 25-item pack passes QA should the bank expand.
 - content remains within low-data budget.
 
 **Current status:** FOUNDATION ONLY — NOT FROZEN
+
+
+---
+
+## 12. BUILD 0.1E-A SOURCE SUPPLEMENT — CODE 1 MOTORCYCLE
+
+### SRC-011 — National Road Traffic Regulations: Protective helmets
+**Authority:** National road-traffic regulations / South African Government  
+**Purpose:** Motorcycle protective-helmet requirement for riders/passengers on public roads.  
+**URL:** https://www.gov.za/sites/default/files/gcis_document/201409/gg31242nn753pg106-125.pdf  
+**Status:** VERIFIED FOR CODE 1 PILOT  
+**Control note:** Use the ordinary helmet requirement in plain language. Do not build obscure regulatory exceptions into the first pilot question.
+
+### Existing sources reused for Code 1
+- **SRC-001:** Western Cape Government learner's licence service — used for the learner-motorcyclist passenger restriction and current learner-category context.
+- **SRC-006:** NaTIS Rules of the Road — existing motorcycle headlamp item.
+- **SRC-007:** NaTIS Road Traffic Signs — vehicle-neutral signs shared across pathways.
+- **SRC-008:** NaTIS Vehicle Components and Controls — motorcycle front brake, rear brake and throttle.
+
+### 0.1E-A evidence boundary
+The first Code 1 pilot is limited to:
+- motorcycle headlamp;
+- learner passenger restriction;
+- protective helmet;
+- front brake;
+- rear brake;
+- throttle;
+- vehicle-neutral shared Rules and Signs already source-controlled.
+
+No other motorcycle topic is released in 0.1E-A without a new source-verification step.

@@ -49,6 +49,61 @@ async function dbSet(key, value) {
   });
 }
 
+function pathwayKey(base, group = state.activeVehicleGroup) {
+  return `${base}:${group}`;
+}
+
+function pathwayLabel(group = state.activeVehicleGroup) {
+  return group === "code1" ? tr("motorcyclePath") : tr("lightPath");
+}
+
+async function migrateLegacyProgress() {
+  const migrated = await dbGet("pathwayProgressMigrationV1", false);
+  if (migrated) return;
+
+  const legacyStats = await dbGet("practiceStats", null);
+  const code2Stats = await dbGet("practiceStats:code2", null);
+  if (legacyStats && !code2Stats) await dbSet("practiceStats:code2", legacyStats);
+
+  const legacyMocks = await dbGet("mockHistory", null);
+  const code2Mocks = await dbGet("mockHistory:code2", null);
+  if (legacyMocks && !code2Mocks) await dbSet("mockHistory:code2", legacyMocks);
+
+  await dbSet("pathwayProgressMigrationV1", true);
+}
+
+function updatePathwayUI() {
+  document.querySelectorAll(".pathway-btn").forEach(btn => {
+    const active = btn.dataset.pathway === state.activeVehicleGroup;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+
+  const practiceIntro = document.getElementById("practiceIntro");
+  if (practiceIntro) practiceIntro.textContent = tr(state.activeVehicleGroup === "code1" ? "practiceIntroCode1" : "practiceIntroCode2");
+
+  const mockIntro = document.getElementById("mockIntro");
+  if (mockIntro) mockIntro.textContent = tr(state.activeVehicleGroup === "code1" ? "mockIntroCode1" : "mockIntroCode2");
+}
+
+async function changePathway(group) {
+  if (!["code1","code2"].includes(group) || group === state.activeVehicleGroup) return;
+  stopSpeech();
+  state.activeVehicleGroup = group;
+  state.lastPracticeId = null;
+  state.mockQuestions = [];
+  state.mockIndex = 0;
+  state.mockScore = 0;
+  state.mockAnswers = [];
+  await dbSet("vehiclePathway", group);
+  updatePathwayUI();
+  await refreshHome();
+}
+
+document.querySelectorAll(".pathway-btn").forEach(btn => {
+  btn.addEventListener("click", () => changePathway(btn.dataset.pathway));
+});
+
 function applyAccessibilitySettings(settings = accessibilityState) {
   accessibilityState.highContrast = Boolean(settings.highContrast);
   accessibilityState.largerText = Boolean(settings.largerText);
@@ -274,6 +329,7 @@ async function changeLanguage(newLang) {
     else resetMockLanding();
   }
   updateAccessibilityControls();
+  updatePathwayUI();
   refreshHome();
 }
 document.querySelectorAll(".lang-btn").forEach(btn => btn.addEventListener("click", () => changeLanguage(btn.dataset.lang)));
@@ -286,14 +342,14 @@ window.addEventListener("online", updateConnection);
 window.addEventListener("offline", updateConnection);
 
 async function loadQuestions() {
-  const paths = ["data/questions/rules.json","data/questions/signs.json","data/questions/controls.json"];
+  const paths = ["data/questions/rules.json","data/questions/signs.json","data/questions/controls.json","data/questions/motorcycle.json"];
   const responses = await Promise.all(paths.map(path => fetch(path)));
   const packs = await Promise.all(responses.map(res => {
     if (!res.ok) throw new Error("Question pack failed to load");
     return res.json();
   }));
   state.questions = packs.flatMap(pack => pack.items || []);
-  if (state.questions.length !== 25) throw new Error("Expected 25 pilot questions");
+  if (state.questions.length !== 30) throw new Error("Expected 30 pilot questions");
   if (!eligibleQuestions().length) throw new Error("No Code 2 pilot questions available");
 }
 function questionText(q) {
@@ -397,13 +453,13 @@ async function renderPractice() {
   }
   const q = choosePracticeQuestion();
   renderQuestion(q, box, async (correct, question) => {
-    const stats = await dbGet("practiceStats", {total:0, correct:0, bySection:{}});
+    const stats = await dbGet(pathwayKey("practiceStats"), {total:0, correct:0, bySection:{}});
     stats.total++;
     if (correct) stats.correct++;
     stats.bySection[question.section] ??= {total:0, correct:0};
     stats.bySection[question.section].total++;
     if (correct) stats.bySection[question.section].correct++;
-    await dbSet("practiceStats", stats);
+    await dbSet(pathwayKey("practiceStats"), stats);
     const n = document.createElement("button");
     n.className = "next-btn"; n.textContent = tr("tryAnother"); n.onclick = renderPractice;
     box.appendChild(n); refreshHome();
@@ -448,7 +504,7 @@ async function finishMock() {
   stopSpeech();
   const box = document.getElementById("mockBox");
   const result = {date:new Date().toISOString(), score:state.mockScore, total:state.mockQuestions.length, answers:state.mockAnswers};
-  const history = await dbGet("mockHistory", []); history.unshift(result); await dbSet("mockHistory", history.slice(0,10));
+  const history = await dbGet(pathwayKey("mockHistory"), []); history.unshift(result); await dbSet(pathwayKey("mockHistory"), history.slice(0,10));
   const pct = Math.round((result.score/result.total)*100);
   const resultText = lang() === "af" ? `Jy het ${pct}% korrek beantwoord in hierdie CLLT-styl loodsproeftoets.`
     : lang() === "xh" ? `Uphendule ${pct}% ngokuchanekileyo kolu vavanyo lokuziqhelisa lwe-CLLT.`
@@ -458,7 +514,7 @@ async function finishMock() {
 }
 async function renderWeak() {
   const box = document.getElementById("weakBox");
-  const stats = await dbGet("practiceStats", {bySection:{}});
+  const stats = await dbGet(pathwayKey("practiceStats"), {bySection:{}});
   const rows = Object.entries(stats.bySection || {});
   if (!rows.length) {
     box.innerHTML = `<div class="result-card status-info"><div class="result-title">${tr("nothingYet")}</div><p>${tr("practiseFirst")}</p></div>`; return;
@@ -472,7 +528,7 @@ async function renderWeak() {
 async function renderReady() {
   const box=document.getElementById("readyBox");
   const orientationDone=await dbGet("orientationDone",false);
-  const stats=await dbGet("practiceStats",{total:0,correct:0,bySection:{}});
+  const stats=await dbGet(pathwayKey("practiceStats"),{total:0,correct:0,bySection:{}});
   if(!stats.total){box.innerHTML=`<div class="result-card status-warn"><span class="screen-chip orange">${tr("nextStep")}</span><div class="result-title">${tr("notReady")}</div><p>${tr("completeOrientationPractice")}</p></div>`;return;}
   const pct=Math.round((stats.correct/stats.total)*100);
   const required=["rules","signs","controls"];
@@ -500,10 +556,10 @@ function nextOrientation(){state.orientationStep++;runOrientationStep();}
 async function finishOrientation(){await dbSet("orientationDone",true);document.getElementById("orientationBox").innerHTML=`<div class="result-card status-good"><span class="screen-chip green">${tr("complete")}</span><div class="result-title">${tr("orientationDoneTitle")}</div><p>${tr("orientationDoneText")}</p></div>`;refreshHome();}
 async function refreshHome(){
   const orientationDone=await dbGet("orientationDone",false);
-  const stats=await dbGet("practiceStats",{total:0,correct:0});
-  const mockHistory=await dbGet("mockHistory",[]);
+  const stats=await dbGet(pathwayKey("practiceStats"),{total:0,correct:0});
+  const mockHistory=await dbGet(pathwayKey("mockHistory"),[]);
   const yesNo=orientationDone?tr("complete"):tr("notComplete");
-  document.getElementById("homeProgress").textContent=`${tr("progressOrientation")}: ${yesNo} · ${tr("progressPractice")}: ${stats.total||0} · ${tr("progressMocks")}: ${mockHistory.length}`;
+  document.getElementById("homeProgress").textContent=`${pathwayLabel()} · ${tr("progressOrientation")}: ${yesNo} · ${tr("progressPractice")}: ${stats.total||0} · ${tr("progressMocks")}: ${mockHistory.length}`;
 }
 
 let deferredInstallPrompt=null;
@@ -523,10 +579,14 @@ document.addEventListener("visibilitychange", () => { if (document.hidden) stopS
 window.addEventListener("pagehide", stopSpeech);
 
 async function init(){
+  await migrateLegacyProgress();
+  const savedPathway=await dbGet("vehiclePathway","code2");
+  state.activeVehicleGroup=["code1","code2"].includes(savedPathway)?savedPathway:"code2";
   const savedLanguage=await dbGet("language","en");
   window.MLD_I18N.setLanguage(savedLanguage);
   const savedAccessibility=await dbGet("accessibilitySettings",{highContrast:false,largerText:false});
   applyAccessibilitySettings(savedAccessibility);
+  updatePathwayUI();
   updateConnection();
   try{await loadQuestions();await refreshHome();}catch(err){document.getElementById("homeProgress").textContent=tr("pilotLoadFail");}
   if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});

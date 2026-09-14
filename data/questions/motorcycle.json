@@ -1,0 +1,267 @@
+{
+  "pack_id": "0.1e-a-code1-motorcycle-pilot",
+  "pathway": "code1",
+  "status": "multilingual_pilot_language_qa_pending",
+  "source_ids": [
+    "SRC-001",
+    "SRC-008",
+    "SRC-011"
+  ],
+  "items": [
+    {
+      "id": "rules-011",
+      "section": "rules",
+      "topic": "motorcycle-learner-passenger",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-001",
+        "locator": "Western Cape Government learner's licence service — learner motorcyclist may not carry another person",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "While riding under a motorcycle learner's licence, may you carry another person on the motorcycle?",
+          "options": [
+            "No",
+            "Yes, if the passenger wears a helmet",
+            "Yes, on short trips only"
+          ],
+          "explanation": "A learner motorcyclist may not carry another person on the motorcycle."
+        },
+        "af": {
+          "question": "Mag jy, terwyl jy met 'n motorfietsleerlinglisensie ry, 'n ander persoon op die motorfiets vervoer?",
+          "options": [
+            "Nee",
+            "Ja, as die passasier 'n valhelm dra",
+            "Ja, maar net op kort ritte"
+          ],
+          "explanation": "'n Leerdermotorfietsryer mag nie 'n ander persoon op die motorfiets vervoer nie."
+        },
+        "xh": {
+          "question": "Xa uqhuba ngesithuthuthu ngephepha-mvume lomfundi, ngaba ungakhwelisa omnye umntu kwisithuthuthu?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba umkhweli unxibe isigcina-ntloko",
+            "Ewe, kodwa kuhambo olufutshane kuphela"
+          ],
+          "explanation": "Umfundi oqhuba isithuthuthu akavumelekanga ukuthwala omnye umntu kwisithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-a"
+    },
+    {
+      "id": "rules-012",
+      "section": "rules",
+      "topic": "motorcycle-protective-helmet",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-011",
+        "locator": "National Road Traffic Regulations — protective helmet requirement for motorcycle riders/passengers on public roads",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should a person riding a motorcycle on a public road normally wear on the head?",
+          "options": [
+            "A suitable protective helmet, properly fitted and fastened",
+            "Any ordinary hat",
+            "Nothing if travelling slowly"
+          ],
+          "explanation": "A motorcycle rider must normally wear a suitable protective helmet that is properly fitted and fastened."
+        },
+        "af": {
+          "question": "Wat moet 'n persoon wat met 'n motorfiets op 'n openbare pad ry normaalweg op die kop dra?",
+          "options": [
+            "'n Geskikte beskermende valhelm wat behoorlik pas en vasgemaak is",
+            "Enige gewone hoed",
+            "Niks as jy stadig ry nie"
+          ],
+          "explanation": "'n Motorfietsryer moet normaalweg 'n geskikte beskermende valhelm dra wat behoorlik pas en vasgemaak is."
+        },
+        "xh": {
+          "question": "Umntu okhwele isithuthuthu kwindlela kawonke-wonke kufuneka aqhele ukunxiba ntoni entloko?",
+          "options": [
+            "Isigcina-ntloko esifanelekileyo sokhuseleko, esilingana kakuhle nesibotshelelweyo",
+            "Nayiphi na ikepusi eqhelekileyo",
+            "Akukho nto xa uhamba kancinci"
+          ],
+          "explanation": "Umkhweli wesithuthuthu kufuneka aqhele ukunxiba isigcina-ntloko esifanelekileyo sokhuseleko esilingana kakuhle nesibotshelelweyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-a"
+    },
+    {
+      "id": "controls-006",
+      "section": "controls",
+      "topic": "motorcycle-front-brake",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls diagram: front brake",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control operates the front brake?",
+          "options": [
+            "Front brake lever",
+            "Rear brake foot control",
+            "Throttle"
+          ],
+          "explanation": "The front brake is operated by the motorcycle's front brake lever."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer bedien die voorrem?",
+          "options": [
+            "Voorremhendel",
+            "Voetbeheer vir die agterrem",
+            "Versnellerhandvatsel"
+          ],
+          "explanation": "Die voorrem word met die motorfiets se voorremhendel bedien."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisebenzisa ibrake yangaphambili?",
+          "options": [
+            "Ilever yebrake yangaphambili",
+            "Ulawulo lonyawo lwebrake yangasemva",
+            "Ithrottle"
+          ],
+          "explanation": "Ibrake yangaphambili isetyenziswa ngelever yebrake yangaphambili yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-a"
+    },
+    {
+      "id": "controls-007",
+      "section": "controls",
+      "topic": "motorcycle-rear-brake",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls diagram: rear brake (foot-operated)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control operates the rear brake?",
+          "options": [
+            "Foot-operated rear brake control",
+            "Clutch lever",
+            "Throttle"
+          ],
+          "explanation": "The rear brake is operated by the motorcycle's foot-operated rear brake control."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer bedien die agterrem?",
+          "options": [
+            "Voetbeheer vir die agterrem",
+            "Koppelaarhendel",
+            "Versnellerhandvatsel"
+          ],
+          "explanation": "Die agterrem word met die motorfiets se voetbediende agterrembeheer bedien."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisebenzisa ibrake yangasemva?",
+          "options": [
+            "Ulawulo lonyawo lwebrake yangasemva",
+            "Ilever yeklatshi",
+            "Ithrottle"
+          ],
+          "explanation": "Ibrake yangasemva isetyenziswa ngolawulo lonyawo lwebrake yangasemva yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-a"
+    },
+    {
+      "id": "controls-008",
+      "section": "controls",
+      "topic": "motorcycle-throttle",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls diagram: throttle",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control is used to increase engine power and speed?",
+          "options": [
+            "Throttle",
+            "Front brake lever",
+            "Indicator switch"
+          ],
+          "explanation": "The throttle controls engine power and is used to increase the motorcycle's speed."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer word gebruik om enjinkrag en spoed te verhoog?",
+          "options": [
+            "Versnellerhandvatsel",
+            "Voorremhendel",
+            "Rigtingwyser-skakelaar"
+          ],
+          "explanation": "Die versnellerhandvatsel beheer enjinkrag en word gebruik om die motorfiets se spoed te verhoog."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisetyenziselwa ukwandisa amandla enjini nesantya?",
+          "options": [
+            "Ithrottle",
+            "Ilever yebrake yangaphambili",
+            "Iswitshi yezalathisi"
+          ],
+          "explanation": "Ithrottle ilawula amandla enjini kwaye isetyenziselwa ukwandisa isantya sesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-a"
+    }
+  ]
+}
