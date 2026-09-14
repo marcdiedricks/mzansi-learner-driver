@@ -317,3 +317,18 @@ Reserved for later evidence review:
 ### Translation control
 English is the source-master meaning.
 Afrikaans and isiXhosa learner text is present for functional testing but remains LANGUAGE_QA_PENDING until competent human review.
+
+
+### SRC-012 — NaTIS / Department of Transport: K53 Light Motor Vehicle Practical Test Manuals
+**Authority:** National Department of Transport / NaTIS  
+**Purpose:** Supporting practical-road-use context for Code 2 learner confidence, especially observation, signalling, stopping, parking, and control awareness.  
+**Reference pages:** Official K53 Light Motor Vehicle Part 1 and Part 2 (Code B) on NaTIS.  
+**Status:** SUPPORTING PRACTICAL-CONTEXT SOURCE  
+**Control note:** Do not turn detailed practical driving manoeuvre procedures into learner-test questions unless the same knowledge is also supported by the Rules / Signs / Controls learner manuals. Use this source to connect theory to safe road-use awareness and future practical-test context.
+
+### SRC-013 — NaTIS / Department of Transport: K53 Motorcycle Practical Test Manuals
+**Authority:** National Department of Transport / NaTIS  
+**Purpose:** Supporting practical-road-use context for Code 1 learner confidence, including observation, signalling, motorcycle controls and safe road-use awareness.  
+**Reference pages:** Official K53 Motorcycle Part 1 and Part 2 on NaTIS.  
+**Status:** SUPPORTING PRACTICAL-CONTEXT SOURCE  
+**Control note:** Do not turn detailed riding manoeuvre procedures into learner-test questions unless the same knowledge is also supported by the learner manuals. Use for orientation and practical-awareness context only.
