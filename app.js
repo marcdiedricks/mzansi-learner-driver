@@ -356,7 +356,7 @@ async function loadQuestions() {
     return res.json();
   }));
   state.questions = packs.flatMap(pack => pack.items || []);
-  if (state.questions.length !== 166) throw new Error("Expected 166 completion questions");
+  if (state.questions.length !== 170) throw new Error("Expected 170 completion questions");
   if (!eligibleQuestions().length) throw new Error("No Code 2 pilot questions available");
 }
 function questionText(q) {
