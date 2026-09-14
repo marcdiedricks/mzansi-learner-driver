@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r1",
+  "pack_id": "signs-expansion-r2",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -668,6 +668,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r1"
+    },
+    {
+      "id": "signs-014",
+      "section": "signs",
+      "topic": "speed-limit-sign",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Speed limit sign R201",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Speed Limit sign tell you?",
+          "options": [
+            "The maximum speed permitted under that sign",
+            "The minimum speed you must travel",
+            "The recommended parking speed"
+          ],
+          "explanation": "A Speed Limit sign sets the maximum speed permitted while that restriction applies."
+        },
+        "af": {
+          "question": "Wat sê 'n Spoedgrens-teken vir jou?",
+          "options": [
+            "Die maksimum spoed wat onder daardie teken toegelaat word",
+            "Die minimum spoed waarteen jy moet ry",
+            "Die aanbevole parkeerspoed"
+          ],
+          "explanation": "'n Spoedgrens-teken bepaal die maksimum spoed wat toegelaat word terwyl daardie beperking geld."
+        },
+        "xh": {
+          "question": "Uphawu loMda weSantya lukuxelela ntoni?",
+          "options": [
+            "Esona santya siphezulu sivumelekileyo phantsi kolo phawu",
+            "Esona santya sisezantsi omele uhambe ngaso",
+            "Isantya esicetyiswayo sokupaka"
+          ],
+          "explanation": "Uphawu loMda weSantya lubeka esona santya siphezulu sivumelekileyo ngexesha olo thintelo lusebenza."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r2"
+    },
+    {
+      "id": "signs-015",
+      "section": "signs",
+      "topic": "parking-prohibited-sign",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Parking prohibited sign R216",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Parking Prohibited sign mean?",
+          "options": [
+            "You may not park where the restriction applies",
+            "You must stop and switch off the engine",
+            "You may park only on the sidewalk"
+          ],
+          "explanation": "A Parking Prohibited sign means parking is not allowed where the restriction applies."
+        },
+        "af": {
+          "question": "Wat beteken 'n Parkering Verbode-teken?",
+          "options": [
+            "Jy mag nie parkeer waar die beperking geld nie",
+            "Jy moet stop en die enjin afskakel",
+            "Jy mag net op die sypaadjie parkeer"
+          ],
+          "explanation": "'n Parkering Verbode-teken beteken dat parkering nie toegelaat word waar die beperking geld nie."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Ukupaka Akuvumelekanga?",
+          "options": [
+            "Akufanele upake apho olo thintelo lusebenza khona",
+            "Kufuneka ume uze ucime injini",
+            "Ungapaka kuphela kwindlela yabahambi ngeenyawo"
+          ],
+          "explanation": "Uphawu oluthi Ukupaka Akuvumelekanga luthetha ukuba ukupaka akuvumelekanga apho olo thintelo lusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r2"
+    },
+    {
+      "id": "signs-016",
+      "section": "signs",
+      "topic": "stopping-prohibited-sign",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Stopping prohibited sign R217",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Stopping Prohibited sign mean?",
+          "options": [
+            "You may not stop where the restriction applies",
+            "You may stop briefly but not park",
+            "You must stop before passing the sign"
+          ],
+          "explanation": "A Stopping Prohibited sign means stopping is not allowed where the restriction applies, except where the law provides an unavoidable exception."
+        },
+        "af": {
+          "question": "Wat beteken 'n Stop Verbode-teken?",
+          "options": [
+            "Jy mag nie stop waar die beperking geld nie",
+            "Jy mag kortliks stop maar nie parkeer nie",
+            "Jy moet stop voordat jy die teken verbygaan"
+          ],
+          "explanation": "'n Stop Verbode-teken beteken dat stop nie toegelaat word waar die beperking geld nie, behalwe waar die wet 'n onvermydelike uitsondering toelaat."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Ukuma Akuvumelekanga?",
+          "options": [
+            "Akufanele ume apho olo thintelo lusebenza khona",
+            "Ungema ixesha elifutshane kodwa ungapaki",
+            "Kufuneka ume phambi kokudlula uphawu"
+          ],
+          "explanation": "Uphawu oluthi Ukuma Akuvumelekanga luthetha ukuba ukuma akuvumelekanga apho olo thintelo lusebenza khona, ngaphandle kweemeko ezingaphephekiyo ezivunyelwa ngumthetho."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r2"
     }
   ]
 }
