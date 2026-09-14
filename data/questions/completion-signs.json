@@ -1,0 +1,2046 @@
+{
+  "pack_id": "signs-content-completion-1",
+  "status": "CONTENT_QA",
+  "items": [
+    {
+      "id": "signs-035",
+      "section": "signs",
+      "topic": "traffic-circle-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic circle W201/TW201",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Traffic Circle warning sign tell you?",
+          "options": [
+            "A traffic circle is ahead; slow down and prepare to yield if required",
+            "A freeway begins ahead",
+            "Parking is compulsory"
+          ],
+          "explanation": "The warning sign tells you a traffic circle is ahead and you should approach at a safe speed while checking the applicable yield signs and markings."
+        },
+        "af": {
+          "question": "Wat sê 'n Verkeersirkel-waarskuwingsteken vir jou?",
+          "options": [
+            "'n Verkeersirkel is voor; verminder spoed en wees gereed om voorrang te gee indien nodig",
+            "'n Snelweg begin voor",
+            "Parkering is verpligtend"
+          ],
+          "explanation": "Die teken waarsku dat 'n verkeersirkel voorlê en dat jy teen 'n veilige spoed moet nader en op toepaslike tekens en merke moet let."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa ngesangqa sezithuthi lukuxelela ntoni?",
+          "options": [
+            "Kukho isangqa sezithuthi ngaphambili; cotha uze ulungele ukunika indlela xa kufuneka",
+            "Kukho uhola wendlela oqala ngaphambili",
+            "Ukupaka kunyanzelekile"
+          ],
+          "explanation": "Olu phawu lumkisa ngesangqa sezithuthi kwaye kufuneka usondele ngesantya esikhuselekileyo ujonge imiqondiso nemigca yokunika indlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-036",
+      "section": "signs",
+      "topic": "sharp-curve-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Sharp curve W204/W205",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when you see a Sharp Curve warning sign?",
+          "options": [
+            "Slow down enough to take the curve safely",
+            "Accelerate before the curve",
+            "Stop in the traffic lane"
+          ],
+          "explanation": "A sharp curve warning means you should reduce speed so you can negotiate the curve safely or stop within the distance you can see."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n Skerp Draai-waarskuwingsteken sien?",
+          "options": [
+            "Verminder spoed genoeg om die draai veilig te neem",
+            "Versnel voor die draai",
+            "Stop in die verkeersbaan"
+          ],
+          "explanation": "Die teken beteken jy moet spoed verminder sodat jy die draai veilig kan neem of binne jou sigafstand kan stop."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa ubona uphawu olulumkisa ngejika elibukhali?",
+          "options": [
+            "Cotha ngokwaneleyo ukuze ujike ngokukhuselekileyo",
+            "Khawulezisa ngaphambi kwejika",
+            "Yima kumzila wezithuthi"
+          ],
+          "explanation": "Uphawu luthetha ukuba kufuneka unciphise isantya ukuze ujike ngokukhuselekileyo okanye ume kumgama owubonayo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-037",
+      "section": "signs",
+      "topic": "hairpin-bend-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Hairpin bend W206/W207",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Hairpin Bend warning sign indicate?",
+          "options": [
+            "A very sharp U-shaped bend is ahead",
+            "The road becomes one-way",
+            "A railway station is ahead"
+          ],
+          "explanation": "The sign warns of a very sharp U-shaped bend, so you should slow down before reaching it."
+        },
+        "af": {
+          "question": "Wat dui 'n Haarnaalddraai-waarskuwingsteken aan?",
+          "options": [
+            "'n Baie skerp U-vormige draai is voor",
+            "Die pad word eenrigting",
+            "'n Spoorwegstasie is voor"
+          ],
+          "explanation": "Die teken waarsku teen 'n baie skerp U-vormige draai en jy moet betyds spoed verminder."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu olulumkisa ngejika elibukhali elingu-U?",
+          "options": [
+            "Kukho ijika elibukhali kakhulu elingu-U ngaphambili",
+            "Indlela iba yindlela enye",
+            "Kukho isikhululo sikaloliwe ngaphambili"
+          ],
+          "explanation": "Uphawu lumkisa ngejika elibukhali kakhulu elingu-U, ngoko kufuneka ucothe ngaphambi kokulifikelela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-038",
+      "section": "signs",
+      "topic": "winding-road-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Winding road W208/W209",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Winding Road warning sign tell you?",
+          "options": [
+            "A series of curves is ahead",
+            "The road ends immediately",
+            "Only buses may continue"
+          ],
+          "explanation": "The sign warns that several curves follow, so reduce speed and be prepared for changing direction."
+        },
+        "af": {
+          "question": "Wat sê 'n Kronkelpad-waarskuwingsteken vir jou?",
+          "options": [
+            "'n Reeks draaie lê voor",
+            "Die pad eindig onmiddellik",
+            "Slegs busse mag voortgaan"
+          ],
+          "explanation": "Die teken waarsku dat verskeie draaie volg, dus moet jy spoed verminder en gereed wees vir veranderende rigting."
+        },
+        "xh": {
+          "question": "Uphawu lwendlela ejikajikayo lukuxelela ntoni?",
+          "options": [
+            "Kukho uthotho lweejika ngaphambili",
+            "Indlela iphela ngoko nangoko",
+            "Ziibhasi kuphela ezinokuqhubeka"
+          ],
+          "explanation": "Uphawu lumkisa ngothotho lweejika, ngoko kufuneka unciphise isantya uze ulungele utshintsho lwendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-039",
+      "section": "signs",
+      "topic": "two-way-traffic-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Two-way traffic W212",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Two-Way Traffic warning sign mean?",
+          "options": [
+            "Traffic ahead moves in both directions",
+            "All traffic moves in your direction only",
+            "The road is closed"
+          ],
+          "explanation": "The sign warns that you are approaching a section where traffic moves in both directions."
+        },
+        "af": {
+          "question": "Wat beteken 'n Tweerigtingverkeer-waarskuwingsteken?",
+          "options": [
+            "Verkeer vorentoe beweeg in albei rigtings",
+            "Alle verkeer beweeg net in jou rigting",
+            "Die pad is gesluit"
+          ],
+          "explanation": "Die teken waarsku dat jy 'n gedeelte nader waar verkeer in albei rigtings beweeg."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu olulumkisa ngezithuthi ezihamba macala omabini?",
+          "options": [
+            "Izithuthi ezingaphambili zihamba kumacala omabini",
+            "Zonke izithuthi zihamba kwicala lakho kuphela",
+            "Indlela ivaliwe"
+          ],
+          "explanation": "Uphawu lumkisa ukuba usondela kwindawo apho izithuthi zihamba macala omabini."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-040",
+      "section": "signs",
+      "topic": "lane-ends-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Lane ends W214/W215",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you expect after a Lane Ends warning sign?",
+          "options": [
+            "A traffic lane will end and vehicles may need to merge",
+            "The road becomes a parking area",
+            "A pedestrian-only zone begins"
+          ],
+          "explanation": "The sign warns that a lane ends ahead, so be ready for merging traffic and adjust safely."
+        },
+        "af": {
+          "question": "Wat moet jy verwag ná 'n Baan Eindig-waarskuwingsteken?",
+          "options": [
+            "'n Verkeersbaan eindig en voertuie sal moontlik moet invoeg",
+            "Die pad word 'n parkeergebied",
+            "'n Slegs-voetgangersgebied begin"
+          ],
+          "explanation": "Die teken waarsku dat 'n baan voor eindig; wees dus gereed vir verkeer wat moet invoeg."
+        },
+        "xh": {
+          "question": "Kufuneka ulindele ntoni emva kophawu oluthi umzila uyaphela?",
+          "options": [
+            "Umzila wezithuthi uyaphela kwaye izithuthi zinokudinga ukudibana",
+            "Indlela iba yindawo yokupaka",
+            "Kuqala indawo yabahambi ngeenyawo kuphela"
+          ],
+          "explanation": "Uphawu lumkisa ukuba umzila uyaphela ngaphambili, ngoko lungela izithuthi ezidibanayo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-041",
+      "section": "signs",
+      "topic": "traffic-signal-ahead",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic signal ahead W301",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Traffic Signal Ahead warning sign tell you?",
+          "options": [
+            "Traffic lights are ahead",
+            "A stop sign has been removed",
+            "The road has no intersections"
+          ],
+          "explanation": "The sign warns that traffic signals control the road ahead, so approach ready to obey them."
+        },
+        "af": {
+          "question": "Wat sê 'n Verkeersligte Voor-waarskuwingsteken?",
+          "options": [
+            "Daar is verkeersligte voor",
+            "'n Stopteken is verwyder",
+            "Die pad het geen kruisings nie"
+          ],
+          "explanation": "Die teken waarsku dat verkeersligte die pad vorentoe beheer; nader dus gereed om hulle te gehoorsaam."
+        },
+        "xh": {
+          "question": "Uphawu oluthi iirobhothi zingaphambili lukuxelela ntoni?",
+          "options": [
+            "Kukho iirobhothi ngaphambili",
+            "Uphawu lokuma lususiwe",
+            "Indlela ayinaziphambuka"
+          ],
+          "explanation": "Uphawu lumkisa ukuba iirobhothi zilawula indlela ngaphambili, ngoko sondela ulungele ukuzithobela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-042",
+      "section": "signs",
+      "topic": "stop-ahead-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic control STOP ahead W302",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you prepare to do when you see a STOP Ahead warning sign?",
+          "options": [
+            "Slow down and be ready to stop at the stop control ahead",
+            "Accelerate through the next intersection",
+            "Ignore the next stop sign"
+          ],
+          "explanation": "The sign warns that a stop control is ahead and may not be visible early enough without warning."
+        },
+        "af": {
+          "question": "Wat moet jy voorberei om te doen wanneer jy 'n STOP Voor-waarskuwingsteken sien?",
+          "options": [
+            "Verminder spoed en wees gereed om by die stopbeheer voor te stop",
+            "Versnel deur die volgende kruising",
+            "Ignoreer die volgende stopteken"
+          ],
+          "explanation": "Die teken waarsku dat 'n stopbeheer voorlê en moontlik nie betyds sigbaar is sonder waarskuwing nie."
+        },
+        "xh": {
+          "question": "Kufuneka ulungiselele ukwenza ntoni xa ubona uphawu olulumkisa nge-STOP ngaphambili?",
+          "options": [
+            "Cotha uze ulungele ukuma kulawulo lokuma olungaphambili",
+            "Khawulezisa kwisiphambuka esilandelayo",
+            "Ungasihoyi isiphawuli sokuma esilandelayo"
+          ],
+          "explanation": "Uphawu lumkisa ukuba kukho ulawulo lokuma ngaphambili olunokungabonakali kwangethuba."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-043",
+      "section": "signs",
+      "topic": "yield-ahead-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic control YIELD ahead W303/TW303",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when you see a YIELD Ahead warning sign?",
+          "options": [
+            "Slow down and be ready to stop if necessary",
+            "Speed up to enter first",
+            "Stop immediately where the warning sign stands"
+          ],
+          "explanation": "The sign warns that a yield control is ahead; slow down and be ready to stop if necessary."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n GEE PAD Voor-waarskuwingsteken sien?",
+          "options": [
+            "Verminder spoed en wees gereed om te stop indien nodig",
+            "Versnel om eerste in te gaan",
+            "Stop onmiddellik by die waarskuwingsteken"
+          ],
+          "explanation": "Die teken waarsku dat 'n gee-padbeheer voorlê; verminder spoed en wees gereed om te stop indien nodig."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa ubona uphawu olulumkisa nge-YIELD ngaphambili?",
+          "options": [
+            "Cotha uze ulungele ukuma xa kufuneka",
+            "Khawulezisa ukuze ungene kuqala",
+            "Yima ngoko nangoko apho uphawu lukhoyo"
+          ],
+          "explanation": "Uphawu lumkisa ukuba kukho ulawulo lokunika indlela ngaphambili; cotha uze ulungele ukuma xa kufuneka."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-044",
+      "section": "signs",
+      "topic": "traffic-control-ahead",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic control ahead TW304",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Traffic Control Ahead temporary warning sign mean?",
+          "options": [
+            "A traffic officer is controlling traffic ahead",
+            "The road is permanently closed",
+            "There are no traffic controls ahead"
+          ],
+          "explanation": "This temporary warning sign tells you a traffic officer is ahead controlling traffic; slow down and be ready to stop."
+        },
+        "af": {
+          "question": "Wat beteken 'n Tydelike Verkeersbeheer Voor-waarskuwingsteken?",
+          "options": [
+            "'n Verkeersbeampte beheer verkeer voor",
+            "Die pad is permanent gesluit",
+            "Daar is geen verkeersbeheer voor nie"
+          ],
+          "explanation": "Die teken sê dat 'n verkeersbeampte verkeer voor beheer; verminder spoed en wees gereed om te stop."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu lwethutyana olulumkisa ngolawulo lwezithuthi ngaphambili?",
+          "options": [
+            "Igosa lezendlela lilawula izithuthi ngaphambili",
+            "Indlela ivaliwe ngokusisigxina",
+            "Akukho lawulo lwezithuthi ngaphambili"
+          ],
+          "explanation": "Uphawu lukuxelela ukuba igosa lezendlela lilawula izithuthi ngaphambili; cotha uze ulungele ukuma."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-045",
+      "section": "signs",
+      "topic": "scholar-patrol-ahead",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Scholar patrol ahead TW305",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when approaching a Scholar Patrol Ahead sign?",
+          "options": [
+            "Slow down and watch for children and the patrol's stop sign",
+            "Overtake stopped vehicles quickly",
+            "Sound the horn continuously"
+          ],
+          "explanation": "The sign warns of a scholar patrol near a school; slow down and be ready to stop."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n Skolierpatrollie Voor-teken nader?",
+          "options": [
+            "Verminder spoed en kyk uit vir kinders en die patrollie se stopteken",
+            "Haal stilstaande voertuie vinnig verby",
+            "Toeter aanhoudend"
+          ],
+          "explanation": "Die teken waarsku teen 'n skolierpatrollie naby 'n skool; verminder spoed en wees gereed om te stop."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa usondela kuphawu olulumkisa ngepatroli yabafundi?",
+          "options": [
+            "Cotha ujonge abantwana kunye nophawu lokuma lwepatroli",
+            "Dlula ngokukhawuleza izithuthi ezimileyo",
+            "Sebenzisa ihorn rhoqo"
+          ],
+          "explanation": "Uphawu lumkisa ngepatroli yabafundi kufuphi nesikolo; cotha uze ulungele ukuma."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-046",
+      "section": "signs",
+      "topic": "pedestrian-crossing-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedestrian crossing W306/TW306",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What action is expected at a Pedestrian Crossing warning sign?",
+          "options": [
+            "Slow down and stop if a pedestrian is waiting to cross",
+            "Accelerate before pedestrians enter",
+            "Overtake vehicles stopped at the crossing"
+          ],
+          "explanation": "The sign warns of a marked pedestrian crossing ahead; slow down and stop for pedestrians waiting to cross."
+        },
+        "af": {
+          "question": "Watter optrede word by 'n Voetgangeroorgang-waarskuwingsteken verwag?",
+          "options": [
+            "Verminder spoed en stop as 'n voetganger wag om oor te steek",
+            "Versnel voordat voetgangers ingaan",
+            "Haal voertuie verby wat by die oorgang gestop het"
+          ],
+          "explanation": "Die teken waarsku teen 'n gemerkte voetgangeroorgang; verminder spoed en stop vir voetgangers wat wag."
+        },
+        "xh": {
+          "question": "Yintoni ekufuneka uyenze kuphawu olulumkisa ngendawo yokuwela abahambi ngeenyawo?",
+          "options": [
+            "Cotha uze ume ukuba kukho umhambi ngeenyawo olinde ukuwela",
+            "Khawulezisa ngaphambi kokuba abahambi bangene",
+            "Dlula izithuthi ezime kwindawo yokuwela"
+          ],
+          "explanation": "Uphawu lumkisa ngendawo yokuwela abahambi ngeenyawo; cotha uze ume kubantu abalinde ukuwela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-047",
+      "section": "signs",
+      "topic": "pedestrians-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedestrians W307/TW307",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Pedestrians warning sign mean?",
+          "options": [
+            "More pedestrians than usual may be using or crossing the road",
+            "Pedestrians are prohibited",
+            "Only pedestrians may use the road"
+          ],
+          "explanation": "The sign warns that pedestrians may be present or crossing more frequently than usual."
+        },
+        "af": {
+          "question": "Wat beteken 'n Voetgangers-waarskuwingsteken?",
+          "options": [
+            "Meer voetgangers as gewoonlik kan die pad gebruik of oorsteek",
+            "Voetgangers is verbode",
+            "Slegs voetgangers mag die pad gebruik"
+          ],
+          "explanation": "Die teken waarsku dat meer voetgangers as gewoonlik teenwoordig kan wees of die pad kan oorsteek."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu olulumkisa ngabahambi ngeenyawo?",
+          "options": [
+            "Kunokuba nabahambi ngeenyawo abaninzi kunesiqhelo besebenzisa okanye bewela indlela",
+            "Abahambi ngeenyawo abavumelekanga",
+            "Ngabahambi ngeenyawo kuphela abanokusebenzisa indlela"
+          ],
+          "explanation": "Uphawu lumkisa ukuba abahambi ngeenyawo banokuba baninzi kunesiqhelo okanye bawela indlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-048",
+      "section": "signs",
+      "topic": "cyclists-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedal cyclists W309/TW309",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Pedal Cyclists warning sign tell you?",
+          "options": [
+            "Cyclists may be using or crossing the road ahead",
+            "Cyclists are prohibited",
+            "Only motorcycles may continue"
+          ],
+          "explanation": "The sign warns that cyclists may be ahead; slow down and look out for them."
+        },
+        "af": {
+          "question": "Wat sê 'n Trapfietsryers-waarskuwingsteken vir jou?",
+          "options": [
+            "Fietsryers kan die pad voor gebruik of oorsteek",
+            "Fietsryers is verbode",
+            "Slegs motorfietse mag voortgaan"
+          ],
+          "explanation": "Die teken waarsku dat fietsryers voor kan wees; verminder spoed en kyk uit vir hulle."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa ngabakhweli beebhayisekile lukuxelela ntoni?",
+          "options": [
+            "Abakhweli beebhayisekile banokusebenzisa okanye bawela indlela ngaphambili",
+            "Iibhayisekile azivumelekanga",
+            "Ziithuthuthu kuphela ezinokuqhubeka"
+          ],
+          "explanation": "Uphawu lumkisa ukuba abakhweli beebhayisekile banokuba ngaphambili; cotha ujonge kubo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-049",
+      "section": "signs",
+      "topic": "farm-animals-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Domestic/Farm animals W310/W311/W312",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you expect after a Farm Animals warning sign?",
+          "options": [
+            "Free-ranging animals may be on or near the road",
+            "A zoo entrance only",
+            "Animals are prohibited from the area"
+          ],
+          "explanation": "The sign warns that farm animals such as cattle, horses or sheep may be on the road."
+        },
+        "af": {
+          "question": "Wat moet jy verwag ná 'n Plaasdiere-waarskuwingsteken?",
+          "options": [
+            "Vrylopende diere kan op of naby die pad wees",
+            "Slegs 'n dieretuin-ingang",
+            "Diere is uit die gebied verbied"
+          ],
+          "explanation": "Die teken waarsku dat plaasdiere soos beeste, perde of skape op die pad kan wees."
+        },
+        "xh": {
+          "question": "Kufuneka ulindele ntoni emva kophawu olulumkisa ngezilwanyana zasefama?",
+          "options": [
+            "Izilwanyana ezihamba ngokukhululekileyo zinokuba sendleleni okanye kufuphi nayo",
+            "Kuphela indawo yokungena kwizoo",
+            "Izilwanyana azivumelekanga kule ndawo"
+          ],
+          "explanation": "Uphawu lumkisa ukuba izilwanyana zasefama ezifana neenkomo, amahashe okanye iigusha zinokuba sendleleni."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-050",
+      "section": "signs",
+      "topic": "wild-animals-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Wild animals W313/TW313",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Wild Animals warning sign mean?",
+          "options": [
+            "Wild animals may be on or crossing the road",
+            "The road is inside a town centre",
+            "Only animal-drawn vehicles may proceed"
+          ],
+          "explanation": "The sign warns that wild animals may be on the road or crossing it."
+        },
+        "af": {
+          "question": "Wat beteken 'n Wilde Diere-waarskuwingsteken?",
+          "options": [
+            "Wilde diere kan op die pad wees of dit oorsteek",
+            "Die pad is in 'n middestad",
+            "Slegs dieregetrekte voertuie mag voortgaan"
+          ],
+          "explanation": "Die teken waarsku dat wilde diere op die pad kan wees of dit kan oorsteek."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu olulumkisa ngezilwanyana zasendle?",
+          "options": [
+            "Izilwanyana zasendle zinokuba sendleleni okanye ziyiwela",
+            "Indlela iphakathi edolophini",
+            "Ziinqwelo ezitsalwa zizilwanyana kuphela ezinokuqhubeka"
+          ],
+          "explanation": "Uphawu lumkisa ukuba izilwanyana zasendle zinokuba sendleleni okanye ziyiwela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-051",
+      "section": "signs",
+      "topic": "gate-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Gate W314/TW314",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you be ready for when you see a Gate warning sign?",
+          "options": [
+            "A gate or boom may be across the road ahead",
+            "The road becomes a freeway",
+            "A petrol station is ahead"
+          ],
+          "explanation": "The sign warns that a gate or boom may be across the road, so slow down and be prepared to stop."
+        },
+        "af": {
+          "question": "Waarvoor moet jy gereed wees wanneer jy 'n Hek-waarskuwingsteken sien?",
+          "options": [
+            "'n Hek of slagboom kan oor die pad voor wees",
+            "Die pad word 'n snelweg",
+            "'n Vulstasie is voor"
+          ],
+          "explanation": "Die teken waarsku dat 'n hek of slagboom oor die pad kan wees; verminder spoed en wees gereed om te stop."
+        },
+        "xh": {
+          "question": "Kufuneka ulungele ntoni xa ubona uphawu olulumkisa ngesango?",
+          "options": [
+            "Kunokuba nesango okanye i-boom evale indlela ngaphambili",
+            "Indlela iba nguhola wendlela",
+            "Kukho isikhululo samafutha ngaphambili"
+          ],
+          "explanation": "Uphawu lumkisa ukuba kunokuba nesango okanye i-boom ngaphambili, ngoko cotha uze ulungele ukuma."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-052",
+      "section": "signs",
+      "topic": "railway-crossing-warning-deeper",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Railway crossing W318/TW318",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "At a Railway Crossing warning sign, what should you check for?",
+          "options": [
+            "Trains approaching from either direction",
+            "Only vehicles behind you",
+            "A parking bay"
+          ],
+          "explanation": "The sign warns of a railway crossing; slow down and look both ways for approaching trains."
+        },
+        "af": {
+          "question": "Waarvoor moet jy by 'n Spoorwegoorgang-waarskuwingsteken kyk?",
+          "options": [
+            "Treine wat uit enige rigting nader",
+            "Slegs voertuie agter jou",
+            "'n Parkeerplek"
+          ],
+          "explanation": "Die teken waarsku teen 'n spoorwegoorgang; verminder spoed en kyk na albei kante vir naderende treine."
+        },
+        "xh": {
+          "question": "Kufuneka ujonge ntoni kuphawu olulumkisa ngendawo yokuwela uloliwe?",
+          "options": [
+            "Oololiwe abasondela macala omabini",
+            "Izithuthi ezisemva kwakho kuphela",
+            "Indawo yokupaka"
+          ],
+          "explanation": "Uphawu lumkisa ngendawo yokuwela uloliwe; cotha uze ujonge macala omabini oololiwe abasondelayo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-053",
+      "section": "signs",
+      "topic": "tunnel-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Tunnel W319",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What action does the learner manual associate with a Tunnel warning sign?",
+          "options": [
+            "Slow down and switch the headlights to dipped beam",
+            "Accelerate and use main beam",
+            "Stop inside the tunnel"
+          ],
+          "explanation": "The sign warns of a tunnel ahead; the manual says to slow down and use dipped headlights."
+        },
+        "af": {
+          "question": "Watter optrede koppel die leerderhandleiding aan 'n Tonnel-waarskuwingsteken?",
+          "options": [
+            "Verminder spoed en skakel die hoofligte op dimlig",
+            "Versnel en gebruik helder straal",
+            "Stop binne die tonnel"
+          ],
+          "explanation": "Die teken waarsku teen 'n tonnel; die handleiding sê jy moet spoed verminder en dimligte gebruik."
+        },
+        "xh": {
+          "question": "Yintoni incwadi yomfundi ethi uyenze xa ubona uphawu olulumkisa ngetonela?",
+          "options": [
+            "Cotha uze usebenzise izibane ezisezantsi",
+            "Khawulezisa usebenzise i-main beam",
+            "Yima ngaphakathi kwetonela"
+          ],
+          "explanation": "Uphawu lumkisa ngetonela; incwadi ithi cotha uze usebenzise izibane ezisezantsi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-054",
+      "section": "signs",
+      "topic": "steep-gradient-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Steep ascent/descent W322/W323",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Steep Descent warning sign tell you?",
+          "options": [
+            "The road descends steeply and stopping distance may increase",
+            "The road is level",
+            "The road is for pedestrians only"
+          ],
+          "explanation": "The sign warns of a steep gradient; on a descent be aware that stopping distance can be longer."
+        },
+        "af": {
+          "question": "Wat sê 'n Steil Afdraand-waarskuwingsteken vir jou?",
+          "options": [
+            "Die pad daal steil en stopafstand kan langer wees",
+            "Die pad is gelyk",
+            "Die pad is slegs vir voetgangers"
+          ],
+          "explanation": "Die teken waarsku teen 'n steil helling; op 'n afdraand kan stopafstand langer wees."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa ngokuhla kakhulu lukuxelela ntoni?",
+          "options": [
+            "Indlela yehla kakhulu kwaye umgama wokuma unokuba mde",
+            "Indlela ithe tyaba",
+            "Indlela yeyabahambi ngeenyawo kuphela"
+          ],
+          "explanation": "Uphawu lumkisa ngomthambeka omkhulu; xa usihla umgama wokuma unokwanda."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-055",
+      "section": "signs",
+      "topic": "narrow-bridge-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Narrow bridge W326",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Narrow Bridge warning sign tell you?",
+          "options": [
+            "The road crosses a bridge with restricted width",
+            "A wide parking area is ahead",
+            "The road becomes one-way permanently"
+          ],
+          "explanation": "The sign warns that the bridge ahead is narrower than the normal roadway."
+        },
+        "af": {
+          "question": "Wat sê 'n Smal Brug-waarskuwingsteken vir jou?",
+          "options": [
+            "Die pad gaan oor 'n brug met beperkte breedte",
+            "'n Wye parkeergebied is voor",
+            "Die pad word permanent eenrigting"
+          ],
+          "explanation": "Die teken waarsku dat die brug voor smaller is as die gewone rybaan."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa ngebhulorho emxinwa lukuxelela ntoni?",
+          "options": [
+            "Indlela idlula kwibhulorho enobubanzi obuncinci",
+            "Kukho indawo yokupaka ebanzi ngaphambili",
+            "Indlela iba yindlela enye ngokusisigxina"
+          ],
+          "explanation": "Uphawu lumkisa ukuba ibhulorho engaphambili imxinwa kunendlela eqhelekileyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-056",
+      "section": "signs",
+      "topic": "road-narrows-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Road narrows W328/W329/W330",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you expect after a Road Narrows warning sign?",
+          "options": [
+            "The usable roadway becomes narrower ahead",
+            "The road becomes wider",
+            "A toll plaza is compulsory"
+          ],
+          "explanation": "The warning tells you the roadway narrows, so be alert to reduced space."
+        },
+        "af": {
+          "question": "Wat moet jy verwag ná 'n Pad Vernou-waarskuwingsteken?",
+          "options": [
+            "Die bruikbare rybaan word smaller voor",
+            "Die pad word wyer",
+            "'n Tolhek is verpligtend"
+          ],
+          "explanation": "Die teken waarsku dat die rybaan voor vernou; wees gereed vir minder ruimte."
+        },
+        "xh": {
+          "question": "Kufuneka ulindele ntoni emva kophawu oluthi indlela iyancipha?",
+          "options": [
+            "Indlela esetyenziswayo iya iba mxinwa ngaphambili",
+            "Indlela iya iba banzi",
+            "Kufuneka kubekho i-toll plaza"
+          ],
+          "explanation": "Uphawu lumkisa ukuba indlela iya iba mxinwa, ngoko qaphela indawo encinci."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-057",
+      "section": "signs",
+      "topic": "uneven-road-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Uneven roadway W331",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does an Uneven Roadway warning sign mean?",
+          "options": [
+            "The road surface ahead is uneven",
+            "The road surface is guaranteed smooth",
+            "Only bicycles may continue"
+          ],
+          "explanation": "The sign warns of an uneven road surface ahead, so reduce speed and keep control."
+        },
+        "af": {
+          "question": "Wat beteken 'n Ongelyke Padoppervlak-waarskuwingsteken?",
+          "options": [
+            "Die padoppervlak voor is ongelyk",
+            "Die padoppervlak is beslis glad",
+            "Slegs fietse mag voortgaan"
+          ],
+          "explanation": "Die teken waarsku teen 'n ongelyke padoppervlak; verminder spoed en behou beheer."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu olulumkisa ngendlela engalinganiyo?",
+          "options": [
+            "Umphezulu wendlela engaphambili awulingani",
+            "Umphezulu wendlela uqinisekisiwe ukuba ugudile",
+            "Ziibhayisekile kuphela ezinokuqhubeka"
+          ],
+          "explanation": "Uphawu lumkisa ngomhlaba wendlela ongalinganiyo; cotha uze ugcine ulawulo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-058",
+      "section": "signs",
+      "topic": "speed-humps-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Speed humps W332",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Speed Humps warning sign tell you?",
+          "options": [
+            "Speed humps are ahead; reduce speed",
+            "The speed limit is removed",
+            "A freeway starts"
+          ],
+          "explanation": "The sign warns of speed humps ahead and you should approach them at a reduced speed."
+        },
+        "af": {
+          "question": "Wat sê 'n Spoedhobbels-waarskuwingsteken vir jou?",
+          "options": [
+            "Daar is spoedhobbels voor; verminder spoed",
+            "Die spoedgrens is opgehef",
+            "'n Snelweg begin"
+          ],
+          "explanation": "Die teken waarsku teen spoedhobbels; nader hulle teen 'n laer spoed."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa nge-speed humps lukuxelela ntoni?",
+          "options": [
+            "Kukho i-speed humps ngaphambili; cotha",
+            "Umda wesantya ususiwe",
+            "Kuqala uhola wendlela"
+          ],
+          "explanation": "Uphawu lumkisa nge-speed humps; sondela ngesantya esisezantsi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-059",
+      "section": "signs",
+      "topic": "slippery-road-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Slippery road W333",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Slippery Road warning sign mean?",
+          "options": [
+            "The road surface may offer reduced grip",
+            "The road is closed to cars",
+            "The road is always dry"
+          ],
+          "explanation": "The sign warns that the road may be slippery; reduce speed and avoid sudden movements."
+        },
+        "af": {
+          "question": "Wat beteken 'n Glibberige Pad-waarskuwingsteken?",
+          "options": [
+            "Die padoppervlak kan minder greep hê",
+            "Die pad is vir motors gesluit",
+            "Die pad is altyd droog"
+          ],
+          "explanation": "Die teken waarsku dat die pad glibberig kan wees; verminder spoed en vermy skielike bewegings."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu olulumkisa ngendlela etyibilikayo?",
+          "options": [
+            "Umphezulu wendlela unokuba nokubambelela okuncinci",
+            "Indlela ivaliwe kwiimoto",
+            "Indlela ihlala yomile"
+          ],
+          "explanation": "Uphawu lumkisa ukuba indlela inokuba tyibilika; cotha kwaye uphephe iintshukumo ngequbuliso."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-060",
+      "section": "signs",
+      "topic": "roadworks-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Roadworks TW336",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Roadworks temporary warning sign tell you?",
+          "options": [
+            "Road work is taking place ahead and conditions may change",
+            "The road is permanently closed",
+            "No workers will be present"
+          ],
+          "explanation": "The sign warns of roadworks ahead; slow down and follow temporary controls."
+        },
+        "af": {
+          "question": "Wat sê 'n Padwerke-tydelike waarskuwingsteken vir jou?",
+          "options": [
+            "Padwerk vind voor plaas en toestande kan verander",
+            "Die pad is permanent gesluit",
+            "Geen werkers sal teenwoordig wees nie"
+          ],
+          "explanation": "Die teken waarsku teen padwerke; verminder spoed en volg tydelike beheer."
+        },
+        "xh": {
+          "question": "Uphawu lwethutyana olulumkisa ngomsebenzi wendlela lukuxelela ntoni?",
+          "options": [
+            "Kukho umsebenzi wendlela ngaphambili kwaye iimeko zinokutshintsha",
+            "Indlela ivaliwe ngokusisigxina",
+            "Akukho basebenzi baza kubakho"
+          ],
+          "explanation": "Uphawu lumkisa ngomsebenzi wendlela; cotha uze ulandele ulawulo lwethutyana."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-061",
+      "section": "signs",
+      "topic": "no-crossing-marking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — No crossing line RM2",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a No Crossing line mean?",
+          "options": [
+            "Do not cross the line, except for the stated stationary-obstruction exception",
+            "Cross it whenever traffic is light",
+            "Use it as a parking line"
+          ],
+          "explanation": "A no-crossing line prohibits crossing it, except for the limited stationary vehicle or obstruction exception described in the manual."
+        },
+        "af": {
+          "question": "Wat beteken 'n Geen Oorsteek-lyn?",
+          "options": [
+            "Moenie die lyn oorsteek nie, behalwe vir die genoemde stilstaande-hindernisuitsondering",
+            "Steek dit oor wanneer verkeer lig is",
+            "Gebruik dit as 'n parkeerlyn"
+          ],
+          "explanation": "'n Geen-oorsteeklyn verbied die oorsteek daarvan, behalwe vir die beperkte uitsondering vir 'n stilstaande voertuig of hindernis."
+        },
+        "xh": {
+          "question": "Lithetha ntoni umgca othi Musa ukuwela?",
+          "options": [
+            "Musa ukuwela umgca, ngaphandle kwemeko ekhethekileyo yomqobo omileyo echaziweyo",
+            "Wuwele nanini na izithuthi zincinci",
+            "Wusebenzise njengomgca wokupaka"
+          ],
+          "explanation": "Lo mgca awuvumeli ukuwela, ngaphandle kwemeko encinci echaziweyo yemoto okanye umqobo omileyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-062",
+      "section": "signs",
+      "topic": "channelizing-line",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Channelizing line RM3",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Channelizing Line tell a driver?",
+          "options": [
+            "Do not cross the line",
+            "Overtake across it whenever safe",
+            "Stop on top of the line"
+          ],
+          "explanation": "A channelizing line directs traffic flow and prohibits crossing the line."
+        },
+        "af": {
+          "question": "Wat sê 'n Kanaliseringslyn vir 'n bestuurder?",
+          "options": [
+            "Moenie die lyn oorsteek nie",
+            "Haal daaroor verby wanneer dit veilig is",
+            "Stop bo-op die lyn"
+          ],
+          "explanation": "'n Kanaliseringslyn rig die verkeersvloei en verbied dat die lyn oorgesteek word."
+        },
+        "xh": {
+          "question": "Umgaqo wokwahlula izithuthi uxelela umqhubi ntoni?",
+          "options": [
+            "Musa ukuwela umgca",
+            "Dlula phezu kwawo nanini na kukhuselekile",
+            "Yima phezu komgca"
+          ],
+          "explanation": "Lo mgca ulawula ukuhamba kwezithuthi kwaye awuvumeli ukuwela kuwo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-063",
+      "section": "signs",
+      "topic": "painted-island-marking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Painted island RM5",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the purpose of a Painted Island road marking?",
+          "options": [
+            "To channelise traffic and mark an area vehicles should not normally enter",
+            "To mark a pedestrian waiting area only",
+            "To show a fuel station entrance"
+          ],
+          "explanation": "A painted island is a regulatory marking used to guide traffic around a marked area."
+        },
+        "af": {
+          "question": "Wat is die doel van 'n Geverfde Eiland-padmerk?",
+          "options": [
+            "Om verkeer te kanaliseer en 'n gebied te merk wat voertuie normaalweg nie moet binnegaan nie",
+            "Om slegs 'n voetgangerwaggebied te merk",
+            "Om 'n vulstasie-ingang te wys"
+          ],
+          "explanation": "'n Geverfde eiland is 'n regulerende merk wat verkeer om 'n gemerkte gebied lei."
+        },
+        "xh": {
+          "question": "Yintoni injongo yendawo epeyintiweyo efana nesiqithi endleleni?",
+          "options": [
+            "Ukukhokela izithuthi nokuphawula indawo ezingafanele kungena kuyo ngesiqhelo",
+            "Ukuphawula indawo yabahambi ngeenyawo kuphela",
+            "Ukubonisa indawo yokungena kwisikhululo samafutha"
+          ],
+          "explanation": "Le ndawo epeyintiweyo isetyenziswa ukwalathisa izithuthi zijikeleze indawo ephawulweyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-064",
+      "section": "signs",
+      "topic": "mandatory-direction-arrow-marking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Mandatory direction arrow RM8",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do where a Mandatory Direction Arrow is painted in your lane?",
+          "options": [
+            "Follow the direction indicated by the arrow",
+            "Choose any direction you prefer",
+            "Reverse in the lane"
+          ],
+          "explanation": "A mandatory direction arrow is a regulatory marking that requires traffic in the lane to follow the shown direction."
+        },
+        "af": {
+          "question": "Wat moet jy doen waar 'n Verpligte Rigtingpyl in jou baan geverf is?",
+          "options": [
+            "Volg die rigting wat die pyl aandui",
+            "Kies enige rigting wat jy verkies",
+            "Ry agteruit in die baan"
+          ],
+          "explanation": "'n Verpligte rigtingpyl vereis dat verkeer in die baan die aangeduide rigting volg."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa kukho utolo olunyanzelisayo olupeyintiweyo kumzila wakho?",
+          "options": [
+            "Landela icala eliboniswe lutolo",
+            "Khetha naliphi na icala olifunayo",
+            "Buyela umva kumzila"
+          ],
+          "explanation": "Utolo olunyanzelisayo lufuna ukuba izithuthi ezikuloo mzila zilandele icala elibonisiweyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-065",
+      "section": "signs",
+      "topic": "box-junction-marking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Box junction RM10",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the safe rule at a Box Junction marking?",
+          "options": [
+            "Do not enter unless your exit is clear",
+            "Enter and stop inside the box if traffic queues",
+            "Use the box as a parking area"
+          ],
+          "explanation": "A box junction marking is intended to keep the junction clear; do not enter if you cannot clear it."
+        },
+        "af": {
+          "question": "Wat is die veilige reël by 'n Blokkruising-padmerk?",
+          "options": [
+            "Moenie ingaan tensy jou uitgang oop is nie",
+            "Ry in en stop binne die blok as verkeer ophoop",
+            "Gebruik die blok as parkeergebied"
+          ],
+          "explanation": "'n Blokkruisingmerk is bedoel om die kruising oop te hou; moenie ingaan as jy dit nie kan verlaat nie."
+        },
+        "xh": {
+          "question": "Ngowuphi umthetho okhuselekileyo kwindawo ye-box junction?",
+          "options": [
+            "Musa ukungena ngaphandle kokuba indawo yokuphuma icacile",
+            "Ngena uze ume ngaphakathi ukuba izithuthi zixinene",
+            "Sebenzisa ibhokisi njengendawo yokupaka"
+          ],
+          "explanation": "I-box junction yenzelwe ukugcina isiphambuka sivulekile; musa ukungena ukuba awukwazi ukuphuma."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-066",
+      "section": "signs",
+      "topic": "no-stopping-line-marking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — No stopping line RM12",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a No Stopping line marking mean?",
+          "options": [
+            "Stopping is prohibited along the marked section",
+            "Parking is compulsory",
+            "Only motorcycles may stop"
+          ],
+          "explanation": "The regulatory marking indicates a section where stopping is prohibited."
+        },
+        "af": {
+          "question": "Wat beteken 'n Geen Stop-lynmerk?",
+          "options": [
+            "Stop is verbode langs die gemerkte gedeelte",
+            "Parkering is verpligtend",
+            "Slegs motorfietse mag stop"
+          ],
+          "explanation": "Die regulerende merk dui 'n gedeelte aan waar stop verbode is."
+        },
+        "xh": {
+          "question": "Lithetha ntoni umgca othi Musa ukuma?",
+          "options": [
+            "Ukuma akuvumelekanga kwindawo ephawuliweyo",
+            "Ukupaka kunyanzelekile",
+            "Ziithuthuthu kuphela ezinokuma"
+          ],
+          "explanation": "Lo mqondiso wendlela ubonisa indawo apho ukuma kungavumelekanga."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-067",
+      "section": "signs",
+      "topic": "no-parking-line-marking",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — No parking line RM13",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a No Parking line marking mean?",
+          "options": [
+            "Parking is prohibited along the marked section",
+            "Stopping and parking are always required",
+            "The lane is reserved for bicycles"
+          ],
+          "explanation": "The marking indicates a section where parking is prohibited."
+        },
+        "af": {
+          "question": "Wat beteken 'n Geen Parkering-lynmerk?",
+          "options": [
+            "Parkering is verbode langs die gemerkte gedeelte",
+            "Stop en parkering is altyd verpligtend",
+            "Die baan is vir fietse gereserveer"
+          ],
+          "explanation": "Die merk dui 'n gedeelte aan waar parkering verbode is."
+        },
+        "xh": {
+          "question": "Lithetha ntoni umgca othi Musa ukupaka?",
+          "options": [
+            "Ukupaka akuvumelekanga kwindawo ephawuliweyo",
+            "Ukuma nokupaka kusoloko kunyanzelekile",
+            "Umzila ugcinelwe iibhayisekile"
+          ],
+          "explanation": "Lo mgca ubonisa indawo apho ukupaka kungavumelekanga."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-068",
+      "section": "signs",
+      "topic": "red-traffic-signal",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Red traffic light",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must a driver do at a steady red traffic light?",
+          "options": [
+            "Stop",
+            "Proceed if no one is looking",
+            "Speed up through the intersection"
+          ],
+          "explanation": "A steady red traffic signal means stop."
+        },
+        "af": {
+          "question": "Wat moet 'n bestuurder by 'n vaste rooi verkeerslig doen?",
+          "options": [
+            "Stop",
+            "Ry voort as niemand kyk nie",
+            "Versnel deur die kruising"
+          ],
+          "explanation": "'n Vaste rooi verkeerslig beteken stop."
+        },
+        "xh": {
+          "question": "Kufuneka umqhubi enze ntoni kwirobhothi ebomvu engaguqukiyo?",
+          "options": [
+            "Yima",
+            "Qhubeka ukuba akukho mntu ujongayo",
+            "Khawulezisa kwisiphambuka"
+          ],
+          "explanation": "Irobhothi ebomvu engaguqukiyo ithetha ukuba kufuneka ume."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-069",
+      "section": "signs",
+      "topic": "amber-traffic-signal",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Amber traffic light",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a steady amber traffic light require?",
+          "options": [
+            "Stop, unless stopping cannot be done safely",
+            "Always accelerate through",
+            "Reverse away from the intersection"
+          ],
+          "explanation": "The manual says amber means stop, except where stopping cannot be done safely."
+        },
+        "af": {
+          "question": "Wat vereis 'n vaste oranje verkeerslig?",
+          "options": [
+            "Stop, tensy dit nie veilig gedoen kan word nie",
+            "Versnel altyd deur",
+            "Ry agteruit van die kruising af"
+          ],
+          "explanation": "Die handleiding sê oranje beteken stop, behalwe waar dit nie veilig gedoen kan word nie."
+        },
+        "xh": {
+          "question": "Ifuna ntoni irobhothi e-amber engaguqukiyo?",
+          "options": [
+            "Yima, ngaphandle kokuba akunakuma ngokukhuselekileyo",
+            "Khawulezisa rhoqo udlule",
+            "Buyela umva kwisiphambuka"
+          ],
+          "explanation": "Incwadi ithi i-amber ithetha yima, ngaphandle kokuba ukuma akunakwenziwa ngokukhuselekileyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-070",
+      "section": "signs",
+      "topic": "green-traffic-signal",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Green traffic light",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a steady green traffic light mean?",
+          "options": [
+            "Proceed if it is safe",
+            "Proceed regardless of pedestrians or traffic",
+            "Stop and wait for amber"
+          ],
+          "explanation": "Green allows you to proceed only when it is safe and subject to other lawful road users and controls."
+        },
+        "af": {
+          "question": "Wat beteken 'n vaste groen verkeerslig?",
+          "options": [
+            "Ry voort as dit veilig is",
+            "Ry voort ongeag voetgangers of verkeer",
+            "Stop en wag vir oranje"
+          ],
+          "explanation": "Groen laat jou toe om voort te ry wanneer dit veilig is en met inagneming van ander wettige padgebruikers en beheer."
+        },
+        "xh": {
+          "question": "Ithetha ntoni irobhothi eluhlaza engaguqukiyo?",
+          "options": [
+            "Qhubeka ukuba kukhuselekile",
+            "Qhubeka nokuba kukho abahambi ngeenyawo okanye izithuthi",
+            "Yima ulinde i-amber"
+          ],
+          "explanation": "Oluhlaza luvumela ukuhamba xa kukhuselekile kwaye kusathotyelwa abanye abasebenzisi bendlela kunye nolawulo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-071",
+      "section": "signs",
+      "topic": "flashing-red-signal",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Flashing red signal",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do at a flashing red traffic signal?",
+          "options": [
+            "Stop, then proceed only when it is safe",
+            "Treat it as a green light",
+            "Ignore it if traffic is light"
+          ],
+          "explanation": "A flashing red signal requires a stop, after which you may proceed when it is safe."
+        },
+        "af": {
+          "question": "Wat moet jy by 'n flikkerende rooi verkeerslig doen?",
+          "options": [
+            "Stop en ry eers voort wanneer dit veilig is",
+            "Behandel dit soos 'n groen lig",
+            "Ignoreer dit as verkeer lig is"
+          ],
+          "explanation": "'n Flikkerende rooi sein vereis dat jy stop en eers voortgaan wanneer dit veilig is."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kwirobhothi ebomvu edanyazayo?",
+          "options": [
+            "Yima, uze uqhubeke kuphela xa kukhuselekile",
+            "Yiphathe njengokukhanya okuluhlaza",
+            "Ungayihoyi xa izithuthi zincinci"
+          ],
+          "explanation": "Irobhothi ebomvu edanyazayo ifuna ukuba ume uze uqhubeke xa kukhuselekile."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-072",
+      "section": "signs",
+      "topic": "overhead-red-cross",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Overhead lane control steady red cross S17",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a steady red cross above a traffic lane mean?",
+          "options": [
+            "Do not drive in that lane",
+            "The lane is open to you",
+            "The lane is a parking bay"
+          ],
+          "explanation": "A steady red cross above a lane means vehicles must not use that lane."
+        },
+        "af": {
+          "question": "Wat beteken 'n vaste rooi kruis bo 'n verkeersbaan?",
+          "options": [
+            "Moenie in daardie baan ry nie",
+            "Die baan is oop vir jou",
+            "Die baan is 'n parkeerplek"
+          ],
+          "explanation": "'n Vaste rooi kruis bo 'n baan beteken voertuie mag nie daardie baan gebruik nie."
+        },
+        "xh": {
+          "question": "Ithetha ntoni ikros ebomvu engaguqukiyo ngaphezulu komzila?",
+          "options": [
+            "Musa ukuqhuba kuloo mzila",
+            "Umzila uvulekile kuwe",
+            "Umzila yindawo yokupaka"
+          ],
+          "explanation": "Ikros ebomvu engaguqukiyo ngaphezulu komzila ithetha ukuba izithuthi azivumelekanga kuloo mzila."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-073",
+      "section": "signs",
+      "topic": "guidance-sign-purpose",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5 — Guidance signs",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the main purpose of guidance signs?",
+          "options": [
+            "To help with navigation and give early direction to places and routes",
+            "To show only speed limits",
+            "To replace all road markings"
+          ],
+          "explanation": "Guidance signs help road users navigate by giving direction and advance information about destinations and routes."
+        },
+        "af": {
+          "question": "Wat is die hoofdoel van rigtingaanwysings?",
+          "options": [
+            "Om met navigasie te help en vroeë rigting na plekke en roetes te gee",
+            "Om slegs spoedgrense te wys",
+            "Om alle padmerke te vervang"
+          ],
+          "explanation": "Rigtingaanwysings help padgebruikers navigeer deur rigting en voorafinligting oor bestemmings en roetes te gee."
+        },
+        "xh": {
+          "question": "Yintoni eyona njongo yeempawu zokwalathisa?",
+          "options": [
+            "Ukunceda ekuhambeni nokunika ulwalathiso lwangaphambili kwiindawo neendlela",
+            "Ukubonisa kuphela imida yesantya",
+            "Ukutshintsha yonke imigca yendlela"
+          ],
+          "explanation": "Iimpawu zokwalathisa zinceda abasebenzisi bendlela bafumane indlela ngokunika ulwalathiso nolwazi lwangaphambili ngeendawo neendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-074",
+      "section": "signs",
+      "topic": "parking-guidance-sign",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5 — Guidance destination symbol GDS-20 Parking",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does the Parking guidance symbol help you find?",
+          "options": [
+            "A parking facility or parking area",
+            "A railway crossing",
+            "A no-entry zone"
+          ],
+          "explanation": "The parking guidance symbol is used to direct road users to parking."
+        },
+        "af": {
+          "question": "Wat help die Parkering-rigtingsimbool jou vind?",
+          "options": [
+            "'n Parkeerfasiliteit of parkeergebied",
+            "'n Spoorwegoorgang",
+            "'n Geen-toeganggebied"
+          ],
+          "explanation": "Die parkeringsimbool word gebruik om padgebruikers na parkering te lei."
+        },
+        "xh": {
+          "question": "Uphawu lokwalathisa lokupaka lukunceda ufumane ntoni?",
+          "options": [
+            "Indawo okanye isibonelelo sokupaka",
+            "Indawo yokuwela uloliwe",
+            "Indawo yokungangeni"
+          ],
+          "explanation": "Uphawu lokupaka lusetyenziswa ukwalathisa abasebenzisi bendlela kwindawo yokupaka."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    }
+  ]
+}
