@@ -1,4 +1,4 @@
-const CACHE="mzansi-learner-driver-v0.1e-b-01";
+const CACHE="mzansi-learner-driver-v0.1e-b-02";
 const ASSETS=["./","./index.html","./style.css","./i18n.js","./app.js","./manifest.json","./icons/mzansi-learner.svg","./icons/icon-192.png","./icons/icon-512.png","./data/questions/rules.json","./data/questions/signs.json","./data/questions/controls.json","./data/questions/motorcycle.json"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));self.skipWaiting();});
 self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();});
