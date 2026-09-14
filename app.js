@@ -631,12 +631,14 @@ function resetMockLanding() {
   document.getElementById("mockBox").innerHTML = "";
   startMockButton.classList.remove("hidden"); setStartMockLabel("startMock");
 }
-function renderMockQuestion(q, container, onDone, metaText) {
+function renderMockQuestion(q, container, onDone, metaText, continueLabel) {
   stopSpeech();
   const txt = questionText(q);
   const displayOptions = shuffleArray(txt.options.map((text, originalIndex) => ({text, originalIndex})));
   const speechTxt = {...txt, options: displayOptions.map(x => x.text)};
   const questionId = `mock-${q.id}-${Math.random().toString(36).slice(2,8)}`;
+  let selectedOriginalIndex = null;
+
   container.innerHTML = `
     <div class="question-card">
       <div class="question-meta">
@@ -649,11 +651,15 @@ function renderMockQuestion(q, container, onDone, metaText) {
         <span class="speech-status" role="status" aria-live="polite"></span>
       </div>
       <div id="answers" role="group" aria-labelledby="${questionId}"></div>
-      <div id="feedback" role="status" aria-live="polite"></div>
+      <p class="small">${tr("mockChangeBeforeNext")}</p>
+      <button id="mockContinue" class="next-btn" type="button" disabled>${continueLabel}</button>
     </div>`;
+
   const answers = container.querySelector("#answers");
+  const continueButton = container.querySelector("#mockContinue");
   const questionSpeechButton = container.querySelector(".question-speech-btn");
   const questionSpeechStatus = container.querySelector(".speech-status");
+
   questionSpeechButton.onclick = () => speakText(
     buildQuestionSpeech(speechTxt),
     questionSpeechButton,
@@ -668,15 +674,23 @@ function renderMockQuestion(q, container, onDone, metaText) {
     b.setAttribute("aria-pressed", "false");
     b.innerHTML = `<span class="option-letter">${String.fromCharCode(65 + displayIndex)}</span><span>${entry.text}</span>`;
     b.onclick = () => {
-      answers.querySelectorAll("button").forEach(x => x.classList.remove("selected"));
+      selectedOriginalIndex = entry.originalIndex;
+      answers.querySelectorAll("button").forEach(x => {
+        x.classList.remove("selected");
+        x.setAttribute("aria-pressed", "false");
+      });
       b.classList.add("selected");
       b.setAttribute("aria-pressed", "true");
-      answers.querySelectorAll("button").forEach(x => x.disabled = true);
-      container.querySelector("#feedback").innerHTML = `<div class="result-card status-info"><strong>${tr("answerRecorded")}</strong> ${tr("answerRecordedHelp")}</div>`;
-      onDone(entry.originalIndex === q.correct_index, q, entry.originalIndex);
+      continueButton.disabled = false;
     };
     answers.appendChild(b);
   });
+
+  continueButton.onclick = () => {
+    if (selectedOriginalIndex === null) return;
+    const correct = selectedOriginalIndex === q.correct_index;
+    onDone(correct, q, selectedOriginalIndex);
+  };
 }
 
 function runMock() {
@@ -686,16 +700,16 @@ function runMock() {
   const meta = lang() === "af" ? `VRAAG ${state.mockIndex+1} VAN ${state.mockQuestions.length}`
     : lang() === "xh" ? `UMBUZO ${state.mockIndex+1} KWA-${state.mockQuestions.length}`
     : `QUESTION ${state.mockIndex+1} OF ${state.mockQuestions.length}`;
+  const continueLabel = state.mockIndex === state.mockQuestions.length - 1 ? tr("finish") : tr("next");
+
   renderMockQuestion(q, box, (correct, question, selectedIndex) => {
     if (correct) state.mockScore++;
     state.mockAnswers.push({section:question.section, question_id:question.id, correct, selected_index:selectedIndex});
-    const n = document.createElement("button");
-    n.className = "next-btn";
-    n.textContent = state.mockIndex === state.mockQuestions.length - 1 ? tr("finish") : tr("next");
-    n.onclick = () => { state.mockIndex++; runMock(); };
-    box.appendChild(n);
-  }, meta);
+    state.mockIndex++;
+    runMock();
+  }, meta, continueLabel);
 }
+
 async function finishMock() {
   stopSpeech();
   const box = document.getElementById("mockBox");
