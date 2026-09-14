@@ -725,3 +725,41 @@ html.high-contrast .review-item{
     justify-self:end;
   }
 }
+
+
+/* PILOT READINESS — reset learner progress without removing the installed PWA */
+.reset-progress-wrap{
+  margin-top:.8rem;
+  padding-top:.8rem;
+  border-top:1px solid var(--line);
+}
+.reset-progress-btn{
+  min-height:44px;
+  border:2px solid #b42318;
+  border-radius:999px;
+  background:#fff;
+  color:#8a1c13;
+  padding:.55rem .85rem;
+  font-weight:850;
+}
+.reset-progress-wrap small{
+  display:block;
+  margin-top:.45rem;
+  color:var(--muted);
+  line-height:1.35;
+}
+.reset-progress-status{
+  display:block;
+  min-height:1.2em;
+  margin-top:.35rem;
+  font-size:.82rem;
+  font-weight:800;
+  color:#166534;
+}
+html.high-contrast .reset-progress-wrap{
+  border-top:2px solid #000;
+}
+html.high-contrast .reset-progress-btn{
+  border:3px solid #000;
+  color:#000;
+}
