@@ -1,5 +1,5 @@
 {
-  "pack_id": "0.1e-a-code1-motorcycle-pilot",
+  "pack_id": "0.1e-b-code1-motorcycle-pilot",
   "pathway": "code1",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -262,6 +262,210 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "0.1e-a"
+    },
+    {
+      "id": "controls-009",
+      "section": "controls",
+      "topic": "motorcycle-clutch",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls: clutch; sample control-function material",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control is used to disconnect the engine from the gearbox when changing gears?",
+          "options": [
+            "Clutch lever",
+            "Front brake lever",
+            "Throttle"
+          ],
+          "explanation": "The clutch lever is used to disconnect engine drive from the gearbox so gears can be changed."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer word gebruik om die enjin van die ratkas te ontkoppel wanneer ratte verander word?",
+          "options": [
+            "Koppelaarhendel",
+            "Voorremhendel",
+            "Versnellerhandvatsel"
+          ],
+          "explanation": "Die koppelaarhendel word gebruik om die enjin se aandrywing van die ratkas te ontkoppel sodat ratte verander kan word."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisetyenziselwa ukwahlula amandla enjini kwibhokisi yegiya xa kutshintshwa iigiya?",
+          "options": [
+            "Ilever yeklatshi",
+            "Ilever yebrake yangaphambili",
+            "Ithrottle"
+          ],
+          "explanation": "Ilever yeklatshi isetyenziswa ukwahlula amandla enjini kwibhokisi yegiya ukuze iigiya zitshintshwe."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-b"
+    },
+    {
+      "id": "controls-010",
+      "section": "controls",
+      "topic": "motorcycle-gear-lever",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls: gear lever; sample control-identification material",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control is used to change gears?",
+          "options": [
+            "Gear lever",
+            "Throttle",
+            "Indicator switch"
+          ],
+          "explanation": "The gear lever is the motorcycle control used to select or change gears."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer word gebruik om ratte te verander?",
+          "options": [
+            "Rathefboom",
+            "Versnellerhandvatsel",
+            "Rigtingwyser-skakelaar"
+          ],
+          "explanation": "Die rathefboom is die motorfietsbeheer wat gebruik word om ratte te kies of te verander."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisetyenziselwa ukutshintsha iigiya?",
+          "options": [
+            "Ilever yegiya",
+            "Ithrottle",
+            "Iswitshi yezalathisi"
+          ],
+          "explanation": "Ilever yegiya sisixhobo sesithuthuthu esisetyenziselwa ukukhetha okanye ukutshintsha iigiya."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-b"
+    },
+    {
+      "id": "controls-011",
+      "section": "controls",
+      "topic": "motorcycle-indicator-switch",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls: indicator light switch; sample signalling material",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control is used to signal that you intend to turn?",
+          "options": [
+            "Indicator switch",
+            "Clutch lever",
+            "Rear brake foot control"
+          ],
+          "explanation": "The indicator switch operates the direction indicators used to signal an intended turn."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer word gebruik om te wys dat jy van plan is om te draai?",
+          "options": [
+            "Rigtingwyser-skakelaar",
+            "Koppelaarhendel",
+            "Voetbeheer vir die agterrem"
+          ],
+          "explanation": "Die rigtingwyser-skakelaar bedien die rigtingwysers waarmee jy aandui dat jy van plan is om te draai."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisetyenziselwa ukubonisa ukuba uza kujika?",
+          "options": [
+            "Iswitshi yezalathisi",
+            "Ilever yeklatshi",
+            "Ulawulo lonyawo lwebrake yangasemva"
+          ],
+          "explanation": "Iswitshi yezalathisi isebenzisa izalathisi zendlela ukubonisa ukuba uza kujika."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-b"
+    },
+    {
+      "id": "controls-012",
+      "section": "controls",
+      "topic": "motorcycle-mirrors",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 — motorcycle controls/components: left and right rear-view mirrors; sample rear-observation material",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle components help you observe traffic behind you?",
+          "options": [
+            "Rear-view mirrors",
+            "Fuel tank",
+            "Gear lever"
+          ],
+          "explanation": "The rear-view mirrors help the rider observe traffic behind the motorcycle."
+        },
+        "af": {
+          "question": "Watter motorfietsonderdele help jou om verkeer agter jou waar te neem?",
+          "options": [
+            "Truspieëls",
+            "Brandstoftenk",
+            "Rathefboom"
+          ],
+          "explanation": "Die truspieëls help die motorfietsryer om verkeer agter die motorfiets waar te neem."
+        },
+        "xh": {
+          "question": "Zeziphi iinxalenye zesithuthuthu ezikunceda ukubona izithuthi ezingasemva kwakho?",
+          "options": [
+            "Izipili zokujonga ngasemva",
+            "Itanki yamafutha",
+            "Ilever yegiya"
+          ],
+          "explanation": "Izipili zokujonga ngasemva zinceda umkhweli wesithuthuthu abone izithuthi ezingasemva."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "0.1e-b"
     }
   ]
 }
