@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r2",
+  "pack_id": "rules-expansion-r3-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -825,6 +825,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r2"
+    },
+    {
+      "id": "rules-019",
+      "section": "rules",
+      "topic": "freeway-lane-discipline",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — vehicles must keep left and overtake to the right on a freeway",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "On a freeway, what is the normal lane rule for a vehicle?",
+          "options": [
+            "Keep left and overtake to the right",
+            "Keep right and overtake to the left",
+            "Use any lane without regard to overtaking"
+          ],
+          "explanation": "The learner manual states that vehicles must keep left and overtake to the right on a freeway."
+        },
+        "af": {
+          "question": "Wat is die normale baanreël vir 'n voertuig op 'n snelweg?",
+          "options": [
+            "Hou links en steek regs verby",
+            "Hou regs en steek links verby",
+            "Gebruik enige baan sonder om op verbysteek te let"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat voertuie op 'n snelweg links moet hou en regs moet verbysteek."
+        },
+        "xh": {
+          "question": "Ngowuphi umgaqo oqhelekileyo wemizila yesithuthi kuhola wendlela?",
+          "options": [
+            "Hlala ngasekhohlo uze udlule ngasekunene",
+            "Hlala ngasekunene uze udlule ngasekhohlo",
+            "Sebenzisa nawuphi na umzila ngaphandle kokujonga ukudlula"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba izithuthi kufuneka zihlale ngasekhohlo zize zidlule ngasekunene kuhola wendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "rules-020",
+      "section": "rules",
+      "topic": "being-overtaken",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — when another vehicle wishes to pass: keep near the left edge and do not accelerate until it has passed",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when you become aware that another vehicle behind wants to overtake you?",
+          "options": [
+            "Keep as near to the left as is safely possible and do not accelerate until it has passed",
+            "Accelerate so it cannot pass",
+            "Move to the right-hand side of the road"
+          ],
+          "explanation": "The learner manual says to keep safely near the left edge and not accelerate until the overtaking vehicle has passed."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy agterkom dat 'n voertuig agter jou jou wil verbysteek?",
+          "options": [
+            "Hou so veilig moontlik naby die linkerkant en moenie versnel totdat dit verby is nie",
+            "Versnel sodat dit nie kan verbygaan nie",
+            "Beweeg na die regterkant van die pad"
+          ],
+          "explanation": "Die leerderhandleiding sê jy moet veilig naby die linkerkant hou en nie versnel voordat die verbysteekvoertuig verby is nie."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa uqaphela ukuba isithuthi esisemva sifuna ukudlula kuwe?",
+          "options": [
+            "Hlala kufutshane kangangoko kukhuselekile kwicala lasekhohlo kwaye ungakhawulezisi de sidlule",
+            "Khawulezisa ukuze singakwazi ukudlula",
+            "Yiya kwicala lasekunene lendlela"
+          ],
+          "explanation": "Incwadi yomfundi ithi kufuneka uhlale ngokukhuselekileyo kufutshane necala lasekhohlo kwaye ungakhawulezisi de isithuthi esidlulayo sidlule."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "rules-021",
+      "section": "rules",
+      "topic": "overtaking-restricted-view",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — do not pass near a summit, curve or other restricted-view place where passing could create a hazard",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Should you overtake by moving into the path of possible oncoming traffic near a crest or curve where your view is restricted?",
+          "options": [
+            "No",
+            "Yes, if you sound the horn",
+            "Yes, if you are in a hurry"
+          ],
+          "explanation": "You should not overtake where a crest, curve or other restricted view could make passing hazardous to oncoming traffic."
+        },
+        "af": {
+          "question": "Moet jy verbysteek deur in die pad van moontlike aankomende verkeer te beweeg naby 'n kruin of draai waar jou uitsig beperk is?",
+          "options": [
+            "Nee",
+            "Ja, as jy die toeter gebruik",
+            "Ja, as jy haastig is"
+          ],
+          "explanation": "Jy moet nie verbysteek waar 'n kruin, draai of ander beperkte uitsig verbysteek gevaarlik vir aankomende verkeer kan maak nie."
+        },
+        "xh": {
+          "question": "Ngaba kufuneka udlule ngokungena kwindlela enokusetyenziswa zizithuthi eziza ngaphambili kufutshane nencopho okanye igophe apho ukubona kwakho kuthintelwe?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba usebenzisa ihorn",
+            "Ewe, ukuba ungxamile"
+          ],
+          "explanation": "Akufanele udlule apho incopho, igophe okanye enye indawo enokuthintela ukubona inokwenza ukudlula kube yingozi kwizithuthi eziza ngaphambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
     }
   ]
 }
