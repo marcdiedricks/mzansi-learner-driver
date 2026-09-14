@@ -685,3 +685,22 @@ html.large-text .practice-focus-buttons{
 @media (max-width:440px){
   .practice-focus-buttons{grid-template-columns:repeat(2,1fr)}
 }
+
+
+/* CONTENT COMPLETION — study + mock review */
+.review-item{
+  margin:.7rem 0;
+  padding:.7rem 0;
+  border-top:1px solid var(--line);
+}
+.review-item summary{
+  cursor:pointer;
+  font-weight:800;
+  line-height:1.35;
+}
+.review-item p{
+  margin:.55rem 0 0;
+}
+html.high-contrast .review-item{
+  border-top:2px solid #000;
+}

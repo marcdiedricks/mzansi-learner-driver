@@ -1,0 +1,1638 @@
+{
+  "pack_id": "rules-content-completion-1",
+  "status": "CONTENT_QA",
+  "items": [
+    {
+      "id": "rules-037",
+      "section": "rules",
+      "topic": "lights-poor-visibility",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.2 — lamps in insufficient light / unfavourable weather",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When must a light motor vehicle's lamps be switched on because visibility is poor?",
+          "options": [
+            "When people and vehicles cannot be clearly seen at 150 metres",
+            "Only after midnight",
+            "Only when rain is heavy"
+          ],
+          "explanation": "The learner manual requires the lamps to be on when poor light or weather makes people and vehicles unclear at 150 metres."
+        },
+        "af": {
+          "question": "Wanneer moet 'n ligte motorvoertuig se ligte aangeskakel word omdat sig swak is?",
+          "options": [
+            "Wanneer mense en voertuie nie duidelik op 150 meter gesien kan word nie",
+            "Slegs na middernag",
+            "Slegs wanneer dit swaar reën"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat die ligte aan moet wees wanneer swak lig of weer mense en voertuie op 150 meter onduidelik maak."
+        },
+        "xh": {
+          "question": "Kufuneka zivulwe nini izibane zesithuthi esilula ngenxa yokungaboni kakuhle?",
+          "options": [
+            "Xa abantu nezithuthi zingabonakali ngokucacileyo kumgama weemitha ezili-150",
+            "Kuphela emva kobusuku obuphakathi",
+            "Kuphela xa imvula inamandla"
+          ],
+          "explanation": "Incwadi yomfundi ifuna izibane zivulwe xa ukukhanya okanye imozulu embi yenza abantu nezithuthi zingabonakali kakuhle kumgama weemitha ezili-150."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-038",
+      "section": "rules",
+      "topic": "main-beam-oncoming",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.2 — dip main beam for oncoming traffic",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do with your main-beam headlights when traffic approaches from the opposite direction?",
+          "options": [
+            "Dip the main beam",
+            "Keep the main beam on",
+            "Switch off all lights"
+          ],
+          "explanation": "The learner manual says the main beam must be dipped for oncoming traffic."
+        },
+        "af": {
+          "question": "Wat moet jy met jou hoofligte se helder straal doen wanneer verkeer van voor af nader?",
+          "options": [
+            "Dim die helder straal",
+            "Hou die helder straal aan",
+            "Skakel alle ligte af"
+          ],
+          "explanation": "Die leerderhandleiding sê die helder straal moet vir aankomende verkeer gedim word."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni ngezibane ezikhanyayo kakhulu xa izithuthi zisondela zivela ngaphambili?",
+          "options": [
+            "Yehlisa ukukhanya kwe-main beam",
+            "Shiya i-main beam ikhanya kakhulu",
+            "Cima zonke izibane"
+          ],
+          "explanation": "Incwadi yomfundi ithi i-main beam kufuneka ithotywe xa kukho izithuthi eziza ngaphambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-039",
+      "section": "rules",
+      "topic": "main-beam-following",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.2 — dip main beam when following another vehicle",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do with the main beam when following another vehicle at night?",
+          "options": [
+            "Dip the main beam",
+            "Keep the main beam bright",
+            "Flash the main beam continuously"
+          ],
+          "explanation": "The main beam should be dipped when following another vehicle so that you do not dazzle the driver ahead."
+        },
+        "af": {
+          "question": "Wat moet jy met die helder straal doen wanneer jy snags agter 'n ander voertuig ry?",
+          "options": [
+            "Dim die helder straal",
+            "Hou die helder straal helder",
+            "Flits die helder straal aanhoudend"
+          ],
+          "explanation": "Die helder straal moet gedim word wanneer jy 'n ander voertuig volg sodat jy nie die bestuurder voor jou verblind nie."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni nge-main beam xa ulandela esinye isithuthi ebusuku?",
+          "options": [
+            "Yehlisa i-main beam",
+            "Shiya i-main beam ikhanya kakhulu",
+            "Yikhanyise uyicime rhoqo"
+          ],
+          "explanation": "I-main beam kufuneka ithotywe xa ulandela esinye isithuthi ukuze ungamfiphazisi umqhubi ongaphambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-040",
+      "section": "rules",
+      "topic": "motorcycle-towing-prohibition",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.57 — motorcycle may not tow another vehicle",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May a motorcycle be used to tow another vehicle on a public road?",
+          "options": [
+            "No",
+            "Yes, at any speed",
+            "Yes, if the tow rope is short"
+          ],
+          "explanation": "The learner manual states that a motorcycle may not be used to tow another vehicle."
+        },
+        "af": {
+          "question": "Mag 'n motorfiets gebruik word om 'n ander voertuig op 'n openbare pad te sleep?",
+          "options": [
+            "Nee",
+            "Ja, teen enige spoed",
+            "Ja, as die sleeptou kort is"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n motorfiets nie gebruik mag word om 'n ander voertuig te sleep nie."
+        },
+        "xh": {
+          "question": "Ngaba isithuthuthu singasetyenziselwa ukutsala esinye isithuthi kwindlela kawonke-wonke?",
+          "options": [
+            "Hayi",
+            "Ewe, nangasiphi na isantya",
+            "Ewe, ukuba intambo yokutsala imfutshane"
+          ],
+          "explanation": "Incwadi yomfundi ithi isithuthuthu asinakusetyenziselwa ukutsala esinye isithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-041",
+      "section": "rules",
+      "topic": "towing-connection-length",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.57 — tow rope/chain/tow-bar maximum length 3.5 m",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the maximum permitted distance between two vehicles connected by a tow rope, chain or tow-bar?",
+          "options": [
+            "3.5 metres",
+            "5 metres",
+            "10 metres"
+          ],
+          "explanation": "The towing connection between the vehicles may not exceed 3.5 metres."
+        },
+        "af": {
+          "question": "Wat is die maksimum toegelate afstand tussen twee voertuie wat met 'n sleeptou, ketting of sleepstang verbind is?",
+          "options": [
+            "3,5 meter",
+            "5 meter",
+            "10 meter"
+          ],
+          "explanation": "Die sleepverbinding tussen die voertuie mag nie langer as 3,5 meter wees nie."
+        },
+        "xh": {
+          "question": "Ngowuphi owona mgama mkhulu uvumelekileyo phakathi kwezithuthi ezimbini ezidityaniswe ngentambo, ityathanga okanye i-tow-bar?",
+          "options": [
+            "3,5 yeemitha",
+            "5 yeemitha",
+            "10 yeemitha"
+          ],
+          "explanation": "Isixhobo sokutsala phakathi kwezithuthi asinakudlula kwiimitha ezi-3,5."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-042",
+      "section": "rules",
+      "topic": "towing-rope-speed",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.57 — towing with rope/chain not above 30 km/h",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When towing with a rope or chain, what speed limit applies unless a drawbar or tow-bar is used?",
+          "options": [
+            "30 km/h",
+            "60 km/h",
+            "100 km/h"
+          ],
+          "explanation": "With a tow rope or chain, the towing speed may not exceed 30 km/h unless a drawbar or tow-bar is used."
+        },
+        "af": {
+          "question": "Watter spoedgrens geld wanneer met 'n tou of ketting gesleep word, tensy 'n trekstang of sleepstang gebruik word?",
+          "options": [
+            "30 km/h",
+            "60 km/h",
+            "100 km/h"
+          ],
+          "explanation": "Met 'n sleeptou of ketting mag die sleepspoed nie 30 km/h oorskry nie, tensy 'n trekstang of sleepstang gebruik word."
+        },
+        "xh": {
+          "question": "Sesiphi isantya esiphezulu xa kutsalwa ngentambo okanye ityathanga, ngaphandle kokuba kusetyenziswa i-drawbar okanye i-tow-bar?",
+          "options": [
+            "30 km/h",
+            "60 km/h",
+            "100 km/h"
+          ],
+          "explanation": "Xa kusetyenziswa intambo okanye ityathanga, isantya sokutsala asinakudlula kuma-30 km/h ngaphandle kokuba kusetyenziswa i-drawbar okanye i-tow-bar."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-043",
+      "section": "rules",
+      "topic": "towed-vehicle-passengers",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.57 — passengers in towed vehicle above 30 km/h",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May a towed vehicle carry passengers at more than 30 km/h, other than where the manual's semi-trailer exception applies?",
+          "options": [
+            "No",
+            "Yes, without restriction",
+            "Yes, if the passengers sit in the rear"
+          ],
+          "explanation": "The learner manual prohibits conveying persons in a towed vehicle above 30 km/h except for the stated semi-trailer exception."
+        },
+        "af": {
+          "question": "Mag 'n gesleepte voertuig passasiers teen meer as 30 km/h vervoer, buiten waar die handleiding se oplegger-uitsondering geld?",
+          "options": [
+            "Nee",
+            "Ja, sonder beperking",
+            "Ja, as die passasiers agter sit"
+          ],
+          "explanation": "Die leerderhandleiding verbied die vervoer van persone in 'n gesleepte voertuig bo 30 km/h, buiten die genoemde oplegger-uitsondering."
+        },
+        "xh": {
+          "question": "Ngaba isithuthi esitsalwayo singathwala abakhweli ngesantya esingaphezu kwama-30 km/h, ngaphandle kwemeko ekhethekileyo ye-semi-trailer?",
+          "options": [
+            "Hayi",
+            "Ewe, ngaphandle komda",
+            "Ewe, ukuba abakhweli bahlala ngasemva"
+          ],
+          "explanation": "Incwadi yomfundi ayivumeli ukuthwala abantu kwisithuthi esitsalwayo ngaphezu kwama-30 km/h ngaphandle kwemeko ekhethekileyo echaziweyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-044",
+      "section": "rules",
+      "topic": "towed-steering-licence",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.57 — steering of towed vehicle controlled by appropriately licensed person",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Who must control the steering of a vehicle being towed?",
+          "options": [
+            "A person licensed for that class of vehicle",
+            "Any passenger",
+            "No one if the tow rope is short"
+          ],
+          "explanation": "The person controlling the steering of the towed vehicle must hold a licence authorising that class of vehicle."
+        },
+        "af": {
+          "question": "Wie moet die stuur van 'n voertuig wat gesleep word beheer?",
+          "options": [
+            "'n Persoon wat vir daardie klas voertuig gelisensieer is",
+            "Enige passasier",
+            "Niemand as die sleeptou kort is nie"
+          ],
+          "explanation": "Die persoon wat die stuur van die gesleepte voertuig beheer, moet 'n lisensie hê wat daardie klas voertuig magtig."
+        },
+        "xh": {
+          "question": "Ngubani omele alawule ukujika kwesithuthi esitsalwayo?",
+          "options": [
+            "Umntu onelayisensi yaloo didi lwesithuthi",
+            "Nawuphi na umkhweli",
+            "Akukho mntu ukuba intambo imfutshane"
+          ],
+          "explanation": "Umntu olawula ukujika kwesithuthi esitsalwayo kufuneka abe nelayisensi evumela olo didi lwesithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-045",
+      "section": "rules",
+      "topic": "towing-brakes-drawbar",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.57 — deficient brakes require drawbar/tow-bar",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If a towed vehicle's brakes do not comply with the requirements, what type of connection is required?",
+          "options": [
+            "A drawbar or tow-bar",
+            "A loose rope only",
+            "No connection is needed"
+          ],
+          "explanation": "Where the towed vehicle's brakes do not comply, the manual requires a drawbar or tow-bar connection."
+        },
+        "af": {
+          "question": "As 'n gesleepte voertuig se remme nie aan die vereistes voldoen nie, watter tipe verbinding word vereis?",
+          "options": [
+            "'n Trekstang of sleepstang",
+            "Slegs 'n los tou",
+            "Geen verbinding is nodig nie"
+          ],
+          "explanation": "Waar die gesleepte voertuig se remme nie voldoen nie, vereis die handleiding 'n trekstang- of sleepstangverbinding."
+        },
+        "xh": {
+          "question": "Ukuba iibrake zesithuthi esitsalwayo azihlangabezani neemfuno, loluphi uhlobo lonxibelelwano olufunekayo?",
+          "options": [
+            "I-drawbar okanye i-tow-bar",
+            "Intambo ekhululekileyo kuphela",
+            "Akukho nxibelelwano lufunekayo"
+          ],
+          "explanation": "Xa iibrake zesithuthi esitsalwayo zingahambelani neemfuno, incwadi ifuna i-drawbar okanye i-tow-bar."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-046",
+      "section": "rules",
+      "topic": "vehicle-combination-trailers",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.58 — maximum two trailers",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "In the ordinary rule, how many trailers may a drawing vehicle have in a combination?",
+          "options": [
+            "A maximum of two",
+            "A maximum of four",
+            "Any number if they are empty"
+          ],
+          "explanation": "The learner manual limits an ordinary combination to a drawing vehicle and a maximum of two trailers."
+        },
+        "af": {
+          "question": "Hoeveel sleepwaens mag 'n trekvoertuig volgens die gewone reël in 'n kombinasie hê?",
+          "options": [
+            "'n Maksimum van twee",
+            "'n Maksimum van vier",
+            "Enige aantal as hulle leeg is"
+          ],
+          "explanation": "Die leerderhandleiding beperk 'n gewone kombinasie tot 'n trekvoertuig en hoogstens twee sleepwaens."
+        },
+        "xh": {
+          "question": "Ngokwesiqhelo, zingaphi iitreylara ezinokutsalwa sisithuthi esitsalayo kwindibaniselwano?",
+          "options": [
+            "Ezimbini ubuninzi",
+            "Ezine ubuninzi",
+            "Naliphi na inani ukuba azithwali nto"
+          ],
+          "explanation": "Incwadi yomfundi imisela ukuba indibaniselwano eqhelekileyo ibe sisithuthi esitsalayo kunye neetreylara ezimbini ubuninzi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-047",
+      "section": "rules",
+      "topic": "compulsory-stop-officer",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.60 — compulsory stop for traffic sign / traffic officer in uniform",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do when a traffic officer in uniform directs you to stop?",
+          "options": [
+            "Stop the vehicle",
+            "Continue if the road looks clear",
+            "Slow down but do not stop"
+          ],
+          "explanation": "A driver or rider must stop when directed to do so by a traffic officer in uniform."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer 'n verkeersbeampte in uniform jou beveel om te stop?",
+          "options": [
+            "Stop die voertuig",
+            "Ry voort as die pad oop lyk",
+            "Verminder spoed maar moenie stop nie"
+          ],
+          "explanation": "'n Bestuurder of ryer moet stop wanneer 'n verkeersbeampte in uniform dit beveel."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa igosa lezendlela elinxibe iyunifomu likuyalela ukuba ume?",
+          "options": [
+            "Yima isithuthi",
+            "Qhubeka ukuba indlela ibonakala icacile",
+            "Cotha kodwa ungemi"
+          ],
+          "explanation": "Umqhubi okanye umkhweli kufuneka ame xa eyalelwa ligosa lezendlela elinxibe iyunifomu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-048",
+      "section": "rules",
+      "topic": "compulsory-stop-animal-handler",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.60 — stop at request/signal of person leading or driving specified animals",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do if a person leading or driving animals on the road signals you to stop?",
+          "options": [
+            "Stop",
+            "Sound the horn and pass",
+            "Drive onto the shoulder to continue"
+          ],
+          "explanation": "The learner manual requires a driver or rider to stop at the request or signal of a person leading or driving the listed animals on the road."
+        },
+        "af": {
+          "question": "Wat moet jy doen as 'n persoon wat diere op die pad lei of aanjaag vir jou beduie om te stop?",
+          "options": [
+            "Stop",
+            "Toeter en ry verby",
+            "Ry op die skouer om voort te gaan"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat 'n bestuurder of ryer stop op versoek of sein van 'n persoon wat die genoemde diere op die pad lei of aanjaag."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa umntu okhokela okanye oqhuba izilwanyana endleleni ekunika umqondiso wokuba ume?",
+          "options": [
+            "Yima",
+            "Sebenzisa ihorn uze udlule",
+            "Sebenzisa igxalaba lendlela ukuze uqhubeke"
+          ],
+          "explanation": "Incwadi yomfundi ifuna umqhubi okanye umkhweli ame xa ecela okanye esenza umqondiso umntu okhokela okanye oqhuba izilwanyana ezichaziweyo endleleni."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-049",
+      "section": "rules",
+      "topic": "animals-crossing-road",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.60 — animals crossing",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When animals are crossing the road, when may you move off again?",
+          "options": [
+            "After all the animals have crossed and the road is safe",
+            "As soon as there is a small gap",
+            "When another driver starts moving"
+          ],
+          "explanation": "You may move only after all the animals have crossed and the road is safe."
+        },
+        "af": {
+          "question": "Wanneer mag jy weer wegtrek as diere die pad oorsteek?",
+          "options": [
+            "Nadat al die diere oorgesteek het en die pad veilig is",
+            "Sodra daar 'n klein gaping is",
+            "Wanneer 'n ander bestuurder begin beweeg"
+          ],
+          "explanation": "Jy mag eers beweeg nadat al die diere oorgesteek het en die pad veilig is."
+        },
+        "xh": {
+          "question": "Xa izilwanyana ziwela indlela, ungaphinda uhambe nini?",
+          "options": [
+            "Emva kokuba zonke izilwanyana ziwele kwaye indlela ikhuselekile",
+            "Nje ukuba kubekho isithuba esincinci",
+            "Xa omnye umqhubi eqala ukuhamba"
+          ],
+          "explanation": "Ungahamba kuphela emva kokuba zonke izilwanyana ziwele kwaye indlela ikhuselekile."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-050",
+      "section": "rules",
+      "topic": "accident-stop",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — accident duties: stop immediately",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the first duty of a driver or rider involved in an accident?",
+          "options": [
+            "Stop immediately",
+            "Leave if the vehicle can still move",
+            "Continue to the nearest fuel station"
+          ],
+          "explanation": "The learner manual says a driver or rider involved in an accident must immediately stop."
+        },
+        "af": {
+          "question": "Wat is die eerste plig van 'n bestuurder of ryer wat by 'n ongeluk betrokke is?",
+          "options": [
+            "Stop onmiddellik",
+            "Ry weg as die voertuig nog kan beweeg",
+            "Ry voort na die naaste vulstasie"
+          ],
+          "explanation": "Die leerderhandleiding sê 'n bestuurder of ryer wat by 'n ongeluk betrokke is, moet onmiddellik stop."
+        },
+        "xh": {
+          "question": "Yintoni uxanduva lokuqala lomqhubi okanye umkhweli obandakanyeke kwingozi?",
+          "options": [
+            "Yima ngoko nangoko",
+            "Hamba ukuba isithuthi sisakwazi ukuhamba",
+            "Qhubeka uye kwisikhululo samafutha esikufuphi"
+          ],
+          "explanation": "Incwadi yomfundi ithi umqhubi okanye umkhweli obandakanyeke kwingozi kufuneka ame ngoko nangoko."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-051",
+      "section": "rules",
+      "topic": "accident-check-injuries",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — ascertain injuries",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "After stopping at an accident, what should you establish about people involved?",
+          "options": [
+            "The nature and extent of any injuries",
+            "Who arrived first",
+            "Which vehicle is newest"
+          ],
+          "explanation": "A driver or rider involved in an accident must ascertain the nature and extent of any injuries."
+        },
+        "af": {
+          "question": "Nadat jy by 'n ongeluk gestop het, wat moet jy oor die betrokke persone vasstel?",
+          "options": [
+            "Die aard en omvang van enige beserings",
+            "Wie eerste opgedaag het",
+            "Watter voertuig die nuutste is"
+          ],
+          "explanation": "'n Bestuurder of ryer wat by 'n ongeluk betrokke is, moet die aard en omvang van enige beserings vasstel."
+        },
+        "xh": {
+          "question": "Emva kokuma kwindawo yengozi, kufuneka uqinisekise ntoni ngabantu ababandakanyekayo?",
+          "options": [
+            "Uhlobo nobunzima bokwenzakala",
+            "Ngubani ofike kuqala",
+            "Sesiphi isithuthi esitsha kakhulu"
+          ],
+          "explanation": "Umqhubi okanye umkhweli obandakanyeke kwingozi kufuneka aqinisekise uhlobo nobunzima bokwenzakala."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-052",
+      "section": "rules",
+      "topic": "accident-render-assistance",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — render assistance",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should a driver or rider do for an injured person after an accident, within their ability?",
+          "options": [
+            "Render the assistance they are capable of giving",
+            "Ignore the person until police arrive",
+            "Move every injured person immediately"
+          ],
+          "explanation": "The manual requires the person involved to render assistance to an injured person as far as they are capable."
+        },
+        "af": {
+          "question": "Wat moet 'n bestuurder of ryer ná 'n ongeluk vir 'n beseerde persoon doen, binne sy of haar vermoë?",
+          "options": [
+            "Die hulp verleen wat hy of sy kan gee",
+            "Die persoon ignoreer totdat die polisie kom",
+            "Elke beseerde persoon onmiddellik verskuif"
+          ],
+          "explanation": "Die handleiding vereis dat die betrokke persoon hulp aan 'n beseerde verleen sover hy of sy daartoe in staat is."
+        },
+        "xh": {
+          "question": "Kufuneka enze ntoni umqhubi okanye umkhweli kumntu owenzakeleyo emva kwengozi, ngokwamandla akhe?",
+          "options": [
+            "Anike uncedo anokulunika",
+            "Angamhoyi de kufike amapolisa",
+            "Asuse wonke umntu owenzakeleyo ngoko nangoko"
+          ],
+          "explanation": "Incwadi ifuna umntu obandakanyekayo anike uncedo kumntu owenzakeleyo ngokwamandla akhe."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-053",
+      "section": "rules",
+      "topic": "accident-details",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — provide identity / owner / registration details when reasonably requested",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "After an accident, which information may you have to provide when reasonably requested?",
+          "options": [
+            "Your details, the owner's details and the vehicle registration number",
+            "Only your first name",
+            "Only the colour of the vehicle"
+          ],
+          "explanation": "The manual requires the relevant names and addresses and the vehicle registration number to be supplied when reasonably requested."
+        },
+        "af": {
+          "question": "Watter inligting moet jy ná 'n ongeluk moontlik verskaf wanneer dit redelikerwys gevra word?",
+          "options": [
+            "Jou besonderhede, die eienaar se besonderhede en die voertuig se registrasienommer",
+            "Slegs jou voornaam",
+            "Slegs die kleur van die voertuig"
+          ],
+          "explanation": "Die handleiding vereis dat die toepaslike name en adresse en die voertuig se registrasienommer verskaf word wanneer dit redelikerwys gevra word."
+        },
+        "xh": {
+          "question": "Loluphi ulwazi onokufuneka ulunike emva kwengozi xa lucelwa ngesizathu esifanelekileyo?",
+          "options": [
+            "Iinkcukacha zakho, ezomnini wesithuthi kunye nenombolo yobhaliso lwesithuthi",
+            "Igama lakho lokuqala kuphela",
+            "Umbala wesithuthi kuphela"
+          ],
+          "explanation": "Incwadi ifuna amagama needilesi ezifanelekileyo kunye nenombolo yobhaliso lwesithuthi xa olu lwazi lucelwa ngokufanelekileyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-054",
+      "section": "rules",
+      "topic": "accident-report-24h",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — report accident within 24 hours when required",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If the required accident details were not already given to a traffic officer at the scene, within what period must the accident be reported to a police station?",
+          "options": [
+            "Within 24 hours",
+            "Within 7 days",
+            "Within 30 days"
+          ],
+          "explanation": "The manual states that, where the details were not already furnished to a traffic officer at the scene, the accident must be reported within 24 hours."
+        },
+        "af": {
+          "question": "As die vereiste ongelukbesonderhede nie reeds aan 'n verkeersbeampte op die toneel gegee is nie, binne watter tyd moet die ongeluk by 'n polisiestasie aangemeld word?",
+          "options": [
+            "Binne 24 uur",
+            "Binne 7 dae",
+            "Binne 30 dae"
+          ],
+          "explanation": "Die handleiding bepaal dat die ongeluk binne 24 uur aangemeld moet word indien die besonderhede nie reeds aan 'n verkeersbeampte op die toneel verskaf is nie."
+        },
+        "xh": {
+          "question": "Ukuba iinkcukacha zengozi azizange zinikwe igosa lezendlela kwindawo yengozi, ingozi kufuneka ixelwe kwisikhululo samapolisa kwisithuba esingakanani?",
+          "options": [
+            "Kwiiyure ezingama-24",
+            "Kwiintsuku ezisi-7",
+            "Kwiintsuku ezingama-30"
+          ],
+          "explanation": "Incwadi ithi ingozi kufuneka ixelwe kwiiyure ezingama-24 xa iinkcukacha zingakhange zinikwe igosa lezendlela kwindawo yengozi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-055",
+      "section": "rules",
+      "topic": "accident-no-intoxicants",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — intoxicating liquor/narcotic drugs before accident is reported",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "After being involved in an accident, what does the learner manual say about intoxicating liquor or narcotic drugs before the accident has been reported?",
+          "options": [
+            "Do not take them, except on a medical practitioner's instruction",
+            "They may be taken immediately",
+            "They are allowed if the vehicle is damaged"
+          ],
+          "explanation": "The manual says not to take intoxicating liquor or narcotic drugs before reporting the accident, except on a medical practitioner's instruction."
+        },
+        "af": {
+          "question": "Wat sê die leerderhandleiding oor bedwelmende drank of verdowingsmiddels nadat jy by 'n ongeluk betrokke was maar voordat dit aangemeld is?",
+          "options": [
+            "Moenie dit neem nie, behalwe op instruksie van 'n mediese praktisyn",
+            "Dit mag onmiddellik geneem word",
+            "Dit is toegelaat as die voertuig beskadig is"
+          ],
+          "explanation": "Die handleiding sê dat bedwelmende drank of verdowingsmiddels nie voor die ongeluk aangemeld is geneem moet word nie, behalwe op instruksie van 'n mediese praktisyn."
+        },
+        "xh": {
+          "question": "Ithini incwadi yomfundi malunga notywala obunxilisayo okanye iziyobisi emva kwengozi kodwa ngaphambi kokuba ixelwe?",
+          "options": [
+            "Musa ukuzithatha, ngaphandle komyalelo kagqirha",
+            "Zingathathwa ngoko nangoko",
+            "Zivumelekile ukuba isithuthi sonakele"
+          ],
+          "explanation": "Incwadi ithi ungathathi utywala obunxilisayo okanye iziyobisi ngaphambi kokuxela ingozi, ngaphandle komyalelo kagqirha."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-056",
+      "section": "rules",
+      "topic": "accident-obstruction-mark-position",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.62 — fatal/injury accident causing complete roadway obstruction",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If an injury or fatal accident completely blocks the roadway, what should happen before a vehicle is moved unless a traffic officer authorises the move?",
+          "options": [
+            "Its resting position must be clearly marked on the road surface",
+            "Its number plates must be removed",
+            "Its tyres must be deflated"
+          ],
+          "explanation": "The manual requires the vehicle's resting position to be marked before it is moved in this situation, unless a traffic officer authorises removal."
+        },
+        "af": {
+          "question": "As 'n beserings- of noodlottige ongeluk die rybaan heeltemal blokkeer, wat moet gebeur voordat 'n voertuig verskuif word, tensy 'n verkeersbeampte dit magtig?",
+          "options": [
+            "Die rusposisie moet duidelik op die padoppervlak gemerk word",
+            "Die nommerplate moet verwyder word",
+            "Die bande moet afgeblaas word"
+          ],
+          "explanation": "Die handleiding vereis dat die voertuig se rusposisie in hierdie situasie gemerk word voordat dit verskuif word, tensy 'n verkeersbeampte die verwydering magtig."
+        },
+        "xh": {
+          "question": "Ukuba ingozi enokonzakala okanye ukufa ivala indlela ngokupheleleyo, kufuneka kwenzeke ntoni ngaphambi kokuba isithuthi sisuswe, ngaphandle kokuba igosa lezendlela liyagunyazisa?",
+          "options": [
+            "Indawo esime kuyo kufuneka iphawulwe ngokucacileyo endleleni",
+            "Iinombolo zobhaliso kufuneka zisuswe",
+            "Amavili kufuneka akhutshwe umoya"
+          ],
+          "explanation": "Incwadi ifuna indawo esime kuyo isithuthi iphawulwe ngaphambi kokusisusa kule meko, ngaphandle kokuba igosa lezendlela ligunyazisa."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-057",
+      "section": "rules",
+      "topic": "motorcycle-headlamp-always-on",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.1 — motorcycle headlamp at all times",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When must a motorcycle headlamp be lit on a public road?",
+          "options": [
+            "At all times, day and night",
+            "Only after sunset",
+            "Only in rain"
+          ],
+          "explanation": "The motorcycle headlamp must be lit at all times when riding on a public road."
+        },
+        "af": {
+          "question": "Wanneer moet 'n motorfiets se hooflig op 'n openbare pad brand?",
+          "options": [
+            "Te alle tye, dag en nag",
+            "Slegs ná sononder",
+            "Slegs wanneer dit reën"
+          ],
+          "explanation": "Die motorfiets se hooflig moet te alle tye brand wanneer op 'n openbare pad gery word."
+        },
+        "xh": {
+          "question": "Kufuneka isibane sangaphambili sesithuthuthu sivulwe nini kwindlela kawonke-wonke?",
+          "options": [
+            "Ngalo lonke ixesha, emini nasebusuku",
+            "Kuphela emva kokutshona kwelanga",
+            "Kuphela xa kunetha"
+          ],
+          "explanation": "Isibane sangaphambili sesithuthuthu kufuneka sikhanye ngalo lonke ixesha xa siqhutywa kwindlela kawonke-wonke."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-058",
+      "section": "rules",
+      "topic": "motorcycle-tyre-tread-over50",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.61.2 — motorcycle >50 cc tyre tread",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "For a motorcycle with an engine over 50 cc, what minimum tyre tread depth is stated in the learner manual?",
+          "options": [
+            "At least 1 millimetre",
+            "At least 5 millimetres",
+            "No visible tread is required"
+          ],
+          "explanation": "The manual states that motorcycles over 50 cc must have a clearly visible tread pattern with at least 1 mm tread depth."
+        },
+        "af": {
+          "question": "Watter minimum bandloopvlakdiepte noem die leerderhandleiding vir 'n motorfiets met 'n enjin groter as 50 cc?",
+          "options": [
+            "Minstens 1 millimeter",
+            "Minstens 5 millimeter",
+            "Geen sigbare loopvlak is nodig nie"
+          ],
+          "explanation": "Die handleiding bepaal dat motorfietse bo 50 cc 'n duidelik sigbare loopvlakpatroon met minstens 1 mm diepte moet hê."
+        },
+        "xh": {
+          "question": "Bungakanani ubuncinane bobunzulu be-tread obuchazwe kwincwadi yomfundi kwisithuthuthu esine-injini engaphezu kwe-50 cc?",
+          "options": [
+            "Ubuncinane i-1 millimeter",
+            "Ubuncinane i-5 millimeter",
+            "Akukho tread ibonakalayo efunekayo"
+          ],
+          "explanation": "Incwadi ithi izithuthuthu ezingaphezu kwe-50 cc kufuneka zibe ne-tread ebonakalayo enobunzulu obuyi-1 mm ubuncinane."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-059",
+      "section": "rules",
+      "topic": "motorcycle-tyre-under50-visible-tread",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.61.2 — motorcycle <=50 cc tyre visible tread over 80% full width",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "For a motorcycle of 50 cc or less, over how much of the tyre's full tread width must a visible tread pattern remain?",
+          "options": [
+            "At least 80%",
+            "At least 20%",
+            "No minimum area is stated"
+          ],
+          "explanation": "The manual states that a visible tread pattern must remain over at least 80% of the full tread width."
+        },
+        "af": {
+          "question": "Vir 'n motorfiets van 50 cc of minder, oor hoeveel van die band se volle loopvlakbreedte moet 'n sigbare loopvlakpatroon bly?",
+          "options": [
+            "Minstens 80%",
+            "Minstens 20%",
+            "Geen minimum area word genoem nie"
+          ],
+          "explanation": "Die handleiding bepaal dat 'n sigbare loopvlakpatroon oor minstens 80% van die volle loopvlakbreedte moet bly."
+        },
+        "xh": {
+          "question": "Kwisithuthuthu se-50 cc okanye ngaphantsi, i-tread ebonakalayo kufuneka ihlale kubungakanani obungakanani bobubanzi obupheleleyo be-tread?",
+          "options": [
+            "Ubuncinane i-80%",
+            "Ubuncinane i-20%",
+            "Akukho mmandla usezantsi uchaziweyo"
+          ],
+          "explanation": "Incwadi ithi i-tread ebonakalayo kufuneka ihlale kubuncinane i-80% yobubanzi obupheleleyo be-tread."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-060",
+      "section": "rules",
+      "topic": "motorcycle-retreaded-tyre",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.61.2 — retreaded tyre restriction for motorcycle",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May a motorcycle covered by the learner manual's tyre rule be equipped with a retreaded tyre?",
+          "options": [
+            "No",
+            "Yes, without restriction",
+            "Yes, only on the front wheel"
+          ],
+          "explanation": "The motorcycle tyre rule in the learner manual prohibits a retreaded tyre."
+        },
+        "af": {
+          "question": "Mag 'n motorfiets wat onder die leerderhandleiding se bandreël val met 'n herloopband toegerus wees?",
+          "options": [
+            "Nee",
+            "Ja, sonder beperking",
+            "Ja, slegs op die voorwiel"
+          ],
+          "explanation": "Die motorfietsbandreël in die leerderhandleiding verbied 'n herloopband."
+        },
+        "xh": {
+          "question": "Ngaba isithuthuthu esichaphazelekayo ngumthetho weetayara kwincwadi yomfundi singafakwa itayara eliphinde lahlaziywa?",
+          "options": [
+            "Hayi",
+            "Ewe, ngaphandle komda",
+            "Ewe, kuphela kwivili langaphambili"
+          ],
+          "explanation": "Umthetho weetayara zesithuthuthu kwincwadi yomfundi awuvumeli itayara eliphinde lahlaziywa."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-061",
+      "section": "rules",
+      "topic": "light-vehicle-tyre-tread",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.61.1 — light motor vehicle tyre tread",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What minimum tyre tread depth is stated for a light motor vehicle?",
+          "options": [
+            "At least 1 millimetre",
+            "At least 5 millimetres",
+            "No visible tread is required"
+          ],
+          "explanation": "The manual states that a light motor vehicle tyre must have a clearly visible tread pattern at least 1 mm deep."
+        },
+        "af": {
+          "question": "Watter minimum bandloopvlakdiepte word vir 'n ligte motorvoertuig genoem?",
+          "options": [
+            "Minstens 1 millimeter",
+            "Minstens 5 millimeter",
+            "Geen sigbare loopvlak is nodig nie"
+          ],
+          "explanation": "Die handleiding bepaal dat 'n ligte motorvoertuig se band 'n duidelik sigbare loopvlakpatroon van minstens 1 mm diep moet hê."
+        },
+        "xh": {
+          "question": "Bungakanani ubuncinane bobunzulu be-tread obuchazwe kwisithuthi esilula?",
+          "options": [
+            "Ubuncinane i-1 millimeter",
+            "Ubuncinane i-5 millimeter",
+            "Akukho tread ibonakalayo efunekayo"
+          ],
+          "explanation": "Incwadi ithi itayara lesithuthi esilula kufuneka libe ne-tread ebonakalayo enobunzulu obuyi-1 mm ubuncinane."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-062",
+      "section": "rules",
+      "topic": "light-vehicle-lamp-condition",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.2 — lamp condition",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which statement about lamps on a light motor vehicle is correct?",
+          "options": [
+            "They must be undamaged, unobscured, properly secured and capable of being lit",
+            "Only one headlamp needs to work",
+            "Rear lamps may be covered during daytime"
+          ],
+          "explanation": "The learner manual requires the fitted lamps to be undamaged, unobscured, properly secured and capable of being lit."
+        },
+        "af": {
+          "question": "Watter stelling oor ligte op 'n ligte motorvoertuig is korrek?",
+          "options": [
+            "Hulle moet onbeskadig, onbelemmerd, behoorlik vas en in staat wees om te brand",
+            "Slegs een hooflig hoef te werk",
+            "Agterligte mag bedags bedek wees"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat die ligte onbeskadig, onbelemmerd, behoorlik vas en in staat moet wees om te brand."
+        },
+        "xh": {
+          "question": "Sesiphi isivakalisi esichanekileyo malunga nezibane zesithuthi esilula?",
+          "options": [
+            "Kufuneka zingonakali, zingagqunywanga, zibotshelelwe kakuhle kwaye zikwazi ukukhanya",
+            "Isibane sangaphambili esinye kuphela kufuneka sisebenze",
+            "Izibane zangasemva zingagqunywa emini"
+          ],
+          "explanation": "Incwadi yomfundi ifuna izibane zingonakali, zingagqunywanga, zibotshelelwe kakuhle kwaye zikwazi ukukhanya."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-063",
+      "section": "rules",
+      "topic": "light-vehicle-lamps-night",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.2 — head/rear/number plate lamps from sunset to sunrise",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "During which period must the headlamps, rear lamps and number-plate lamps of a light motor vehicle normally be kept lit?",
+          "options": [
+            "Between sunset and sunrise",
+            "Only between midnight and 04:00",
+            "Only during peak traffic"
+          ],
+          "explanation": "The manual requires these lamps to be kept lit between sunset and sunrise, subject to the stated parking exceptions."
+        },
+        "af": {
+          "question": "Gedurende watter tydperk moet 'n ligte motorvoertuig se hoofligte, agterligte en nommerplaatligte normaalweg brand?",
+          "options": [
+            "Tussen sononder en sonsopkoms",
+            "Slegs tussen middernag en 04:00",
+            "Slegs tydens spitstyd"
+          ],
+          "explanation": "Die handleiding vereis dat hierdie ligte tussen sononder en sonsopkoms moet brand, onderhewig aan die genoemde parkeeruitsonderings."
+        },
+        "xh": {
+          "question": "Ngeliphi ixesha izibane zangaphambili, ezangasemva nezephepha lobhaliso zesithuthi esilula kufuneka ziqhele ukuvulwa?",
+          "options": [
+            "Phakathi kokutshona kwelanga nokuphuma kwelanga",
+            "Kuphela phakathi kobusuku no-04:00",
+            "Kuphela ngexesha loxinano lwezithuthi"
+          ],
+          "explanation": "Incwadi ifuna ezi zibane zivulwe phakathi kokutshona kwelanga nokuphuma kwelanga, ngaphandle kweemeko ezithile zokupaka."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-064",
+      "section": "rules",
+      "topic": "light-vehicle-lamps-weather",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.1.2 — lamps in unfavourable weather",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Besides night-time, when must a light motor vehicle's lamps be used?",
+          "options": [
+            "When poor light or weather makes road users unclear at 150 metres",
+            "Only when the wind is strong",
+            "Only when the road is wet"
+          ],
+          "explanation": "The manual also requires the lamps when poor light or weather reduces clear visibility of people and vehicles at 150 metres."
+        },
+        "af": {
+          "question": "Behalwe snags, wanneer moet 'n ligte motorvoertuig se ligte gebruik word?",
+          "options": [
+            "Wanneer swak lig of weer padgebruikers op 150 meter onduidelik maak",
+            "Slegs wanneer die wind sterk is",
+            "Slegs wanneer die pad nat is"
+          ],
+          "explanation": "Die handleiding vereis ook die ligte wanneer swak lig of weer die duidelike sigbaarheid van mense en voertuie op 150 meter verminder."
+        },
+        "xh": {
+          "question": "Ngaphandle kobusuku, kufuneka zisetyenziswe nini izibane zesithuthi esilula?",
+          "options": [
+            "Xa ukukhanya okanye imozulu embi yenza abasebenzisi bendlela bangabonakali kakuhle kumgama weemitha ezili-150",
+            "Kuphela xa umoya unamandla",
+            "Kuphela xa indlela imanzi"
+          ],
+          "explanation": "Incwadi ifuna izibane xa ukukhanya okanye imozulu embi kunciphisa ukubonakala kwabantu nezithuthi kumgama weemitha ezili-150."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-065",
+      "section": "rules",
+      "topic": "secure-load",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — goods must be safely contained or securely fastened and protected from being dislodged or spilled",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "How must goods carried on a light motor vehicle be secured?",
+          "options": [
+            "Safely contained or securely fastened so they cannot be dislodged or spilled",
+            "Placed loosely if the trip is short",
+            "Held in place only by other luggage"
+          ],
+          "explanation": "The learner manual requires carried goods to be safely contained or securely fastened and protected from being dislodged or spilled."
+        },
+        "af": {
+          "question": "Hoe moet goedere wat op 'n ligte motorvoertuig vervoer word vasgemaak wees?",
+          "options": [
+            "Veilig bevat of stewig vasgemaak sodat dit nie kan losraak of uitval nie",
+            "Los geplaas as die rit kort is",
+            "Slegs deur ander bagasie in plek gehou"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat goedere veilig bevat of stewig vasgemaak en teen losraak of uitval beskerm word."
+        },
+        "xh": {
+          "question": "Impahla ethwalwa kwisithuthi esilula kufuneka ikhuseleke njani?",
+          "options": [
+            "Igcinwe ngokukhuselekileyo okanye ibotshelelwe kakuhle ukuze ingaphumi okanye ichitheke",
+            "Ibekwe ngokukhululekileyo ukuba uhambo lufutshane",
+            "Ibanjwe kuphela yenye imithwalo"
+          ],
+          "explanation": "Incwadi yomfundi ifuna impahla igcinwe ngokukhuselekileyo okanye ibotshelelwe kakuhle ukuze ingakhutshwa okanye ichitheke."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-066",
+      "section": "rules",
+      "topic": "load-driver-view",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — goods may not obscure driver/rider view to front, sides or rear-view mirrors",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May a load be positioned so that it blocks the driver's view of traffic ahead, to the sides or in the rear-view mirrors?",
+          "options": [
+            "No",
+            "Yes, if the vehicle is moving slowly",
+            "Yes, if hazard lights are used"
+          ],
+          "explanation": "The learner manual says a load may not obscure the driver's view to the front, sides or through the rear-view mirrors."
+        },
+        "af": {
+          "question": "Mag 'n vrag so geplaas word dat dit die bestuurder se uitsig op verkeer voor, aan die kante of in die truspieëls blokkeer?",
+          "options": [
+            "Nee",
+            "Ja, as die voertuig stadig beweeg",
+            "Ja, as noodligte gebruik word"
+          ],
+          "explanation": "Die leerderhandleiding sê 'n vrag mag nie die bestuurder se uitsig na voor, na die kante of deur die truspieëls belemmer nie."
+        },
+        "xh": {
+          "question": "Ngaba umthwalo unokubekwa ngendlela evala umbono womqhubi ngaphambili, emacaleni okanye kwizipili zokujonga ngasemva?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba isithuthi sihamba kancinci",
+            "Ewe, ukuba kusetyenziswa izibane zesilumkiso"
+          ],
+          "explanation": "Incwadi yomfundi ithi umthwalo awunakuthintela umbono womqhubi ngaphambili, emacaleni okanye kwizipili zokujonga ngasemva."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-067",
+      "section": "rules",
+      "topic": "load-road-contact",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — goods may not come into contact with the road surface",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May goods carried on a vehicle hang down so that they touch the road surface?",
+          "options": [
+            "No",
+            "Yes, if the load is light",
+            "Yes, on quiet roads"
+          ],
+          "explanation": "The learner manual states that goods may not be loaded in a way that allows them to contact the road surface."
+        },
+        "af": {
+          "question": "Mag goedere wat op 'n voertuig vervoer word so afhang dat dit aan die padoppervlak raak?",
+          "options": [
+            "Nee",
+            "Ja, as die vrag lig is",
+            "Ja, op stil paaie"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat goedere nie so gelaai mag word dat dit met die padoppervlak in aanraking kom nie."
+        },
+        "xh": {
+          "question": "Ngaba impahla ethwalwa kwisithuthi ingaxhonywa ide ichukumise umphezulu wendlela?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba umthwalo ulula",
+            "Ewe, kwiindlela ezithuleyo"
+          ],
+          "explanation": "Incwadi yomfundi ithi impahla ayinakuthwalwa ngendlela eyenza ichukumise umphezulu wendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-068",
+      "section": "rules",
+      "topic": "motorcycle-baggage-secure-carrier",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — motorcycle baggage should be placed in suitable carriers securely attached to the motorcycle",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does the learner manual recommend for carrying baggage on a motorcycle?",
+          "options": [
+            "Use suitable carriers securely attached to the motorcycle",
+            "Balance loose baggage on the fuel tank",
+            "Let baggage hang freely from the handlebars"
+          ],
+          "explanation": "The learner manual recommends carrying motorcycle baggage in suitable carriers securely attached to the motorcycle."
+        },
+        "af": {
+          "question": "Wat beveel die leerderhandleiding aan vir die vervoer van bagasie op 'n motorfiets?",
+          "options": [
+            "Gebruik geskikte draers wat stewig aan die motorfiets vas is",
+            "Balanseer los bagasie op die brandstoftenk",
+            "Laat bagasie los aan die stuurhandvatsels hang"
+          ],
+          "explanation": "Die leerderhandleiding beveel aan dat motorfietsbagasie in geskikte draers vervoer word wat stewig aan die motorfiets vas is."
+        },
+        "xh": {
+          "question": "Incwadi yomfundi icebisa ntoni xa kuthwalwa impahla kwisithuthuthu?",
+          "options": [
+            "Sebenzisa iziphathi ezifanelekileyo ezibotshelelwe kakuhle kwisithuthuthu",
+            "Beka impahla ekhululekileyo phezu kwetanki yamafutha",
+            "Vumela impahla ixhonywe ngokukhululekileyo kwii-handlebar"
+          ],
+          "explanation": "Incwadi yomfundi icebisa ukuba impahla yesithuthuthu ithwalwe kwiziphathi ezifanelekileyo ezibotshelelwe kakuhle kwisithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    }
+  ]
+}

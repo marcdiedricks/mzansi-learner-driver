@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r5-github-only",
+  "pack_id": "signs-expansion-r8-github-only",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1280,6 +1280,465 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r5"
+    },
+    {
+      "id": "signs-026",
+      "section": "signs",
+      "topic": "one-way-roadway",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — One-way roadway sign R4",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a One-Way Roadway sign tell you?",
+          "options": [
+            "Traffic using that roadway must proceed in the direction shown by the arrow",
+            "Traffic may travel in either direction",
+            "The road is closed to all vehicles"
+          ],
+          "explanation": "A One-Way Roadway sign indicates that the roadway carries traffic in the direction shown by the arrow."
+        },
+        "af": {
+          "question": "Wat sê 'n Eenrigtingrybaan-teken vir jou?",
+          "options": [
+            "Verkeer wat daardie rybaan gebruik moet in die rigting van die pyl beweeg",
+            "Verkeer mag in albei rigtings beweeg",
+            "Die pad is vir alle voertuie gesluit"
+          ],
+          "explanation": "'n Eenrigtingrybaan-teken dui aan dat verkeer op daardie rybaan in die rigting van die pyl beweeg."
+        },
+        "xh": {
+          "question": "Uphawu lweNdlela eNye kuphela lukuxelela ntoni?",
+          "options": [
+            "Izithuthi ezisebenzisa loo ndlela kufuneka zihambe kwicala eliboniswe lutolo",
+            "Izithuthi zingahamba macala omabini",
+            "Indlela ivaliwe kuzo zonke izithuthi"
+          ],
+          "explanation": "Uphawu lweNdlela eNye kuphela lubonisa ukuba izithuthi kuloo ndlela zihamba kwicala eliboniswe lutolo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "signs-027",
+      "section": "signs",
+      "topic": "pedestrian-priority",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedestrian Priority sign R5",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the main meaning of a Pedestrian Priority sign?",
+          "options": [
+            "Pedestrians have priority in the indicated area",
+            "Vehicles always have priority over pedestrians",
+            "Pedestrians are prohibited from entering the area"
+          ],
+          "explanation": "A Pedestrian Priority sign gives priority to pedestrians in the indicated area and limits vehicle access."
+        },
+        "af": {
+          "question": "Wat is die hoofbetekenis van 'n Voetgangerprioriteit-teken?",
+          "options": [
+            "Voetgangers het voorrang in die aangeduide gebied",
+            "Voertuie het altyd voorrang bo voetgangers",
+            "Voetgangers mag nie die gebied betree nie"
+          ],
+          "explanation": "'n Voetgangerprioriteit-teken gee voorrang aan voetgangers in die aangeduide gebied en beperk voertuigtoegang."
+        },
+        "xh": {
+          "question": "Yintoni eyona ntsingiselo yophawu lweNgqwalaselo yabaHambi ngeenyawo?",
+          "options": [
+            "Abahambi ngeenyawo banokubaluleka kuqala kwindawo ebonisiweyo",
+            "Izithuthi zihlala zinelungelo lokudlula kuqala kunabahambi ngeenyawo",
+            "Abahambi ngeenyawo abavumelekanga ukungena kuloo ndawo"
+          ],
+          "explanation": "Uphawu lweNgqwalaselo yabaHambi ngeenyawo lunika abahambi ngeenyawo ilungelo lokuqala kwindawo ebonisiweyo kwaye luthintela ukufikelela kwezithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "signs-028",
+      "section": "signs",
+      "topic": "yield-to-oncoming-traffic",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Yield to oncoming traffic sign R6",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do at a Yield to Oncoming Traffic sign?",
+          "options": [
+            "Give right of way to oncoming traffic and proceed only when it is safe",
+            "Proceed first because your side has priority",
+            "Stop permanently and do not continue"
+          ],
+          "explanation": "This sign requires you to yield to oncoming traffic and proceed only when it is safe to enter the shared section of road."
+        },
+        "af": {
+          "question": "Wat moet jy by 'n Gee Pad aan Aankomende Verkeer-teken doen?",
+          "options": [
+            "Gee voorrang aan aankomende verkeer en gaan slegs voort wanneer dit veilig is",
+            "Gaan eerste omdat jou kant voorrang het",
+            "Stop permanent en moenie verder ry nie"
+          ],
+          "explanation": "Hierdie teken vereis dat jy aan aankomende verkeer voorrang gee en slegs voortgaan wanneer dit veilig is om die gedeelde padgedeelte binne te gaan."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kuphawu oluthi Nika indlela kwizithuthi eziza ngaphambili?",
+          "options": [
+            "Nika izithuthi eziza ngaphambili ilungelo lokudlula uze uqhubeke kuphela xa kukhuselekile",
+            "Qhubeka kuqala kuba icala lakho linelungelo lokuqala",
+            "Yima ngokusisigxina ungaphindi uqhubeke"
+          ],
+          "explanation": "Olu phawu lufuna ukuba unike indlela kwizithuthi eziza ngaphambili uze ungene kuphela xa kukhuselekile kwinxalenye yendlela esetyenziswa macala omabini."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "signs-029",
+      "section": "signs",
+      "topic": "pedestrians-prohibited",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedestrians prohibited R218/TR218",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Pedestrians Prohibited sign mean?",
+          "options": [
+            "Pedestrians may not enter or cross where the restriction applies",
+            "Pedestrians have priority over all vehicles",
+            "Only schoolchildren may cross there"
+          ],
+          "explanation": "This sign prohibits pedestrians from entering or crossing the road or path where the restriction applies."
+        },
+        "af": {
+          "question": "Wat beteken 'n Voetgangers Verbode-teken?",
+          "options": [
+            "Voetgangers mag nie ingaan of oorsteek waar die beperking geld nie",
+            "Voetgangers het voorrang bo alle voertuie",
+            "Slegs skoolkinders mag daar oorsteek"
+          ],
+          "explanation": "Hierdie teken verbied voetgangers om die pad of paadjie binne te gaan of oor te steek waar die beperking geld."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi AbaHambi ngeenyawo Abavumelekanga?",
+          "options": [
+            "Abahambi ngeenyawo abavumelekanga ukungena okanye ukuwela apho olo thintelo lusebenza khona",
+            "Abahambi ngeenyawo banokubaluleka kuqala kuzo zonke izithuthi",
+            "Ngabantwana besikolo kuphela abavumelekileyo ukuwela apho"
+          ],
+          "explanation": "Olu phawu luthintela abahambi ngeenyawo ekungeneni okanye ekuweleni indlela okanye umzila apho olo thintelo lusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "signs-030",
+      "section": "signs",
+      "topic": "pedal-cycles-prohibited",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedal cycles prohibited R219/TR219",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Pedal Cycles Prohibited sign mean?",
+          "options": [
+            "Cyclists may not proceed beyond the sign and must use another route",
+            "Cyclists have priority over motor vehicles",
+            "Only motorcycles may use the lane"
+          ],
+          "explanation": "This sign prohibits pedal cyclists from using the road, lane or path where the restriction applies."
+        },
+        "af": {
+          "question": "Wat beteken 'n Trapfietse Verbode-teken?",
+          "options": [
+            "Fietsryers mag nie verby die teken gaan nie en moet 'n ander roete gebruik",
+            "Fietsryers het voorrang bo motorvoertuie",
+            "Slegs motorfietse mag die baan gebruik"
+          ],
+          "explanation": "Hierdie teken verbied trapfietsryers om die pad, baan of paadjie te gebruik waar die beperking geld."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Iibhayisekile Azivumelekanga?",
+          "options": [
+            "Abakhweli beebhayisekile abavumelekanga ukudlula kophawu kwaye kufuneka basebenzise enye indlela",
+            "Abakhweli beebhayisekile banokubaluleka kuqala kwizithuthi",
+            "Ziithuthuthu kuphela ezinokusebenzisa umzila"
+          ],
+          "explanation": "Olu phawu luthintela abakhweli beebhayisekile ekusebenziseni indlela, umzila okanye indlela encinci apho olo thintelo lusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "signs-031",
+      "section": "signs",
+      "topic": "motorcycles-prohibited",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Motorcycles prohibited R222/TR222",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Motorcycles Prohibited sign mean?",
+          "options": [
+            "Motorcycles may not enter the part of the road where the restriction applies",
+            "Motorcycles must use that road",
+            "Motorcycles may enter only at night"
+          ],
+          "explanation": "This sign prohibits motorcycles from entering the indicated part of the carriageway or road."
+        },
+        "af": {
+          "question": "Wat beteken 'n Motorfietse Verbode-teken?",
+          "options": [
+            "Motorfietse mag nie die deel van die pad binnegaan waar die beperking geld nie",
+            "Motorfietse moet daardie pad gebruik",
+            "Motorfietse mag slegs snags ingaan"
+          ],
+          "explanation": "Hierdie teken verbied motorfietse om die aangeduide deel van die rybaan of pad binne te gaan."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Izithuthuthu Azivumelekanga?",
+          "options": [
+            "Izithuthuthu azivumelekanga ukungena kwinxalenye yendlela apho olo thintelo lusebenza khona",
+            "Izithuthuthu kufuneka zisebenzise loo ndlela",
+            "Izithuthuthu zingangena kuphela ebusuku"
+          ],
+          "explanation": "Olu phawu luthintela izithuthuthu ekungeneni kwinxalenye ebonisiweyo yendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "signs-032",
+      "section": "signs",
+      "topic": "railway-crossing-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Railway crossing warning W403/W404",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when you approach a Railway Crossing warning sign?",
+          "options": [
+            "Slow down, look for a train and stop if a train is approaching",
+            "Accelerate to cross the tracks quickly",
+            "Stop on the railway track to look both ways"
+          ],
+          "explanation": "The sign warns of a railway crossing ahead. Slow down and stop if a train is approaching."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n Spoorwegoorgang-waarskuwingsteken nader?",
+          "options": [
+            "Verminder spoed, kyk vir 'n trein en stop as 'n trein nader",
+            "Versnel om vinnig oor die spore te gaan",
+            "Stop op die spoor om na albei kante te kyk"
+          ],
+          "explanation": "Die teken waarsku dat 'n spoorwegoorgang voorlê. Verminder spoed en stop as 'n trein nader."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa usondela kuphawu olulumkisa ngeNdawo yokuWela uLoliwe?",
+          "options": [
+            "Cotha, jonga uloliwe uze ume ukuba uloliwe uyasondela",
+            "Khawulezisa ukuze uwele imizila ngokukhawuleza",
+            "Yima phezu komzila kaloliwe ujonge macala omabini"
+          ],
+          "explanation": "Uphawu lumkisa ngendawo yokuwela uloliwe engaphambili. Cotha uze ume ukuba uloliwe uyasondela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
+    },
+    {
+      "id": "signs-033",
+      "section": "signs",
+      "topic": "t-junction-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — T-junction chevron W409/TW409",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a T-Junction warning sign tell you?",
+          "options": [
+            "The road ahead ends at another road, so prepare to turn left or right or stop",
+            "The road continues straight without an intersection",
+            "Only heavy vehicles may continue"
+          ],
+          "explanation": "A T-Junction warning sign tells you that the road ahead does not continue straight but meets another road."
+        },
+        "af": {
+          "question": "Wat sê 'n T-aansluiting-waarskuwingsteken vir jou?",
+          "options": [
+            "Die pad vorentoe eindig by 'n ander pad, dus moet jy voorberei om links of regs te draai of te stop",
+            "Die pad gaan reguit voort sonder 'n kruising",
+            "Slegs swaar voertuie mag voortgaan"
+          ],
+          "explanation": "'n T-aansluiting-waarskuwingsteken sê dat die pad vorentoe nie reguit voortgaan nie maar by 'n ander pad aansluit."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa ngeSiphambuka esingu-T lukuxelela ntoni?",
+          "options": [
+            "Indlela engaphambili iphela kwenye indlela, ngoko lungela ukujika ngasekhohlo okanye ngasekunene okanye ume",
+            "Indlela iyaqhubeka ngqo ngaphandle kwesiphambuka",
+            "Ziimoto ezinzima kuphela ezinokuqhubeka"
+          ],
+          "explanation": "Uphawu olulumkisa ngeSiphambuka esingu-T lukuxelela ukuba indlela engaphambili ayiqhubeki ngqo kodwa idibana nenye indlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
+    },
+    {
+      "id": "signs-034",
+      "section": "signs",
+      "topic": "traffic-signals-out-of-order",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic signals out of order TW412",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when a Traffic Signals Out of Order warning sign applies ahead?",
+          "options": [
+            "Slow down, yield to other traffic and be ready to stop",
+            "Ignore the intersection and continue at the same speed",
+            "Accelerate before other traffic reaches the intersection"
+          ],
+          "explanation": "The learner manual says to slow down, yield to other traffic and be ready to stop when traffic signals are out of order."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer 'n Verkeersligte Buite Werking-waarskuwingsteken vorentoe geld?",
+          "options": [
+            "Verminder spoed, gee pad aan ander verkeer en wees gereed om te stop",
+            "Ignoreer die kruising en hou dieselfde spoed",
+            "Versnel voordat ander verkeer die kruising bereik"
+          ],
+          "explanation": "Die leerderhandleiding sê jy moet spoed verminder, aan ander verkeer padgee en gereed wees om te stop wanneer verkeersligte buite werking is."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa uphawu olulumkisa ukuba iiRobhothi azisebenzi lusebenza ngaphambili?",
+          "options": [
+            "Cotha, unike ezinye izithuthi indlela uze ulungele ukuma",
+            "Ungasihoyi isiphambuka uze uqhubeke ngesantya esifanayo",
+            "Khawulezisa phambi kokuba ezinye izithuthi zifike kwisiphambuka"
+          ],
+          "explanation": "Incwadi yomfundi ithi kufuneka ucothe, unike ezinye izithuthi indlela uze ulungele ukuma xa iirobhothi zingasebenzi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
     }
   ]
 }

@@ -110,15 +110,27 @@
       <button class="back" data-i18n="backHome">← Back to home</button>
       <div class="screen-heading"><span class="screen-chip blue" data-i18n="learnUpper">LEARN</span><h2 data-i18n="buildKnowledge">Build your knowledge</h2><p data-i18n="learnIntro">Work through the three core areas at your own pace.</p></div>
       <div class="topic-list">
-        <article class="topic-card topic-blue"><span class="topic-no">01</span><div><h3 data-i18n="rulesTitle">Rules of the Road</h3><p data-i18n="rulesDesc">Learn the basic rules that control safe road use.</p></div></article>
-        <article class="topic-card topic-teal"><span class="topic-no">02</span><div><h3 data-i18n="signsTitle">Road Signs & Markings</h3><p data-i18n="signsDesc">Recognise signs, signals and road markings.</p></div></article>
-        <article class="topic-card topic-purple"><span class="topic-no">03</span><div><h3 data-i18n="controlsTitle">Vehicle Controls</h3><p data-i18n="controlsDesc">Understand common controls used in the relevant vehicle class.</p></div></article>
+        <article class="topic-card topic-blue"><span class="topic-no">01</span><div><h3 data-i18n="rulesTitle">Rules of the Road</h3><p data-i18n="rulesDesc">Learn the rules for safe and lawful road use, including intersections, overtaking, stopping, parking, freeways, pedestrians, towing, tyres and accident duties.</p></div></article>
+        <article class="topic-card topic-teal"><span class="topic-no">02</span><div><h3 data-i18n="signsTitle">Road Signs, Signals & Markings</h3><p data-i18n="signsDesc">Recognise regulatory and warning signs, traffic signals, road markings and guidance information.</p></div></article>
+        <article class="topic-card topic-purple"><span class="topic-no">03</span><div><h3 data-i18n="controlsTitle">Vehicle Controls & Components</h3><p data-i18n="controlsDesc">Understand the controls and major components for your selected Code 1 or Code 2 pathway.</p></div></article>
+        <article class="topic-card topic-blue"><span class="topic-no">04</span><div><h3 data-i18n="applicationTitle">Road-Use Application</h3><p data-i18n="applicationDesc">Practise deciding what the safest lawful response is in ordinary road situations without replacing supervised practical training.</p></div></article>
+        <article class="topic-card topic-teal"><span class="topic-no">05</span><div><h3 data-i18n="digitalTitle">Digital Test Confidence</h3><p data-i18n="digitalDesc">Get comfortable selecting answers, changing a choice and moving through a computer-style practice session.</p></div></article>
+        <article class="topic-card topic-purple"><span class="topic-no">06</span><div><h3 data-i18n="offlineTitle">Offline Repetition</h3><p data-i18n="offlineDesc">Use the full bank repeatedly offline, revisit weak areas and build confidence without using mobile data every time.</p></div></article>
       </div>
+      <div class="practice-focus" aria-labelledby="studyFocusLabel">
+        <span id="studyFocusLabel" class="practice-focus-label" data-i18n="studyFocusLabel">Study one core area at a time</span>
+        <div class="practice-focus-buttons" role="group" aria-labelledby="studyFocusLabel">
+          <button class="practice-focus-btn study-focus-btn active" type="button" data-study-section="rules" aria-pressed="true" data-i18n="practiceRules">Rules</button>
+          <button class="practice-focus-btn study-focus-btn" type="button" data-study-section="signs" aria-pressed="false" data-i18n="practiceSigns">Signs</button>
+          <button class="practice-focus-btn study-focus-btn" type="button" data-study-section="controls" aria-pressed="false" data-i18n="practiceControls">Controls</button>
+        </div>
+      </div>
+      <div id="studyBox"></div>
     </section>
 
     <section id="practiceView" class="view">
       <button class="back" data-i18n="backHome">← Back to home</button>
-      <div class="screen-heading"><span class="screen-chip teal" data-i18n="practiseUpper">PRACTISE</span><h2 data-i18n="learnDoing">Learn by doing</h2><p id="practiceIntro">Code 2 Light Vehicle pilot. Choose an answer, then read the explanation.</p></div>
+      <div class="screen-heading"><span class="screen-chip teal" data-i18n="practiseUpper">PRACTISE</span><h2 data-i18n="learnDoing">Learn by doing</h2><p id="practiceIntro">Code 2 Light Vehicle full-bank practice. Choose an answer, then read the explanation.</p></div>
       <div class="practice-focus" aria-labelledby="practiceFocusLabel">
         <span id="practiceFocusLabel" class="practice-focus-label" data-i18n="practiceFocusLabel">Choose what to practise</span>
         <div class="practice-focus-buttons" role="group" aria-labelledby="practiceFocusLabel">
@@ -133,8 +145,8 @@
 
     <section id="mockView" class="view">
       <button class="back" data-i18n="backHome">← Back to home</button>
-      <div class="screen-heading"><span class="screen-chip purple" data-i18n="mockUpper">MOCK TEST</span><h2 data-i18n="testStyle">Try a test-style session</h2><p id="mockIntro">Code 2 Light Vehicle pilot. One Rules, one Signs and one Controls question. This is not the official CLLT.</p></div>
-      <button id="startMock" class="action-button"><span id="startMockText" data-i18n="startMock">Start 3-question mock</span><span>→</span></button>
+      <div class="screen-heading"><span class="screen-chip purple" data-i18n="mockUpper">MOCK TEST</span><h2 data-i18n="testStyle">Try a test-style session</h2><p id="mockIntro">Code 2 Light Vehicle practice: 28 Rules, 28 Signs/Signals/Markings and 8 Controls questions. You may change an answer before tapping Next. Results and explanations appear at the end. This is not the official CLLT.</p></div>
+      <button id="startMock" class="action-button"><span id="startMockText" data-i18n="startMock">Start 64-question practice</span><span>→</span></button>
       <div id="mockBox"></div>
     </section>
 

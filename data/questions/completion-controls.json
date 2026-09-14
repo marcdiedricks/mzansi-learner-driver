@@ -1,0 +1,720 @@
+{
+  "pack_id": "controls-content-completion-1",
+  "status": "CONTENT_QA",
+  "items": [
+    {
+      "id": "controls-019",
+      "section": "controls",
+      "topic": "manual-clutch-pedal",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — Light Motor Vehicle manual controls: clutch",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which pedal is fitted to a manual light motor vehicle to connect and disconnect engine drive when changing gears?",
+          "options": [
+            "Clutch pedal",
+            "Brake pedal",
+            "Accelerator pedal"
+          ],
+          "explanation": "The manual light-vehicle control set includes a clutch pedal for manual transmission operation."
+        },
+        "af": {
+          "question": "Watter pedaal is in 'n handrat-ligte motorvoertuig aangebring om enjinaandrywing tydens ratwisseling te koppel en ontkoppel?",
+          "options": [
+            "Koppelaarpedaal",
+            "Rempedaal",
+            "Versnellerpedaal"
+          ],
+          "explanation": "Die handrat-ligte motorvoertuig se beheerstel sluit 'n koppelaarpedaal vir handratwerking in."
+        },
+        "xh": {
+          "question": "Yeyiphi ipedali ekwisithuthi esilula esine-manual gearbox esetyenziselwa ukudibanisa nokwahlula amandla enjini xa kutshintshwa iigiya?",
+          "options": [
+            "Ipedali yeklatshi",
+            "Ipedali yebrake",
+            "Ipedali ye-accelerator"
+          ],
+          "explanation": "Izilawuli zesithuthi esilula esine-manual gearbox ziquka ipedali yeklatshi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-020",
+      "section": "controls",
+      "topic": "mirror-awareness-before-action",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — centre rear-view mirror note: check mirrors to know traffic behind",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Before carrying out a road action, what does the controls manual say the driver should check first to know the traffic situation behind?",
+          "options": [
+            "The mirrors",
+            "The fuel gauge only",
+            "The radio"
+          ],
+          "explanation": "The controls manual notes that the driver should first check the mirrors to be aware of traffic behind."
+        },
+        "af": {
+          "question": "Wat sê die beheerhandleiding moet 'n bestuurder eerste nagaan om die verkeersituasie agter te ken voordat 'n padhandeling uitgevoer word?",
+          "options": [
+            "Die spieëls",
+            "Slegs die brandstofmeter",
+            "Die radio"
+          ],
+          "explanation": "Die beheerhandleiding sê die bestuurder moet eers die spieëls nagaan om bewus te wees van verkeer agter."
+        },
+        "xh": {
+          "question": "Incwadi yezilawuli ithi umqhubi kufuneka ajonge ntoni kuqala ukuze azi imeko yezithuthi ngasemva ngaphambi kwesenzo endleleni?",
+          "options": [
+            "Izipili",
+            "Isalathisi samafutha kuphela",
+            "Irediyo"
+          ],
+          "explanation": "Incwadi yezilawuli ithi umqhubi makaqale ajonge izipili ukuze azi izithuthi ezingasemva."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-021",
+      "section": "controls",
+      "topic": "automatic-gear-lever-difference",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — automatic gear lever differs from manual gearbox system",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which statement about the gear lever in an automatic vehicle is correct?",
+          "options": [
+            "It operates differently from a manual gearbox system",
+            "It is identical to a manual clutch pedal",
+            "It replaces the steering wheel"
+          ],
+          "explanation": "The controls manual notes that an automatic vehicle's gear lever operates differently from a manual gearbox system."
+        },
+        "af": {
+          "question": "Watter stelling oor die rathefboom in 'n outomatiese voertuig is korrek?",
+          "options": [
+            "Dit werk anders as 'n handratstelsel",
+            "Dit is dieselfde as 'n handrat-koppelaarpedaal",
+            "Dit vervang die stuurwiel"
+          ],
+          "explanation": "Die beheerhandleiding merk op dat 'n outomatiese voertuig se rathefboom anders as 'n handratstelsel werk."
+        },
+        "xh": {
+          "question": "Sesiphi isivakalisi esichanekileyo malunga neleva yegiya kwisithuthi esizenzekelayo?",
+          "options": [
+            "Isebenza ngokwahlukileyo kwinkqubo ye-manual gearbox",
+            "Ifana ncam nepedali yeklatshi",
+            "Ithatha indawo yevili lokuqhuba"
+          ],
+          "explanation": "Incwadi yezilawuli ithi ileva yegiya kwisithuthi esizenzekelayo isebenza ngokwahlukileyo kwi-manual gearbox."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-022",
+      "section": "controls",
+      "topic": "foot-operated-parking-brake",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — parking brake may be foot-operated on some vehicles",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Can a parking brake on some light motor vehicles be foot-operated?",
+          "options": [
+            "Yes",
+            "No, it must always be a hand lever",
+            "Only on motorcycles"
+          ],
+          "explanation": "The controls manual notes that some vehicles have a foot-operated parking brake."
+        },
+        "af": {
+          "question": "Kan 'n parkeerrem op sommige ligte motorvoertuie voetbedien wees?",
+          "options": [
+            "Ja",
+            "Nee, dit moet altyd 'n handhefboom wees",
+            "Slegs op motorfietse"
+          ],
+          "explanation": "Die beheerhandleiding merk op dat sommige voertuie 'n voetbediende parkeerrem het."
+        },
+        "xh": {
+          "question": "Ngaba i-parking brake kwezinye izithuthi ezilula ingasetyenziswa ngonyawo?",
+          "options": [
+            "Ewe",
+            "Hayi, kufuneka isoloko iyileva yesandla",
+            "Kuphela kwizithuthuthu"
+          ],
+          "explanation": "Incwadi yezilawuli ithi ezinye izithuthi zine-parking brake esetyenziswa ngonyawo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-023",
+      "section": "controls",
+      "topic": "manual-three-pedals",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — manual LMV controls: clutch, brake, accelerator",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which three driver pedals are found in a typical manual light motor vehicle?",
+          "options": [
+            "Clutch, brake and accelerator",
+            "Horn, indicator and mirror",
+            "Gear lever, steering wheel and wiper"
+          ],
+          "explanation": "The manual light-vehicle control list includes clutch, brake and accelerator pedals."
+        },
+        "af": {
+          "question": "Watter drie bestuurderspedale word tipies in 'n handrat-ligte motorvoertuig aangetref?",
+          "options": [
+            "Koppelaar, rem en versneller",
+            "Toeter, rigtingwyser en spieël",
+            "Rathefboom, stuurwiel en ruitveër"
+          ],
+          "explanation": "Die handrat-ligte motorvoertuig se beheerlys sluit die koppelaar-, rem- en versnellerpedale in."
+        },
+        "xh": {
+          "question": "Zeziphi iipedali ezintathu zomqhubi ezifumaneka kwisithuthi esilula esine-manual gearbox?",
+          "options": [
+            "Iklatshi, ibrake kunye ne-accelerator",
+            "Ihorn, isalathisi kunye nesipili",
+            "Ilever yegiya, ivili lokuqhuba kunye ne-wiper"
+          ],
+          "explanation": "Uluhlu lwezilawuli zesithuthi esilula esine-manual gearbox luquka iklatshi, ibrake kunye ne-accelerator."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-024",
+      "section": "controls",
+      "topic": "motorcycle-handlebars",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls §1.2 — motorcycle component 8: handlebars",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control is used to steer the motorcycle?",
+          "options": [
+            "Handlebars",
+            "Fuel tank",
+            "Foot rest"
+          ],
+          "explanation": "The handlebars are the motorcycle's steering control."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer word gebruik om die motorfiets te stuur?",
+          "options": [
+            "Stuurhandvatsels",
+            "Brandstoftenk",
+            "Voetrus"
+          ],
+          "explanation": "Die stuurhandvatsels is die motorfiets se stuurbeheer."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esisetyenziselwa ukusilawula kwicala?",
+          "options": [
+            "Ii-handlebar",
+            "Itanki yamafutha",
+            "Indawo yokubeka unyawo"
+          ],
+          "explanation": "Ii-handlebar zizilawuli zokujika isithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-025",
+      "section": "controls",
+      "topic": "motorcycle-fuel-tank",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls §1.2 — motorcycle component 9: fuel tank",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle component stores the fuel?",
+          "options": [
+            "Fuel tank",
+            "Rear-view mirror",
+            "Gear lever"
+          ],
+          "explanation": "The fuel tank is the motorcycle component that contains the fuel supply."
+        },
+        "af": {
+          "question": "Watter motorfietsonderdeel hou die brandstof?",
+          "options": [
+            "Brandstoftenk",
+            "Truspieël",
+            "Rathefboom"
+          ],
+          "explanation": "Die brandstoftenk is die motorfietsonderdeel wat die brandstofvoorraad bevat."
+        },
+        "xh": {
+          "question": "Leliphi icandelo lesithuthuthu eligcina amafutha?",
+          "options": [
+            "Itanki yamafutha",
+            "Isipili sokujonga ngasemva",
+            "Ilever yegiya"
+          ],
+          "explanation": "Itanki yamafutha ligcina amafutha esithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-026",
+      "section": "controls",
+      "topic": "motorcycle-rear-lamp",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: rear lamp",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle component is the lamp fitted at the rear of the motorcycle?",
+          "options": [
+            "Rear lamp",
+            "Fuel tank",
+            "Handlebars"
+          ],
+          "explanation": "The controls manual identifies the rear lamp as a major visual motorcycle component."
+        },
+        "af": {
+          "question": "Watter motorfietsonderdeel is die lig wat aan die agterkant van die motorfiets aangebring is?",
+          "options": [
+            "Agterlig",
+            "Brandstoftenk",
+            "Stuurhandvatsels"
+          ],
+          "explanation": "Die beheerhandleiding identifiseer die agterlig as 'n belangrike sigbare motorfietsonderdeel."
+        },
+        "xh": {
+          "question": "Leliphi icandelo lesithuthuthu elisisibane esingasemva?",
+          "options": [
+            "Isibane sangasemva",
+            "Itanki yamafutha",
+            "Ii-handlebar"
+          ],
+          "explanation": "Incwadi yezilawuli ichaza isibane sangasemva njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-027",
+      "section": "controls",
+      "topic": "motorcycle-rear-tyre",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: rear tyre",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle component makes contact with the road at the rear wheel?",
+          "options": [
+            "Rear tyre",
+            "Rear-view mirror",
+            "Indicator switch"
+          ],
+          "explanation": "The controls manual identifies the rear tyre as a major visual motorcycle component."
+        },
+        "af": {
+          "question": "Watter motorfietsonderdeel maak by die agterwiel kontak met die pad?",
+          "options": [
+            "Agterband",
+            "Truspieël",
+            "Rigtingwyser-skakelaar"
+          ],
+          "explanation": "Die beheerhandleiding identifiseer die agterband as 'n belangrike sigbare motorfietsonderdeel."
+        },
+        "xh": {
+          "question": "Leliphi icandelo lesithuthuthu elichukumisa indlela kwivili langasemva?",
+          "options": [
+            "Itayara langasemva",
+            "Isipili sokujonga ngasemva",
+            "Iswitshi yezalathisi"
+          ],
+          "explanation": "Incwadi yezilawuli ichaza itayara langasemva njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-028",
+      "section": "controls",
+      "topic": "motorcycle-mudguard",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: mudguard",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which named motorcycle component is fitted close to a wheel to help shield against spray and debris?",
+          "options": [
+            "Mudguard",
+            "Fuel tank",
+            "Gear lever"
+          ],
+          "explanation": "The controls manual identifies the mudguard as a major visual motorcycle component."
+        },
+        "af": {
+          "question": "Watter benoemde motorfietsonderdeel is naby 'n wiel aangebring om teen spatwater en vuilgoed te help beskerm?",
+          "options": [
+            "Modderskerm",
+            "Brandstoftenk",
+            "Rathefboom"
+          ],
+          "explanation": "Die beheerhandleiding identifiseer die modderskerm as 'n belangrike sigbare motorfietsonderdeel."
+        },
+        "xh": {
+          "question": "Leliphi icandelo lesithuthuthu elikufuphi nevili elinceda ukukhusela ekutshizeni nasekungcoleni?",
+          "options": [
+            "I-mudguard",
+            "Itanki yamafutha",
+            "Ilever yegiya"
+          ],
+          "explanation": "Incwadi yezilawuli ichaza i-mudguard njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-029",
+      "section": "controls",
+      "topic": "motorcycle-mirror-purpose-variation",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls §1.2 — left and right rear-view mirrors",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which pair of motorcycle components helps the rider monitor traffic behind?",
+          "options": [
+            "Left and right rear-view mirrors",
+            "Fuel tank and mudguard",
+            "Gear lever and foot rest"
+          ],
+          "explanation": "The left and right rear-view mirrors help the rider observe traffic behind the motorcycle."
+        },
+        "af": {
+          "question": "Watter paar motorfietsonderdele help die ryer om verkeer agter die motorfiets dop te hou?",
+          "options": [
+            "Linker- en regtertruspieëls",
+            "Brandstoftenk en modderskerm",
+            "Rathefboom en voetrus"
+          ],
+          "explanation": "Die linker- en regtertruspieëls help die ryer om verkeer agter die motorfiets waar te neem."
+        },
+        "xh": {
+          "question": "Zeziphi iinxalenye ezimbini zesithuthuthu ezinceda umkhweli ajonge izithuthi ezingasemva?",
+          "options": [
+            "Izipili zasekhohlo nasekunene zokujonga ngasemva",
+            "Itanki yamafutha ne-mudguard",
+            "Ilever yegiya nendawo yokubeka unyawo"
+          ],
+          "explanation": "Izipili zasekhohlo nasekunene zinceda umkhweli abone izithuthi ezingasemva kwesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-030",
+      "section": "controls",
+      "topic": "motorcycle-gear-control-variation",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls §1.2 — motorcycle gear lever",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle control is identified for selecting gears?",
+          "options": [
+            "Gear lever",
+            "Fuel tank",
+            "Mudguard"
+          ],
+          "explanation": "The controls manual identifies the gear lever as the motorcycle's gear-selection control."
+        },
+        "af": {
+          "question": "Watter motorfietsbeheer word vir die kies van ratte geïdentifiseer?",
+          "options": [
+            "Rathefboom",
+            "Brandstoftenk",
+            "Modderskerm"
+          ],
+          "explanation": "Die beheerhandleiding identifiseer die rathefboom as die motorfiets se ratkeusebeheer."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo sesithuthuthu esichazwe njengesisetyenziswa ukukhetha iigiya?",
+          "options": [
+            "Ilever yegiya",
+            "Itanki yamafutha",
+            "I-mudguard"
+          ],
+          "explanation": "Incwadi yezilawuli ichaza ilever yegiya njengesixhobo sokukhetha iigiya kwisithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-031",
+      "section": "controls",
+      "topic": "motorcycle-footrest",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: foot rest/peg",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle component provides a place for the rider's foot while riding?",
+          "options": [
+            "Foot rest or peg",
+            "Fuel tank",
+            "Rear lamp"
+          ],
+          "explanation": "The controls manual identifies the foot rest or peg as a motorcycle component."
+        },
+        "af": {
+          "question": "Watter motorfietsonderdeel bied 'n plek vir die ryer se voet tydens ry?",
+          "options": [
+            "Voetrus of voetpen",
+            "Brandstoftenk",
+            "Agterlig"
+          ],
+          "explanation": "Die beheerhandleiding identifiseer die voetrus of voetpen as 'n motorfietsonderdeel."
+        },
+        "xh": {
+          "question": "Leliphi icandelo lesithuthuthu elinika umkhweli indawo yokubeka unyawo?",
+          "options": [
+            "I-foot rest okanye i-peg",
+            "Itanki yamafutha",
+            "Isibane sangasemva"
+          ],
+          "explanation": "Incwadi yezilawuli ichaza i-foot rest okanye i-peg njengenxalenye yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "controls-032",
+      "section": "controls",
+      "topic": "motorcycle-exhaust-system",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: exhaust system",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which motorcycle component is identified as the exhaust system?",
+          "options": [
+            "The system that carries exhaust gases away from the engine",
+            "The rear-view mirror",
+            "The indicator switch"
+          ],
+          "explanation": "The controls manual identifies the exhaust system as a major visual motorcycle component."
+        },
+        "af": {
+          "question": "Watter motorfietsonderdeel word as die uitlaatstelsel geïdentifiseer?",
+          "options": [
+            "Die stelsel wat uitlaatgasse van die enjin wegvoer",
+            "Die truspieël",
+            "Die rigtingwyser-skakelaar"
+          ],
+          "explanation": "Die beheerhandleiding identifiseer die uitlaatstelsel as 'n belangrike sigbare motorfietsonderdeel."
+        },
+        "xh": {
+          "question": "Leliphi icandelo lesithuthuthu elichazwa njengenkqubo yokukhupha umsi?",
+          "options": [
+            "Inkqubo ekhupha iigesi zenjini",
+            "Isipili sokujonga ngasemva",
+            "Iswitshi yezalathisi"
+          ],
+          "explanation": "Incwadi yezilawuli ichaza inkqubo yokukhupha umsi njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    }
+  ]
+}
