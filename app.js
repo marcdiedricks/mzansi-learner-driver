@@ -356,7 +356,7 @@ async function loadQuestions() {
     return res.json();
   }));
   state.questions = packs.flatMap(pack => pack.items || []);
-  if (state.questions.length !== 40) throw new Error("Expected 40 pilot questions");
+  if (state.questions.length !== 46) throw new Error("Expected 46 pilot questions");
   if (!eligibleQuestions().length) throw new Error("No Code 2 pilot questions available");
 }
 function questionText(q) {
