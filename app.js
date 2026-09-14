@@ -53,6 +53,25 @@ async function dbSet(key, value) {
   });
 }
 
+async function dbClearLearningProgress() {
+  const keepKeys = new Set(["language", "vehiclePathway", "accessibilitySettings", "pathwayProgressMigrationV1"]);
+  const db = await openDB();
+  return new Promise(resolve => {
+    const tx = db.transaction(STORE, "readwrite");
+    const store = tx.objectStore(STORE);
+    const req = store.openCursor();
+    req.onsuccess = event => {
+      const cursor = event.target.result;
+      if (!cursor) return;
+      if (!keepKeys.has(cursor.key)) cursor.delete();
+      cursor.continue();
+    };
+    tx.oncomplete = () => resolve(true);
+    tx.onerror = () => resolve(false);
+    tx.onabort = () => resolve(false);
+  });
+}
+
 function pathwayKey(base, group = state.activeVehicleGroup) {
   return `${base}:${group}`;
 }
@@ -349,6 +368,35 @@ async function changeLanguage(newLang) {
   refreshHome();
 }
 document.querySelectorAll(".lang-btn").forEach(btn => btn.addEventListener("click", () => changeLanguage(btn.dataset.lang)));
+
+async function resetLearningProgress() {
+  if (!window.confirm(tr("resetConfirm"))) return;
+
+  stopSpeech();
+  const cleared = await dbClearLearningProgress();
+  if (!cleared) return;
+
+  state.lastPracticeId = null;
+  state.practiceSection = "all";
+  state.practiceQueue = [];
+  state.studySection = "rules";
+  state.studyIndex = 0;
+  state.mockQuestions = [];
+  state.mockIndex = 0;
+  state.mockScore = 0;
+  state.mockAnswers = [];
+  state.orientationStep = 0;
+
+  updateStudyFocusUI();
+  updatePracticeFocusUI();
+  await refreshHome();
+
+  const status = document.getElementById("resetProgressStatus");
+  if (status) status.textContent = tr("resetDone");
+}
+
+const resetProgressButton = document.getElementById("resetProgress");
+if (resetProgressButton) resetProgressButton.addEventListener("click", resetLearningProgress);
 
 function updateConnection() {
   const badge = document.getElementById("offlineBadge");
