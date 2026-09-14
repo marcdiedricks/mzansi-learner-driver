@@ -70,6 +70,21 @@
         <p data-i18n="noticeText">This is not the official learner's licence test and does not contain confidential CLLT questions.</p>
       </div></div>
 
+      <section class="pathway-card" aria-labelledby="pathwayTitle">
+        <span class="kicker" data-i18n="vehiclePathwayKicker">YOUR VEHICLE</span>
+        <h2 id="pathwayTitle" data-i18n="choosePathway">Choose your learner pathway</h2>
+        <div class="pathway-switcher" role="group" aria-labelledby="pathwayTitle">
+          <button class="pathway-btn" type="button" data-pathway="code1" aria-pressed="false">
+            <strong data-i18n="motorcyclePath">Motorcycle / Code 1</strong>
+            <small data-i18n="motorcyclePathDesc">Motorcycle learner preparation</small>
+          </button>
+          <button class="pathway-btn active" type="button" data-pathway="code2" aria-pressed="true">
+            <strong data-i18n="lightPath">Light Motor Vehicle / Code 2</strong>
+            <small data-i18n="lightPathDesc">Car and light motor vehicle learner preparation</small>
+          </button>
+        </div>
+      </section>
+
       <div class="section-heading"><div>
         <span class="kicker" data-i18n="chooseKicker">CHOOSE A STEP</span>
         <h2 data-i18n="chooseTitle">What would you like to do?</h2>
@@ -103,13 +118,13 @@
 
     <section id="practiceView" class="view">
       <button class="back" data-i18n="backHome">← Back to home</button>
-      <div class="screen-heading"><span class="screen-chip teal" data-i18n="practiseUpper">PRACTISE</span><h2 data-i18n="learnDoing">Learn by doing</h2><p data-i18n="practiceIntro">Code 2 Light Vehicle pilot. Choose an answer, then read the explanation.</p></div>
+      <div class="screen-heading"><span class="screen-chip teal" data-i18n="practiseUpper">PRACTISE</span><h2 data-i18n="learnDoing">Learn by doing</h2><p id="practiceIntro">Code 2 Light Vehicle pilot. Choose an answer, then read the explanation.</p></div>
       <div id="practiceBox"></div>
     </section>
 
     <section id="mockView" class="view">
       <button class="back" data-i18n="backHome">← Back to home</button>
-      <div class="screen-heading"><span class="screen-chip purple" data-i18n="mockUpper">MOCK TEST</span><h2 data-i18n="testStyle">Try a test-style session</h2><p data-i18n="mockIntro">Code 2 Light Vehicle pilot. One Rules, one Signs and one Controls question. This is not the official CLLT.</p></div>
+      <div class="screen-heading"><span class="screen-chip purple" data-i18n="mockUpper">MOCK TEST</span><h2 data-i18n="testStyle">Try a test-style session</h2><p id="mockIntro">Code 2 Light Vehicle pilot. One Rules, one Signs and one Controls question. This is not the official CLLT.</p></div>
       <button id="startMock" class="action-button"><span id="startMockText" data-i18n="startMock">Start 3-question mock</span><span>→</span></button>
       <div id="mockBox"></div>
     </section>
