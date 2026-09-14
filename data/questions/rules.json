@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r2",
+  "pack_id": "rules-expansion-r5-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -825,6 +825,466 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r2"
+    },
+    {
+      "id": "rules-019",
+      "section": "rules",
+      "topic": "freeway-lane-discipline",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — vehicles must keep left and overtake to the right on a freeway",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "On a freeway, what is the normal lane rule for a vehicle?",
+          "options": [
+            "Keep left and overtake to the right",
+            "Keep right and overtake to the left",
+            "Use any lane without regard to overtaking"
+          ],
+          "explanation": "The learner manual states that vehicles must keep left and overtake to the right on a freeway."
+        },
+        "af": {
+          "question": "Wat is die normale baanreël vir 'n voertuig op 'n snelweg?",
+          "options": [
+            "Hou links en steek regs verby",
+            "Hou regs en steek links verby",
+            "Gebruik enige baan sonder om op verbysteek te let"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat voertuie op 'n snelweg links moet hou en regs moet verbysteek."
+        },
+        "xh": {
+          "question": "Ngowuphi umgaqo oqhelekileyo wemizila yesithuthi kuhola wendlela?",
+          "options": [
+            "Hlala ngasekhohlo uze udlule ngasekunene",
+            "Hlala ngasekunene uze udlule ngasekhohlo",
+            "Sebenzisa nawuphi na umzila ngaphandle kokujonga ukudlula"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba izithuthi kufuneka zihlale ngasekhohlo zize zidlule ngasekunene kuhola wendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "rules-020",
+      "section": "rules",
+      "topic": "being-overtaken",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — when another vehicle wishes to pass: keep near the left edge and do not accelerate until it has passed",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when you become aware that another vehicle behind wants to overtake you?",
+          "options": [
+            "Keep as near to the left as is safely possible and do not accelerate until it has passed",
+            "Accelerate so it cannot pass",
+            "Move to the right-hand side of the road"
+          ],
+          "explanation": "The learner manual says to keep safely near the left edge and not accelerate until the overtaking vehicle has passed."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy agterkom dat 'n voertuig agter jou jou wil verbysteek?",
+          "options": [
+            "Hou so veilig moontlik naby die linkerkant en moenie versnel totdat dit verby is nie",
+            "Versnel sodat dit nie kan verbygaan nie",
+            "Beweeg na die regterkant van die pad"
+          ],
+          "explanation": "Die leerderhandleiding sê jy moet veilig naby die linkerkant hou en nie versnel voordat die verbysteekvoertuig verby is nie."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa uqaphela ukuba isithuthi esisemva sifuna ukudlula kuwe?",
+          "options": [
+            "Hlala kufutshane kangangoko kukhuselekile kwicala lasekhohlo kwaye ungakhawulezisi de sidlule",
+            "Khawulezisa ukuze singakwazi ukudlula",
+            "Yiya kwicala lasekunene lendlela"
+          ],
+          "explanation": "Incwadi yomfundi ithi kufuneka uhlale ngokukhuselekileyo kufutshane necala lasekhohlo kwaye ungakhawulezisi de isithuthi esidlulayo sidlule."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "rules-021",
+      "section": "rules",
+      "topic": "overtaking-restricted-view",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — do not pass near a summit, curve or other restricted-view place where passing could create a hazard",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Should you overtake by moving into the path of possible oncoming traffic near a crest or curve where your view is restricted?",
+          "options": [
+            "No",
+            "Yes, if you sound the horn",
+            "Yes, if you are in a hurry"
+          ],
+          "explanation": "You should not overtake where a crest, curve or other restricted view could make passing hazardous to oncoming traffic."
+        },
+        "af": {
+          "question": "Moet jy verbysteek deur in die pad van moontlike aankomende verkeer te beweeg naby 'n kruin of draai waar jou uitsig beperk is?",
+          "options": [
+            "Nee",
+            "Ja, as jy die toeter gebruik",
+            "Ja, as jy haastig is"
+          ],
+          "explanation": "Jy moet nie verbysteek waar 'n kruin, draai of ander beperkte uitsig verbysteek gevaarlik vir aankomende verkeer kan maak nie."
+        },
+        "xh": {
+          "question": "Ngaba kufuneka udlule ngokungena kwindlela enokusetyenziswa zizithuthi eziza ngaphambili kufutshane nencopho okanye igophe apho ukubona kwakho kuthintelwe?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba usebenzisa ihorn",
+            "Ewe, ukuba ungxamile"
+          ],
+          "explanation": "Akufanele udlule apho incopho, igophe okanye enye indawo enokuthintela ukubona inokwenza ukudlula kube yingozi kwizithuthi eziza ngaphambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "rules-022",
+      "section": "rules",
+      "topic": "mobile-phone-use",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.52 — cell phones",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May you drive or ride on a public road while holding a mobile phone or other communication device in your hand?",
+          "options": [
+            "No",
+            "Yes, if traffic is moving slowly",
+            "Yes, if you use only one hand"
+          ],
+          "explanation": "The learner manual states that a driver or rider may not hold a cellular or mobile telephone or other communication device while driving or riding on a public road."
+        },
+        "af": {
+          "question": "Mag jy op 'n openbare pad bestuur of ry terwyl jy 'n selfoon of ander kommunikasietoestel in jou hand hou?",
+          "options": [
+            "Nee",
+            "Ja, as verkeer stadig beweeg",
+            "Ja, as jy net een hand gebruik"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n bestuurder of ryer nie 'n selfoon of ander kommunikasietoestel mag vashou terwyl hy of sy op 'n openbare pad bestuur of ry nie."
+        },
+        "xh": {
+          "question": "Ngaba ungakwazi ukuqhuba okanye ukukhwela kwindlela kawonke-wonke ubambe ifowuni ephathwayo okanye esinye isixhobo sonxibelelwano ngesandla?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba izithuthi zihamba kancinci",
+            "Ewe, ukuba usebenzisa isandla esinye kuphela"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba umqhubi okanye umkhweli akavumelekanga ukubamba ifowuni ephathwayo okanye esinye isixhobo sonxibelelwano xa eqhuba okanye ekhwele kwindlela kawonke-wonke."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "rules-023",
+      "section": "rules",
+      "topic": "pedestrian-crossing-right-of-way",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.53 — pedestrians right of way at pedestrian crossings",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must a driver or rider do for a pedestrian who is crossing the roadway within a pedestrian crossing?",
+          "options": [
+            "Yield right of way and slow down or stop if necessary",
+            "Sound the horn and continue at the same speed",
+            "Pass in front of the pedestrian if there is enough space"
+          ],
+          "explanation": "The learner manual requires drivers and riders to yield right of way and slow down or stop if necessary for a pedestrian using a pedestrian crossing."
+        },
+        "af": {
+          "question": "Wat moet 'n bestuurder of ryer doen vir 'n voetganger wat die rybaan binne 'n voetgangeroorgang oorsteek?",
+          "options": [
+            "Gee voorrang en verminder spoed of stop indien nodig",
+            "Gebruik die toeter en hou dieselfde spoed",
+            "Ry voor die voetganger verby as daar genoeg plek is"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat bestuurders en ryers voorrang aan 'n voetganger by 'n voetgangeroorgang gee en stadiger ry of stop indien nodig."
+        },
+        "xh": {
+          "question": "Kufuneka umqhubi okanye umkhweli enze ntoni kumhambi ngeenyawo owela indlela ngaphakathi kwendawo yokuwela yabahambi ngeenyawo?",
+          "options": [
+            "Mnike ilungelo lokudlula uze ucothe okanye ume xa kuyimfuneko",
+            "Sebenzisa ihorn uze uqhubeke ngesantya esifanayo",
+            "Dlula phambi kwakhe ukuba kukho indawo eyaneleyo"
+          ],
+          "explanation": "Incwadi yomfundi ifuna abaqhubi nabakhweli banike umhambi ngeenyawo ilungelo lokudlula baze bacothe okanye beme xa kuyimfuneko kwindawo yokuwela yabahambi ngeenyawo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "rules-024",
+      "section": "rules",
+      "topic": "passing-stopped-vehicle-pedestrian-crossing",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.53 — do not pass a vehicle stopped at a pedestrian crossing",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If a vehicle has stopped at a pedestrian crossing, may you pass that stopped vehicle?",
+          "options": [
+            "No",
+            "Yes, if you cannot see a pedestrian",
+            "Yes, if your lane looks clear"
+          ],
+          "explanation": "The learner manual says another driver or rider may not pass a vehicle that has stopped at a pedestrian crossing."
+        },
+        "af": {
+          "question": "As 'n voertuig by 'n voetgangeroorgang gestop het, mag jy daardie stilstaande voertuig verbysteek?",
+          "options": [
+            "Nee",
+            "Ja, as jy geen voetganger kan sien nie",
+            "Ja, as jou baan skoon lyk"
+          ],
+          "explanation": "Die leerderhandleiding sê 'n ander bestuurder of ryer mag nie 'n voertuig verbysteek wat by 'n voetgangeroorgang gestop het nie."
+        },
+        "xh": {
+          "question": "Ukuba isithuthi simile kwindawo yokuwela yabahambi ngeenyawo, ngaba ungadlula kweso sithuthi simileyo?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba awuboni mhambi ngeenyawo",
+            "Ewe, ukuba umzila wakho ubonakala ucacile"
+          ],
+          "explanation": "Incwadi yomfundi ithi omnye umqhubi okanye umkhweli akavumelekanga ukudlula kwisithuthi esimileyo kwindawo yokuwela yabahambi ngeenyawo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r4"
+    },
+    {
+      "id": "rules-025",
+      "section": "rules",
+      "topic": "hooter-use",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.15 — hooter use only when necessary for safety",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When may you use the hooter of a vehicle?",
+          "options": [
+            "When it is necessary for safety",
+            "Whenever you want another driver to move faster",
+            "Whenever you greet someone"
+          ],
+          "explanation": "The learner manual says the hooter may be used only when its use is necessary for safety."
+        },
+        "af": {
+          "question": "Wanneer mag jy die toeter van 'n voertuig gebruik?",
+          "options": [
+            "Wanneer dit vir veiligheid nodig is",
+            "Wanneer jy wil hê 'n ander bestuurder moet vinniger ry",
+            "Wanneer jy iemand groet"
+          ],
+          "explanation": "Die leerderhandleiding sê die toeter mag slegs gebruik word wanneer dit vir veiligheid nodig is."
+        },
+        "xh": {
+          "question": "Ungayisebenzisa nini ihorn yesithuthi?",
+          "options": [
+            "Xa iyimfuneko ngenxa yokhuseleko",
+            "Nanini na ufuna omnye umqhubi ahambe ngokukhawuleza",
+            "Nanini na ubulisa umntu"
+          ],
+          "explanation": "Incwadi yomfundi ithi ihorn mayisetyenziswe kuphela xa iyimfuneko ngenxa yokhuseleko."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r5"
+    },
+    {
+      "id": "rules-026",
+      "section": "rules",
+      "topic": "emergency-vehicle-right-of-way",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.16 — emergency vehicle sounding siren and displaying warning lights",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do when an emergency vehicle is sounding a siren and displaying emergency warning lights?",
+          "options": [
+            "Give it immediate right of way",
+            "Maintain your position and speed",
+            "Speed up so you stay ahead of it"
+          ],
+          "explanation": "The learner manual requires drivers and riders to give immediate right of way to an emergency vehicle sounding a siren and displaying emergency warning lights."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer 'n noodvoertuig 'n sirene gebruik en noodwaarskuwingsligte vertoon?",
+          "options": [
+            "Gee dit onmiddellik voorrang",
+            "Behou jou posisie en spoed",
+            "Versnel sodat jy voor dit bly"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat bestuurders en ryers onmiddellik voorrang gee aan 'n noodvoertuig wat 'n sirene gebruik en noodwaarskuwingsligte vertoon."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa isithuthi senkonzo kaxakeka sisebenzisa isirena kwaye sibonisa izibane zesilumkiso?",
+          "options": [
+            "Sinike ilungelo lokudlula ngoko nangoko",
+            "Gcina indawo yakho nesantya sakho",
+            "Khawulezisa ukuze uhlale phambi kwaso"
+          ],
+          "explanation": "Incwadi yomfundi ifuna abaqhubi nabakhweli banike ngoko nangoko ilungelo lokudlula kwisithuthi senkonzo kaxakeka esisebenzisa isirena nezibane zesilumkiso."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r5"
+    },
+    {
+      "id": "rules-027",
+      "section": "rules",
+      "topic": "required-brakes-light-motor-vehicle",
+      "vehicle_group": [
+        "code2",
+        "code3"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.14.2 — service brake, parking brake and emergency brake",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which braking equipment must a light motor vehicle used on a public road have in good working order?",
+          "options": [
+            "A service brake, parking brake and emergency brake",
+            "Only a parking brake",
+            "Only a service brake"
+          ],
+          "explanation": "The learner manual states that a light motor vehicle must have a service brake, parking brake and emergency brake in good working order. The parking and emergency brake may be the same brake."
+        },
+        "af": {
+          "question": "Watter remtoerusting moet 'n ligte motorvoertuig wat op 'n openbare pad gebruik word in goeie werkende toestand hê?",
+          "options": [
+            "'n Diensrem, parkeerrem en noodrem",
+            "Slegs 'n parkeerrem",
+            "Slegs 'n diensrem"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n ligte motorvoertuig 'n diensrem, parkeerrem en noodrem in goeie werkende toestand moet hê. Die parkeer- en noodrem kan dieselfde rem wees."
+        },
+        "xh": {
+          "question": "Zeziphi izixhobo zokuqhobosha ekufuneka isithuthi esilula esisetyenziswa kwindlela kawonke-wonke sibe nazo zisebenza kakuhle?",
+          "options": [
+            "Ibrake yenkonzo, ibrake yokupaka kunye nebrake kaxakeka",
+            "Ibrake yokupaka kuphela",
+            "Ibrake yenkonzo kuphela"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba isithuthi esilula kufuneka sibe nebrake yenkonzo, ibrake yokupaka kunye nebrake kaxakeka ezisebenza kakuhle. Ibrake yokupaka kunye nebrake kaxakeka zinokuba yibrake enye."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r5"
     }
   ]
 }
