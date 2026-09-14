@@ -1,5 +1,5 @@
 {
-  "pack_id": "0.1c-rules-pilot",
+  "pack_id": "rules-expansion-r1",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -518,6 +518,160 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "0.1c-r1"
+    },
+    {
+      "id": "rules-013",
+      "section": "rules",
+      "topic": "following-distance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.49 — minimum following distance for light motor vehicles and motorcycles",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What minimum following time should a light motor vehicle driver or motorcycle rider normally keep behind the vehicle ahead?",
+          "options": [
+            "At least 2 seconds",
+            "At least 1 second",
+            "Exactly 5 seconds"
+          ],
+          "explanation": "The learner manual states a minimum 2-second following distance for light motor vehicles and motorcycles."
+        },
+        "af": {
+          "question": "Watter minimum volgtyd moet 'n bestuurder van 'n ligte motorvoertuig of 'n motorfietsryer normaalweg agter die voertuig voor hou?",
+          "options": [
+            "Minstens 2 sekondes",
+            "Minstens 1 sekonde",
+            "Presies 5 sekondes"
+          ],
+          "explanation": "Die leerderhandleiding bepaal 'n minimum volgafstand van 2 sekondes vir ligte motorvoertuie en motorfietse."
+        },
+        "xh": {
+          "question": "Leliphi ixesha elincinane lokulandela ekufuneka umqhubi wesithuthi esilula okanye umkhweli wesithuthuthu aligcine emva kwesithuthi esingaphambili?",
+          "options": [
+            "Ubuncinane imizuzwana emi-2",
+            "Ubuncinane umzuzwana om-1",
+            "Ngqo imizuzwana emi-5"
+          ],
+          "explanation": "Incwadi yomfundi ichaza umgama wokulandela ubuncinane wemizuzwana emi-2 kwizithuthi ezilula nakwizithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r1"
+    },
+    {
+      "id": "rules-014",
+      "section": "rules",
+      "topic": "following-distance-adverse-conditions",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.49 — following distance must be increased in adverse conditions",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do with your following distance when it is raining, the road is slippery or visibility is poor?",
+          "options": [
+            "Increase it",
+            "Keep it exactly the same",
+            "Reduce it"
+          ],
+          "explanation": "The learner manual says the following distance should be increased in adverse conditions such as rain, slippery roads or poor visibility."
+        },
+        "af": {
+          "question": "Wat moet jy met jou volgafstand doen wanneer dit reën, die pad glad is of sig swak is?",
+          "options": [
+            "Vergroot dit",
+            "Hou dit presies dieselfde",
+            "Verminder dit"
+          ],
+          "explanation": "Die leerderhandleiding sê die volgafstand moet vergroot word in ongunstige toestande soos reën, gladde paaie of swak sig."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni ngomgama wakho wokulandela xa kunetha, indlela imtyibilizi okanye ukubona kungacacanga?",
+          "options": [
+            "Wandise",
+            "Uwugcine kanye unjalo",
+            "Uwunciphise"
+          ],
+          "explanation": "Incwadi yomfundi ithi umgama wokulandela mawonyuswe kwiimeko ezimbi ezifana nemvula, indlela emtyibilizi okanye ukubona okungacacanga."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r1"
+    },
+    {
+      "id": "rules-015",
+      "section": "rules",
+      "topic": "parking-near-intersection",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.47 — parking within an urban area: not within 5 metres of an intersection",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "In an urban area, may you park a vehicle on the roadway within 5 metres of an intersection?",
+          "options": [
+            "No",
+            "Yes, if the hazard lights are on",
+            "Yes, for a short time"
+          ],
+          "explanation": "The learner manual states that you may not park on the roadway within 5 metres of an intersection in an urban area."
+        },
+        "af": {
+          "question": "Mag jy in 'n stedelike gebied 'n voertuig op die rybaan binne 5 meter van 'n kruising parkeer?",
+          "options": [
+            "Nee",
+            "Ja, as die noodligte aan is",
+            "Ja, vir 'n kort tyd"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat jy nie in 'n stedelike gebied binne 5 meter van 'n kruising op die rybaan mag parkeer nie."
+        },
+        "xh": {
+          "question": "Kummandla wedolophu, ngaba ungapaka isithuthi endleleni ngaphakathi kweemitha ezi-5 ukusuka kwisiphambuka?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba izibane zesilumkiso zivuliwe",
+            "Ewe, ixesha elifutshane"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba akuvumelekanga ukupaka endleleni ngaphakathi kweemitha ezi-5 ukusuka kwisiphambuka kummandla wedolophu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r1"
     }
   ]
 }
