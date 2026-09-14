@@ -7,7 +7,8 @@ const state = {
   mockAnswers: [],
   orientationStep: 0,
   lastPracticeId: null,
-  practiceSection: "all"
+  practiceSection: "all",
+  practiceQueue: []
 };
 
 const DB_NAME = "mzansiLearnerDriverDB";
@@ -93,6 +94,7 @@ async function changePathway(group) {
   state.activeVehicleGroup = group;
   state.lastPracticeId = null;
   state.practiceSection = "all";
+  state.practiceQueue = [];
   state.mockQuestions = [];
   state.mockIndex = 0;
   state.mockScore = 0;
@@ -456,6 +458,7 @@ function setPracticeSection(section) {
   stopSpeech();
   state.practiceSection = section;
   state.lastPracticeId = null;
+  state.practiceQueue = [];
   updatePracticeFocusUI();
   if (currentViewId() === "practiceView") renderPractice();
 }
@@ -464,12 +467,32 @@ document.querySelectorAll(".practice-focus-btn").forEach(btn => {
   btn.addEventListener("click", () => setPracticeSection(btn.dataset.practiceSection));
 });
 
+function shuffledPracticeIds(questions) {
+  const ids = questions.map(q => q.id);
+  for (let i = ids.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [ids[i], ids[j]] = [ids[j], ids[i]];
+  }
+  if (ids.length > 1 && ids[ids.length - 1] === state.lastPracticeId) {
+    [ids[0], ids[ids.length - 1]] = [ids[ids.length - 1], ids[0]];
+  }
+  return ids;
+}
+
 function choosePracticeQuestion() {
   const section = state.practiceSection === "all" ? null : state.practiceSection;
   const eligible = eligibleQuestions(section);
-  const candidates = eligible.filter(q => q.id !== state.lastPracticeId);
-  const pool = candidates.length ? candidates : eligible;
-  const q = pool[Math.floor(Math.random() * pool.length)];
+  if (!eligible.length) return null;
+
+  const eligibleIds = new Set(eligible.map(q => q.id));
+  state.practiceQueue = state.practiceQueue.filter(id => eligibleIds.has(id));
+
+  if (!state.practiceQueue.length) {
+    state.practiceQueue = shuffledPracticeIds(eligible);
+  }
+
+  const nextId = state.practiceQueue.pop();
+  const q = eligible.find(item => item.id === nextId) || eligible[0];
   state.lastPracticeId = q.id;
   return q;
 }
