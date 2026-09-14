@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r5-github-only",
+  "pack_id": "signs-expansion-r6-github-only",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1280,6 +1280,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r5"
+    },
+    {
+      "id": "signs-026",
+      "section": "signs",
+      "topic": "one-way-roadway",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — One-way roadway sign R4",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a One-Way Roadway sign tell you?",
+          "options": [
+            "Traffic using that roadway must proceed in the direction shown by the arrow",
+            "Traffic may travel in either direction",
+            "The road is closed to all vehicles"
+          ],
+          "explanation": "A One-Way Roadway sign indicates that the roadway carries traffic in the direction shown by the arrow."
+        },
+        "af": {
+          "question": "Wat sê 'n Eenrigtingrybaan-teken vir jou?",
+          "options": [
+            "Verkeer wat daardie rybaan gebruik moet in die rigting van die pyl beweeg",
+            "Verkeer mag in albei rigtings beweeg",
+            "Die pad is vir alle voertuie gesluit"
+          ],
+          "explanation": "'n Eenrigtingrybaan-teken dui aan dat verkeer op daardie rybaan in die rigting van die pyl beweeg."
+        },
+        "xh": {
+          "question": "Uphawu lweNdlela eNye kuphela lukuxelela ntoni?",
+          "options": [
+            "Izithuthi ezisebenzisa loo ndlela kufuneka zihambe kwicala eliboniswe lutolo",
+            "Izithuthi zingahamba macala omabini",
+            "Indlela ivaliwe kuzo zonke izithuthi"
+          ],
+          "explanation": "Uphawu lweNdlela eNye kuphela lubonisa ukuba izithuthi kuloo ndlela zihamba kwicala eliboniswe lutolo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "signs-027",
+      "section": "signs",
+      "topic": "pedestrian-priority",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedestrian Priority sign R5",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the main meaning of a Pedestrian Priority sign?",
+          "options": [
+            "Pedestrians have priority in the indicated area",
+            "Vehicles always have priority over pedestrians",
+            "Pedestrians are prohibited from entering the area"
+          ],
+          "explanation": "A Pedestrian Priority sign gives priority to pedestrians in the indicated area and limits vehicle access."
+        },
+        "af": {
+          "question": "Wat is die hoofbetekenis van 'n Voetgangerprioriteit-teken?",
+          "options": [
+            "Voetgangers het voorrang in die aangeduide gebied",
+            "Voertuie het altyd voorrang bo voetgangers",
+            "Voetgangers mag nie die gebied betree nie"
+          ],
+          "explanation": "'n Voetgangerprioriteit-teken gee voorrang aan voetgangers in die aangeduide gebied en beperk voertuigtoegang."
+        },
+        "xh": {
+          "question": "Yintoni eyona ntsingiselo yophawu lweNgqwalaselo yabaHambi ngeenyawo?",
+          "options": [
+            "Abahambi ngeenyawo banokubaluleka kuqala kwindawo ebonisiweyo",
+            "Izithuthi zihlala zinelungelo lokudlula kuqala kunabahambi ngeenyawo",
+            "Abahambi ngeenyawo abavumelekanga ukungena kuloo ndawo"
+          ],
+          "explanation": "Uphawu lweNgqwalaselo yabaHambi ngeenyawo lunika abahambi ngeenyawo ilungelo lokuqala kwindawo ebonisiweyo kwaye luthintela ukufikelela kwezithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
+    },
+    {
+      "id": "signs-028",
+      "section": "signs",
+      "topic": "yield-to-oncoming-traffic",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Yield to oncoming traffic sign R6",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do at a Yield to Oncoming Traffic sign?",
+          "options": [
+            "Give right of way to oncoming traffic and proceed only when it is safe",
+            "Proceed first because your side has priority",
+            "Stop permanently and do not continue"
+          ],
+          "explanation": "This sign requires you to yield to oncoming traffic and proceed only when it is safe to enter the shared section of road."
+        },
+        "af": {
+          "question": "Wat moet jy by 'n Gee Pad aan Aankomende Verkeer-teken doen?",
+          "options": [
+            "Gee voorrang aan aankomende verkeer en gaan slegs voort wanneer dit veilig is",
+            "Gaan eerste omdat jou kant voorrang het",
+            "Stop permanent en moenie verder ry nie"
+          ],
+          "explanation": "Hierdie teken vereis dat jy aan aankomende verkeer voorrang gee en slegs voortgaan wanneer dit veilig is om die gedeelde padgedeelte binne te gaan."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni kuphawu oluthi Nika indlela kwizithuthi eziza ngaphambili?",
+          "options": [
+            "Nika izithuthi eziza ngaphambili ilungelo lokudlula uze uqhubeke kuphela xa kukhuselekile",
+            "Qhubeka kuqala kuba icala lakho linelungelo lokuqala",
+            "Yima ngokusisigxina ungaphindi uqhubeke"
+          ],
+          "explanation": "Olu phawu lufuna ukuba unike indlela kwizithuthi eziza ngaphambili uze ungene kuphela xa kukhuselekile kwinxalenye yendlela esetyenziswa macala omabini."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r6"
     }
   ]
 }
