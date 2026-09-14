@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r2",
+  "pack_id": "signs-expansion-r3-github-only",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -821,6 +821,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r2"
+    },
+    {
+      "id": "signs-017",
+      "section": "signs",
+      "topic": "no-u-turn",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — No U-turn regulatory sign R213",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a No U-turn sign mean?",
+          "options": [
+            "You may not make a U-turn where the restriction applies",
+            "You must make a U-turn",
+            "You may turn around only at night"
+          ],
+          "explanation": "A No U-turn sign prohibits making a U-turn where the restriction applies."
+        },
+        "af": {
+          "question": "Wat beteken 'n Geen U-draai-teken?",
+          "options": [
+            "Jy mag nie 'n U-draai maak waar die beperking geld nie",
+            "Jy moet 'n U-draai maak",
+            "Jy mag net snags omdraai"
+          ],
+          "explanation": "'n Geen U-draai-teken verbied 'n U-draai waar die beperking geld."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Akukho U-jiko?",
+          "options": [
+            "Akufanele wenze i-U-jiko apho olo thintelo lusebenza khona",
+            "Kufuneka wenze i-U-jiko",
+            "Ungajika ubuyele umva kuphela ebusuku"
+          ],
+          "explanation": "Uphawu oluthi Akukho U-jiko luthintela ukwenza i-U-jiko apho olo thintelo lusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "signs-018",
+      "section": "signs",
+      "topic": "proceed-left-only",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Proceed left only regulatory sign R105",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Proceed left only sign require you to do?",
+          "options": [
+            "Proceed to the left only",
+            "Turn right only",
+            "Continue straight only"
+          ],
+          "explanation": "A Proceed left only sign requires traffic to proceed in the indicated left direction."
+        },
+        "af": {
+          "question": "Wat vereis 'n Gaan Slegs Links-teken van jou?",
+          "options": [
+            "Gaan slegs links",
+            "Draai slegs regs",
+            "Gaan slegs reguit aan"
+          ],
+          "explanation": "'n Gaan Slegs Links-teken vereis dat verkeer in die aangeduide linkerrigting beweeg."
+        },
+        "xh": {
+          "question": "Uphawu oluthi Qhubeka ngasekhohlo kuphela lufuna wenze ntoni?",
+          "options": [
+            "Qhubeka ngasekhohlo kuphela",
+            "Jika ngasekunene kuphela",
+            "Qhubeka uye phambili kuphela"
+          ],
+          "explanation": "Uphawu oluthi Qhubeka ngasekhohlo kuphela lufuna izithuthi zihambe kwicala lasekhohlo elibonisiweyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
+    },
+    {
+      "id": "signs-019",
+      "section": "signs",
+      "topic": "turn-right-only",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs v1.00 — Turn right compulsory-direction regulatory sign R109",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Turn right sign require you to do?",
+          "options": [
+            "Turn right as directed",
+            "Turn left as directed",
+            "Stop and wait for another vehicle"
+          ],
+          "explanation": "This compulsory-direction sign requires traffic to turn right as indicated."
+        },
+        "af": {
+          "question": "Wat vereis 'n Draai Regs-teken van jou?",
+          "options": [
+            "Draai regs soos aangedui",
+            "Draai links soos aangedui",
+            "Stop en wag vir 'n ander voertuig"
+          ],
+          "explanation": "Hierdie verpligte rigtingsteken vereis dat verkeer regs draai soos aangedui."
+        },
+        "xh": {
+          "question": "Uphawu oluthi Jika ngasekunene lufuna wenze ntoni?",
+          "options": [
+            "Jika ngasekunene njengoko kubonisiwe",
+            "Jika ngasekhohlo njengoko kubonisiwe",
+            "Yima uze ulinde esinye isithuthi"
+          ],
+          "explanation": "Olu phawu lwendlela olunyanzelekileyo lufuna izithuthi zijike ngasekunene njengoko kubonisiwe."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r3"
     }
   ]
 }
