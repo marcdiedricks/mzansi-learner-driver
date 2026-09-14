@@ -101,20 +101,26 @@ function stopSpeech() {
   speechState.activeButton = null;
 }
 
-function waitForSpeechVoices(timeoutMs = 600) {
+function waitForSpeechVoices(timeoutMs = 3000) {
   if (!speechState.supported) return Promise.resolve([]);
   const existing = window.speechSynthesis.getVoices();
   if (existing.length) return Promise.resolve(existing);
   return new Promise(resolve => {
     let settled = false;
+    const started = Date.now();
     const finish = () => {
       if (settled) return;
-      settled = true;
-      window.speechSynthesis.removeEventListener("voiceschanged", finish);
-      resolve(window.speechSynthesis.getVoices());
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length || Date.now() - started >= timeoutMs) {
+        settled = true;
+        window.speechSynthesis.removeEventListener("voiceschanged", finish);
+        window.clearInterval(poll);
+        resolve(voices);
+      }
     };
+    const poll = window.setInterval(finish, 250);
     window.speechSynthesis.addEventListener("voiceschanged", finish);
-    window.setTimeout(finish, timeoutMs);
+    finish();
   });
 }
 
@@ -170,14 +176,21 @@ async function speakText(text, button, statusEl, idleKey) {
 
   button.disabled = false;
   const voice = chooseSpeechVoice(voices);
-  if (!voice) {
+  const appLanguage = speechLanguageCode();
+  const allowEnglishDeviceFallback = appLanguage === "en" && voices.length === 0;
+
+  if (!voice && !allowEnglishDeviceFallback) {
     setSpeechStatus(statusEl, tr("speechUnavailable"));
     return;
   }
 
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.voice = voice;
-  utterance.lang = voice.lang;
+  if (voice) {
+    utterance.voice = voice;
+    utterance.lang = voice.lang;
+  } else {
+    utterance.lang = "en-ZA";
+  }
   const speakingSession = ++speechState.session;
 
   button.dataset.idleKey = idleKey;
