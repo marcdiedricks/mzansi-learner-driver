@@ -5,6 +5,23 @@ Status: ACTIVE COMPLETION BUILD — DO NOT DEPLOY
 Production baseline: 3b0ae9074684d3ca0e7ee4bbdca136078f8933bd
 Held branch baseline includes R6 + R7 + R8.
 
+## 0. IMPACT PURPOSE
+
+The content-completion build is governed by the project's wider impact purpose.
+
+Western Cape evidence recorded a 17% CLLT pass rate during 2025/26. The app is designed to help address the learner-readiness gap behind that challenge through:
+- comprehensive source-controlled preparation;
+- repeated offline practice;
+- multilingual access;
+- plain-language explanations;
+- weak-area practice;
+- Code 1 / Code 2 pathway accuracy;
+- digital-test familiarity.
+
+The app may aim to support improved pass rates, but must not claim causal impact until pilot evidence exists.
+
+See: `32_IMPACT_PURPOSE_PASS_RATE_AND_ACCESS.md`.
+
 ## 1. BUILD METHOD CHANGE
 
 Stop creating small numbered content batches.
