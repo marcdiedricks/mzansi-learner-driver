@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r4-github-only",
+  "pack_id": "rules-expansion-r5-github-only",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1131,6 +1131,160 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r4"
+    },
+    {
+      "id": "rules-025",
+      "section": "rules",
+      "topic": "hooter-use",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.15 — hooter use only when necessary for safety",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "When may you use the hooter of a vehicle?",
+          "options": [
+            "When it is necessary for safety",
+            "Whenever you want another driver to move faster",
+            "Whenever you greet someone"
+          ],
+          "explanation": "The learner manual says the hooter may be used only when its use is necessary for safety."
+        },
+        "af": {
+          "question": "Wanneer mag jy die toeter van 'n voertuig gebruik?",
+          "options": [
+            "Wanneer dit vir veiligheid nodig is",
+            "Wanneer jy wil hê 'n ander bestuurder moet vinniger ry",
+            "Wanneer jy iemand groet"
+          ],
+          "explanation": "Die leerderhandleiding sê die toeter mag slegs gebruik word wanneer dit vir veiligheid nodig is."
+        },
+        "xh": {
+          "question": "Ungayisebenzisa nini ihorn yesithuthi?",
+          "options": [
+            "Xa iyimfuneko ngenxa yokhuseleko",
+            "Nanini na ufuna omnye umqhubi ahambe ngokukhawuleza",
+            "Nanini na ubulisa umntu"
+          ],
+          "explanation": "Incwadi yomfundi ithi ihorn mayisetyenziswe kuphela xa iyimfuneko ngenxa yokhuseleko."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r5"
+    },
+    {
+      "id": "rules-026",
+      "section": "rules",
+      "topic": "emergency-vehicle-right-of-way",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.16 — emergency vehicle sounding siren and displaying warning lights",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What must you do when an emergency vehicle is sounding a siren and displaying emergency warning lights?",
+          "options": [
+            "Give it immediate right of way",
+            "Maintain your position and speed",
+            "Speed up so you stay ahead of it"
+          ],
+          "explanation": "The learner manual requires drivers and riders to give immediate right of way to an emergency vehicle sounding a siren and displaying emergency warning lights."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer 'n noodvoertuig 'n sirene gebruik en noodwaarskuwingsligte vertoon?",
+          "options": [
+            "Gee dit onmiddellik voorrang",
+            "Behou jou posisie en spoed",
+            "Versnel sodat jy voor dit bly"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat bestuurders en ryers onmiddellik voorrang gee aan 'n noodvoertuig wat 'n sirene gebruik en noodwaarskuwingsligte vertoon."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa isithuthi senkonzo kaxakeka sisebenzisa isirena kwaye sibonisa izibane zesilumkiso?",
+          "options": [
+            "Sinike ilungelo lokudlula ngoko nangoko",
+            "Gcina indawo yakho nesantya sakho",
+            "Khawulezisa ukuze uhlale phambi kwaso"
+          ],
+          "explanation": "Incwadi yomfundi ifuna abaqhubi nabakhweli banike ngoko nangoko ilungelo lokudlula kwisithuthi senkonzo kaxakeka esisebenzisa isirena nezibane zesilumkiso."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r5"
+    },
+    {
+      "id": "rules-027",
+      "section": "rules",
+      "topic": "required-brakes-light-motor-vehicle",
+      "vehicle_group": [
+        "code2",
+        "code3"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.14.2 — service brake, parking brake and emergency brake",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which braking equipment must a light motor vehicle used on a public road have in good working order?",
+          "options": [
+            "A service brake, parking brake and emergency brake",
+            "Only a parking brake",
+            "Only a service brake"
+          ],
+          "explanation": "The learner manual states that a light motor vehicle must have a service brake, parking brake and emergency brake in good working order. The parking and emergency brake may be the same brake."
+        },
+        "af": {
+          "question": "Watter remtoerusting moet 'n ligte motorvoertuig wat op 'n openbare pad gebruik word in goeie werkende toestand hê?",
+          "options": [
+            "'n Diensrem, parkeerrem en noodrem",
+            "Slegs 'n parkeerrem",
+            "Slegs 'n diensrem"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n ligte motorvoertuig 'n diensrem, parkeerrem en noodrem in goeie werkende toestand moet hê. Die parkeer- en noodrem kan dieselfde rem wees."
+        },
+        "xh": {
+          "question": "Zeziphi izixhobo zokuqhobosha ekufuneka isithuthi esilula esisetyenziswa kwindlela kawonke-wonke sibe nazo zisebenza kakuhle?",
+          "options": [
+            "Ibrake yenkonzo, ibrake yokupaka kunye nebrake kaxakeka",
+            "Ibrake yokupaka kuphela",
+            "Ibrake yenkonzo kuphela"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba isithuthi esilula kufuneka sibe nebrake yenkonzo, ibrake yokupaka kunye nebrake kaxakeka ezisebenza kakuhle. Ibrake yokupaka kunye nebrake kaxakeka zinokuba yibrake enye."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r5"
     }
   ]
 }
