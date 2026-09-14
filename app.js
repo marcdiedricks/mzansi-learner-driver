@@ -177,7 +177,7 @@ async function speakText(text, button, statusEl, idleKey) {
   button.disabled = false;
   const voice = chooseSpeechVoice(voices);
   const appLanguage = speechLanguageCode();
-  const allowEnglishDeviceFallback = appLanguage === "en" && voices.length === 0;
+  const allowEnglishDeviceFallback = appLanguage === "en";
 
   if (!voice && !allowEnglishDeviceFallback) {
     setSpeechStatus(statusEl, tr("speechUnavailable"));
