@@ -1,5 +1,5 @@
 {
-  "pack_id": "0.1c-controls-pilot",
+  "pack_id": "code2-controls-expansion-r1",
   "section": "controls",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -260,6 +260,312 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "0.1c-r1"
+    },
+    {
+      "id": "controls-013",
+      "section": "controls",
+      "topic": "centre-rear-view-mirror",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2 — Light Motor Vehicle identification of controls: centre rear-view mirror (component 1)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which mirror helps a driver check traffic directly behind the vehicle?",
+          "options": [
+            "Centre rear-view mirror",
+            "Parking brake",
+            "Horn"
+          ],
+          "explanation": "The centre rear-view mirror helps the driver monitor traffic directly behind the vehicle."
+        },
+        "af": {
+          "question": "Watter spieël help 'n bestuurder om verkeer direk agter die voertuig dop te hou?",
+          "options": [
+            "Middelste truspieël",
+            "Parkeerrem",
+            "Toeter"
+          ],
+          "explanation": "Die middelste truspieël help die bestuurder om verkeer direk agter die voertuig dop te hou."
+        },
+        "xh": {
+          "question": "Sesiphi isipili esinceda umqhubi ajonge izithuthi ezisemva ngqo kwesithuthi?",
+          "options": [
+            "Isipili esiphakathi sokujonga ngasemva",
+            "Ibrake yokupaka",
+            "Ihorn"
+          ],
+          "explanation": "Isipili esiphakathi sokujonga ngasemva sinceda umqhubi abone izithuthi ezisemva ngqo kwesithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "code2-controls-r1"
+    },
+    {
+      "id": "controls-014",
+      "section": "controls",
+      "topic": "window-wiper",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2 — Light Motor Vehicle identification of controls: window wiper (component 2)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which control is used to clear rain or water from the front windscreen?",
+          "options": [
+            "Window wiper control",
+            "Gear lever",
+            "Indicator switch"
+          ],
+          "explanation": "The window wiper control operates the wipers that clear water from the front windscreen."
+        },
+        "af": {
+          "question": "Watter beheer word gebruik om reën of water van die voorruit af te vee?",
+          "options": [
+            "Ruitveërbeheer",
+            "Rathefboom",
+            "Rigtingwyser-skakelaar"
+          ],
+          "explanation": "Die ruitveërbeheer bedien die ruitveërs wat water van die voorruit afvee."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo esisetyenziselwa ukususa imvula okanye amanzi kwifestile yangaphambili?",
+          "options": [
+            "Ulawulo lweewiper",
+            "Ilever yegiya",
+            "Iswitshi yezalathisi"
+          ],
+          "explanation": "Ulawulo lweewiper lusebenzisa ii-wiper ezisusa amanzi kwifestile yangaphambili."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "code2-controls-r1"
+    },
+    {
+      "id": "controls-015",
+      "section": "controls",
+      "topic": "side-rear-view-mirrors",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2 — Light Motor Vehicle identification of controls: left and right rear-view mirrors (component 3)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which mirrors help a driver check traffic to the left and right rear sides of the vehicle?",
+          "options": [
+            "Left and right rear-view mirrors",
+            "Centre rear-view mirror only",
+            "Windscreen wipers"
+          ],
+          "explanation": "The left and right rear-view mirrors help the driver monitor traffic beside and behind the vehicle."
+        },
+        "af": {
+          "question": "Watter spieëls help 'n bestuurder om verkeer links en regs agter die voertuig dop te hou?",
+          "options": [
+            "Linker- en regtertruspieëls",
+            "Slegs die middelste truspieël",
+            "Ruitveërs"
+          ],
+          "explanation": "Die linker- en regtertruspieëls help die bestuurder om verkeer langs en agter die voertuig dop te hou."
+        },
+        "xh": {
+          "question": "Zeziphi izipili ezinceda umqhubi ajonge izithuthi ngasemva ngasekhohlo nangasekunene kwesithuthi?",
+          "options": [
+            "Izipili zasekhohlo nasekunene zokujonga ngasemva",
+            "Isipili esiphakathi kuphela",
+            "Ii-wiper zefestile"
+          ],
+          "explanation": "Izipili zasekhohlo nasekunene zinceda umqhubi ajonge izithuthi ezisecaleni nasemva kwesithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "code2-controls-r1"
+    },
+    {
+      "id": "controls-016",
+      "section": "controls",
+      "topic": "gear-lever",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2 — Light Motor Vehicle identification of controls: gear lever (component 6)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which control is used to select or change gears in a light motor vehicle?",
+          "options": [
+            "Gear lever",
+            "Horn",
+            "Parking brake"
+          ],
+          "explanation": "The gear lever is used to select or change the vehicle's gear."
+        },
+        "af": {
+          "question": "Watter beheer word gebruik om ratte in 'n ligte motorvoertuig te kies of te verander?",
+          "options": [
+            "Rathefboom",
+            "Toeter",
+            "Parkeerrem"
+          ],
+          "explanation": "Die rathefboom word gebruik om die voertuig se rat te kies of te verander."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo esisetyenziselwa ukukhetha okanye ukutshintsha iigiya kwisithuthi esilula?",
+          "options": [
+            "Ilever yegiya",
+            "Ihorn",
+            "Ibrake yokupaka"
+          ],
+          "explanation": "Ilever yegiya isetyenziselwa ukukhetha okanye ukutshintsha igiya yesithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "code2-controls-r1"
+    },
+    {
+      "id": "controls-017",
+      "section": "controls",
+      "topic": "parking-brake",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2 — Light Motor Vehicle identification of controls: parking brake (component 7)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which control helps keep a vehicle stationary after it has been parked?",
+          "options": [
+            "Parking brake",
+            "Accelerator",
+            "Indicator switch"
+          ],
+          "explanation": "The parking brake is used to help keep a parked vehicle stationary."
+        },
+        "af": {
+          "question": "Watter beheer help om 'n voertuig stil te hou nadat dit geparkeer is?",
+          "options": [
+            "Parkeerrem",
+            "Versneller",
+            "Rigtingwyser-skakelaar"
+          ],
+          "explanation": "Die parkeerrem word gebruik om 'n geparkeerde voertuig stil te help hou."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo esinceda ukugcina isithuthi simile emva kokupaka?",
+          "options": [
+            "Ibrake yokupaka",
+            "I-accelerator",
+            "Iswitshi yezalathisi"
+          ],
+          "explanation": "Ibrake yokupaka isetyenziswa ukunceda ukugcina isithuthi esipakiweyo simile."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "code2-controls-r1"
+    },
+    {
+      "id": "controls-018",
+      "section": "controls",
+      "topic": "horn",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls v1.00 §2 — Light Motor Vehicle identification of controls: horn (component 11)",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "Which control can be used to warn other road users of your presence when necessary?",
+          "options": [
+            "Horn",
+            "Gear lever",
+            "Window wiper control"
+          ],
+          "explanation": "The horn can be used when necessary to warn other road users of the vehicle's presence."
+        },
+        "af": {
+          "question": "Watter beheer kan gebruik word om ander padgebruikers van jou teenwoordigheid te waarsku wanneer dit nodig is?",
+          "options": [
+            "Toeter",
+            "Rathefboom",
+            "Ruitveërbeheer"
+          ],
+          "explanation": "Die toeter kan gebruik word wanneer dit nodig is om ander padgebruikers van die voertuig se teenwoordigheid te waarsku."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo esinokusetyenziswa ukulumkisa abanye abasebenzisi bendlela ngobukho bakho xa kuyimfuneko?",
+          "options": [
+            "Ihorn",
+            "Ilever yegiya",
+            "Ulawulo lweewiper"
+          ],
+          "explanation": "Ihorn inokusetyenziswa xa kuyimfuneko ukulumkisa abanye abasebenzisi bendlela ngobukho besithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "code2-controls-r1"
     }
   ]
 }
