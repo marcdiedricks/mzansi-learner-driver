@@ -1,7 +1,7 @@
 {
   "pack_id": "0.1c-controls-pilot",
   "section": "controls",
-  "status": "content_qa_passed_internal",
+  "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
     "SRC-008"
   ],
@@ -29,15 +29,33 @@
             "Gear lever"
           ],
           "explanation": "The steering wheel is the primary control used to direct the vehicle."
+        },
+        "af": {
+          "question": "Watter beheer word gebruik om 'n ligte motorvoertuig te stuur?",
+          "options": [
+            "Stuurwiel",
+            "Parkeerrem",
+            "Rathefboom"
+          ],
+          "explanation": "Die stuurwiel is die hoofbeheer waarmee die rigting van die voertuig beheer word."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo solawulo esisetyenziselwa ukuqhuba isithuthi esilula?",
+          "options": [
+            "Ivili lokuqhuba",
+            "Ibrake yokupaka",
+            "Ilever yegiya"
+          ],
+          "explanation": "Ivili lokuqhuba sisixhobo esiphambili esisetyenziselwa ukulawula icala esiya kulo isithuthi."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "controls-002",
@@ -62,15 +80,33 @@
             "Accelerator"
           ],
           "explanation": "Automatic vehicles do not have a clutch control for the driver."
+        },
+        "af": {
+          "question": "Watter beheer is nie as 'n bestuurderspedaal in 'n outomatiese voertuig aangebring nie?",
+          "options": [
+            "Koppelaar",
+            "Rem",
+            "Versneller"
+          ],
+          "explanation": "Outomatiese voertuie het nie 'n koppelaarbeheer vir die bestuurder nie."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo esingafakwanga njengepedali yomqhubi kwisithuthi esizenzekelayo?",
+          "options": [
+            "Iklatshi",
+            "Ibrake",
+            "I-accelerator"
+          ],
+          "explanation": "Izithuthi ezizenzekelayo azinayo iklatshi elawulwa ngumqhubi."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "controls-003",
@@ -95,15 +131,33 @@
             "Clutch pedal"
           ],
           "explanation": "The brake pedal is the vehicle control used for normal service braking."
+        },
+        "af": {
+          "question": "Watter pedaal is die diensrembeheer in 'n ligte motorvoertuig?",
+          "options": [
+            "Rempedaal",
+            "Versnellerpedaal",
+            "Koppelaarpedaal"
+          ],
+          "explanation": "Die rempedaal is die voertuigbeheer wat vir normale remming gebruik word."
+        },
+        "xh": {
+          "question": "Yeyiphi ipedali elawula ibrake eqhelekileyo kwisithuthi esilula?",
+          "options": [
+            "Ipedali yebrake",
+            "Ipedali ye-accelerator",
+            "Ipedali yeklatshi"
+          ],
+          "explanation": "Ipedali yebrake sisixhobo solawulo esisetyenziselwa ukubraka okuqhelekileyo."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "controls-004",
@@ -128,15 +182,33 @@
             "Clutch"
           ],
           "explanation": "The accelerator is the control used to increase engine power and vehicle speed."
+        },
+        "af": {
+          "question": "Watter pedaal beheer versnelling in 'n ligte motorvoertuig?",
+          "options": [
+            "Versneller",
+            "Rem",
+            "Koppelaar"
+          ],
+          "explanation": "Die versneller is die beheer wat gebruik word om enjinkrag en voertuigspoed te verhoog."
+        },
+        "xh": {
+          "question": "Yeyiphi ipedali elawula ukukhawulezisa kwisithuthi esilula?",
+          "options": [
+            "I-accelerator",
+            "Ibrake",
+            "Iklatshi"
+          ],
+          "explanation": "I-accelerator sisixhobo esisetyenziselwa ukwandisa amandla enjini nesantya sesithuthi."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     },
     {
       "id": "controls-005",
@@ -161,15 +233,33 @@
             "Parking brake"
           ],
           "explanation": "The indicator light switch operates the direction indicators used to signal an intended change of direction."
+        },
+        "af": {
+          "question": "Watter beheer skakel die voertuig se rigtingwysers aan?",
+          "options": [
+            "Rigtingwyser-skakelaar",
+            "Ruitveërbeheer",
+            "Parkeerrem"
+          ],
+          "explanation": "Die rigtingwyser-skakelaar bedien die rigtingwysers wat gebruik word om 'n voorgenome verandering van rigting aan te dui."
+        },
+        "xh": {
+          "question": "Sesiphi isixhobo esisebenzisa izalathisi zokujika zesithuthi?",
+          "options": [
+            "Iswitshi yezalathisi",
+            "Ulawulo lweewiper",
+            "Ibrake yokupaka"
+          ],
+          "explanation": "Iswitshi yezalathisi isebenzisa izibane zokubonisa icala ukuze umqhubi abonise ukuba uza kutshintsha icala."
         }
       },
       "correct_index": 0,
       "image_ref": null,
       "translation_status": {
-        "af": "not_started",
-        "xh": "not_started"
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       },
-      "version": "0.1c-pilot1"
+      "version": "0.1c-r1"
     }
   ]
 }
