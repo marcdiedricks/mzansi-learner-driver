@@ -366,7 +366,7 @@ async function loadQuestions() {
   }));
   state.questions = packs.flatMap(pack => pack.items || []);
   if (state.questions.length !== 186) throw new Error("Expected 186 completion questions");
-  if (!eligibleQuestions().length) throw new Error("No Code 2 pilot questions available");
+  if (!eligibleQuestions().length) throw new Error("No eligible Code 2 questions available");
 }
 function questionText(q) {
   return q.language?.[lang()] || q.language?.en || q;
