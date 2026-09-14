@@ -2,22 +2,25 @@
 
 Status: **PRE-QA PASS**
 
-This is a machine-assisted consistency check only. It does not constitute competent human language approval.
+This is a machine-assisted consistency check only. It is not competent human language approval.
 
-Checks across all 186 questions:
-- numeric/legal values aligned with English source-master;
-- three-answer structure aligned;
-- no missing language objects;
-- no exact English question/explanation fields left untranslated;
-- all Afrikaans/Xhosa statuses remain LANGUAGE_QA_PENDING;
-- no missing multilingual UI keys;
-- speed-limit corrections aligned across EN/AF/Xhosa.
+Coverage:
+- all 186 questions
+- English vs Afrikaans numeric/legal values
+- English vs Xhosa numeric/legal values
+- language-object completeness
+- answer-count alignment
+- untranslated exact-field detection
+- translation-status control
 
-Numeric EN↔AF/Xhosa mismatches: **0**
-Untranslated exact-field detections: **0**
-Translation-status violations: **0**
-Missing i18n keys: **0**
+Results:
+- numeric/legal mismatches: **0**
+- exact untranslated English question/explanation fields detected: **0**
+- translation-status violations: **0**
+- question bank size checked: **186**
 
 Formal release status remains:
-- Afrikaans: LANGUAGE_QA_PENDING
-- Xhosa: LANGUAGE_QA_PENDING
+- Afrikaans: **LANGUAGE_QA_PENDING**
+- Xhosa: **LANGUAGE_QA_PENDING**
+
+Human language review remains the final approval gate before either language is described as formally approved.
