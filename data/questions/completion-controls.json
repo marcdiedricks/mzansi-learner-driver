@@ -362,44 +362,44 @@
     {
       "id": "controls-026",
       "section": "controls",
-      "topic": "motorcycle-ignition",
+      "topic": "motorcycle-rear-lamp",
       "vehicle_group": [
         "code1"
       ],
       "difficulty": "basic",
       "source": {
-        "source_id": "SRC-013",
-        "locator": "Official NaTIS K53 Motorcycle Part 1 — starting procedure: ignition key ON",
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: rear lamp",
         "verification_status": "source_verified"
       },
       "verification_status": "CONTENT_QA",
       "language": {
         "en": {
-          "question": "Which control is turned to the ON position before starting a motorcycle engine?",
+          "question": "Which motorcycle component is the lamp fitted at the rear of the motorcycle?",
           "options": [
-            "Ignition key or switch",
-            "Rear-view mirror",
-            "Front mudguard"
+            "Rear lamp",
+            "Fuel tank",
+            "Handlebars"
           ],
-          "explanation": "The official motorcycle practical manual identifies the ignition key or switch as part of the starting controls."
+          "explanation": "The controls manual identifies the rear lamp as a major visual motorcycle component."
         },
         "af": {
-          "question": "Watter beheer word na die AAN-posisie gedraai voordat 'n motorfietsenjin aangeskakel word?",
+          "question": "Watter motorfietsonderdeel is die lig wat aan die agterkant van die motorfiets aangebring is?",
           "options": [
-            "Ontstekingsleutel of -skakelaar",
-            "Truspieël",
-            "Voorste modderskerm"
+            "Agterlig",
+            "Brandstoftenk",
+            "Stuurhandvatsels"
           ],
-          "explanation": "Die amptelike motorfietspraktiese handleiding identifiseer die ontstekingsleutel of -skakelaar as deel van die aansitbeheer."
+          "explanation": "Die beheerhandleiding identifiseer die agterlig as 'n belangrike sigbare motorfietsonderdeel."
         },
         "xh": {
-          "question": "Sesiphi isixhobo esijikwa sibe kwindawo ethi ON ngaphambi kokuqalisa injini yesithuthuthu?",
+          "question": "Leliphi icandelo lesithuthuthu elisisibane esingasemva?",
           "options": [
-            "Isitshixo okanye iswitshi ye-ignition",
-            "Isipili sokujonga ngasemva",
-            "I-mudguard yangaphambili"
+            "Isibane sangasemva",
+            "Itanki yamafutha",
+            "Ii-handlebar"
           ],
-          "explanation": "Incwadi esemthethweni yesithuthuthu ichaza isitshixo okanye iswitshi ye-ignition njengenye yezilawuli zokuqalisa."
+          "explanation": "Incwadi yezilawuli ichaza isibane sangasemva njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
         }
       },
       "correct_index": 0,
@@ -413,44 +413,44 @@
     {
       "id": "controls-027",
       "section": "controls",
-      "topic": "motorcycle-kill-switch",
+      "topic": "motorcycle-rear-tyre",
       "vehicle_group": [
         "code1"
       ],
       "difficulty": "basic",
       "source": {
-        "source_id": "SRC-013",
-        "locator": "Official NaTIS K53 Motorcycle Part 1 — engine kill switch RUN / stopping engine",
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: rear tyre",
         "verification_status": "source_verified"
       },
       "verification_status": "CONTENT_QA",
       "language": {
         "en": {
-          "question": "Which motorcycle control can be used to stop the engine?",
+          "question": "Which motorcycle component makes contact with the road at the rear wheel?",
           "options": [
-            "Engine kill switch",
-            "Indicator switch",
-            "Rear-view mirror"
+            "Rear tyre",
+            "Rear-view mirror",
+            "Indicator switch"
           ],
-          "explanation": "The official motorcycle practical manual includes an engine kill switch used to stop the engine."
+          "explanation": "The controls manual identifies the rear tyre as a major visual motorcycle component."
         },
         "af": {
-          "question": "Watter motorfietsbeheer kan gebruik word om die enjin af te skakel?",
+          "question": "Watter motorfietsonderdeel maak by die agterwiel kontak met die pad?",
           "options": [
-            "Enjin-noodafskakelaar",
-            "Rigtingwyser-skakelaar",
-            "Truspieël"
+            "Agterband",
+            "Truspieël",
+            "Rigtingwyser-skakelaar"
           ],
-          "explanation": "Die amptelike motorfietspraktiese handleiding sluit 'n enjin-noodafskakelaar in wat gebruik word om die enjin te stop."
+          "explanation": "Die beheerhandleiding identifiseer die agterband as 'n belangrike sigbare motorfietsonderdeel."
         },
         "xh": {
-          "question": "Sesiphi isixhobo sesithuthuthu esinokusetyenziswa ukumisa injini?",
+          "question": "Leliphi icandelo lesithuthuthu elichukumisa indlela kwivili langasemva?",
           "options": [
-            "I-engine kill switch",
-            "Iswitshi yezalathisi",
-            "Isipili sokujonga ngasemva"
+            "Itayara langasemva",
+            "Isipili sokujonga ngasemva",
+            "Iswitshi yezalathisi"
           ],
-          "explanation": "Incwadi esemthethweni yesithuthuthu ibandakanya i-engine kill switch esetyenziswa ukumisa injini."
+          "explanation": "Incwadi yezilawuli ichaza itayara langasemva njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
         }
       },
       "correct_index": 0,
@@ -464,44 +464,44 @@
     {
       "id": "controls-028",
       "section": "controls",
-      "topic": "motorcycle-starter",
+      "topic": "motorcycle-mudguard",
       "vehicle_group": [
         "code1"
       ],
       "difficulty": "basic",
       "source": {
-        "source_id": "SRC-013",
-        "locator": "Official NaTIS K53 Motorcycle Part 1 — starter button / kick starter",
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls — motorcycle visual component: mudguard",
         "verification_status": "source_verified"
       },
       "verification_status": "CONTENT_QA",
       "language": {
         "en": {
-          "question": "Which control may be used to start a motorcycle engine?",
+          "question": "Which named motorcycle component is fitted close to a wheel to help shield against spray and debris?",
           "options": [
-            "Starter button or kick starter",
-            "Rear brake only",
-            "Indicator switch"
+            "Mudguard",
+            "Fuel tank",
+            "Gear lever"
           ],
-          "explanation": "The official motorcycle manual identifies a starter button or kick starter as a starting control, depending on the motorcycle."
+          "explanation": "The controls manual identifies the mudguard as a major visual motorcycle component."
         },
         "af": {
-          "question": "Watter beheer kan gebruik word om 'n motorfietsenjin aan te skakel?",
+          "question": "Watter benoemde motorfietsonderdeel is naby 'n wiel aangebring om teen spatwater en vuilgoed te help beskerm?",
           "options": [
-            "Aansitknoppie of skopstarter",
-            "Slegs die agterrem",
-            "Rigtingwyser-skakelaar"
+            "Modderskerm",
+            "Brandstoftenk",
+            "Rathefboom"
           ],
-          "explanation": "Die amptelike motorfietshandleiding identifiseer 'n aansitknoppie of skopstarter as 'n aansitbeheer, afhangend van die motorfiets."
+          "explanation": "Die beheerhandleiding identifiseer die modderskerm as 'n belangrike sigbare motorfietsonderdeel."
         },
         "xh": {
-          "question": "Sesiphi isixhobo esinokusetyenziswa ukuqala injini yesithuthuthu?",
+          "question": "Leliphi icandelo lesithuthuthu elikufuphi nevili elinceda ukukhusela ekutshizeni nasekungcoleni?",
           "options": [
-            "Iqhosha lokuqalisa okanye i-kick starter",
-            "Ibrake yangasemva kuphela",
-            "Iswitshi yezalathisi"
+            "I-mudguard",
+            "Itanki yamafutha",
+            "Ilever yegiya"
           ],
-          "explanation": "Incwadi esemthethweni yesithuthuthu ichaza iqhosha lokuqalisa okanye i-kick starter njengesixhobo sokuqalisa, kuxhomekeke kwisithuthuthu."
+          "explanation": "Incwadi yezilawuli ichaza i-mudguard njengenxalenye ebalulekileyo ebonakalayo yesithuthuthu."
         }
       },
       "correct_index": 0,
@@ -515,44 +515,44 @@
     {
       "id": "controls-029",
       "section": "controls",
-      "topic": "motorcycle-choke",
+      "topic": "motorcycle-mirror-purpose-variation",
       "vehicle_group": [
         "code1"
       ],
       "difficulty": "basic",
       "source": {
-        "source_id": "SRC-013",
-        "locator": "Official NaTIS K53 Motorcycle Part 1 — choke if necessary during starting",
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls §1.2 — left and right rear-view mirrors",
         "verification_status": "source_verified"
       },
       "verification_status": "CONTENT_QA",
       "language": {
         "en": {
-          "question": "Which motorcycle control may be used when necessary to assist with starting the engine?",
+          "question": "Which pair of motorcycle components helps the rider monitor traffic behind?",
           "options": [
-            "Choke",
-            "Rear-view mirror",
-            "Foot rest"
+            "Left and right rear-view mirrors",
+            "Fuel tank and mudguard",
+            "Gear lever and foot rest"
           ],
-          "explanation": "The official motorcycle manual lists the choke as a control that may be used when necessary during starting."
+          "explanation": "The left and right rear-view mirrors help the rider observe traffic behind the motorcycle."
         },
         "af": {
-          "question": "Watter motorfietsbeheer kan, indien nodig, help om die enjin aan te skakel?",
+          "question": "Watter paar motorfietsonderdele help die ryer om verkeer agter die motorfiets dop te hou?",
           "options": [
-            "Smoorbeheer",
-            "Truspieël",
-            "Voetrus"
+            "Linker- en regtertruspieëls",
+            "Brandstoftenk en modderskerm",
+            "Rathefboom en voetrus"
           ],
-          "explanation": "Die amptelike motorfietshandleiding noem die smoorbeheer as 'n beheer wat indien nodig tydens aansit gebruik kan word."
+          "explanation": "Die linker- en regtertruspieëls help die ryer om verkeer agter die motorfiets waar te neem."
         },
         "xh": {
-          "question": "Sesiphi isixhobo sesithuthuthu esinokusetyenziswa xa kufuneka ukunceda ukuqala injini?",
+          "question": "Zeziphi iinxalenye ezimbini zesithuthuthu ezinceda umkhweli ajonge izithuthi ezingasemva?",
           "options": [
-            "I-choke",
-            "Isipili sokujonga ngasemva",
-            "Indawo yokubeka unyawo"
+            "Izipili zasekhohlo nasekunene zokujonga ngasemva",
+            "Itanki yamafutha ne-mudguard",
+            "Ilever yegiya nendawo yokubeka unyawo"
           ],
-          "explanation": "Incwadi esemthethweni yesithuthuthu ibala i-choke njengesixhobo esinokusetyenziswa xa kufuneka ngexesha lokuqalisa."
+          "explanation": "Izipili zasekhohlo nasekunene zinceda umkhweli abone izithuthi ezingasemva kwesithuthuthu."
         }
       },
       "correct_index": 0,
@@ -566,44 +566,44 @@
     {
       "id": "controls-030",
       "section": "controls",
-      "topic": "motorcycle-warning-lights-meters",
+      "topic": "motorcycle-gear-control-variation",
       "vehicle_group": [
         "code1"
       ],
       "difficulty": "basic",
       "source": {
-        "source_id": "SRC-013",
-        "locator": "Official NaTIS K53 Motorcycle Part 1 — check warning lights and meters after ignition ON",
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Components and Controls §1.2 — motorcycle gear lever",
         "verification_status": "source_verified"
       },
       "verification_status": "CONTENT_QA",
       "language": {
         "en": {
-          "question": "After switching the motorcycle ignition on, what should the rider check as part of the control check?",
+          "question": "Which motorcycle control is identified for selecting gears?",
           "options": [
-            "Warning lights and meters",
-            "Only the number plate",
-            "Only the seat"
+            "Gear lever",
+            "Fuel tank",
+            "Mudguard"
           ],
-          "explanation": "The official motorcycle practical manual includes checking the operation of warning lights and meters after the ignition is switched on."
+          "explanation": "The controls manual identifies the gear lever as the motorcycle's gear-selection control."
         },
         "af": {
-          "question": "Wat moet die ryer as deel van die beheerondersoek nagaan nadat die motorfiets se ontsteking aangeskakel is?",
+          "question": "Watter motorfietsbeheer word vir die kies van ratte geïdentifiseer?",
           "options": [
-            "Waarskuwingsligte en meters",
-            "Slegs die nommerplaat",
-            "Slegs die sitplek"
+            "Rathefboom",
+            "Brandstoftenk",
+            "Modderskerm"
           ],
-          "explanation": "Die amptelike motorfietspraktiese handleiding sluit die nagaan van waarskuwingsligte en meters in nadat die ontsteking aangeskakel is."
+          "explanation": "Die beheerhandleiding identifiseer die rathefboom as die motorfiets se ratkeusebeheer."
         },
         "xh": {
-          "question": "Emva kokuvula i-ignition yesithuthuthu, kufuneka umkhweli ajonge ntoni njengenxalenye yolawulo?",
+          "question": "Sesiphi isixhobo sesithuthuthu esichazwe njengesisetyenziswa ukukhetha iigiya?",
           "options": [
-            "Izibane zesilumkiso kunye neemeitha",
-            "Inombolo yobhaliso kuphela",
-            "Isitulo kuphela"
+            "Ilever yegiya",
+            "Itanki yamafutha",
+            "I-mudguard"
           ],
-          "explanation": "Incwadi esemthethweni yesithuthuthu ibandakanya ukujonga izibane zesilumkiso kunye neemeitha emva kokuvula i-ignition."
+          "explanation": "Incwadi yezilawuli ichaza ilever yegiya njengesixhobo sokukhetha iigiya kwisithuthuthu."
         }
       },
       "correct_index": 0,
