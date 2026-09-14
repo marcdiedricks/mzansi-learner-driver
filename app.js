@@ -8,7 +8,9 @@ const state = {
   orientationStep: 0,
   lastPracticeId: null,
   practiceSection: "all",
-  practiceQueue: []
+  practiceQueue: [],
+  studySection: "rules",
+  studyIndex: 0
 };
 
 const DB_NAME = "mzansiLearnerDriverDB";
@@ -95,6 +97,8 @@ async function changePathway(group) {
   state.lastPracticeId = null;
   state.practiceSection = "all";
   state.practiceQueue = [];
+  state.studySection = "rules";
+  state.studyIndex = 0;
   state.mockQuestions = [];
   state.mockIndex = 0;
   state.mockScore = 0;
@@ -308,6 +312,10 @@ function showView(id) {
     accessibilityPanel.classList.add("hidden");
     accessibilityToggle.setAttribute("aria-expanded", "false");
   }
+  if (id === "learnView") {
+    updateStudyFocusUI();
+    renderStudyGuide();
+  }
   if (id === "practiceView") {
     updatePracticeFocusUI();
     renderPractice();
@@ -327,6 +335,7 @@ async function changeLanguage(newLang) {
   await dbSet("language", newLang);
   updateConnection();
   const view = currentViewId();
+  if (view === "learnView") renderStudyGuide();
   if (view === "practiceView") renderPractice();
   if (view === "weakView") renderWeak();
   if (view === "readyView") renderReady();
@@ -455,6 +464,72 @@ function isEligibleForActiveVehicle(q) {
 function eligibleQuestions(section = null) {
   return state.questions.filter(q => isEligibleForActiveVehicle(q) && (!section || q.section === section));
 }
+
+function updateStudyFocusUI() {
+  document.querySelectorAll(".study-focus-btn").forEach(btn => {
+    const active = btn.dataset.studySection === state.studySection;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", String(active));
+  });
+}
+
+function setStudySection(section) {
+  if (!["rules","signs","controls"].includes(section)) return;
+  if (state.studySection === section) return;
+  stopSpeech();
+  state.studySection = section;
+  state.studyIndex = 0;
+  updateStudyFocusUI();
+  if (currentViewId() === "learnView") renderStudyGuide();
+}
+
+document.querySelectorAll(".study-focus-btn").forEach(btn => {
+  btn.addEventListener("click", () => setStudySection(btn.dataset.studySection));
+});
+
+async function renderStudyGuide() {
+  const box = document.getElementById("studyBox");
+  if (!box) return;
+  const pool = eligibleQuestions(state.studySection).slice().sort((a,b) => a.id.localeCompare(b.id, undefined, {numeric:true}));
+  if (!pool.length) {
+    box.innerHTML = `<div class="result-card status-warn"><div class="result-title">${tr("packUnavailable")}</div></div>`;
+    return;
+  }
+  if (state.studyIndex >= pool.length) state.studyIndex = 0;
+  if (state.studyIndex < 0) state.studyIndex = pool.length - 1;
+  const q = pool[state.studyIndex];
+  const txt = questionText(q);
+  const correct = txt.options[q.correct_index];
+  const key = pathwayKey(`studySeen:${state.studySection}`);
+  const seen = await dbGet(key, []);
+  if (!seen.includes(q.id)) {
+    seen.push(q.id);
+    await dbSet(key, seen);
+  }
+  const progress = `${seen.length}/${pool.length}`;
+  box.innerHTML = `
+    <div class="question-card">
+      <div class="question-meta">
+        <span class="section-pill ${q.section}">${sectionLabel(q.section)}</span>
+        <span class="question-count">${tr("studyProgress")} ${progress}</span>
+      </div>
+      <h3>${txt.question}</h3>
+      <div class="feedback">
+        <strong>${tr("keyPoint")}</strong><br>${correct}
+      </div>
+      <div class="result-card status-info">
+        <strong>${tr("whyItMatters")}</strong>
+        <p>${txt.explanation}</p>
+      </div>
+      <div class="practice-focus-buttons">
+        <button id="studyPrev" class="next-btn" type="button">${tr("previous")}</button>
+        <button id="studyNext" class="next-btn" type="button">${tr("nextStudy")}</button>
+      </div>
+    </div>`;
+  document.getElementById("studyPrev").onclick = () => { state.studyIndex--; renderStudyGuide(); };
+  document.getElementById("studyNext").onclick = () => { state.studyIndex++; renderStudyGuide(); };
+  refreshHome();
+}
 function updatePracticeFocusUI() {
   document.querySelectorAll(".practice-focus-btn").forEach(btn => {
     const active = btn.dataset.practiceSection === state.practiceSection;
@@ -518,9 +593,13 @@ async function renderPractice() {
     const stats = await dbGet(pathwayKey("practiceStats"), {total:0, correct:0, bySection:{}});
     stats.total++;
     if (correct) stats.correct++;
-    stats.bySection[question.section] ??= {total:0, correct:0};
+    stats.bySection[question.section] ??= {total:0, correct:0, seenIds:[]};
+    stats.bySection[question.section].seenIds ??= [];
     stats.bySection[question.section].total++;
     if (correct) stats.bySection[question.section].correct++;
+    if (!stats.bySection[question.section].seenIds.includes(question.id)) {
+      stats.bySection[question.section].seenIds.push(question.id);
+    }
     await dbSet(pathwayKey("practiceStats"), stats);
     const n = document.createElement("button");
     n.className = "next-btn"; n.textContent = tr("tryAnother"); n.onclick = renderPractice;
@@ -533,11 +612,11 @@ function sampleFromSection(section, count) {
   return pool.slice(0, count);
 }
 function buildMockSet() {
-  return [
+  return shuffleArray([
     ...sampleFromSection("rules", 28),
     ...sampleFromSection("signs", 28),
     ...sampleFromSection("controls", 8)
-  ];
+  ]);
 }
 const startMockButton = document.getElementById("startMock");
 startMockButton.addEventListener("click", () => {
@@ -552,6 +631,54 @@ function resetMockLanding() {
   document.getElementById("mockBox").innerHTML = "";
   startMockButton.classList.remove("hidden"); setStartMockLabel("startMock");
 }
+function renderMockQuestion(q, container, onDone, metaText) {
+  stopSpeech();
+  const txt = questionText(q);
+  const displayOptions = shuffleArray(txt.options.map((text, originalIndex) => ({text, originalIndex})));
+  const speechTxt = {...txt, options: displayOptions.map(x => x.text)};
+  const questionId = `mock-${q.id}-${Math.random().toString(36).slice(2,8)}`;
+  container.innerHTML = `
+    <div class="question-card">
+      <div class="question-meta">
+        <span class="section-pill ${q.section}">${sectionLabel(q.section)}</span>
+        <span class="question-count">${metaText}</span>
+      </div>
+      <h3 id="${questionId}">${txt.question}</h3>
+      <div class="speech-row">
+        <button class="speech-btn question-speech-btn" type="button" data-idle-key="readAloud" aria-pressed="false">${tr("readAloud")}</button>
+        <span class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div id="answers" role="group" aria-labelledby="${questionId}"></div>
+      <div id="feedback" role="status" aria-live="polite"></div>
+    </div>`;
+  const answers = container.querySelector("#answers");
+  const questionSpeechButton = container.querySelector(".question-speech-btn");
+  const questionSpeechStatus = container.querySelector(".speech-status");
+  questionSpeechButton.onclick = () => speakText(
+    buildQuestionSpeech(speechTxt),
+    questionSpeechButton,
+    questionSpeechStatus,
+    "readAloud"
+  );
+
+  displayOptions.forEach((entry, displayIndex) => {
+    const b = document.createElement("button");
+    b.className = "answer-btn";
+    b.dataset.originalIndex = String(entry.originalIndex);
+    b.setAttribute("aria-pressed", "false");
+    b.innerHTML = `<span class="option-letter">${String.fromCharCode(65 + displayIndex)}</span><span>${entry.text}</span>`;
+    b.onclick = () => {
+      answers.querySelectorAll("button").forEach(x => x.classList.remove("selected"));
+      b.classList.add("selected");
+      b.setAttribute("aria-pressed", "true");
+      answers.querySelectorAll("button").forEach(x => x.disabled = true);
+      container.querySelector("#feedback").innerHTML = `<div class="result-card status-info"><strong>${tr("answerRecorded")}</strong> ${tr("answerRecordedHelp")}</div>`;
+      onDone(entry.originalIndex === q.correct_index, q, entry.originalIndex);
+    };
+    answers.appendChild(b);
+  });
+}
+
 function runMock() {
   const box = document.getElementById("mockBox");
   if (state.mockIndex >= state.mockQuestions.length) { finishMock(); return; }
@@ -559,9 +686,9 @@ function runMock() {
   const meta = lang() === "af" ? `VRAAG ${state.mockIndex+1} VAN ${state.mockQuestions.length}`
     : lang() === "xh" ? `UMBUZO ${state.mockIndex+1} KWA-${state.mockQuestions.length}`
     : `QUESTION ${state.mockIndex+1} OF ${state.mockQuestions.length}`;
-  renderQuestion(q, box, (correct, question) => {
+  renderMockQuestion(q, box, (correct, question, selectedIndex) => {
     if (correct) state.mockScore++;
-    state.mockAnswers.push({section:question.section, question_id:question.id, correct});
+    state.mockAnswers.push({section:question.section, question_id:question.id, correct, selected_index:selectedIndex});
     const n = document.createElement("button");
     n.className = "next-btn";
     n.textContent = state.mockIndex === state.mockQuestions.length - 1 ? tr("finish") : tr("next");
@@ -580,13 +707,38 @@ async function finishMock() {
   };
   result.sectionScores = sectionScores;
   result.practiceTargetMet = sectionScores.rules >= 22 && sectionScores.signs >= 23 && sectionScores.controls >= 6;
-  const history = await dbGet(pathwayKey("mockHistory"), []); history.unshift(result); await dbSet(pathwayKey("mockHistory"), history.slice(0,10));
+  const history = await dbGet(pathwayKey("mockHistory"), []);
+  history.unshift(result);
+  await dbSet(pathwayKey("mockHistory"), history.slice(0,10));
+
   const pct = Math.round((result.score/result.total)*100);
   const resultText = lang() === "af" ? `Jy het ${pct}% korrek beantwoord in hierdie 64-vraag CLLT-styl oefensessie.`
     : lang() === "xh" ? `Uphendule ${pct}% ngokuchanekileyo kolu qheliselo lwe-CLLT olunemibuzo engama-64.`
     : `You answered ${pct}% correctly in this 64-question CLLT-style practice session.`;
-  box.innerHTML = `<div class="result-card ${result.practiceTargetMet?"status-good":"status-warn"}"><span class="screen-chip purple">${tr("mockComplete")}</span><div class="score-large">${result.score}/${result.total}</div><p>${resultText}</p><p><strong>${tr("rules")}:</strong> ${sectionScores.rules}/28 &nbsp; <strong>${tr("signs")}:</strong> ${sectionScores.signs}/28 &nbsp; <strong>${tr("controls")}:</strong> ${sectionScores.controls}/8</p><p><strong>${result.practiceTargetMet?tr("practiceTargetMet"):tr("practiceTargetNotMet")}</strong></p><p class="small">${tr("notOfficialScore")}</p></div>`;
-  startMockButton.classList.remove("hidden"); setStartMockLabel("startAnother"); refreshHome();
+
+  const wrongAnswers = result.answers.filter(a=>!a.correct);
+  const reviewHtml = wrongAnswers.length ? `
+    <div class="result-card status-info">
+      <div class="result-title">${tr("reviewMistakes")} (${wrongAnswers.length})</div>
+      ${wrongAnswers.map((answer, index) => {
+        const q = state.questions.find(item=>item.id===answer.question_id);
+        if (!q) return "";
+        const txt = questionText(q);
+        const selected = txt.options[answer.selected_index] ?? "";
+        const correct = txt.options[q.correct_index] ?? "";
+        return `<details class="review-item">
+          <summary>${index+1}. ${txt.question}</summary>
+          <p><strong>${tr("yourAnswer")}:</strong> ${selected}</p>
+          <p><strong>${tr("correctAnswer")}:</strong> ${correct}</p>
+          <p>${txt.explanation}</p>
+        </details>`;
+      }).join("")}
+    </div>` : `<div class="result-card status-good"><strong>${tr("noMistakes")}</strong></div>`;
+
+  box.innerHTML = `<div class="result-card ${result.practiceTargetMet?"status-good":"status-warn"}"><span class="screen-chip purple">${tr("mockComplete")}</span><div class="score-large">${result.score}/${result.total}</div><p>${resultText}</p><p><strong>${tr("rules")}:</strong> ${sectionScores.rules}/28 &nbsp; <strong>${tr("signs")}:</strong> ${sectionScores.signs}/28 &nbsp; <strong>${tr("controls")}:</strong> ${sectionScores.controls}/8</p><p><strong>${result.practiceTargetMet?tr("practiceTargetMet"):tr("practiceTargetNotMet")}</strong></p><p class="small">${tr("notOfficialScore")}</p></div>${reviewHtml}`;
+  startMockButton.classList.remove("hidden");
+  setStartMockLabel("startAnother");
+  refreshHome();
 }
 async function renderWeak() {
   const box = document.getElementById("weakBox");
@@ -609,11 +761,12 @@ async function renderReady() {
   const pct=Math.round((stats.correct/stats.total)*100);
   const minimums={rules:28,signs:28,controls:8};
   const required=["rules","signs","controls"];
-  const coverageOK=required.every(s=>(stats.bySection?.[s]?.total||0)>=minimums[s]);
+  const uniqueSeen=s=>stats.bySection?.[s]?.seenIds?.length||0;
+  const coverageOK=required.every(s=>uniqueSeen(s)>=minimums[s]);
   const sectionOK=coverageOK&&required.every(s=>(stats.bySection[s].correct/stats.bySection[s].total)>=.85);
   const ready=orientationDone&&sectionOK;
-  const coverageText=required.map(s=>`${sectionLabel(s)} ${stats.bySection?.[s]?.total||0}/${minimums[s]}`).join(" · ");
-  box.innerHTML=`<div class="result-card ${ready?"status-good":"status-warn"}"><span class="screen-chip ${ready?"green":"orange"}">${ready?tr("readinessCheck"):tr("keepPractising")}</span><div class="result-title">${ready?tr("seriousMock"):tr("notReady")}</div><p><strong>${tr("practiceAccuracy")}</strong> ${pct}%</p><p><strong>${tr("practiceCoverage")}</strong> ${coverageText}</p><p><strong>${tr("orientation")}</strong> ${orientationDone?tr("complete"):tr("notComplete")}</p><p class="small">${tr("readinessNote")}</p></div>`;
+  const coverageText=required.map(s=>`${sectionLabel(s)} ${uniqueSeen(s)}/${minimums[s]}`).join(" · ");
+  box.innerHTML=`<div class="result-card ${ready?"status-good":"status-warn"}"><span class="screen-chip ${ready?"green":"orange"}">${ready?tr("readinessCheck"):tr("keepPractising")}</span><div class="result-title">${ready?tr("seriousMock"):tr("notReady")}</div><p><strong>${tr("practiceAccuracy")}</strong> ${pct}%</p><p><strong>${tr("uniqueCoverage")}:</strong> ${coverageText}</p><p><strong>${tr("orientation")}</strong> ${orientationDone?tr("complete"):tr("notComplete")}</p><p class="small">${tr("readinessNote")}</p></div>`;
 }
 async function renderOrientation() {
   const box=document.getElementById("orientationBox");
@@ -636,8 +789,12 @@ async function refreshHome(){
   const orientationDone=await dbGet("orientationDone",false);
   const stats=await dbGet(pathwayKey("practiceStats"),{total:0,correct:0});
   const mockHistory=await dbGet(pathwayKey("mockHistory"),[]);
+  const studiedRules=(await dbGet(pathwayKey("studySeen:rules"),[])).length;
+  const studiedSigns=(await dbGet(pathwayKey("studySeen:signs"),[])).length;
+  const studiedControls=(await dbGet(pathwayKey("studySeen:controls"),[])).length;
+  const studiedTotal=studiedRules+studiedSigns+studiedControls;
   const yesNo=orientationDone?tr("complete"):tr("notComplete");
-  document.getElementById("homeProgress").textContent=`${pathwayLabel()} · ${tr("progressOrientation")}: ${yesNo} · ${tr("progressPractice")}: ${stats.total||0} · ${tr("progressMocks")}: ${mockHistory.length}`;
+  document.getElementById("homeProgress").textContent=`${pathwayLabel()} · ${tr("progressOrientation")}: ${yesNo} · ${tr("progressStudy")}: ${studiedTotal} · ${tr("progressPractice")}: ${stats.total||0} · ${tr("progressMocks")}: ${mockHistory.length}`;
 }
 
 let deferredInstallPrompt=null;
