@@ -13,6 +13,7 @@ const DB_NAME = "mzansiLearnerDriverDB";
 const STORE = "progress";
 const tr = key => window.MLD_I18N.t(key);
 const lang = () => window.MLD_I18N.language;
+const accessibilityState = { highContrast: false, largerText: false };
 
 function openDB() {
   return new Promise((resolve, reject) => {
@@ -43,6 +44,47 @@ async function dbSet(key, value) {
   });
 }
 
+function applyAccessibilitySettings(settings = accessibilityState) {
+  accessibilityState.highContrast = Boolean(settings.highContrast);
+  accessibilityState.largerText = Boolean(settings.largerText);
+  document.documentElement.classList.toggle("high-contrast", accessibilityState.highContrast);
+  document.documentElement.classList.toggle("large-text", accessibilityState.largerText);
+  updateAccessibilityControls();
+}
+
+function updateAccessibilityControls() {
+  const contrast = document.getElementById("contrastToggle");
+  const textSize = document.getElementById("textSizeToggle");
+  if (!contrast || !textSize) return;
+  contrast.setAttribute("aria-checked", String(accessibilityState.highContrast));
+  textSize.setAttribute("aria-checked", String(accessibilityState.largerText));
+  contrast.querySelector("[data-setting-status]").textContent = accessibilityState.highContrast ? tr("on") : tr("off");
+  textSize.querySelector("[data-setting-status]").textContent = accessibilityState.largerText ? tr("on") : tr("off");
+}
+
+async function saveAccessibilitySettings() {
+  await dbSet("accessibilitySettings", {...accessibilityState});
+}
+
+const accessibilityToggle = document.getElementById("accessibilityToggle");
+const accessibilityPanel = document.getElementById("accessibilityPanel");
+accessibilityToggle.addEventListener("click", () => {
+  const open = accessibilityPanel.classList.toggle("hidden") === false;
+  accessibilityToggle.setAttribute("aria-expanded", String(open));
+});
+
+document.getElementById("contrastToggle").addEventListener("click", async () => {
+  accessibilityState.highContrast = !accessibilityState.highContrast;
+  applyAccessibilitySettings();
+  await saveAccessibilitySettings();
+});
+
+document.getElementById("textSizeToggle").addEventListener("click", async () => {
+  accessibilityState.largerText = !accessibilityState.largerText;
+  applyAccessibilitySettings();
+  await saveAccessibilitySettings();
+});
+
 function currentViewId() {
   return document.querySelector(".view.active")?.id || "homeView";
 }
@@ -72,6 +114,7 @@ async function changeLanguage(newLang) {
     if (state.mockQuestions.length && state.mockIndex < state.mockQuestions.length) runMock();
     else resetMockLanding();
   }
+  updateAccessibilityControls();
   refreshHome();
 }
 document.querySelectorAll(".lang-btn").forEach(btn => btn.addEventListener("click", () => changeLanguage(btn.dataset.lang)));
@@ -102,29 +145,41 @@ function sectionLabel(section) {
 }
 function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
   const txt = questionText(q);
+  const questionId = `question-${q.id}-${Math.random().toString(36).slice(2,8)}`;
   container.innerHTML = `
     <div class="question-card">
       <div class="question-meta">
         <span class="section-pill ${q.section}">${sectionLabel(q.section)}</span>
         <span class="question-count">${metaText}</span>
       </div>
-      <h3>${txt.question}</h3><div id="answers"></div><div id="feedback"></div>
+      <h3 id="${questionId}">${txt.question}</h3>
+      <div id="answers" role="group" aria-labelledby="${questionId}"></div>
+      <div id="feedback" role="status" aria-live="polite"></div>
     </div>`;
   const answers = container.querySelector("#answers");
   txt.options.forEach((opt, idx) => {
     const b = document.createElement("button");
     b.className = "answer-btn";
     b.dataset.index = String(idx);
+    b.setAttribute("aria-pressed", "false");
     b.innerHTML = `<span class="option-letter">${String.fromCharCode(65 + idx)}</span><span>${opt}</span>`;
     b.onclick = () => {
       answers.querySelectorAll("button").forEach(x => x.classList.remove("selected"));
       b.classList.add("selected");
       const correct = idx === q.correct_index;
-      if (correct) b.classList.add("correct-answer");
-      else {
+      if (correct) {
+        b.classList.add("correct-answer");
+        b.insertAdjacentHTML("beforeend", `<span class="answer-state">${tr("correctAnswer")}</span>`);
+      } else {
         b.classList.add("wrong-answer");
-        answers.querySelector(`button[data-index="${q.correct_index}"]`)?.classList.add("correct-answer");
+        b.insertAdjacentHTML("beforeend", `<span class="answer-state">${tr("wrongAnswer")}</span>`);
+        const correctButton = answers.querySelector(`button[data-index="${q.correct_index}"]`);
+        if (correctButton) {
+          correctButton.classList.add("correct-answer");
+          correctButton.insertAdjacentHTML("beforeend", `<span class="answer-state">${tr("correctAnswer")}</span>`);
+        }
       }
+      b.setAttribute("aria-pressed", "true");
       container.querySelector("#feedback").innerHTML =
         `<div class="feedback ${correct ? "" : "bad"}"><strong>${correct ? tr("correct") : tr("notQuite")}</strong><br>${txt.explanation}</div>`;
       onDone(correct, q);
@@ -279,6 +334,8 @@ window.addEventListener("appinstalled",()=>document.getElementById("installCard"
 async function init(){
   const savedLanguage=await dbGet("language","en");
   window.MLD_I18N.setLanguage(savedLanguage);
+  const savedAccessibility=await dbGet("accessibilitySettings",{highContrast:false,largerText:false});
+  applyAccessibilitySettings(savedAccessibility);
   updateConnection();
   try{await loadQuestions();await refreshHome();}catch(err){document.getElementById("homeProgress").textContent=tr("pilotLoadFail");}
   if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
