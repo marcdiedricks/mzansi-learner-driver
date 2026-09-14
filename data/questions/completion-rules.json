@@ -1429,6 +1429,210 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "content-completion-1"
+    },
+    {
+      "id": "rules-065",
+      "section": "rules",
+      "topic": "secure-load",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — goods must be safely contained or securely fastened and protected from being dislodged or spilled",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "How must goods carried on a light motor vehicle be secured?",
+          "options": [
+            "Safely contained or securely fastened so they cannot be dislodged or spilled",
+            "Placed loosely if the trip is short",
+            "Held in place only by other luggage"
+          ],
+          "explanation": "The learner manual requires carried goods to be safely contained or securely fastened and protected from being dislodged or spilled."
+        },
+        "af": {
+          "question": "Hoe moet goedere wat op 'n ligte motorvoertuig vervoer word vasgemaak wees?",
+          "options": [
+            "Veilig bevat of stewig vasgemaak sodat dit nie kan losraak of uitval nie",
+            "Los geplaas as die rit kort is",
+            "Slegs deur ander bagasie in plek gehou"
+          ],
+          "explanation": "Die leerderhandleiding vereis dat goedere veilig bevat of stewig vasgemaak en teen losraak of uitval beskerm word."
+        },
+        "xh": {
+          "question": "Impahla ethwalwa kwisithuthi esilula kufuneka ikhuseleke njani?",
+          "options": [
+            "Igcinwe ngokukhuselekileyo okanye ibotshelelwe kakuhle ukuze ingaphumi okanye ichitheke",
+            "Ibekwe ngokukhululekileyo ukuba uhambo lufutshane",
+            "Ibanjwe kuphela yenye imithwalo"
+          ],
+          "explanation": "Incwadi yomfundi ifuna impahla igcinwe ngokukhuselekileyo okanye ibotshelelwe kakuhle ukuze ingakhutshwa okanye ichitheke."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-066",
+      "section": "rules",
+      "topic": "load-driver-view",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — goods may not obscure driver/rider view to front, sides or rear-view mirrors",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May a load be positioned so that it blocks the driver's view of traffic ahead, to the sides or in the rear-view mirrors?",
+          "options": [
+            "No",
+            "Yes, if the vehicle is moving slowly",
+            "Yes, if hazard lights are used"
+          ],
+          "explanation": "The learner manual says a load may not obscure the driver's view to the front, sides or through the rear-view mirrors."
+        },
+        "af": {
+          "question": "Mag 'n vrag so geplaas word dat dit die bestuurder se uitsig op verkeer voor, aan die kante of in die truspieëls blokkeer?",
+          "options": [
+            "Nee",
+            "Ja, as die voertuig stadig beweeg",
+            "Ja, as noodligte gebruik word"
+          ],
+          "explanation": "Die leerderhandleiding sê 'n vrag mag nie die bestuurder se uitsig na voor, na die kante of deur die truspieëls belemmer nie."
+        },
+        "xh": {
+          "question": "Ngaba umthwalo unokubekwa ngendlela evala umbono womqhubi ngaphambili, emacaleni okanye kwizipili zokujonga ngasemva?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba isithuthi sihamba kancinci",
+            "Ewe, ukuba kusetyenziswa izibane zesilumkiso"
+          ],
+          "explanation": "Incwadi yomfundi ithi umthwalo awunakuthintela umbono womqhubi ngaphambili, emacaleni okanye kwizipili zokujonga ngasemva."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-067",
+      "section": "rules",
+      "topic": "load-road-contact",
+      "vehicle_group": [
+        "code2"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — goods may not come into contact with the road surface",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May goods carried on a vehicle hang down so that they touch the road surface?",
+          "options": [
+            "No",
+            "Yes, if the load is light",
+            "Yes, on quiet roads"
+          ],
+          "explanation": "The learner manual states that goods may not be loaded in a way that allows them to contact the road surface."
+        },
+        "af": {
+          "question": "Mag goedere wat op 'n voertuig vervoer word so afhang dat dit aan die padoppervlak raak?",
+          "options": [
+            "Nee",
+            "Ja, as die vrag lig is",
+            "Ja, op stil paaie"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat goedere nie so gelaai mag word dat dit met die padoppervlak in aanraking kom nie."
+        },
+        "xh": {
+          "question": "Ngaba impahla ethwalwa kwisithuthi ingaxhonywa ide ichukumise umphezulu wendlela?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba umthwalo ulula",
+            "Ewe, kwiindlela ezithuleyo"
+          ],
+          "explanation": "Incwadi yomfundi ithi impahla ayinakuthwalwa ngendlela eyenza ichukumise umphezulu wendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "rules-068",
+      "section": "rules",
+      "topic": "motorcycle-baggage-secure-carrier",
+      "vehicle_group": [
+        "code1"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — motorcycle baggage should be placed in suitable carriers securely attached to the motorcycle",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does the learner manual recommend for carrying baggage on a motorcycle?",
+          "options": [
+            "Use suitable carriers securely attached to the motorcycle",
+            "Balance loose baggage on the fuel tank",
+            "Let baggage hang freely from the handlebars"
+          ],
+          "explanation": "The learner manual recommends carrying motorcycle baggage in suitable carriers securely attached to the motorcycle."
+        },
+        "af": {
+          "question": "Wat beveel die leerderhandleiding aan vir die vervoer van bagasie op 'n motorfiets?",
+          "options": [
+            "Gebruik geskikte draers wat stewig aan die motorfiets vas is",
+            "Balanseer los bagasie op die brandstoftenk",
+            "Laat bagasie los aan die stuurhandvatsels hang"
+          ],
+          "explanation": "Die leerderhandleiding beveel aan dat motorfietsbagasie in geskikte draers vervoer word wat stewig aan die motorfiets vas is."
+        },
+        "xh": {
+          "question": "Incwadi yomfundi icebisa ntoni xa kuthwalwa impahla kwisithuthuthu?",
+          "options": [
+            "Sebenzisa iziphathi ezifanelekileyo ezibotshelelwe kakuhle kwisithuthuthu",
+            "Beka impahla ekhululekileyo phezu kwetanki yamafutha",
+            "Vumela impahla ixhonywe ngokukhululekileyo kwii-handlebar"
+          ],
+          "explanation": "Incwadi yomfundi icebisa ukuba impahla yesithuthuthu ithwalwe kwiziphathi ezifanelekileyo ezibotshelelwe kakuhle kwisithuthuthu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
     }
   ]
 }
