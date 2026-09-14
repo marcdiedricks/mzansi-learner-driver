@@ -35,6 +35,38 @@ Minimum eligible practice-bank floor PER PATHWAY:
 These are INTERNAL PRACTICE-BANK TARGETS.
 They are not claims about the confidential or exact official CLLT bank.
 
+
+## 2A. TOPIC COMPLETENESS GATE — MANDATORY
+
+Question volume alone is not sufficient.
+
+Before the completion build may be merged to production, every material study topic in the approved learner-preparation sources must be mapped and classified as:
+
+- COVERED — at least one source-verified practice question exists;
+- DEEPEN — the topic exists but needs additional variations because it is important, broad or easily confused;
+- VEHICLE-SPECIFIC — coverage must be checked separately for Code 1 and Code 2;
+- ORIENTATION — important learner-process or digital-test readiness content, but not part of the scored practice bank;
+- SOURCE GAP — do not invent content; resolve evidence before release.
+
+Important/high-frequency concepts must have more than one question so learners practise understanding rather than memorising one wording.
+
+The final release gate therefore requires BOTH:
+1. the minimum eligible practice-bank floor; and
+2. topic completeness across the official study material.
+
+## 2B. CONFIDENCE AND PRACTICAL-APPLICATION STANDARD
+
+The completed app must prepare a learner to:
+- recognise the rule/sign/control;
+- understand what it means;
+- apply it to a simple road situation;
+- distinguish it from a plausible wrong action;
+- practise repeatedly offline without immediate repetition;
+- identify weak areas and revisit them;
+- become comfortable answering one question at a time in a digital/touchscreen-style environment.
+
+The app is learner-licence preparation, not a substitute for the later practical K53 driving test. However, learner questions should connect knowledge to safe real-world road use wherever the official source supports that application.
+
 ## 3. RULES COVERAGE MAP
 
 Coverage must include, where applicable:
