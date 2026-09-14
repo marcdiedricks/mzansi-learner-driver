@@ -1,5 +1,5 @@
 {
-  "pack_id": "rules-expansion-r1",
+  "pack_id": "rules-expansion-r2",
   "section": "rules",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -672,6 +672,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r1"
+    },
+    {
+      "id": "rules-016",
+      "section": "rules",
+      "topic": "parking-near-pedestrian-crossing",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.47 — no parking within 9 metres of the approach side of a pedestrian crossing in an urban area",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "In an urban area, may you park on the roadway within 9 metres before a pedestrian crossing?",
+          "options": [
+            "No",
+            "Yes, if no pedestrians are present",
+            "Yes, for less than five minutes"
+          ],
+          "explanation": "The learner manual states that you may not park on the roadway within 9 metres of the approach side of a pedestrian crossing in an urban area."
+        },
+        "af": {
+          "question": "Mag jy in 'n stedelike gebied op die rybaan binne 9 meter voor 'n voetgangeroorgang parkeer?",
+          "options": [
+            "Nee",
+            "Ja, as daar geen voetgangers is nie",
+            "Ja, vir minder as vyf minute"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat jy nie op die rybaan binne 9 meter aan die naderingskant van 'n voetgangeroorgang in 'n stedelike gebied mag parkeer nie."
+        },
+        "xh": {
+          "question": "Kummandla wedolophu, ngaba ungapaka endleleni ngaphakathi kweemitha ezi-9 phambi kwendawo yokuwela yabahambi ngeenyawo?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba akukho bahambi ngeenyawo",
+            "Ewe, ngaphantsi kwemizuzu emihlanu"
+          ],
+          "explanation": "Incwadi yomfundi ichaza ukuba akuvumelekanga ukupaka endleleni ngaphakathi kweemitha ezi-9 kwicala lokusondela kwindawo yokuwela yabahambi ngeenyawo kummandla wedolophu."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r2"
+    },
+    {
+      "id": "rules-017",
+      "section": "rules",
+      "topic": "parking-near-fire-hydrant",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.47 — no parking on the same side within 1.5 metres on either side of a fire hydrant",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "May you park on the same side of the road within 1.5 metres of a fire hydrant?",
+          "options": [
+            "No",
+            "Yes, if the engine is left running",
+            "Yes, at night"
+          ],
+          "explanation": "The learner manual says you may not park on the same side of the road within 1.5 metres on either side of a fire hydrant."
+        },
+        "af": {
+          "question": "Mag jy aan dieselfde kant van die pad binne 1,5 meter van 'n brandkraan parkeer?",
+          "options": [
+            "Nee",
+            "Ja, as die enjin aan bly",
+            "Ja, snags"
+          ],
+          "explanation": "Die leerderhandleiding sê jy mag nie aan dieselfde kant van die pad binne 1,5 meter aan weerskante van 'n brandkraan parkeer nie."
+        },
+        "xh": {
+          "question": "Ngaba ungapaka kwicala elinye lendlela ngaphakathi kweemitha ezi-1,5 ukusuka kwisicimi-manzi somlilo?",
+          "options": [
+            "Hayi",
+            "Ewe, ukuba injini ishiywe isebenza",
+            "Ewe, ebusuku"
+          ],
+          "explanation": "Incwadi yomfundi ithi akuvumelekanga ukupaka kwicala elinye lendlela ngaphakathi kweemitha ezi-1,5 macala omabini kwisicimi-manzi somlilo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r2"
+    },
+    {
+      "id": "rules-018",
+      "section": "rules",
+      "topic": "uncontrolled-traffic-circle",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road — traffic circle / junction rule: yield to vehicular traffic approaching from the right unless controlled otherwise",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "At a traffic circle with no traffic officer or sign giving a different instruction, which traffic should you normally yield to?",
+          "options": [
+            "Traffic approaching from your right",
+            "Traffic behind you only",
+            "Traffic approaching from your left only"
+          ],
+          "explanation": "At an uncontrolled traffic circle, the learner manual says to yield to vehicular traffic approaching from the right unless another instruction applies."
+        },
+        "af": {
+          "question": "By 'n verkeersirkel sonder 'n verkeersbeampte of teken wat 'n ander opdrag gee, aan watter verkeer moet jy normaalweg padgee?",
+          "options": [
+            "Verkeer wat van regs nader",
+            "Slegs verkeer agter jou",
+            "Slegs verkeer wat van links nader"
+          ],
+          "explanation": "By 'n onbeheerde verkeersirkel sê die leerderhandleiding jy moet padgee aan voertuie wat van regs nader, tensy 'n ander opdrag geld."
+        },
+        "xh": {
+          "question": "Kwisangqa sezithuthi apho kungekho gosa lezendlela okanye uphawu olunika omnye umyalelo, zeziphi izithuthi oqhele ukuzinika indlela?",
+          "options": [
+            "Izithuthi ezisondela ngasekunene kwakho",
+            "Izithuthi ezisemva kwakho kuphela",
+            "Izithuthi ezisondela ngasekhohlo kuphela"
+          ],
+          "explanation": "Kwisangqa sezithuthi esingalawulwayo, incwadi yomfundi ithi kufuneka unike indlela kwizithuthi ezisondela ngasekunene ngaphandle kokuba kukho omnye umyalelo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r2"
     }
   ]
 }
