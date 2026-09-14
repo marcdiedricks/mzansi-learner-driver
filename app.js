@@ -14,6 +14,11 @@ const STORE = "progress";
 const tr = key => window.MLD_I18N.t(key);
 const lang = () => window.MLD_I18N.language;
 const accessibilityState = { highContrast: false, largerText: false };
+const speechState = {
+  supported: "speechSynthesis" in window && "SpeechSynthesisUtterance" in window,
+  activeButton: null,
+  session: 0
+};
 
 function openDB() {
   return new Promise((resolve, reject) => {
@@ -66,6 +71,141 @@ async function saveAccessibilitySettings() {
   await dbSet("accessibilitySettings", {...accessibilityState});
 }
 
+function speechLanguageCode() {
+  return lang() === "af" ? "af" : lang() === "xh" ? "xh" : "en";
+}
+
+function speechOptionLabel(index) {
+  if (index === 0) return tr("answerA");
+  if (index === 1) return tr("answerB");
+  return tr("answerC");
+}
+
+function setSpeechStatus(statusEl, message = "") {
+  if (!statusEl) return;
+  statusEl.textContent = message;
+}
+
+function resetSpeechButton(button) {
+  if (!button) return;
+  const key = button.dataset.idleKey || "readAloud";
+  button.textContent = tr(key);
+  button.dataset.speaking = "false";
+  button.removeAttribute("aria-pressed");
+}
+
+function stopSpeech() {
+  speechState.session++;
+  if (speechState.supported) window.speechSynthesis.cancel();
+  if (speechState.activeButton) resetSpeechButton(speechState.activeButton);
+  speechState.activeButton = null;
+}
+
+function waitForSpeechVoices(timeoutMs = 600) {
+  if (!speechState.supported) return Promise.resolve([]);
+  const existing = window.speechSynthesis.getVoices();
+  if (existing.length) return Promise.resolve(existing);
+  return new Promise(resolve => {
+    let settled = false;
+    const finish = () => {
+      if (settled) return;
+      settled = true;
+      window.speechSynthesis.removeEventListener("voiceschanged", finish);
+      resolve(window.speechSynthesis.getVoices());
+    };
+    window.speechSynthesis.addEventListener("voiceschanged", finish);
+    window.setTimeout(finish, timeoutMs);
+  });
+}
+
+function chooseSpeechVoice(voices, appLanguage = speechLanguageCode()) {
+  const normalised = voices.map(v => ({
+    voice: v,
+    code: String(v.lang || "").toLowerCase(),
+    name: String(v.name || "").toLowerCase()
+  }));
+  if (appLanguage === "en") {
+    return normalised.find(v => v.code === "en-za")?.voice
+      || normalised.find(v => v.code.startsWith("en-za"))?.voice
+      || normalised.find(v => v.code.startsWith("en-"))?.voice
+      || normalised.find(v => v.code === "en")?.voice
+      || null;
+  }
+  if (appLanguage === "af") {
+    return normalised.find(v => v.code === "af-za")?.voice
+      || normalised.find(v => v.code.startsWith("af"))?.voice
+      || normalised.find(v => v.name.includes("afrikaans"))?.voice
+      || null;
+  }
+  if (appLanguage === "xh") {
+    return normalised.find(v => v.code === "xh-za")?.voice
+      || normalised.find(v => v.code.startsWith("xh"))?.voice
+      || normalised.find(v => v.name.includes("xhosa"))?.voice
+      || null;
+  }
+  return null;
+}
+
+async function speakText(text, button, statusEl, idleKey) {
+  if (button?.dataset.speaking === "true") {
+    stopSpeech();
+    setSpeechStatus(statusEl, tr("speechStopped"));
+    return;
+  }
+
+  stopSpeech();
+  setSpeechStatus(statusEl, "");
+
+  if (!speechState.supported) {
+    setSpeechStatus(statusEl, tr("speechUnavailable"));
+    return;
+  }
+
+  const requestSession = ++speechState.session;
+  button.disabled = true;
+  setSpeechStatus(statusEl, tr("speechPreparing"));
+  const voices = await waitForSpeechVoices();
+
+  if (requestSession !== speechState.session) return;
+
+  button.disabled = false;
+  const voice = chooseSpeechVoice(voices);
+  if (!voice) {
+    setSpeechStatus(statusEl, tr("speechUnavailable"));
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.voice = voice;
+  utterance.lang = voice.lang;
+  const speakingSession = ++speechState.session;
+
+  button.dataset.idleKey = idleKey;
+  button.dataset.speaking = "true";
+  button.setAttribute("aria-pressed", "true");
+  button.textContent = tr("stopReading");
+  speechState.activeButton = button;
+  setSpeechStatus(statusEl, tr("speaking"));
+
+  const finish = (messageKey = "") => {
+    if (speakingSession !== speechState.session) return;
+    resetSpeechButton(button);
+    speechState.activeButton = null;
+    setSpeechStatus(statusEl, messageKey ? tr(messageKey) : "");
+  };
+
+  utterance.onend = () => finish();
+  utterance.onerror = () => finish("speechError");
+  window.speechSynthesis.speak(utterance);
+}
+
+function buildQuestionSpeech(txt) {
+  return [
+    txt.question,
+    ...txt.options.map((option, index) => `${speechOptionLabel(index)}. ${option}`)
+  ].join(". ");
+}
+
 const accessibilityToggle = document.getElementById("accessibilityToggle");
 const accessibilityPanel = document.getElementById("accessibilityPanel");
 accessibilityToggle.addEventListener("click", () => {
@@ -89,6 +229,7 @@ function currentViewId() {
   return document.querySelector(".view.active")?.id || "homeView";
 }
 function showView(id) {
+  stopSpeech();
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById(id).classList.add("active");
   if (accessibilityPanel && id !== "homeView") {
@@ -106,6 +247,7 @@ document.querySelectorAll("[data-view]").forEach(btn => btn.addEventListener("cl
 document.querySelectorAll(".back").forEach(btn => btn.addEventListener("click", () => showView("homeView")));
 
 async function changeLanguage(newLang) {
+  stopSpeech();
   window.MLD_I18N.setLanguage(newLang);
   await dbSet("language", newLang);
   updateConnection();
@@ -148,6 +290,7 @@ function sectionLabel(section) {
   return section === "rules" ? tr("rules") : section === "signs" ? tr("signs") : tr("controls");
 }
 function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
+  stopSpeech();
   const txt = questionText(q);
   const questionId = `question-${q.id}-${Math.random().toString(36).slice(2,8)}`;
   container.innerHTML = `
@@ -157,10 +300,23 @@ function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
         <span class="question-count">${metaText}</span>
       </div>
       <h3 id="${questionId}">${txt.question}</h3>
+      <div class="speech-row">
+        <button class="speech-btn question-speech-btn" type="button" data-idle-key="readAloud" aria-pressed="false">${tr("readAloud")}</button>
+        <span class="speech-status" role="status" aria-live="polite"></span>
+      </div>
       <div id="answers" role="group" aria-labelledby="${questionId}"></div>
       <div id="feedback" role="status" aria-live="polite"></div>
     </div>`;
   const answers = container.querySelector("#answers");
+  const questionSpeechButton = container.querySelector(".question-speech-btn");
+  const questionSpeechStatus = container.querySelector(".speech-status");
+  questionSpeechButton.onclick = () => speakText(
+    buildQuestionSpeech(txt),
+    questionSpeechButton,
+    questionSpeechStatus,
+    "readAloud"
+  );
+
   txt.options.forEach((opt, idx) => {
     const b = document.createElement("button");
     b.className = "answer-btn";
@@ -184,8 +340,22 @@ function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
         }
       }
       b.setAttribute("aria-pressed", "true");
-      container.querySelector("#feedback").innerHTML =
-        `<div class="feedback ${correct ? "" : "bad"}"><strong>${correct ? tr("correct") : tr("notQuite")}</strong><br>${txt.explanation}</div>`;
+      stopSpeech();
+      const feedbackBox = container.querySelector("#feedback");
+      feedbackBox.innerHTML =
+        `<div class="feedback ${correct ? "" : "bad"}"><strong>${correct ? tr("correct") : tr("notQuite")}</strong><br>${txt.explanation}</div>
+         <div class="speech-row feedback-speech-row">
+           <button class="speech-btn feedback-speech-btn" type="button" data-idle-key="readFeedback" aria-pressed="false">${tr("readFeedback")}</button>
+           <span class="speech-status" role="status" aria-live="polite"></span>
+         </div>`;
+      const feedbackSpeechButton = feedbackBox.querySelector(".feedback-speech-btn");
+      const feedbackSpeechStatus = feedbackBox.querySelector(".speech-status");
+      feedbackSpeechButton.onclick = () => speakText(
+        `${correct ? tr("correct") : tr("notQuite")}. ${txt.explanation}`,
+        feedbackSpeechButton,
+        feedbackSpeechStatus,
+        "readFeedback"
+      );
       onDone(correct, q);
       answers.querySelectorAll("button").forEach(x => x.disabled = true);
     };
@@ -240,6 +410,7 @@ function setStartMockLabel(key="startMock") {
   document.getElementById("startMockText").textContent = tr(key);
 }
 function resetMockLanding() {
+  stopSpeech();
   document.getElementById("mockBox").innerHTML = "";
   startMockButton.classList.remove("hidden"); setStartMockLabel("startMock");
 }
@@ -261,6 +432,7 @@ function runMock() {
   }, meta);
 }
 async function finishMock() {
+  stopSpeech();
   const box = document.getElementById("mockBox");
   const result = {date:new Date().toISOString(), score:state.mockScore, total:state.mockQuestions.length, answers:state.mockAnswers};
   const history = await dbGet("mockHistory", []); history.unshift(result); await dbSet("mockHistory", history.slice(0,10));
@@ -334,6 +506,8 @@ document.getElementById("installApp").addEventListener("click", async () => {
   document.getElementById("installCard").classList.add("hidden");
 });
 window.addEventListener("appinstalled",()=>document.getElementById("installCard").classList.add("hidden"));
+document.addEventListener("visibilitychange", () => { if (document.hidden) stopSpeech(); });
+window.addEventListener("pagehide", stopSpeech);
 
 async function init(){
   const savedLanguage=await dbGet("language","en");
