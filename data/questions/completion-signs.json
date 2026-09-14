@@ -2245,6 +2245,414 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "content-completion-1"
+    },
+    {
+      "id": "signs-079",
+      "section": "signs",
+      "topic": "reservation-signs",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Reservation signs: bus reservation / bus lane reservation",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the purpose of a reservation sign such as a bus-lane reservation sign?",
+          "options": [
+            "To reserve the indicated road space for the specified class of road user or vehicle",
+            "To warn that the road surface is uneven",
+            "To cancel every previous restriction"
+          ],
+          "explanation": "Reservation signs identify road space or facilities reserved for a specified class, such as buses or pedal cycles."
+        },
+        "af": {
+          "question": "Wat is die doel van 'n reserveringsteken soos 'n busbaan-reserveringsteken?",
+          "options": [
+            "Om die aangeduide padruimte vir die gespesifiseerde klas padgebruiker of voertuig te reserveer",
+            "Om teen 'n ongelyke padoppervlak te waarsku",
+            "Om elke vorige beperking op te hef"
+          ],
+          "explanation": "Reserveringstekens dui padruimte of fasiliteite aan wat vir 'n bepaalde klas, soos busse of trapfietse, gereserveer is."
+        },
+        "xh": {
+          "question": "Yintoni injongo yophawu lokugcina indawo, njengophawu lomzila ogcinelwe iibhasi?",
+          "options": [
+            "Ukugcina indawo yendlela ebonisiweyo yodidi oluchaziweyo lomsebenzisi wendlela okanye isithuthi",
+            "Ukulumkisa ngendlela engalinganiyo",
+            "Ukuphelisa zonke izithintelo zangaphambili"
+          ],
+          "explanation": "Iimpawu zokugcina indawo zibonisa indawo okanye izibonelelo ezigcinelwe udidi oluthile, njengeebhasi okanye iibhayisekile."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-080",
+      "section": "signs",
+      "topic": "comprehensive-signs",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.5 — Comprehensive signs: freeway begins",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Freeway Begins comprehensive sign tell a road user?",
+          "options": [
+            "The special rules applying to freeways take effect from that point",
+            "All speed limits end at that point",
+            "The road becomes a parking area"
+          ],
+          "explanation": "A freeway-begins comprehensive sign marks the point from which the rules applying to freeways take effect."
+        },
+        "af": {
+          "question": "Wat sê 'n Omvattende Snelweg Begin-teken vir 'n padgebruiker?",
+          "options": [
+            "Die spesiale reëls wat op snelweë geld, tree vanaf daardie punt in werking",
+            "Alle spoedgrense eindig by daardie punt",
+            "Die pad word 'n parkeergebied"
+          ],
+          "explanation": "'n Snelweg-begin-teken merk die punt vanwaar die reëls wat op snelweë geld, in werking tree."
+        },
+        "xh": {
+          "question": "Uphawu olubanzi oluthi uHola wendlela Uyaqala luxelela ntoni umsebenzisi wendlela?",
+          "options": [
+            "Imithetho ekhethekileyo esebenza kuhola wendlela iqala ukusebenza ukusuka apho",
+            "Yonke imida yesantya iyaphela apho",
+            "Indlela iba yindawo yokupaka"
+          ],
+          "explanation": "Uphawu lokuqala kohola wendlela lubonisa indawo apho imithetho yohola wendlela iqala ukusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-081",
+      "section": "signs",
+      "topic": "selective-restriction-signs",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Selective restriction signs: time/condition secondary signs",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a selective restriction sign placed below a regulatory sign do?",
+          "options": [
+            "It limits when, where, in which direction or to which class the main restriction applies",
+            "It cancels the main sign completely",
+            "It changes a warning sign into a guidance sign"
+          ],
+          "explanation": "Selective restriction signs qualify a regulatory sign so that its rule applies only during the indicated times, conditions, directions or vehicle classes."
+        },
+        "af": {
+          "question": "Wat doen 'n selektiewe beperkingsteken wat onder 'n regulerende teken aangebring is?",
+          "options": [
+            "Dit beperk wanneer, waar, in watter rigting of op watter klas die hoofbeperking van toepassing is",
+            "Dit hef die hoofteken heeltemal op",
+            "Dit verander 'n waarskuwingsteken in 'n rigtingteken"
+          ],
+          "explanation": "Selektiewe beperkingstekens kwalifiseer 'n regulerende teken sodat die reël slegs gedurende die aangeduide tye, toestande, rigtings of voertuigklasse geld."
+        },
+        "xh": {
+          "question": "Lenza ntoni uphawu lwesithintelo esikhethiweyo olubekwe phantsi kophawu lolawulo?",
+          "options": [
+            "Luchaza ixesha, indawo, icala okanye udidi apho umthetho ophambili usebenza khona",
+            "Luphelisa ngokupheleleyo uphawu oluphambili",
+            "Luguqula uphawu lwesilumkiso lube lophawu lokwalathisa"
+          ],
+          "explanation": "Iimpawu zesithintelo esikhethiweyo zenza umthetho wophawu oluphambili usebenze kuphela ngamaxesha, kwiimeko, kumacala okanye kwiindidi ezibonisiweyo."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-082",
+      "section": "signs",
+      "topic": "de-restriction-signs",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.8 — De-restriction signs R600",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the purpose of a de-restriction sign?",
+          "options": [
+            "To show that a previous restriction no longer applies from that point",
+            "To introduce a new speed limit automatically",
+            "To warn of roadworks"
+          ],
+          "explanation": "A de-restriction sign cancels the relevant previous restriction from the point where the sign is displayed."
+        },
+        "af": {
+          "question": "Wat is die doel van 'n opheffingsteken?",
+          "options": [
+            "Om aan te dui dat 'n vorige beperking vanaf daardie punt nie meer geld nie",
+            "Om outomaties 'n nuwe spoedgrens in te stel",
+            "Om teen padwerke te waarsku"
+          ],
+          "explanation": "'n Opheffingsteken kanselleer die toepaslike vorige beperking vanaf die punt waar die teken vertoon word."
+        },
+        "xh": {
+          "question": "Yintoni injongo yophawu lokuphelisa isithintelo?",
+          "options": [
+            "Ukubonisa ukuba isithintelo sangaphambili asisasebenzi ukusuka kuloo ndawo",
+            "Ukumisela ngokuzenzekelayo umda omtsha wesantya",
+            "Ukulumkisa ngomsebenzi wendlela"
+          ],
+          "explanation": "Uphawu lokuphelisa isithintelo luphelisa isithintelo sangaphambili esifanelekileyo ukusuka apho luboniswe khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-083",
+      "section": "signs",
+      "topic": "information-signs",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Information signs: cul-de-sac",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Cul-de-sac information sign tell you?",
+          "options": [
+            "The road ahead, or the indicated side road, ends",
+            "The road becomes a freeway",
+            "The road is reserved for buses"
+          ],
+          "explanation": "A cul-de-sac information sign tells road users that the road ahead or the indicated side road comes to an end."
+        },
+        "af": {
+          "question": "Wat sê 'n Doodloopstraat-inligtingsteken vir jou?",
+          "options": [
+            "Die pad voor, of die aangeduide sypad, eindig",
+            "Die pad word 'n snelweg",
+            "Die pad is vir busse gereserveer"
+          ],
+          "explanation": "'n Doodloopstraat-inligtingsteken sê dat die pad voor of die aangeduide sypad eindig."
+        },
+        "xh": {
+          "question": "Uphawu lolwazi lwendlela engenakudlulela phambili lukuxelela ntoni?",
+          "options": [
+            "Indlela engaphambili, okanye indlela esecaleni ebonisiweyo, iyaphela",
+            "Indlela iba nguhola wendlela",
+            "Indlela igcinelwe iibhasi"
+          ],
+          "explanation": "Uphawu lwendlela engenakudlulela phambili luxelela abasebenzisi bendlela ukuba indlela engaphambili okanye esecaleni ebonisiweyo iyaphela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-084",
+      "section": "signs",
+      "topic": "guidance-lane-lines",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Guidance markings: Lane lines GM1",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What do lane-line guidance markings show?",
+          "options": [
+            "They divide parts of the road used by traffic moving in the same direction",
+            "They always mean no vehicle may cross them",
+            "They mark only pedestrian crossings"
+          ],
+          "explanation": "Lane lines are guidance markings that show separate lanes used by traffic moving in the same direction."
+        },
+        "af": {
+          "question": "Wat wys baanlyn-rigtingmerke?",
+          "options": [
+            "Hulle verdeel dele van die pad wat deur verkeer in dieselfde rigting gebruik word",
+            "Hulle beteken altyd dat geen voertuig hulle mag oorsteek nie",
+            "Hulle merk slegs voetgangeroorgange"
+          ],
+          "explanation": "Baanlyne is rigtingmerke wat afsonderlike bane vir verkeer in dieselfde rigting aandui."
+        },
+        "xh": {
+          "question": "Imigca yokwahlula imizila ibonisa ntoni?",
+          "options": [
+            "Yahlula iindawo zendlela ezisetyenziswa zizithuthi ezihamba kwicala elinye",
+            "Ihlala ithetha ukuba akukho sithuthi sinokuyiwela",
+            "Iphawula kuphela iindawo zokuwela abahambi ngeenyawo"
+          ],
+          "explanation": "Imigca yemizila ziimpawu zokwalathisa ezahlula imizila yezithuthi ezihamba kwicala elinye."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-085",
+      "section": "signs",
+      "topic": "traffic-officer-signals",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8.1 — Control hand signals for traffic officers SS1",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "If a traffic officer's hand signal conflicts with another traffic signal, which must you obey?",
+          "options": [
+            "The traffic officer's signal",
+            "Whichever signal is closest to you",
+            "The older signal"
+          ],
+          "explanation": "The learner manual states that a traffic officer's signal takes precedence over other traffic signals."
+        },
+        "af": {
+          "question": "As 'n verkeersbeampte se handsein met 'n ander verkeerssein bots, watter een moet jy gehoorsaam?",
+          "options": [
+            "Die verkeersbeampte se sein",
+            "Die sein wat die naaste aan jou is",
+            "Die oudste sein"
+          ],
+          "explanation": "Die leerderhandleiding bepaal dat 'n verkeersbeampte se sein voorrang bo ander verkeersseine het."
+        },
+        "xh": {
+          "question": "Ukuba umqondiso wesandla wegosa lezendlela uyaphikisana nomnye umqondiso wezithuthi, ngowuphi omele uthotyelwe?",
+          "options": [
+            "Umqondiso wegosa lezendlela",
+            "Umqondiso okufutshane nawe",
+            "Umqondiso omdala"
+          ],
+          "explanation": "Incwadi yomfundi ithi umqondiso wegosa lezendlela uthatha indawo ephambili kuneminye imiqondiso yezithuthi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
+    },
+    {
+      "id": "signs-086",
+      "section": "signs",
+      "topic": "flag-signals",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8.1 — Flag signals SS2 and warning flag",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What is the purpose of official stop/proceed flag signals?",
+          "options": [
+            "To direct traffic temporarily, for example at roadworks or where animals are being moved near the road",
+            "To show permanent speed limits",
+            "To mark a parking bay"
+          ],
+          "explanation": "Official flag signals may temporarily direct traffic to stop or proceed, including at roadworks or where animals are being moved near a roadway."
+        },
+        "af": {
+          "question": "Wat is die doel van amptelike stop/ry-vlagseine?",
+          "options": [
+            "Om verkeer tydelik te rig, byvoorbeeld by padwerke of waar diere naby die pad beweeg word",
+            "Om permanente spoedgrense te wys",
+            "Om 'n parkeerplek te merk"
+          ],
+          "explanation": "Amptelike vlagseine kan verkeer tydelik beveel om te stop of voort te gaan, onder meer by padwerke of waar diere naby 'n pad beweeg word."
+        },
+        "xh": {
+          "question": "Yintoni injongo yeeflegi ezisemthethweni zokumisa okanye ukuqhubeka?",
+          "options": [
+            "Ukulawula izithuthi okwethutyana, umzekelo kwimisebenzi yendlela okanye xa izilwanyana zihanjiswa kufuphi nendlela",
+            "Ukubonisa imida yesantya esisigxina",
+            "Ukuphawula indawo yokupaka"
+          ],
+          "explanation": "Iiflegi ezisemthethweni zinokulawula izithuthi okwethutyana ukuba zime okanye ziqhubeke, kuquka kwimisebenzi yendlela okanye xa izilwanyana zihanjiswa kufuphi nendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "content-completion-1"
     }
   ]
 }
