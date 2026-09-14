@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r7-github-only",
+  "pack_id": "signs-expansion-r8-github-only",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1586,6 +1586,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r7"
+    },
+    {
+      "id": "signs-032",
+      "section": "signs",
+      "topic": "railway-crossing-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Railway crossing warning W403/W404",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when you approach a Railway Crossing warning sign?",
+          "options": [
+            "Slow down, look for a train and stop if a train is approaching",
+            "Accelerate to cross the tracks quickly",
+            "Stop on the railway track to look both ways"
+          ],
+          "explanation": "The sign warns of a railway crossing ahead. Slow down and stop if a train is approaching."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer jy 'n Spoorwegoorgang-waarskuwingsteken nader?",
+          "options": [
+            "Verminder spoed, kyk vir 'n trein en stop as 'n trein nader",
+            "Versnel om vinnig oor die spore te gaan",
+            "Stop op die spoor om na albei kante te kyk"
+          ],
+          "explanation": "Die teken waarsku dat 'n spoorwegoorgang voorlê. Verminder spoed en stop as 'n trein nader."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa usondela kuphawu olulumkisa ngeNdawo yokuWela uLoliwe?",
+          "options": [
+            "Cotha, jonga uloliwe uze ume ukuba uloliwe uyasondela",
+            "Khawulezisa ukuze uwele imizila ngokukhawuleza",
+            "Yima phezu komzila kaloliwe ujonge macala omabini"
+          ],
+          "explanation": "Uphawu lumkisa ngendawo yokuwela uloliwe engaphambili. Cotha uze ume ukuba uloliwe uyasondela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
+    },
+    {
+      "id": "signs-033",
+      "section": "signs",
+      "topic": "t-junction-warning",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — T-junction chevron W409/TW409",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a T-Junction warning sign tell you?",
+          "options": [
+            "The road ahead ends at another road, so prepare to turn left or right or stop",
+            "The road continues straight without an intersection",
+            "Only heavy vehicles may continue"
+          ],
+          "explanation": "A T-Junction warning sign tells you that the road ahead does not continue straight but meets another road."
+        },
+        "af": {
+          "question": "Wat sê 'n T-aansluiting-waarskuwingsteken vir jou?",
+          "options": [
+            "Die pad vorentoe eindig by 'n ander pad, dus moet jy voorberei om links of regs te draai of te stop",
+            "Die pad gaan reguit voort sonder 'n kruising",
+            "Slegs swaar voertuie mag voortgaan"
+          ],
+          "explanation": "'n T-aansluiting-waarskuwingsteken sê dat die pad vorentoe nie reguit voortgaan nie maar by 'n ander pad aansluit."
+        },
+        "xh": {
+          "question": "Uphawu olulumkisa ngeSiphambuka esingu-T lukuxelela ntoni?",
+          "options": [
+            "Indlela engaphambili iphela kwenye indlela, ngoko lungela ukujika ngasekhohlo okanye ngasekunene okanye ume",
+            "Indlela iyaqhubeka ngqo ngaphandle kwesiphambuka",
+            "Ziimoto ezinzima kuphela ezinokuqhubeka"
+          ],
+          "explanation": "Uphawu olulumkisa ngeSiphambuka esingu-T lukuxelela ukuba indlela engaphambili ayiqhubeki ngqo kodwa idibana nenye indlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
+    },
+    {
+      "id": "signs-034",
+      "section": "signs",
+      "topic": "traffic-signals-out-of-order",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Traffic signals out of order TW412",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What should you do when a Traffic Signals Out of Order warning sign applies ahead?",
+          "options": [
+            "Slow down, yield to other traffic and be ready to stop",
+            "Ignore the intersection and continue at the same speed",
+            "Accelerate before other traffic reaches the intersection"
+          ],
+          "explanation": "The learner manual says to slow down, yield to other traffic and be ready to stop when traffic signals are out of order."
+        },
+        "af": {
+          "question": "Wat moet jy doen wanneer 'n Verkeersligte Buite Werking-waarskuwingsteken vorentoe geld?",
+          "options": [
+            "Verminder spoed, gee pad aan ander verkeer en wees gereed om te stop",
+            "Ignoreer die kruising en hou dieselfde spoed",
+            "Versnel voordat ander verkeer die kruising bereik"
+          ],
+          "explanation": "Die leerderhandleiding sê jy moet spoed verminder, aan ander verkeer padgee en gereed wees om te stop wanneer verkeersligte buite werking is."
+        },
+        "xh": {
+          "question": "Kufuneka wenze ntoni xa uphawu olulumkisa ukuba iiRobhothi azisebenzi lusebenza ngaphambili?",
+          "options": [
+            "Cotha, unike ezinye izithuthi indlela uze ulungele ukuma",
+            "Ungasihoyi isiphambuka uze uqhubeke ngesantya esifanayo",
+            "Khawulezisa phambi kokuba ezinye izithuthi zifike kwisiphambuka"
+          ],
+          "explanation": "Incwadi yomfundi ithi kufuneka ucothe, unike ezinye izithuthi indlela uze ulungele ukuma xa iirobhothi zingasebenzi."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r8"
     }
   ]
 }
