@@ -79,25 +79,25 @@
             "100 km/h",
             "120 km/h"
           ],
-          "explanation": "The general limit outside an urban area, on a public road that is not a freeway, is 100 km/h unless another limit is displayed."
+          "explanation": "Unless a road sign shows another limit, the general speed limit on a non-freeway public road outside an urban area is 100 km/h."
         },
         "af": {
-          "question": "Wat is die algemene spoedgrens op 'n openbare pad buite 'n stedelike gebied wanneer dit nie 'n snelweg is nie en geen ander limiet aangedui word nie?",
+          "question": "Wat is die algemene spoedgrens op 'n openbare pad buite 'n stedelike gebied wanneer dit nie 'n snelweg is nie en geen ander grens aangedui word nie?",
           "options": [
             "80 km/h",
             "100 km/h",
             "120 km/h"
           ],
-          "explanation": "Die algemene limiet buite 'n stedelike gebied op 'n openbare pad wat nie 'n snelweg is nie, is 100 km/h tensy 'n ander limiet aangedui word."
+          "explanation": "Tensy 'n padteken 'n ander grens aandui, is die algemene spoedgrens op 'n openbare pad buite 'n stedelike gebied wat nie 'n snelweg is nie 100 km/h."
         },
         "xh": {
-          "question": "Ngowuphi umda wesantya oqhelekileyo kwindlela kawonke-wonke engaphandle kommandla wedolophu xa ingengohola wendlela kwaye kungekho mnye umda obonisiweyo?",
+          "question": "Ngowuphi umda wesantya oqhelekileyo kwindlela kawonke-wonke engaphandle kwendawo yasezidolophini xa ingengohola wendlela kwaye kungekho omnye umda obonisiweyo?",
           "options": [
             "80 km/h",
             "100 km/h",
             "120 km/h"
           ],
-          "explanation": "Umda oqhelekileyo ngaphandle kommandla wedolophu kwindlela kawonke-wonke engeyiyo uhola wendlela yi-100 km/h, ngaphandle kokuba kuboniswe omnye umda."
+          "explanation": "Ngaphandle kokuba uphawu lubonisa omnye umda, umda oqhelekileyo kwindlela kawonke-wonke engaphandle kwendawo yasezidolophini nengengohola wendlela yi-100 km/h."
         }
       },
       "correct_index": 1,
@@ -130,25 +130,25 @@
             "110 km/h",
             "120 km/h"
           ],
-          "explanation": "The general freeway speed limit is 120 km/h unless a lower speed limit is indicated."
+          "explanation": "Unless a lower speed limit is shown by a road sign, the general speed limit on a freeway is 120 km/h."
         },
         "af": {
-          "question": "Wat is die algemene spoedgrens op 'n snelweg wanneer geen laer limiet aangedui word nie?",
+          "question": "Wat is die algemene spoedgrens op 'n snelweg wanneer geen laer grens aangedui word nie?",
           "options": [
             "100 km/h",
             "110 km/h",
             "120 km/h"
           ],
-          "explanation": "Die algemene spoedgrens op 'n snelweg is 120 km/h tensy 'n laer spoedgrens aangedui word."
+          "explanation": "Tensy 'n laer spoedgrens deur 'n padteken aangedui word, is die algemene spoedgrens op 'n snelweg 120 km/h."
         },
         "xh": {
-          "question": "Ngowuphi umda wesantya oqhelekileyo kuhola wendlela xa kungekho mda usezantsi obonisiweyo?",
+          "question": "Ngowuphi umda wesantya oqhelekileyo kuhola wendlela xa kungekho mda osezantsi obonisiweyo?",
           "options": [
             "100 km/h",
             "110 km/h",
             "120 km/h"
           ],
-          "explanation": "Umda wesantya oqhelekileyo kuhola wendlela yi-120 km/h ngaphandle kokuba kuboniswe umda ophantsi."
+          "explanation": "Ngaphandle kokuba uphawu lwendlela lubonisa umda osezantsi, umda oqhelekileyo kuhola wendlela yi-120 km/h."
         }
       },
       "correct_index": 2,
