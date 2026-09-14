@@ -119,6 +119,15 @@
     <section id="practiceView" class="view">
       <button class="back" data-i18n="backHome">← Back to home</button>
       <div class="screen-heading"><span class="screen-chip teal" data-i18n="practiseUpper">PRACTISE</span><h2 data-i18n="learnDoing">Learn by doing</h2><p id="practiceIntro">Code 2 Light Vehicle pilot. Choose an answer, then read the explanation.</p></div>
+      <div class="practice-focus" aria-labelledby="practiceFocusLabel">
+        <span id="practiceFocusLabel" class="practice-focus-label" data-i18n="practiceFocusLabel">Choose what to practise</span>
+        <div class="practice-focus-buttons" role="group" aria-labelledby="practiceFocusLabel">
+          <button class="practice-focus-btn active" type="button" data-practice-section="all" aria-pressed="true" data-i18n="practiceAll">All</button>
+          <button class="practice-focus-btn" type="button" data-practice-section="rules" aria-pressed="false" data-i18n="practiceRules">Rules</button>
+          <button class="practice-focus-btn" type="button" data-practice-section="signs" aria-pressed="false" data-i18n="practiceSigns">Signs</button>
+          <button class="practice-focus-btn" type="button" data-practice-section="controls" aria-pressed="false" data-i18n="practiceControls">Controls</button>
+        </div>
+      </div>
       <div id="practiceBox"></div>
     </section>
 
