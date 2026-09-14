@@ -50,7 +50,7 @@
       orientationDoneText:"You have practised selecting and changing an answer and moving to the next screen.",
       progressOrientation:"Computer orientation", progressPractice:"Practice questions", progressMocks:"Mock tests",
       pilotLoadFail:"Pilot question pack could not load.", install:"Install app", installed:"App installed",
-      installHelp:"Install Mzansi Learner Driver on this phone for reliable offline relaunch."
+      installHelp:"Install Mzansi Learner Driver on this phone for reliable offline relaunch.", accessibility:"Accessibility", highContrast:"High Contrast", highContrastHelp:"Makes text, borders and controls easier to distinguish.", largerText:"Larger Text", largerTextHelp:"Makes learner-facing text larger without changing the content.", on:"On", off:"Off", correctAnswer:"Correct answer", wrongAnswer:"Your answer — incorrect"
     },
     af: {
       tagline:"Leer met selfvertroue. Oefen enige plek.", journeyKicker:"JOU LEERREIS",
@@ -102,7 +102,7 @@
       orientationDoneText:"Jy het geoefen om 'n antwoord te kies en te verander en na die volgende skerm te beweeg.",
       progressOrientation:"Rekenaaroriëntering", progressPractice:"Oefenvrae", progressMocks:"Proeftoetse",
       pilotLoadFail:"Die loodsvraepak kon nie laai nie.", install:"Installeer app", installed:"App geïnstalleer",
-      installHelp:"Installeer Mzansi Learner Driver op hierdie foon vir betroubare vanlyn herlaai."
+      installHelp:"Installeer Mzansi Learner Driver op hierdie foon vir betroubare vanlyn herlaai.", accessibility:"Toeganklikheid", highContrast:"Hoë kontras", highContrastHelp:"Maak teks, rame en kontroles makliker om te onderskei.", largerText:"Groter teks", largerTextHelp:"Maak leerderteks groter sonder om die inhoud te verander.", on:"Aan", off:"Af", correctAnswer:"Korrekte antwoord", wrongAnswer:"Jou antwoord — verkeerd"
     },
     xh: {
       tagline:"Funda ngokuzithemba. Ziqhelise naphi na.", journeyKicker:"UHAMBO LWAKHO LOKUFUNDA",
@@ -154,7 +154,7 @@
       orientationDoneText:"Uziqhelisile ukukhetha nokutshintsha impendulo nokudlulela kwisikrini esilandelayo.",
       progressOrientation:"Uqhelaniso lwekhompyutha", progressPractice:"Imibuzo yokuziqhelisa", progressMocks:"Uvavanyo lokuziqhelisa",
       pilotLoadFail:"Ipakethi yemibuzo yokulinga ayikwazanga ukulayisha.", install:"Faka i-app", installed:"I-app ifakiwe",
-      installHelp:"Faka i-Mzansi Learner Driver kule fowuni ukuze iphinde ivuleke ngaphandle kweintanethi ngokuthembekileyo."
+      installHelp:"Faka i-Mzansi Learner Driver kule fowuni ukuze iphinde ivuleke ngaphandle kweintanethi ngokuthembekileyo.", accessibility:"Ukufikeleleka", highContrast:"Umahluko ophezulu", highContrastHelp:"Wenza umbhalo, imida namaqhosha kube lula ukuwahlula.", largerText:"Umbhalo omkhulu", largerTextHelp:"Wenza umbhalo womfundi ube mkhulu ngaphandle kokutshintsha umxholo.", on:"Vuliwe", off:"Valiwe", correctAnswer:"Impendulo echanekileyo", wrongAnswer:"Impendulo yakho — ayichanekanga"
     }
   };
 
@@ -168,7 +168,7 @@
       const val = t(el.dataset.i18n);
       if (typeof val === "string") el.textContent = val;
     });
-    document.querySelectorAll(".lang-btn").forEach(btn => btn.classList.toggle("active", btn.dataset.lang === lang));
+    document.querySelectorAll(".lang-btn").forEach(btn => { const active = btn.dataset.lang === lang; btn.classList.toggle("active", active); btn.setAttribute("aria-pressed", String(active)); });
   };
   window.MLD_I18N = { strings, t, setLanguage, get language(){ return language; } };
 })();
