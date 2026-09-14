@@ -1,5 +1,6 @@
 const state = {
   questions: [],
+  activeVehicleGroup: "code2",
   mockQuestions: [],
   mockIndex: 0,
   mockScore: 0,
@@ -81,6 +82,11 @@ async function loadQuestions() {
   if (state.questions.length !== 25) {
     throw new Error("Expected 25 pilot questions");
   }
+
+  const code2Eligible = eligibleQuestions();
+  if (!code2Eligible.length) {
+    throw new Error("No Code 2 pilot questions available");
+  }
 }
 
 function getEnglish(q) {
@@ -134,9 +140,20 @@ function renderQuestion(q, container, onDone, metaText = "PILOT QUESTION") {
   });
 }
 
+function isEligibleForActiveVehicle(q) {
+  return q.vehicle_group.includes("all") || q.vehicle_group.includes(state.activeVehicleGroup);
+}
+
+function eligibleQuestions(section = null) {
+  return state.questions.filter(q =>
+    isEligibleForActiveVehicle(q) && (!section || q.section === section)
+  );
+}
+
 function choosePracticeQuestion() {
-  const candidates = state.questions.filter(q => q.id !== state.lastPracticeId);
-  const pool = candidates.length ? candidates : state.questions;
+  const eligible = eligibleQuestions();
+  const candidates = eligible.filter(q => q.id !== state.lastPracticeId);
+  const pool = candidates.length ? candidates : eligible;
   const q = pool[Math.floor(Math.random() * pool.length)];
   state.lastPracticeId = q.id;
   return q;
@@ -171,7 +188,7 @@ async function renderPractice() {
 }
 
 function randomFromSection(section) {
-  const pool = state.questions.filter(q => q.section === section);
+  const pool = eligibleQuestions(section);
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
