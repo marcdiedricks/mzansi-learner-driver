@@ -568,3 +568,66 @@ html.high-contrast .speech-btn[aria-pressed="true"]{
 html.high-contrast .speech-status{
   color:#000;
 }
+
+
+/* BUILD 0.1E-A — vehicle pathway selector */
+.pathway-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:1rem;
+  margin:0 0 1rem;
+  box-shadow:0 7px 20px rgba(20,32,51,.06);
+}
+.pathway-card h2{
+  margin:.22rem 0 .7rem;
+  font-size:1.14rem;
+}
+.pathway-switcher{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:.65rem;
+}
+.pathway-btn{
+  min-height:74px;
+  border:2px solid #cfdbe3;
+  border-radius:14px;
+  background:#fff;
+  color:var(--ink);
+  padding:.72rem;
+  text-align:left;
+}
+.pathway-btn strong{
+  display:block;
+  font-size:.92rem;
+  line-height:1.25;
+}
+.pathway-btn small{
+  display:block;
+  margin-top:.24rem;
+  color:var(--muted);
+  line-height:1.3;
+}
+.pathway-btn.active{
+  border-color:var(--teal);
+  background:#edf9f7;
+  box-shadow:inset 0 0 0 1px var(--teal);
+}
+html.large-text .pathway-switcher{
+  grid-template-columns:1fr;
+}
+html.high-contrast .pathway-card{
+  border:2px solid #000;
+  box-shadow:none;
+}
+html.high-contrast .pathway-btn{
+  border:2px solid #000;
+}
+html.high-contrast .pathway-btn.active{
+  border:4px double #000;
+  background:#fff;
+  box-shadow:none;
+}
+@media (max-width:440px){
+  .pathway-switcher{grid-template-columns:1fr}
+}
