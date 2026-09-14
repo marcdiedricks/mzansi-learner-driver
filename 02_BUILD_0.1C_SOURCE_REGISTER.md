@@ -290,3 +290,30 @@ The first Code 1 pilot is limited to:
 - vehicle-neutral shared Rules and Signs already source-controlled.
 
 No other motorcycle topic is released in 0.1E-A without a new source-verification step.
+
+
+---
+
+## 13. BUILD 0.1E-B SOURCE SUPPLEMENT — MOTORCYCLE CONTROLS EXPANSION
+
+**Authority reused:** SRC-008 — NaTIS / Department of Transport, Vehicle Components and Controls.
+
+### Approved 0.1E-B additions
+- controls-009 — clutch
+- controls-010 — gear lever
+- controls-011 — indicator switch
+- controls-012 — rear-view mirrors
+
+### Evidence boundary
+These four additions are based on controls/components explicitly identified in the NaTIS motorcycle controls material and its control-function examples.
+
+No new Rules or Signs are added in 0.1E-B.
+
+Reserved for later evidence review:
+- handlebars / steering;
+- combined braking;
+- advanced control combinations / riding technique.
+
+### Translation control
+English is the source-master meaning.
+Afrikaans and isiXhosa learner text is present for functional testing but remains LANGUAGE_QA_PENDING until competent human review.
