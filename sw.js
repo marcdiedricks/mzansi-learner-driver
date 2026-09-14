@@ -1,4 +1,4 @@
-const CACHE="mzansi-learner-driver-content-completion-hold";
+const CACHE="mzansi-learner-driver-content-completion-qa1";
 const ASSETS=["./","./index.html","./style.css","./i18n.js","./app.js","./manifest.json","./icons/mzansi-learner.svg","./icons/icon-192.png","./icons/icon-512.png","./data/questions/rules.json","./data/questions/signs.json","./data/questions/controls.json","./data/questions/motorcycle.json","./data/questions/completion-rules.json","./data/questions/completion-signs.json","./data/questions/completion-controls.json"];
 
 self.addEventListener("install",event=>{
