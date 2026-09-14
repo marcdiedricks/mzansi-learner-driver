@@ -1,5 +1,5 @@
 {
-  "pack_id": "signs-expansion-r6-github-only",
+  "pack_id": "signs-expansion-r7-github-only",
   "section": "signs",
   "status": "multilingual_pilot_language_qa_pending",
   "source_ids": [
@@ -1433,6 +1433,159 @@
         "xh": "LANGUAGE_QA_PENDING"
       },
       "version": "rules-signs-r6"
+    },
+    {
+      "id": "signs-029",
+      "section": "signs",
+      "topic": "pedestrians-prohibited",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedestrians prohibited R218/TR218",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Pedestrians Prohibited sign mean?",
+          "options": [
+            "Pedestrians may not enter or cross where the restriction applies",
+            "Pedestrians have priority over all vehicles",
+            "Only schoolchildren may cross there"
+          ],
+          "explanation": "This sign prohibits pedestrians from entering or crossing the road or path where the restriction applies."
+        },
+        "af": {
+          "question": "Wat beteken 'n Voetgangers Verbode-teken?",
+          "options": [
+            "Voetgangers mag nie ingaan of oorsteek waar die beperking geld nie",
+            "Voetgangers het voorrang bo alle voertuie",
+            "Slegs skoolkinders mag daar oorsteek"
+          ],
+          "explanation": "Hierdie teken verbied voetgangers om die pad of paadjie binne te gaan of oor te steek waar die beperking geld."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi AbaHambi ngeenyawo Abavumelekanga?",
+          "options": [
+            "Abahambi ngeenyawo abavumelekanga ukungena okanye ukuwela apho olo thintelo lusebenza khona",
+            "Abahambi ngeenyawo banokubaluleka kuqala kuzo zonke izithuthi",
+            "Ngabantwana besikolo kuphela abavumelekileyo ukuwela apho"
+          ],
+          "explanation": "Olu phawu luthintela abahambi ngeenyawo ekungeneni okanye ekuweleni indlela okanye umzila apho olo thintelo lusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "signs-030",
+      "section": "signs",
+      "topic": "pedal-cycles-prohibited",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Pedal cycles prohibited R219/TR219",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Pedal Cycles Prohibited sign mean?",
+          "options": [
+            "Cyclists may not proceed beyond the sign and must use another route",
+            "Cyclists have priority over motor vehicles",
+            "Only motorcycles may use the lane"
+          ],
+          "explanation": "This sign prohibits pedal cyclists from using the road, lane or path where the restriction applies."
+        },
+        "af": {
+          "question": "Wat beteken 'n Trapfietse Verbode-teken?",
+          "options": [
+            "Fietsryers mag nie verby die teken gaan nie en moet 'n ander roete gebruik",
+            "Fietsryers het voorrang bo motorvoertuie",
+            "Slegs motorfietse mag die baan gebruik"
+          ],
+          "explanation": "Hierdie teken verbied trapfietsryers om die pad, baan of paadjie te gebruik waar die beperking geld."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Iibhayisekile Azivumelekanga?",
+          "options": [
+            "Abakhweli beebhayisekile abavumelekanga ukudlula kophawu kwaye kufuneka basebenzise enye indlela",
+            "Abakhweli beebhayisekile banokubaluleka kuqala kwizithuthi",
+            "Ziithuthuthu kuphela ezinokusebenzisa umzila"
+          ],
+          "explanation": "Olu phawu luthintela abakhweli beebhayisekile ekusebenziseni indlela, umzila okanye indlela encinci apho olo thintelo lusebenza khona."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
+    },
+    {
+      "id": "signs-031",
+      "section": "signs",
+      "topic": "motorcycles-prohibited",
+      "vehicle_group": [
+        "all"
+      ],
+      "difficulty": "basic",
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Motorcycles prohibited R222/TR222",
+        "verification_status": "source_verified"
+      },
+      "verification_status": "CONTENT_QA",
+      "language": {
+        "en": {
+          "question": "What does a Motorcycles Prohibited sign mean?",
+          "options": [
+            "Motorcycles may not enter the part of the road where the restriction applies",
+            "Motorcycles must use that road",
+            "Motorcycles may enter only at night"
+          ],
+          "explanation": "This sign prohibits motorcycles from entering the indicated part of the carriageway or road."
+        },
+        "af": {
+          "question": "Wat beteken 'n Motorfietse Verbode-teken?",
+          "options": [
+            "Motorfietse mag nie die deel van die pad binnegaan waar die beperking geld nie",
+            "Motorfietse moet daardie pad gebruik",
+            "Motorfietse mag slegs snags ingaan"
+          ],
+          "explanation": "Hierdie teken verbied motorfietse om die aangeduide deel van die rybaan of pad binne te gaan."
+        },
+        "xh": {
+          "question": "Lithetha ntoni uphawu oluthi Izithuthuthu Azivumelekanga?",
+          "options": [
+            "Izithuthuthu azivumelekanga ukungena kwinxalenye yendlela apho olo thintelo lusebenza khona",
+            "Izithuthuthu kufuneka zisebenzise loo ndlela",
+            "Izithuthuthu zingangena kuphela ebusuku"
+          ],
+          "explanation": "Olu phawu luthintela izithuthuthu ekungeneni kwinxalenye ebonisiweyo yendlela."
+        }
+      },
+      "correct_index": 0,
+      "image_ref": null,
+      "translation_status": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      },
+      "version": "rules-signs-r7"
     }
   ]
 }
