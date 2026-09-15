@@ -419,7 +419,7 @@ async function loadQuestions() {
   if (!eligibleQuestions().length) throw new Error("No eligible Code 2 questions available");
 }
 async function loadKnowledge() {
-  const paths = ["data/knowledge/rules-remediation-r1.json"];
+  const paths = ["data/knowledge/rules-remediation-r1.json","data/knowledge/signs-remediation-r1.json"];
   const responses = await Promise.all(paths.map(path => fetch(path)));
   const packs = await Promise.all(responses.map(res => {
     if (!res.ok) throw new Error("Knowledge pack failed to load");
