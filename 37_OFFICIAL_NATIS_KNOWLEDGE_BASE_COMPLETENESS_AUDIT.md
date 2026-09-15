@@ -371,6 +371,79 @@ This is only the first remediation tranche. The overall completeness gate remain
 
 ---
 
+## 13. REMEDIATION PROGRESS — R2 VISUAL SIGNS + WARNING MARKINGS
+
+### R2A — Visual sign rendering — COMPLETE ON AUDIT BRANCH
+
+The audit finding that all existing sign questions were text-only has now been partially remediated.
+
+Implemented:
+- Original schematic learner visuals stored in `assets/signs/` and `assets/markings/`.
+- `data/knowledge/sign-visual-map-r1.json` maps Study / Practice / Mock items to source-controlled visuals.
+- Study mode renders mapped visuals.
+- Practice mode renders mapped visuals.
+- Mock mode renders mapped visuals.
+- Visuals are included in the held offline service-worker cache.
+- No manual page screenshots or copied manual artwork are used.
+
+Current mapped visual entries: **22**.
+
+First mapped existing-question visuals include:
+- STOP R1.1
+- YIELD R2
+- No Entry R3
+- Speed Limit R201 example
+- Keep Left R103
+- No U-turn R213
+- Children W308/TW308
+- Traffic Circle W201/TW201
+- Pedestrian Crossing W306/TW306
+- Slippery Road W333
+- Railway Crossing warning items
+
+### R2B — Command-sign knowledge gaps — FIRST TRANCHE COMPLETE
+
+Added official Study knowledge for:
+- Minimum speed R101/TR101
+- Keep Right R104
+- Proceed Right Only R106
+- Pedestrians Only R110
+- Cyclists Only R111
+
+The heavy-vehicle-only command sign R102 is not automatically inserted into the Code 1 / Code 2 knowledge gate.
+
+### R2C — Warning markings §7.2 — CORE SET COMPLETE
+
+Added Study knowledge and original schematic visuals for:
+- WM1 Railway crossing ahead
+- WM2 Continuity lines
+- WM3 Dividing lines
+- WM4 Reversible lane lines
+
+Source: NaTIS Road Traffic Signs v1.00 §7.2.
+
+### R2 Static QA
+
+- app.js syntax — PASS.
+- sw.js syntax — PASS.
+- total dedicated remediation knowledge items — **16**.
+- Rules knowledge items — 7.
+- Signs / markings knowledge items — 9.
+- visual-map entries — **22**.
+- Rules knowledge loader — PRESENT.
+- Signs knowledge loader — PRESENT.
+- Visual loader — PRESENT.
+- Study visual rendering — PRESENT.
+- Practice visual rendering — PRESENT.
+- Mock visual rendering — PRESENT.
+- Offline cache version — `mzansi-learner-driver-natis-audit-r3`.
+
+### R2 audit decision
+
+The visual-sign gate has moved from **0 visual mappings** to a controlled first tranche, but the overall Signs completeness gate remains **PARTIAL / REMEDIATION REQUIRED** until the complete applicable sign-code, marking, signal and guidance/information inventory is mapped and visually represented where recognition is required.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
