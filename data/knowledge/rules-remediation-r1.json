@@ -760,7 +760,21 @@
           "title": "Do not damage the road",
           "key_point": "Do not operate or move a vehicle in a way that damages the roadway.",
           "explanation": "The manual also prohibits deliberately dragging or spinning wheels on the road except in an emergency."
+        },
+        "af": {
+          "title": "Moenie die pad beskadig nie",
+          "key_point": "Moenie 'n voertuig gebruik of beweeg op 'n manier wat die rybaan beskadig nie.",
+          "explanation": "Moenie wiele doelbewus sleep of laat tol op 'n manier wat die pad beskadig nie, behalwe waar noodoptrede nodig is."
+        },
+        "xh": {
+          "title": "Musa ukonakalisa indlela",
+          "key_point": "Musa ukusebenzisa okanye ukuhambisa isithuthi ngendlela eyonakalisa indlela.",
+          "explanation": "Musa ukurhuqa okanye ukujikelezisa amavili ngenjongo ngendlela eyonakalisa indlela, ngaphandle kwemeko engxamisekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -783,7 +797,21 @@
           "title": "Who may use a freeway",
           "key_point": "Not every road user or vehicle is allowed on a freeway.",
           "explanation": "The official learner manual excludes several slow or unsuitable road users and vehicle types. Exact category thresholds remain under current-regulation verification."
+        },
+        "af": {
+          "title": "Wie mag 'n snelweg gebruik",
+          "key_point": "Nie elke padgebruiker of voertuig word op 'n snelweg toegelaat nie.",
+          "explanation": "Sekere stadige of ongeskikte voertuie en padgebruikers word uitgesluit. Volg die snelwegreëls en tekens."
+        },
+        "xh": {
+          "title": "Ngubani onokusebenzisa indlela enkulu",
+          "key_point": "Ayinguye wonke umsebenzisi wendlela okanye isithuthi esivumelekileyo kwindlela enkulu.",
+          "explanation": "Ezinye izithuthi ezicothayo okanye ezingafanelekanga kunye nabasebenzisi bendlela azivumelekanga. Landela imithetho nemiqondiso yendlela enkulu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -806,7 +834,21 @@
           "title": "Freeway behaviour",
           "key_point": "Do not stop on a freeway except where the rules allow it, and remain alert to vehicles merging from on-ramps.",
           "explanation": "The manual also restricts pedestrians and animals on freeways and requires drivers to allow a vehicle ahead to merge safely from an on-ramp."
+        },
+        "af": {
+          "title": "Gedrag op 'n snelweg",
+          "key_point": "Moenie op 'n snelweg stop nie, behalwe waar die reëls dit toelaat, en let op voertuie wat vanaf opritte invoeg.",
+          "explanation": "Bestuur vooruitdenkend, hou veilige afstand en laat veilige invoeging toe waar nodig."
+        },
+        "xh": {
+          "title": "Indlela yokuziphatha kwindlela enkulu",
+          "key_point": "Musa ukuma kwindlela enkulu ngaphandle apho imithetho ivuma khona, kwaye qaphela izithuthi ezidibanayo zisuka kwi-on-ramp.",
+          "explanation": "Qhuba ucinga phambili, gcina umgama okhuselekileyo kwaye vumela ukudibana kwezithuthi ngokukhuselekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -829,7 +871,21 @@
           "title": "Number plates",
           "key_point": "Number plates must be fitted in the prescribed positions and must be clearly legible and visible.",
           "explanation": "The learner manual places a plate at the rear of a motorcycle, motor tricycle or trailer, and at both the front and rear of other motor vehicles."
+        },
+        "af": {
+          "title": "Nommerplate",
+          "key_point": "Nommerplate moet in die voorgeskrewe posisies aangebring word en duidelik leesbaar en sigbaar wees.",
+          "explanation": "Motorfietse het die registrasieplaat agter; ander voertuie het plate waar die reëls dit vereis."
+        },
+        "xh": {
+          "title": "Iipleyiti zenombolo",
+          "key_point": "Iipleyiti zenombolo kufuneka zibekwe kwiindawo ezimiselweyo kwaye zifundeke zize zibonakale kakuhle.",
+          "explanation": "Izithuthuthu zinenombolo yobhaliso ngasemva; ezinye izithuthi zineepleyiti apho imithetho ifuna khona."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -852,7 +908,21 @@
           "title": "Fog lamps",
           "key_point": "Fog lamps should be used only when visibility is poor because of conditions such as fog, mist, dust, smoke or snow.",
           "explanation": "Do not use fog lamps as ordinary driving lights in clear conditions."
+        },
+        "af": {
+          "title": "Misligte",
+          "key_point": "Gebruik misligte slegs wanneer sigbaarheid swak is weens toestande soos mis, stof, rook of swaar weer.",
+          "explanation": "Moenie misligte as gewone ryligte in helder toestande gebruik nie."
+        },
+        "xh": {
+          "title": "Izibane zenkungu",
+          "key_point": "Sebenzisa izibane zenkungu kuphela xa ukubona kubuthathaka ngenxa yenkungu, uthuli, umsi okanye imozulu embi.",
+          "explanation": "Musa ukuzisebenzisa njengezibane eziqhelekileyo xa indlela icacile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -875,7 +945,21 @@
           "title": "Spot lamps",
           "key_point": "An adjustable spot lamp is not for ordinary unrestricted road use.",
           "explanation": "The learner manual limits adjustable spot-lamp use to specified official, emergency, professional and essential-service purposes."
+        },
+        "af": {
+          "title": "Soekligte",
+          "key_point": "'n Verstelbare soeklig is nie vir gewone onbeperkte gebruik op openbare paaie bedoel nie.",
+          "explanation": "Gebruik soekligte slegs waar die wet of 'n toegelate diens dit voorsien."
+        },
+        "xh": {
+          "title": "Izibane zokukhangela",
+          "key_point": "Isibane sokukhangela esilungisekayo asenzelwanga ukusetyenziswa okuqhelekileyo okungenamda endleleni yoluntu.",
+          "explanation": "Sisebenzise kuphela apho umthetho okanye inkonzo egunyazisiweyo ivuma khona."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -898,7 +982,21 @@
           "title": "Clear driving view and mirrors",
           "key_point": "The driver or rider must have a clear view ahead and to both sides and must be able to see traffic behind using suitable mirrors.",
           "explanation": "For light vehicles, the learner manual explains the required exterior/interior mirror arrangement and the additional exterior mirror needed when an interior mirror cannot give a clear rear view."
+        },
+        "af": {
+          "title": "Duidelike uitsig en spieëls",
+          "key_point": "Die bestuurder of ryer moet 'n duidelike uitsig vorentoe en na beide kante hê en verkeer agter met geskikte spieëls kan sien.",
+          "explanation": "Spieëls en die vooruitsig moet nie so geblokkeer wees dat veilige bestuur belemmer word nie."
+        },
+        "xh": {
+          "title": "Umbono ocacileyo nezibuko",
+          "key_point": "Umqhubi okanye umkhweli kufuneka abe nombono ocacileyo phambili nasemacaleni kwaye abone izithuthi ezingasemva ngezibuko ezifanelekileyo.",
+          "explanation": "Izibuko nombono wangaphambili akufanele kuthintelwe ngendlela ephazamisa ukuqhuba ngokukhuselekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -920,7 +1018,21 @@
           "title": "Motorcycle steering gear",
           "key_point": "Motorcycle steering gear must allow safe and efficient steering and the handlebars must comply with the official dimensions.",
           "explanation": "The learner manual states handlebar widths of 600–800 mm for motorcycles of 200 cc or more, and 500–800 mm below 200 cc, with limits on handgrip height relative to the seat."
+        },
+        "af": {
+          "title": "Motorfiets-stuurmeganisme",
+          "key_point": "Die motorfiets se stuurmeganisme moet veilige en doeltreffende stuur moontlik maak en die handvatsels moet aan die vereistes voldoen.",
+          "explanation": "Die amptelike leerdermateriaal gee afmetings vir handvatselwydte en -hoogte. Hierdie besonderhede moet as bronwaardes behandel word."
+        },
+        "xh": {
+          "title": "Inkqubo yokujika yesithuthuthu",
+          "key_point": "Inkqubo yokujika yesithuthuthu kufuneka ivumele ukujika ngokukhuselekileyo nangempumelelo kwaye iziphatho zihambelane neemfuno.",
+          "explanation": "Izinto zomfundi ezisemthethweni zinika imilinganiselo yeziphatho. Ezi nkcukacha ziphathwa njengamaxabiso omthombo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -942,7 +1054,21 @@
           "title": "Light-vehicle steering gear",
           "key_point": "All steering parts must be maintained so that the vehicle can be steered safely and efficiently.",
           "explanation": "A vehicle with defective steering must not be used on a public road."
+        },
+        "af": {
+          "title": "Ligte voertuig se stuurmeganisme",
+          "key_point": "Alle stuuronderdele moet so onderhou word dat die voertuig veilig en doeltreffend bestuur kan word.",
+          "explanation": "'n Voertuig met gebrekkige stuurwerk mag nie op 'n openbare pad gebruik word nie."
+        },
+        "xh": {
+          "title": "Inkqubo yokujika yemoto elula",
+          "key_point": "Zonke iinxalenye zokujika kufuneka zigcinwe ukuze imoto ikwazi ukuqhutywa ngokukhuselekileyo nangempumelelo.",
+          "explanation": "Imoto enenkqubo yokujika engasebenzi kakuhle akufanele isetyenziswe endleleni yoluntu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -965,7 +1091,21 @@
           "title": "Turning radius",
           "key_point": "The learner manual states that a motor vehicle used on a public road may not have a turning radius exceeding 13.1 metres.",
           "explanation": "This is part of the published vehicle-roadworthiness study material."
+        },
+        "af": {
+          "title": "Draairadius",
+          "key_point": "Die leerderhandleiding bepaal dat 'n motorvoertuig op 'n openbare pad nie 'n draairadius van meer as 13,1 meter mag hê nie.",
+          "explanation": "Dit vorm deel van die gepubliseerde voertuig-padwaardigheidsmateriaal."
+        },
+        "xh": {
+          "title": "Iradiyasi yokujika",
+          "key_point": "Incwadi yomfundi ithi isithuthi endleleni yoluntu asimele sibe neradiyasi yokujika engaphezu kwe-13,1 yeemitha.",
+          "explanation": "Oku kuyinxalenye yezinto ezipapashiweyo malunga nokufaneleka kwesithuthi endleleni."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -987,7 +1127,21 @@
           "title": "Motorcycle braking systems",
           "key_point": "A motorcycle must have two independent braking systems: one acting on the front wheel and one on the rear wheel or wheels.",
           "explanation": "Both braking systems must be in proper working order."
+        },
+        "af": {
+          "title": "Motorfiets-remstelsels",
+          "key_point": "'n Motorfiets moet twee onafhanklike remstelsels hê: een vir die voorwiel en een vir die agterwiel of -wiele.",
+          "explanation": "Albei remstelsels moet in goeie werkende toestand wees."
+        },
+        "xh": {
+          "title": "Iinkqubo zokuqhobosha zesithuthuthu",
+          "key_point": "Isithuthuthu kufuneka sibe neenkqubo ezimbini ezizimeleyo zokuqhobosha: enye kwivili langaphambili nenye kwivili okanye kumavili angasemva.",
+          "explanation": "Zombini iinkqubo zokuqhobosha kufuneka zisebenze kakuhle."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1009,7 +1163,21 @@
           "title": "Windscreen",
           "key_point": "The windscreen must provide enough visibility for safe driving and must be made of safety glass.",
           "explanation": "The learner manual also states a minimum visible-light transmittance of 70 percent through the windscreen."
+        },
+        "af": {
+          "title": "Voorruit",
+          "key_point": "Die voorruit moet genoeg sig vir veilige bestuur bied en van veiligheidsglas gemaak wees.",
+          "explanation": "Hou die voorruit skoon en vry van skade wat jou uitsig kan belemmer."
+        },
+        "xh": {
+          "title": "I-windscreen",
+          "key_point": "I-windscreen kufuneka inike umbono owaneleyo wokuqhuba ngokukhuselekileyo kwaye yenziwe ngeglasi yokhuseleko.",
+          "explanation": "Gcina i-windscreen icocekile kwaye ingenamonakalo onokuphazamisa umbono wakho."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1031,7 +1199,21 @@
           "title": "Windscreen wipers",
           "key_point": "A vehicle with a windscreen must have at least one effective windscreen wiper.",
           "explanation": "The wiper must clear the outside of the windscreen directly in front of the driver continuously and adequately."
+        },
+        "af": {
+          "title": "Voorruitveërs",
+          "key_point": "'n Voertuig met 'n voorruit moet minstens een doeltreffende voorruitveër hê.",
+          "explanation": "Die veër moet die gedeelte voor die bestuurder voldoende skoonmaak."
+        },
+        "xh": {
+          "title": "Ii-wiper ze-windscreen",
+          "key_point": "Isithuthi esine-windscreen kufuneka sibe nobuncinane i-wiper enye esebenzayo.",
+          "explanation": "I-wiper kufuneka icoce ngokwaneleyo indawo ephambi komqhubi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1054,7 +1236,21 @@
           "title": "Exhaust system",
           "key_point": "A motor vehicle must have an effective exhaust silencer and must not emit exhaust in a way that creates danger, nuisance or obstructed visibility.",
           "explanation": "The exhaust system must also be positioned and maintained so that fumes do not leak into the driver or passenger area."
+        },
+        "af": {
+          "title": "Uitlaatstelsel",
+          "key_point": "'n Motorvoertuig moet 'n doeltreffende uitlaatdemper hê en mag nie uitlaatgasse op 'n gevaarlike of hinderlike manier vrystel nie.",
+          "explanation": "Die uitlaatstelsel moet goed onderhou word en nie uitlaatgasse in die bestuurder- of passasiersruimte laat lek nie."
+        },
+        "xh": {
+          "title": "Inkqubo yokukhupha umsi",
+          "key_point": "Isithuthi kufuneka sibe nesinciphisi-ngxolo esisebenzayo kwaye singakhuphi umsi ngendlela eyingozi okanye ephazamisayo.",
+          "explanation": "Inkqubo yokukhupha umsi kufuneka igcinwe kakuhle kwaye ingavumeli umsi ungene kwindawo yomqhubi okanye yabakhweli."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1077,7 +1273,21 @@
           "title": "Fuel system, wiring and battery",
           "key_point": "Fuel-system parts, electrical wiring and the battery must be safely installed, maintained and not create a source of danger.",
           "explanation": "The fuel tank must also have an effective cap."
+        },
+        "af": {
+          "title": "Brandstofstelsel, bedrading en battery",
+          "key_point": "Brandstofonderdele, elektriese bedrading en die battery moet veilig geïnstalleer en onderhou word en mag nie gevaar veroorsaak nie.",
+          "explanation": "Die brandstoftenk moet ook 'n doeltreffende dop hê."
+        },
+        "xh": {
+          "title": "Inkqubo yamafutha, iingcingo nombane webhetri",
+          "key_point": "Iinxalenye zamafutha, iingcingo zombane nebhetri kufuneka zifakwe zize zigcinwe ngokukhuselekileyo kwaye zingabi ngumthombo wengozi.",
+          "explanation": "Itanki yamafutha kufuneka ibe nesivalo esisebenzayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1099,7 +1309,21 @@
           "title": "Engine safety",
           "key_point": "A light motor vehicle must have its engine covered so that it is not a source of danger.",
           "explanation": "This forms part of the official learner roadworthiness material."
+        },
+        "af": {
+          "title": "Enjinveiligheid",
+          "key_point": "'n Ligte motorvoertuig se enjin moet bedek wees sodat dit nie 'n bron van gevaar is nie.",
+          "explanation": "Dit vorm deel van die amptelike leerdermateriaal oor voertuigveiligheid."
+        },
+        "xh": {
+          "title": "Ukhuseleko lwenjini",
+          "key_point": "Injini yemoto elula kufuneka igqunywe ukuze ingabi ngumthombo wengozi.",
+          "explanation": "Oku kuyinxalenye yezinto ezisemthethweni zomfundi malunga nokhuseleko lwesithuthi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1121,7 +1345,21 @@
           "title": "Emergency warning triangle",
           "key_point": "Certain goods vehicles, minibuses, buses and heavy vehicles must carry an emergency warning triangle; ordinary motor cars and motorcycles are excluded in the learner manual.",
           "explanation": "When required for a stationary vehicle, the manual places the triangle at least 45 metres away in the direction from which traffic approaches, with the reflective side facing approaching traffic."
+        },
+        "af": {
+          "title": "Noodwaarskuwingsdriehoek",
+          "key_point": "Sekere goederevoertuie, minibusse, busse en swaar voertuie moet 'n noodwaarskuwingsdriehoek dra; gewone motors en motorfietse word in die leerderhandleiding uitgesluit.",
+          "explanation": "Wanneer dit vereis word, moet die driehoek so geplaas word dat naderende verkeer betyds gewaarsku word."
+        },
+        "xh": {
+          "title": "Unxantathu wesilumkiso sengxamiseko",
+          "key_point": "Ezinye iilori, i-minibus, iibhasi nezithuthi ezinzima kufuneka ziphathe unxantathu wesilumkiso; iimoto eziqhelekileyo nezithuthuthu azibandakanywa kwincwadi yomfundi.",
+          "explanation": "Xa kufuneka, unxantathu kufuneka ubekwe ukuze izithuthi ezisondelayo zilumkiswe kwangethuba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1144,7 +1382,21 @@
           "title": "Excessive vehicle noise",
           "key_point": "Do not operate a vehicle on a public road in a way that causes excessive noise.",
           "explanation": "This rule applies to both riders and drivers."
+        },
+        "af": {
+          "title": "Oormatige voertuiggeraas",
+          "key_point": "Moenie 'n voertuig op 'n openbare pad gebruik op 'n manier wat oormatige geraas veroorsaak nie.",
+          "explanation": "Die reël geld vir bestuurders sowel as motorfietsryers."
+        },
+        "xh": {
+          "title": "Ingxolo egqithisileyo yesithuthi",
+          "key_point": "Musa ukusebenzisa isithuthi endleleni yoluntu ngendlela ebangela ingxolo egqithisileyo.",
+          "explanation": "Lo mgaqo usebenza kubo bonke abaqhubi nabakhweli bezithuthuthu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1167,7 +1419,21 @@
           "title": "Speedometer",
           "key_point": "A motor vehicle designed for or capable of 60 km/h or more must have a speedometer in good working order.",
           "explanation": "The speedometer allows the driver or rider to monitor road speed."
+        },
+        "af": {
+          "title": "Spoedmeter",
+          "key_point": "'n Motorvoertuig wat vir 60 km/h of meer ontwerp is of dit kan bereik, moet 'n werkende spoedmeter hê.",
+          "explanation": "Die spoedmeter help die bestuurder of ryer om padsnelheid te monitor."
+        },
+        "xh": {
+          "title": "Isilinganisi-santya",
+          "key_point": "Isithuthi esenzelwe okanye esinokufikelela kwi-60 km/h nangaphezulu kufuneka sibe nesilinganisi-santya esisebenzayo.",
+          "explanation": "Isilinganisi-santya sinceda umqhubi okanye umkhweli alandele isantya endleleni."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1189,7 +1455,21 @@
           "title": "Passenger vehicles for reward",
           "key_point": "The learner manual states a 100 km/h maximum for a bus or minibus conveying passengers for reward.",
           "explanation": "This is a vehicle-class rule and does not replace a lower posted speed limit."
+        },
+        "af": {
+          "title": "Passasiersvoertuie teen vergoeding",
+          "key_point": "Die leerderhandleiding bepaal 'n maksimum van 100 km/h vir 'n bus of minibus wat passasiers teen vergoeding vervoer.",
+          "explanation": "'n Laer aangeplakte spoedgrens bly van toepassing waar dit aangedui word."
+        },
+        "xh": {
+          "title": "Izithuthi zabakhweli ezisebenza ngemali",
+          "key_point": "Incwadi yomfundi ichaza ubuninzi be-100 km/h kwibhasi okanye i-minibus ethutha abakhweli ngemali.",
+          "explanation": "Umda wesantya osezantsi oboniswe kuphawu usasebenza apho ubekwe khona."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
