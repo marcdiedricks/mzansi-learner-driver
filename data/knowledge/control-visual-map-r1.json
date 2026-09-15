@@ -37,6 +37,69 @@
         "en": "Code 1 motorcycle control map"
       },
       "official_ref": "NaTIS/K53 motorcycle controls"
+    },
+    "knowledge-control-code1-seat": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code1-engine": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code1-ignition": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code1-wheels": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code1-silencer": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code1-headlamp": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code1-shock": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control/component map"
+      },
+      "official_ref": "NaTIS motorcycle controls/components"
+    },
+    "knowledge-control-code2-manual-auto": {
+      "src": "assets/controls/code2-control-map.svg",
+      "alt": {
+        "en": "Code 2 light motor vehicle control map"
+      },
+      "official_ref": "NaTIS light vehicle controls/components"
+    },
+    "knowledge-control-code2-parking-brake": {
+      "src": "assets/controls/code2-control-map.svg",
+      "alt": {
+        "en": "Code 2 light motor vehicle control map"
+      },
+      "official_ref": "NaTIS light vehicle controls/components"
     }
   }
 }
