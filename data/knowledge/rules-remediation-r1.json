@@ -1,0 +1,172 @@
+{
+  "pack_id": "natis-rules-remediation-r1",
+  "section": "rules",
+  "status": "ENGLISH_SOURCE_MASTER_AUDIT_ONLY_DO_NOT_DEPLOY",
+  "source_control": {
+    "primary": "NaTIS Rules of the Road v1.01 (June 2012)",
+    "current_law_support": "National Road Traffic Act 93 of 1996 for sections 63-64",
+    "note": "Items with legal_review_status=pending remain held from release certification until current regulations are checked."
+  },
+  "items": [
+    {
+      "id": "knowledge-rules-6-3",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "dipped-beam",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.3 — Dipped beam",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Dipped beam",
+          "key_point": "A dipped-beam headlamp must be adjusted and maintained so that it adequately lights the road ahead.",
+          "explanation": "The official learner manual says dipped beam must allow the driver or rider to see a person, vehicle or substantial object at least 45 metres ahead. This distance remains held for current-regulation verification before release certification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-4",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "parking-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.4 — Parking lamps",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Parking lamps",
+          "key_point": "Do not drive a moving vehicle on a public road using only its parking lamps.",
+          "explanation": "Parking lamps are not a substitute for the normal lamps required while the vehicle is being driven."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-5",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "rear-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.5 — Rear lamps",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Rear lamps",
+          "key_point": "A motorcycle and a light motor vehicle used on a public road must have rear lighting that shows red to the rear.",
+          "explanation": "Rear lamps make the vehicle visible from behind. The exact current equipment wording is being cross-checked against the operative regulations before final release certification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-6",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "stop-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.6 — Stop lamp",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Stop lamps",
+          "key_point": "A light motor vehicle or motorcycle used on a public road must have rear stop lamps that show red when braking.",
+          "explanation": "A stop lamp warns following road users that the vehicle is slowing or stopping. Detailed visibility measurements remain under current-regulation verification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-7",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "number-plate-lamp",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.7 — Number plate lamp",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Number-plate lamp",
+          "key_point": "A motor vehicle used on a public road must have a rear number-plate lamp that illuminates the registration plate.",
+          "explanation": "The purpose is to keep the registration plate visible at night. The manual's exact distance requirement remains under current-regulation verification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-63",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "reckless-negligent-driving",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-012",
+        "locator": "National Road Traffic Act 93 of 1996 §63 — Reckless or negligent driving",
+        "verification_status": "current_act_verified"
+      },
+      "legal_review_status": "current_act_verified",
+      "language": {
+        "en": {
+          "title": "Reckless or negligent driving",
+          "key_point": "A person may not drive a vehicle on a public road recklessly or negligently.",
+          "explanation": "Road conditions, traffic, speed and the manner of driving all matter when deciding whether driving was reckless or negligent."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-64",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "inconsiderate-driving",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-012",
+        "locator": "National Road Traffic Act 93 of 1996 §64 — Inconsiderate driving",
+        "verification_status": "current_act_verified"
+      },
+      "legal_review_status": "current_act_verified",
+      "language": {
+        "en": {
+          "title": "Inconsiderate driving",
+          "key_point": "A person may not drive on a public road without reasonable consideration for other people using the road.",
+          "explanation": "Safe driving includes consideration for other road users, not only avoiding a collision or breaking a speed limit."
+        }
+      }
+    }
+  ]
+}
