@@ -654,6 +654,58 @@ Overall audit remains **FAIL — REMEDIATION REQUIRED** until those closure chec
 
 ---
 
+## 17. REMEDIATION PROGRESS — R6 RULES + SIGNS DEEPENING
+
+### R6A — Rules of the Road — MAJOR ROADWAY GAPS CLOSED
+
+Added Study knowledge for:
+- §6.37 divided public roads;
+- §6.38 general keep-left rule;
+- §6.39 limited shoulder use;
+- §6.40 lane changing;
+- §6.42 direction-indicator use;
+- §6.43 Code 1 and Code 2 rear retro-reflectors;
+- §6.45 limited left-passing exceptions;
+- §6.50 motorcycle control, no holding another moving vehicle, and single-file duties;
+- §6.51 motorcycle sidecar rule;
+- §6.54 vehicle left / abandoned;
+- §6.55 damage to public roads;
+- §6.56 freeway users and freeway behaviour.
+
+Numeric, equipment and exception details that may have changed since the 2012 learner manual remain tagged **pending_current_regulations_check**. They are not treated as release-certified until that legal gate is closed.
+
+### R6B — Signs / markings / signals — DETAILED INVENTORY DEEPENING
+
+The held Study layer now contains **75** dedicated Signs / Markings / Signals remediation items, including:
+- comprehensive signs;
+- combination-sign interpretation;
+- de-restriction;
+- information signs;
+- reservation and selective restriction;
+- regulatory, warning and guidance markings;
+- additional traffic-signal variants.
+
+Source-mapped visual-learning entries now total **68**.
+
+### R6 Current counts
+- Rules remediation knowledge items: **23**
+- Signs / markings / signals remediation knowledge items: **75**
+- Total dedicated remediation knowledge items: **98**
+- Visual-learning mappings: **68**
+- Offline audit cache: `mzansi-learner-driver-natis-audit-r6`
+
+### R6 remaining blockers
+1. Complete route-marker / destination-symbol / tourist-guidance classification.
+2. Exact visual-design QA against the official signs manual.
+3. Finish early Rules equipment / vehicle-dimension / load sections and current-regulation checks.
+4. Complete Code 1 visual components and official control-combination/application matrix.
+5. Verify the current physical learner pack/version.
+6. Human Afrikaans / isiXhosa language QA after the English source-master is frozen.
+
+Overall audit remains **FAIL — REMEDIATION REQUIRED**.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
