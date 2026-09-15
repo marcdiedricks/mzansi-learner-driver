@@ -156,6 +156,111 @@
         "en": "Reversible lane lines road marking"
       },
       "official_ref": "WM4"
+    },
+    "knowledge-sign-r204": {
+      "src": "assets/signs/height-limit.svg",
+      "alt": {
+        "en": "Height limit road sign"
+      },
+      "official_ref": "R204/TR204"
+    },
+    "knowledge-sign-r205": {
+      "src": "assets/signs/length-limit.svg",
+      "alt": {
+        "en": "Length limit road sign"
+      },
+      "official_ref": "R205/TR205"
+    },
+    "knowledge-sign-r206": {
+      "src": "assets/signs/excessive-noise-prohibited.svg",
+      "alt": {
+        "en": "Excessive noise prohibited road sign"
+      },
+      "official_ref": "R206"
+    },
+    "knowledge-sign-r207": {
+      "src": "assets/signs/hitchhiking-prohibited.svg",
+      "alt": {
+        "en": "Hitch-hiking prohibited road sign"
+      },
+      "official_ref": "R207"
+    },
+    "knowledge-sign-r208": {
+      "src": "assets/signs/unauthorised-vehicles-prohibited.svg",
+      "alt": {
+        "en": "Unauthorised vehicles prohibited road sign"
+      },
+      "official_ref": "R208/TR208"
+    },
+    "knowledge-sign-r209": {
+      "src": "assets/signs/left-turn-ahead-prohibited.svg",
+      "alt": {
+        "en": "Left turn ahead prohibited road sign"
+      },
+      "official_ref": "R209/TR209"
+    },
+    "knowledge-sign-r210": {
+      "src": "assets/signs/right-turn-ahead-prohibited.svg",
+      "alt": {
+        "en": "Right turn ahead prohibited road sign"
+      },
+      "official_ref": "R210/TR210"
+    },
+    "knowledge-sign-r214": {
+      "src": "assets/signs/overtaking-prohibited.svg",
+      "alt": {
+        "en": "Overtaking prohibited road sign"
+      },
+      "official_ref": "R214/TR214"
+    },
+    "knowledge-guidance-ga1": {
+      "src": "assets/signs/freeway-pre-advance-exit.svg",
+      "alt": {
+        "en": "Schematic freeway pre-advance exit direction sign"
+      },
+      "official_ref": "GA1"
+    },
+    "knowledge-guidance-ga2": {
+      "src": "assets/signs/freeway-advance-exit.svg",
+      "alt": {
+        "en": "Schematic freeway advance exit direction sign"
+      },
+      "official_ref": "GA2"
+    },
+    "knowledge-guidance-ga23": {
+      "src": "assets/signs/freeway-supplementary-exit.svg",
+      "alt": {
+        "en": "Schematic supplementary freeway exit direction sign"
+      },
+      "official_ref": "GA2/3"
+    },
+    "knowledge-guidance-ga3": {
+      "src": "assets/signs/freeway-exit-direction.svg",
+      "alt": {
+        "en": "Schematic freeway exit direction sign"
+      },
+      "official_ref": "GA3"
+    },
+    "knowledge-guidance-ga4": {
+      "src": "assets/signs/freeway-gore-exit.svg",
+      "alt": {
+        "en": "Schematic freeway gore exit direction sign"
+      },
+      "official_ref": "GA4/TGA4"
+    },
+    "knowledge-guidance-ga5": {
+      "src": "assets/signs/off-ramp-advance-terminal.svg",
+      "alt": {
+        "en": "Schematic advance off-ramp terminal direction sign"
+      },
+      "official_ref": "GA5"
+    },
+    "knowledge-guidance-ga6": {
+      "src": "assets/signs/off-ramp-terminal.svg",
+      "alt": {
+        "en": "Schematic off-ramp terminal direction sign"
+      },
+      "official_ref": "GA6"
     }
   }
 }
