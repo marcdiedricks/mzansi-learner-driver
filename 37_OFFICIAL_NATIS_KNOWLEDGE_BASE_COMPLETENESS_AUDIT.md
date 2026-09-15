@@ -332,6 +332,45 @@ This is not a failure of the app as a preparation tool. It means the stronger cl
    **OFFICIAL LEARNER KNOWLEDGE BASE COMPLETENESS — PASS**
 10. Thereafter begin learner outcome pilot and formal government approach.
 
+## 12. REMEDIATION PROGRESS
+
+### R1 — Separate Knowledge Layer — COMPLETE ON AUDIT BRANCH
+
+The app architecture now separates **Study knowledge** from the **Practice / Mock question bank**.
+
+Implemented on the audit branch only:
+- `state.knowledge` added.
+- `loadKnowledge()` added.
+- Study mode now supports dedicated knowledge cards plus the existing question-derived study points.
+- Practice and Mock remain unchanged and continue to use the 186-question bank.
+- Service worker audit cache includes the held knowledge pack.
+- No production deployment has occurred.
+
+First held Rules remediation pack:
+`data/knowledge/rules-remediation-r1.json`
+
+Items added:
+- §6.3 Dipped beam — official NaTIS source, legal/current-regulation check still pending.
+- §6.4 Parking lamps — official NaTIS source, legal/current-regulation check still pending.
+- §6.5 Rear lamps — official NaTIS source, legal/current-regulation check still pending.
+- §6.6 Stop lamps — official NaTIS source, legal/current-regulation check still pending.
+- §6.7 Number-plate lamp — official NaTIS source, legal/current-regulation check still pending.
+- §63 Reckless or negligent driving — current National Road Traffic Act source verified.
+- §64 Inconsiderate driving — current National Road Traffic Act source verified.
+
+Static QA after architecture change:
+- app.js syntax — PASS.
+- sw.js syntax — PASS.
+- knowledge JSON parse — PASS.
+- held knowledge items — 7.
+- Study knowledge loader — PRESENT.
+- separate Study item pool — PRESENT.
+- knowledge pack offline-cache entry — PRESENT.
+
+This is only the first remediation tranche. The overall completeness gate remains **FAIL — REMEDIATION REQUIRED** until all applicable rows are closed.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
