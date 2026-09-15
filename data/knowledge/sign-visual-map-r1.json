@@ -555,6 +555,146 @@
         "en": "Example variable message sign"
       },
       "official_ref": "Variable message sign family"
+    },
+    "knowledge-sign-combination-regulatory": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Combination regulatory sign example"
+      },
+      "official_ref": "§3.7 combination signs"
+    },
+    "knowledge-sign-combination-warning": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Combination warning sign example"
+      },
+      "official_ref": "§4.4 combination warning signs"
+    },
+    "knowledge-info-supplementary": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Supplementary information panel example"
+      },
+      "official_ref": "IN11 series"
+    },
+    "knowledge-info-road-experiment": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Temporary road experiment sign concept"
+      },
+      "official_ref": "TIN13"
+    },
+    "knowledge-info-multiphase": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Multi-phase traffic signal concept"
+      },
+      "official_ref": "IN15"
+    },
+    "knowledge-info-bus-stop-ahead": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Bus stop ahead concept"
+      },
+      "official_ref": "IN16"
+    },
+    "knowledge-info-modal-transfer": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Modal transfer point concept"
+      },
+      "official_ref": "IN17/IN18/IN19"
+    },
+    "knowledge-marking-rm4": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Road edge line examples"
+      },
+      "official_ref": "RM4.1/RM4.2"
+    },
+    "knowledge-marking-rm6": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Parking bay marking example"
+      },
+      "official_ref": "RM6"
+    },
+    "knowledge-marking-rm7": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Exclusive parking bay marking example"
+      },
+      "official_ref": "RM7"
+    },
+    "knowledge-marking-rm9": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Bus lane marking example"
+      },
+      "official_ref": "RM9"
+    },
+    "knowledge-marking-rm11": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Pedestrian crossing approach marking example"
+      },
+      "official_ref": "RM11"
+    },
+    "knowledge-marking-rm14": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Bicycle lane marking example"
+      },
+      "official_ref": "RM14"
+    },
+    "knowledge-marking-rm15": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Traffic-circle directional marking example"
+      },
+      "official_ref": "RM15"
+    },
+    "knowledge-marking-wm5": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Yield-control-ahead marking example"
+      },
+      "official_ref": "WM5"
+    },
+    "knowledge-marking-wm9": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Arrestor-bed-ahead marking concept"
+      },
+      "official_ref": "WM9"
+    },
+    "knowledge-marking-gm4": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Information arrow marking examples"
+      },
+      "official_ref": "GM4.1/GM4.2"
+    },
+    "knowledge-marking-gm5": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Bicycle crossing marking example"
+      },
+      "official_ref": "GM5"
+    },
+    "knowledge-marking-gm6": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Road marking symbol examples"
+      },
+      "official_ref": "GM6"
+    },
+    "knowledge-marking-gm7": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Word marking examples"
+      },
+      "official_ref": "GM7"
     }
   }
 }
