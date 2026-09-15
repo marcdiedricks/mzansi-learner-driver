@@ -261,6 +261,28 @@ Final certification requires either:
 
 ---
 
+# 9A. VISUAL ROAD-SIGN RECOGNITION GATE
+
+Repository verification found:
+
+- Road-sign questions in the current bank: **86**
+- Sign questions with a non-null `image_ref`: **0**
+- Sign questions currently trained primarily through text descriptions: **86**
+
+This is a material completeness gap. The official road-sign learner material is inherently visual, and a learner-preparation system should train recognition of the actual sign/marking/signal appearance, not only the written name or description.
+
+Status: **FAIL — VISUAL SIGN RECOGNITION NOT YET COMPLETE.**
+
+Required remediation:
+1. Build an original visual sign library mapped to official sign codes.
+2. Do not copy manual page screenshots into a commercial product.
+3. Link sign-recognition Study items to the visual library.
+4. Add visual Practice items for the learner-relevant sign/marking/signal inventory.
+5. Verify offline caching of all required sign assets.
+6. Re-run multilingual visual-layout QA on ordinary phone screens.
+
+---
+
 # 10. AUDIT DECISION
 
 ## CURRENT DECISION: FAIL — REMEDIATION REQUIRED
