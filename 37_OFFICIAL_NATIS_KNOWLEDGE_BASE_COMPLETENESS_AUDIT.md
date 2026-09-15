@@ -444,6 +444,65 @@ The visual-sign gate has moved from **0 visual mappings** to a controlled first 
 
 ---
 
+## 14. REMEDIATION PROGRESS — R3 PROHIBITION + FREEWAY GUIDANCE
+
+### R3A — Prohibition-sign gaps — SECOND TRANCHE COMPLETE
+
+Added Study knowledge and original schematic visuals for:
+- Height limit R204/TR204
+- Length limit R205/TR205
+- Excessive noise prohibited R206
+- Hitch-hiking prohibited R207
+- Unauthorised vehicles prohibited R208/TR208
+- Left turn ahead prohibited R209/TR209
+- Right turn ahead prohibited R210/TR210
+- Overtaking prohibited R214/TR214
+
+Heavy-vehicle-only mass/axle/overtaking-by-heavy-goods provisions are not automatically inserted into the Code 1 / Code 2 gate.
+
+### R3B — Freeway guidance §5.2 — CORE EXIT SEQUENCE COMPLETE
+
+Added Study knowledge and original schematic visuals for:
+- GA1 Pre-advance exit direction
+- GA2 Advance exit direction
+- GA2/3 Supplementary exit direction
+- GA3 Exit direction
+- GA4/TGA4 Gore exit
+- GA5 Advance off-ramp terminal direction
+- GA6 Off-ramp terminal direction
+
+The purpose is to teach the **sequence of decisions** a learner must make when approaching and using a freeway exit, not to reproduce a particular real-world destination sign.
+
+### R3 Current counts
+
+- dedicated Signs/Markings knowledge items: **24**
+- dedicated Rules knowledge items: **7**
+- total dedicated remediation knowledge items: **31**
+- mapped visual-learning entries: **37**
+- offline audit cache: `mzansi-learner-driver-natis-audit-r4`
+
+### R3 Static QA
+
+- app.js syntax — PASS
+- sw.js syntax — PASS
+- signs knowledge JSON — PASS
+- visual-map JSON — PASS
+- Study visual loader — PRESENT
+- Practice visual renderer — PRESENT
+- Mock visual renderer — PRESENT
+
+### R3 audit decision
+
+The following sign families have materially improved:
+- Command signs — stronger
+- Prohibition signs — stronger
+- Warning markings — core set now present
+- Freeway guidance — core exit sequence now present
+
+The overall Signs gate remains **PARTIAL / REMEDIATION REQUIRED** because reservation, comprehensive, selective-restriction, combination, de-restriction, information, remaining guidance, remaining markings and signal variants still require explicit inventory closure.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
