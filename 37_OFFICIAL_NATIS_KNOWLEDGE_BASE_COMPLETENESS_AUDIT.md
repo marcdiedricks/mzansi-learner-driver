@@ -557,6 +557,103 @@ The overall audit remains **FAIL — REMEDIATION REQUIRED**.
 
 ---
 
+## 16. REMEDIATION PROGRESS — R5 COMPREHENSIVE + INFORMATION + MARKINGS + SIGNAL VARIANTS
+
+### R5A — Comprehensive signs — CORE SET COMPLETE
+Added Study knowledge for:
+- Dual-carriageway freeway begins R401
+- Single-carriageway freeway begins R402
+- Woonerf R403
+
+### R5B — Combination and de-restriction concepts — COMPLETE
+Added:
+- Regulatory combination-sign interpretation (§3.7)
+- Warning combination-sign interpretation (§4.4)
+- De-restriction R600
+
+The learner is explicitly taught to read a primary sign together with any time, vehicle-class, distance, visibility or other secondary condition.
+
+### R5C — Information signs — MAJOR SET COMPLETE
+Added learner knowledge for:
+- exit countdown IN3/IN2/IN1;
+- right-of-way IN7;
+- park-and-ride IN9/IN10;
+- supplementary information plates IN11;
+- information centre IN12;
+- road experiment TIN13;
+- co-ordinated traffic signals IN14;
+- multi-phase traffic signals IN15;
+- bus stop ahead IN16;
+- modal transfer IN17/IN18/IN19.
+
+### R5D — Road markings — MAJOR GAPS CLOSED
+Added:
+- RM4 edge lines;
+- RM6 parking bay;
+- RM7 exclusive parking bay;
+- RM9 bus lane;
+- RM11 pedestrian-crossing-ahead lines;
+- RM14 bicycle lane;
+- RM15 traffic-circle arrows;
+- WM5 yield-control-ahead;
+- WM6 lane-reduction arrows;
+- WM7 mandatory direction ahead;
+- WM8 prohibition-line ahead;
+- WM9 arrestor bed ahead;
+- WM10 speed hump;
+- GM2 guide lines;
+- GM3 bifurcation arrows;
+- GM4 information arrows;
+- GM5 bicycle crossing lines;
+- GM6 road-marking symbols;
+- GM7 word markings.
+
+Existing bank coverage already includes the core Stop/Yield/Pedestrian/No-overtaking/No-crossing/Channelizing/Painted-island/Mandatory-arrow/Box-junction/No-stopping/No-parking/Lane-line items.
+
+### R5E — Traffic-signal variants — GAPS CLOSED
+Added:
+- flashing red arrow left;
+- constant amber arrow;
+- flashing green arrow;
+- constant green arrow;
+- flashing amber disc.
+
+Existing bank coverage already includes:
+- red / amber / green;
+- flashing red;
+- railway flashing red;
+- pedestrian red figure;
+- overhead green arrow;
+- overhead red cross;
+- overhead yellow lane-closure arrows;
+- traffic-officer and flag signals.
+
+### R5 Current counts
+- Rules dedicated remediation items: **7**
+- Signs / markings / signals dedicated remediation items: **75**
+- Total dedicated remediation knowledge items: **82**
+- Source-mapped visual-learning entries: **68**
+- Offline audit cache: `mzansi-learner-driver-natis-audit-r6`
+
+### R5 Static QA
+- app.js syntax — PASS
+- sw.js syntax — PASS
+- Rules knowledge JSON — PASS
+- Signs knowledge JSON — PASS
+- visual map JSON — PASS
+- Study / Practice / Mock visual-rendering architecture — PRESENT
+
+### R5 audit decision
+The signs/markings/signals gate has moved materially closer to completeness. Remaining work is now mainly:
+1. full guidance-symbol inventory / route-marker closure;
+2. a few reservation/selective variants not yet individually mapped;
+3. exact visual-design QA for the original schematic learning assets;
+4. final cross-check that every applicable manual code is either represented or explicitly classified out of Code 1/2 scope.
+
+Overall audit remains **FAIL — REMEDIATION REQUIRED** until those closure checks and the remaining Rules / Controls / physical-pack gates are complete.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
