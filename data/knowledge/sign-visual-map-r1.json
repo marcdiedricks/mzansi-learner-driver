@@ -93,6 +93,69 @@
         "en": "Railway crossing warning sign"
       },
       "official_ref": "W318/TW318"
+    },
+    "knowledge-sign-r101": {
+      "src": "assets/signs/minimum-speed-40.svg",
+      "alt": {
+        "en": "Example minimum speed sign showing 40 kilometres per hour"
+      },
+      "official_ref": "R101/TR101 example"
+    },
+    "knowledge-sign-r104": {
+      "src": "assets/signs/keep-right.svg",
+      "alt": {
+        "en": "Keep Right road sign"
+      },
+      "official_ref": "R104"
+    },
+    "knowledge-sign-r106": {
+      "src": "assets/signs/proceed-right-only.svg",
+      "alt": {
+        "en": "Proceed Right Only road sign"
+      },
+      "official_ref": "R106"
+    },
+    "knowledge-sign-r110": {
+      "src": "assets/signs/pedestrians-only.svg",
+      "alt": {
+        "en": "Pedestrians Only road sign"
+      },
+      "official_ref": "R110"
+    },
+    "knowledge-sign-r111": {
+      "src": "assets/signs/cyclists-only.svg",
+      "alt": {
+        "en": "Cyclists Only road sign"
+      },
+      "official_ref": "R111"
+    },
+    "knowledge-marking-wm1": {
+      "src": "assets/markings/railway-crossing-ahead-wm1.svg",
+      "alt": {
+        "en": "Railway crossing ahead road marking"
+      },
+      "official_ref": "WM1"
+    },
+    "knowledge-marking-wm2": {
+      "src": "assets/markings/continuity-lines-wm2.svg",
+      "alt": {
+        "en": "Continuity lines road marking"
+      },
+      "official_ref": "WM2"
+    },
+    "knowledge-marking-wm3": {
+      "src": "assets/markings/dividing-lines-wm3.svg",
+      "alt": {
+        "en": "Dividing lines road marking"
+      },
+      "official_ref": "WM3"
+    },
+    "knowledge-marking-wm4": {
+      "src": "assets/markings/reversible-lane-lines-wm4.svg",
+      "alt": {
+        "en": "Reversible lane lines road marking"
+      },
+      "official_ref": "WM4"
     }
   }
 }
