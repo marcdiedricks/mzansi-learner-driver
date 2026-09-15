@@ -1,0 +1,42 @@
+{
+  "version": "control-visual-r1",
+  "status": "AUDIT_BRANCH_ONLY_DO_NOT_DEPLOY",
+  "note": "Original schematic control maps for learner identification. Not copied from official manual artwork.",
+  "items": {
+    "knowledge-control-code1-control-groups": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control map"
+      },
+      "official_ref": "NaTIS motorcycle controls"
+    },
+    "knowledge-control-code2-control-groups": {
+      "src": "assets/controls/code2-control-map.svg",
+      "alt": {
+        "en": "Code 2 light motor vehicle control map"
+      },
+      "official_ref": "NaTIS light vehicle controls"
+    },
+    "knowledge-control-code2-mirror-check": {
+      "src": "assets/controls/code2-control-map.svg",
+      "alt": {
+        "en": "Code 2 light motor vehicle control map"
+      },
+      "official_ref": "NaTIS mirror/control awareness"
+    },
+    "knowledge-control-code1-speedometer": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control map"
+      },
+      "official_ref": "NaTIS motorcycle components"
+    },
+    "knowledge-control-code1-starter": {
+      "src": "assets/controls/code1-control-map.svg",
+      "alt": {
+        "en": "Code 1 motorcycle control map"
+      },
+      "official_ref": "NaTIS/K53 motorcycle controls"
+    }
+  }
+}
