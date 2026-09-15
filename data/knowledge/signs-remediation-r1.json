@@ -1,0 +1,209 @@
+{
+  "pack_id": "natis-signs-remediation-r1",
+  "section": "signs",
+  "status": "ENGLISH_SOURCE_MASTER_AUDIT_ONLY_DO_NOT_DEPLOY",
+  "source_control": {
+    "primary": "NaTIS Road Traffic Signs v1.00 (June 2012)",
+    "note": "This pack closes published learner-study gaps in command signs and warning markings. It uses original explanatory wording and original schematic visuals; it does not copy manual page artwork."
+  },
+  "items": [
+    {
+      "id": "knowledge-sign-r101",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "minimum-speed-sign",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Minimum speed sign R101/TR101",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Minimum speed sign",
+          "key_point": "Do not drive slower than the speed shown on the sign.",
+          "explanation": "This command sign is used where very slow traffic could disrupt traffic flow. The displayed number is the minimum speed in km/h."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r104",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "keep-right-sign",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Keep right R104",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Keep right",
+          "key_point": "Pass to the right of the obstruction when the Keep Right sign applies.",
+          "explanation": "The sign is used at an obstruction such as a traffic island and tells you which side of the obstruction to use."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r106",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "proceed-right-only",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Proceed right only R106",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Proceed right only",
+          "key_point": "Drive only in the direction shown by the right-pointing arrow.",
+          "explanation": "This command sign is used at intersections to control the direction in which traffic may proceed."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r110",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pedestrians-only",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Pedestrians only R110",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pedestrians only",
+          "key_point": "The indicated road or part of the road is reserved for pedestrians.",
+          "explanation": "Drivers and riders must not use the part of the road reserved by this command sign."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r111",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "cyclists-only",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Cyclists only R111",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Cyclists only",
+          "key_point": "The indicated road or part of the road is reserved for cyclists.",
+          "explanation": "Drivers and riders who are not using a pedal cycle must not use the part of the road reserved by this sign."
+        }
+      }
+    },
+    {
+      "id": "knowledge-marking-wm1",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "railway-crossing-ahead-marking",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Railway crossing ahead WM1",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Railway crossing ahead marking",
+          "key_point": "Slow down and be ready to stop before the railway crossing.",
+          "explanation": "This warning marking is placed before a railway crossing to give additional warning that the crossing is ahead."
+        }
+      }
+    },
+    {
+      "id": "knowledge-marking-wm2",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "continuity-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Continuity lines WM2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Continuity lines",
+          "key_point": "A lane beside a continuity line may soon turn away or meet a break in the roadway.",
+          "explanation": "Check mirrors and blind spots and allow for other traffic changing lanes. The marking warns that an intersection or off-ramp affects the continuing lane arrangement."
+        }
+      }
+    },
+    {
+      "id": "knowledge-marking-wm3",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "dividing-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Dividing lines WM3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Dividing lines",
+          "key_point": "Traffic on the other side of the dividing line is travelling in the opposite direction.",
+          "explanation": "Stay alert for approaching vehicles and keep safely to your side of the road."
+        }
+      }
+    },
+    {
+      "id": "knowledge-marking-wm4",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "reversible-lane-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Reversible lane lines WM4",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Reversible lane lines",
+          "key_point": "The direction of traffic in the marked lane can change at different times.",
+          "explanation": "Look for the lane-control signals that apply and be alert for traffic travelling in the opposite direction."
+        }
+      }
+    }
+  ]
+}
