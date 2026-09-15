@@ -1,0 +1,98 @@
+{
+  "version": "sign-visual-r1",
+  "status": "AUDIT_BRANCH_ONLY_DO_NOT_DEPLOY",
+  "note": "Original schematic learning visuals. They are not scans or copied manual artwork. Each visual is source-mapped to the official NaTIS sign meaning already used by the corresponding question.",
+  "items": {
+    "signs-004": {
+      "src": "assets/signs/stop.svg",
+      "alt": {
+        "en": "STOP road sign"
+      },
+      "official_ref": "R1.1"
+    },
+    "signs-005": {
+      "src": "assets/signs/stop.svg",
+      "alt": {
+        "en": "STOP road sign"
+      },
+      "official_ref": "R1.1"
+    },
+    "signs-023": {
+      "src": "assets/signs/yield.svg",
+      "alt": {
+        "en": "Yield road sign"
+      },
+      "official_ref": "R2"
+    },
+    "signs-011": {
+      "src": "assets/signs/no-entry.svg",
+      "alt": {
+        "en": "No Entry road sign"
+      },
+      "official_ref": "R3"
+    },
+    "signs-014": {
+      "src": "assets/signs/speed-limit-60.svg",
+      "alt": {
+        "en": "Example speed limit sign showing 60 kilometres per hour"
+      },
+      "official_ref": "R201 example"
+    },
+    "signs-020": {
+      "src": "assets/signs/keep-left.svg",
+      "alt": {
+        "en": "Keep Left road sign"
+      },
+      "official_ref": "R103"
+    },
+    "signs-017": {
+      "src": "assets/signs/no-u-turn.svg",
+      "alt": {
+        "en": "No U-turn road sign"
+      },
+      "official_ref": "R213"
+    },
+    "signs-013": {
+      "src": "assets/signs/children-warning.svg",
+      "alt": {
+        "en": "Children warning road sign"
+      },
+      "official_ref": "W308/TW308"
+    },
+    "signs-035": {
+      "src": "assets/signs/traffic-circle-warning.svg",
+      "alt": {
+        "en": "Traffic circle warning road sign"
+      },
+      "official_ref": "W201/TW201"
+    },
+    "signs-046": {
+      "src": "assets/signs/pedestrian-crossing-warning.svg",
+      "alt": {
+        "en": "Pedestrian crossing warning road sign"
+      },
+      "official_ref": "W306/TW306"
+    },
+    "signs-059": {
+      "src": "assets/signs/slippery-road-warning.svg",
+      "alt": {
+        "en": "Slippery road warning sign"
+      },
+      "official_ref": "W333"
+    },
+    "signs-032": {
+      "src": "assets/signs/railway-crossing-warning.svg",
+      "alt": {
+        "en": "Railway crossing warning sign"
+      },
+      "official_ref": "W403/W404"
+    },
+    "signs-052": {
+      "src": "assets/signs/railway-crossing-warning.svg",
+      "alt": {
+        "en": "Railway crossing warning sign"
+      },
+      "official_ref": "W318/TW318"
+    }
+  }
+}
