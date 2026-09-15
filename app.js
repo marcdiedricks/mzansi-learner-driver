@@ -541,8 +541,8 @@ function eligibleQuestions(section = null) {
 }
 function eligibleStudyItems(section = null) {
   const knowledge = state.knowledge.filter(item => isEligibleForActiveVehicle(item) && (!section || item.section === section));
-  const questions = eligibleQuestions(section);
-  return [...knowledge, ...questions];
+  if (knowledge.length) return knowledge;
+  return eligibleQuestions(section);
 }
 function studyItemText(item) {
   const txt = item.language?.[lang()] || item.language?.en || {};
