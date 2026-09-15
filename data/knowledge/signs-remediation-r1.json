@@ -818,7 +818,21 @@
           "title": "Advance off-ramp terminal direction",
           "key_point": "Choose the correct lane before reaching the intersection at the end of the off-ramp.",
           "explanation": "The sign tells you in advance which lane leads to the destination you want after the off-ramp."
+        },
+        "af": {
+          "title": "Vooraf-rigting by afrit-eindpunt",
+          "key_point": "Kies die korrekte baan voordat jy die kruising aan die einde van die afrit bereik.",
+          "explanation": "Die teken help jou vooraf om die regte baan vir jou bestemming te kies."
+        },
+        "xh": {
+          "title": "Isalathiso sangaphambili ekupheleni kwe-off-ramp",
+          "key_point": "Khetha ilayini echanekileyo ngaphambi kokufika kwindawo yokudibana ekupheleni kwe-off-ramp.",
+          "explanation": "Uphawu lukunceda ukhethe ilayini efanelekileyo yendawo oya kuyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -840,7 +854,21 @@
           "title": "Off-ramp terminal direction",
           "key_point": "Slow down, obey the intersection controls and turn in the direction of your destination.",
           "explanation": "This sign is placed at the end of the off-ramp and shows the direction of destinations from the intersecting road."
+        },
+        "af": {
+          "title": "Rigting by afrit-eindpunt",
+          "key_point": "Ry stadiger, gehoorsaam die kruisingbeheer en draai in die rigting van jou bestemming.",
+          "explanation": "Die teken wys die rigting van bestemmings vanaf die pad aan die einde van die afrit."
+        },
+        "xh": {
+          "title": "Isalathiso ekupheleni kwe-off-ramp",
+          "key_point": "Cotha, landela ulawulo lwendawo yokudibana uze ujike kwicala lendawo oya kuyo.",
+          "explanation": "Uphawu lubonisa indlela eya kwiindawo ezahlukeneyo ukusuka kwindlela ekupheleni kwe-off-ramp."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -862,7 +890,21 @@
           "title": "Temporary road signs",
           "key_point": "A yellow-background sign warns that normal conditions have changed and that extra attention is required.",
           "explanation": "Temporary signs are used for situations such as roadworks, collision scenes and temporary traffic control. A sign number beginning with T identifies a temporary sign."
+        },
+        "af": {
+          "title": "Tydelike padtekens",
+          "key_point": "'n Teken met 'n geel agtergrond waarsku dat normale toestande verander het en dat ekstra aandag nodig is.",
+          "explanation": "Tydelike tekens word gebruik by onder meer padwerke, ongelukke en tydelike verkeersbeheer."
+        },
+        "xh": {
+          "title": "Iimpawu zendlela zethutyana",
+          "key_point": "Uphawu olunemvelaphi etyheli lulumkisa ukuba iimeko eziqhelekileyo zitshintshile kwaye kufuneka uqaphele ngakumbi.",
+          "explanation": "Iimpawu zethutyana zisetyenziswa kwiindlela ezilungiswayo, kwiingozi nakulawulo lwezithuthi lwethutyana."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -884,7 +926,21 @@
           "title": "Bus reservation",
           "key_point": "Do not enter or park in a bus-reserved area unless you are driving a bus.",
           "explanation": "Reservation signs set aside a road, lane or parking area for a particular class of road user or vehicle."
+        },
+        "af": {
+          "title": "Busreservering",
+          "key_point": "Moenie 'n gebied wat vir busse gereserveer is binnegaan of daar parkeer tensy jy 'n bus bestuur nie.",
+          "explanation": "Reserveringstekens hou 'n pad, baan of parkeerplek vir 'n spesifieke voertuigklas."
+        },
+        "xh": {
+          "title": "Indawo ebekelwe iibhasi",
+          "key_point": "Musa ukungena okanye ukupaka kwindawo ebekelwe iibhasi ngaphandle kokuba uqhuba ibhasi.",
+          "explanation": "Iimpawu zokubekelwa bucala zigcinela indlela, ilayini okanye indawo yokupaka udidi oluthile lwesithuthi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -906,7 +962,21 @@
           "title": "Bus lane reservation",
           "key_point": "Do not use a bus-only lane if you are not driving a permitted bus.",
           "explanation": "The reservation sign identifies a lane for buses only; the 'begins' version shows where the reserved lane starts."
+        },
+        "af": {
+          "title": "Busbaanreservering",
+          "key_point": "Moenie 'n busbaan gebruik as jy nie 'n toegelate bus bestuur nie.",
+          "explanation": "Die teken identifiseer 'n baan wat vir busse gereserveer is."
+        },
+        "xh": {
+          "title": "Ilayini ebekelwe iibhasi",
+          "key_point": "Musa ukusebenzisa ilayini yeebhasi ukuba awuqhubi ibhasi evumelekileyo.",
+          "explanation": "Uphawu lubonisa ilayini ebekelwe iibhasi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -928,7 +998,21 @@
           "title": "Pedal-cycle reservation",
           "key_point": "Do not use a cycle-reserved lane or parking area unless you are riding a bicycle.",
           "explanation": "This reservation protects space intended specifically for pedal cyclists."
+        },
+        "af": {
+          "title": "Fietsreservering",
+          "key_point": "Moenie 'n baan of parkeerplek wat vir fietse gereserveer is gebruik tensy jy 'n fiets ry nie.",
+          "explanation": "Die reservering beskerm ruimte wat vir fietsryers bedoel is."
+        },
+        "xh": {
+          "title": "Indawo ebekelwe iibhayisekile",
+          "key_point": "Musa ukusebenzisa ilayini okanye indawo yokupaka ebekelwe iibhayisekile ngaphandle kokuba ukhwele ibhayisekile.",
+          "explanation": "Le ndawo igcinelwe abakhweli beebhayisekile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -950,7 +1034,21 @@
           "title": "Parking reservation",
           "key_point": "Park only according to the conditions shown, including any fee or maximum-stay limit.",
           "explanation": "The learner manual distinguishes ordinary reserved parking from limited parking where a maximum stay may apply."
+        },
+        "af": {
+          "title": "Parkeerreservering",
+          "key_point": "Parkeer slegs volgens die voorwaardes op die teken, insluitend enige fooi of maksimum tyd.",
+          "explanation": "Lees die parkeerreël en enige bykomende paneel saam."
+        },
+        "xh": {
+          "title": "Indawo yokupaka ebekelweyo",
+          "key_point": "Paka kuphela ngokwemiqathango ebonisiweyo, kuquka intlawulo okanye ixesha eliphezulu.",
+          "explanation": "Funda umthetho wokupaka kunye nayo nayiphi na ipaneli eyongezelelweyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -972,7 +1070,21 @@
           "title": "Motorcycle reservation",
           "key_point": "A motorcycle-reserved road area or parking area may be used only by motorcycles.",
           "explanation": "If you are not riding a motorcycle, do not use the road or parking area reserved by this sign."
+        },
+        "af": {
+          "title": "Motorfietsreservering",
+          "key_point": "'n Pad- of parkeergebied wat vir motorfietse gereserveer is, mag net deur motorfietse gebruik word.",
+          "explanation": "Ander voertuigklasse mag nie die gereserveerde ruimte gebruik nie."
+        },
+        "xh": {
+          "title": "Indawo ebekelwe izithuthuthu",
+          "key_point": "Indawo yendlela okanye yokupaka ebekelwe izithuthuthu ingasetyenziswa kuphela zizithuthuthu.",
+          "explanation": "Ezinye iintlobo zezithuthi akufanele zisebenzise loo ndawo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -994,7 +1106,21 @@
           "title": "Selective time periods",
           "key_point": "A regulatory sign with a time-period secondary sign applies only during the times or days shown.",
           "explanation": "Read the primary regulatory sign together with the secondary time panel before deciding what is permitted."
+        },
+        "af": {
+          "title": "Geselekteerde tydperke",
+          "key_point": "'n Regulerende teken met 'n tydpaneel geld net gedurende die tye of dae wat aangedui word.",
+          "explanation": "Lees die hoofteken en die tydpaneel saam."
+        },
+        "xh": {
+          "title": "Amaxesha athile",
+          "key_point": "Uphawu lolawulo olunepaneli yexesha lusebenza kuphela ngamaxesha okanye ngeentsuku ezibonisiweyo.",
+          "explanation": "Funda uphawu oluphambili kunye nepanele yexesha kunye."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1016,7 +1142,21 @@
           "title": "Reduced-visibility restriction",
           "key_point": "The primary regulatory sign applies when visibility is reduced.",
           "explanation": "This secondary sign makes the restriction conditional on poor visibility."
+        },
+        "af": {
+          "title": "Beperking by swak sig",
+          "key_point": "Die hoof-regulerende teken geld wanneer sigbaarheid verminder is.",
+          "explanation": "Die bykomende paneel maak die beperking afhanklik van swak sig."
+        },
+        "xh": {
+          "title": "Umda xa ukubona kubuthathaka",
+          "key_point": "Uphawu lolawulo oluphambili lusebenza xa ukubona kuncitshisiwe.",
+          "explanation": "Ipanele eyongezelelweyo yenza umda usebenze kuphela xa ukubona kubuthathaka."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1038,7 +1178,21 @@
           "title": "Daytime restriction",
           "key_point": "The primary regulatory sign applies during daytime.",
           "explanation": "The secondary sign limits the operation of the main restriction to daytime."
+        },
+        "af": {
+          "title": "Dagtydbeperking",
+          "key_point": "Die hoof-regulerende teken geld gedurende die dag.",
+          "explanation": "Die bykomende teken beperk die reël tot dagligtyd."
+        },
+        "xh": {
+          "title": "Umda wemini",
+          "key_point": "Uphawu lolawulo oluphambili lusebenza emini.",
+          "explanation": "Ipanele eyongezelelweyo yenza umthetho usebenze ngexesha lasemini kuphela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1060,7 +1214,21 @@
           "title": "Night-time restriction",
           "key_point": "The primary regulatory sign applies during night time.",
           "explanation": "The secondary sign limits the operation of the main restriction to night-time conditions."
+        },
+        "af": {
+          "title": "Nagtydbeperking",
+          "key_point": "Die hoof-regulerende teken geld gedurende die nag.",
+          "explanation": "Die bykomende teken beperk die reël tot nagtyd."
+        },
+        "xh": {
+          "title": "Umda wasebusuku",
+          "key_point": "Uphawu lolawulo oluphambili lusebenza ebusuku.",
+          "explanation": "Ipanele eyongezelelweyo yenza umthetho usebenze ngexesha lasebusuku kuphela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1082,7 +1250,21 @@
           "title": "Pay and display",
           "key_point": "Pay the required parking fee and display the proof of payment as directed.",
           "explanation": "This secondary sign is used with a parking regulation to show that payment is required."
+        },
+        "af": {
+          "title": "Betaal en vertoon",
+          "key_point": "Betaal die vereiste parkeerfooi en vertoon die bewys van betaling soos aangedui.",
+          "explanation": "Hierdie paneel wys dat betaling vir parkering vereis word."
+        },
+        "xh": {
+          "title": "Hlawula uze ubonise",
+          "key_point": "Hlawula imali yokupaka efunekayo uze ubonise ubungqina bentlawulo njengoko kuyalelwe.",
+          "explanation": "Le paneli ibonisa ukuba kufuneka kuhlawulwe ukupaka."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1104,7 +1286,21 @@
           "title": "Dual-carriageway freeway begins",
           "key_point": "From this sign onward, the rules that apply to freeways are in force.",
           "explanation": "The sign marks the start of a dual-carriageway freeway. Follow all freeway rules from this point."
+        },
+        "af": {
+          "title": "Dubbelrybaan-snelweg begin",
+          "key_point": "Vanaf hierdie teken geld die reëls wat op snelweë van toepassing is.",
+          "explanation": "Die teken merk die begin van 'n dubbelrybaan-snelweg."
+        },
+        "xh": {
+          "title": "Kuqala indlela enkulu enezindlela ezimbini ezahluliweyo",
+          "key_point": "Ukusukela kolu phawu, imithetho yendlela enkulu iyasebenza.",
+          "explanation": "Uphawu luphawula ukuqala kwendlela enkulu enezindlela ezimbini ezahluliweyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1126,7 +1322,21 @@
           "title": "Single-carriageway freeway begins",
           "key_point": "From this sign onward, freeway rules apply.",
           "explanation": "This sign marks the start of a single-carriageway freeway."
+        },
+        "af": {
+          "title": "Enkelrybaan-snelweg begin",
+          "key_point": "Vanaf hierdie teken geld snelwegreëls.",
+          "explanation": "Die teken merk die begin van 'n enkelrybaan-snelweg."
+        },
+        "xh": {
+          "title": "Kuqala indlela enkulu enendlela enye",
+          "key_point": "Ukusukela kolu phawu, imithetho yendlela enkulu iyasebenza.",
+          "explanation": "Uphawu luphawula ukuqala kwendlela enkulu enendlela enye."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1148,7 +1358,21 @@
           "title": "Woonerf",
           "key_point": "Drive slowly and give special priority and attention to pedestrians in the shared residential area.",
           "explanation": "The learner manual describes special access, pedestrian-priority and low-speed conditions inside a woonerf. Numeric and vehicle-mass details remain subject to the legal verification gate before release certification."
+        },
+        "af": {
+          "title": "Woonerf",
+          "key_point": "Ry stadig en gee besondere voorkeur en aandag aan voetgangers in die gedeelde woongebied.",
+          "explanation": "Dit is 'n gedeelde gebied waar voertuie besonder versigtig moet beweeg."
+        },
+        "xh": {
+          "title": "Indawo yokuhlala ekwabelwana ngayo",
+          "key_point": "Qhuba kancinci uze unike abahambi ngeenyawo ingqalelo ephambili kwindawo yokuhlala ekwabelwana ngayo.",
+          "explanation": "Le yindawo ekwabelwana ngayo apho izithuthi kufuneka zihambe ngononophelo olukhulu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1170,7 +1394,21 @@
           "title": "Combination regulatory signs",
           "key_point": "Read the main regulatory sign together with every secondary panel or condition attached to it.",
           "explanation": "A combination may limit a rule by time, vehicle class, distance, visibility or another condition. The full combined message determines what you must do."
+        },
+        "af": {
+          "title": "Gekombineerde regulerende tekens",
+          "key_point": "Lees die hoof-regulerende teken saam met elke bykomende paneel of voorwaarde wat daaraan geheg is.",
+          "explanation": "Tyd, voertuigklas, afstand, sigbaarheid of ander voorwaardes kan die betekenis verander."
+        },
+        "xh": {
+          "title": "Iimpawu zolawulo ezidityanisiweyo",
+          "key_point": "Funda uphawu lolawulo oluphambili kunye nayo yonke ipaneli okanye imeko eyongezelelweyo.",
+          "explanation": "Ixesha, udidi lwesithuthi, umgama, ukubona okanye ezinye iimeko zinokutshintsha umyalezo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1192,7 +1430,21 @@
           "title": "Combination warning signs",
           "key_point": "Interpret the warning sign together with its speed, distance, text or other supplementary message.",
           "explanation": "Combination warning signs add details such as recommended speed, distance to the hazard, length of the hazard or a text warning."
+        },
+        "af": {
+          "title": "Gekombineerde waarskuwingstekens",
+          "key_point": "Vertolk die waarskuwingsteken saam met die spoed-, afstand-, teks- of ander bykomende boodskap.",
+          "explanation": "Die bykomende boodskap gee meer besonderhede oor die gevaar."
+        },
+        "xh": {
+          "title": "Iimpawu zesilumkiso ezidityanisiweyo",
+          "key_point": "Tolika uphawu lwesilumkiso kunye nesantya, umgama, umbhalo okanye omnye umyalezo owongezelelweyo.",
+          "explanation": "Umyalezo owongezelelweyo unika iinkcukacha ezingakumbi ngengozi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1214,7 +1466,21 @@
           "title": "De-restriction sign",
           "key_point": "The matching restriction ends from this point.",
           "explanation": "A de-restriction sign cancels the restriction shown by the similar symbol without the cancellation mark."
+        },
+        "af": {
+          "title": "Opheffing van beperking",
+          "key_point": "Die ooreenstemmende beperking eindig vanaf hierdie punt.",
+          "explanation": "Die teken kanselleer die beperking wat deur die soortgelyke simbool aangedui is."
+        },
+        "xh": {
+          "title": "Ukuphela komda",
+          "key_point": "Umda ohambelanayo uphela ukusukela kule ndawo.",
+          "explanation": "Uphawu lurhoxisa umda oboniswe sisimboli esifanayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1236,7 +1502,21 @@
           "title": "Exit countdown signs",
           "key_point": "These signs count down the remaining distance to an exit.",
           "explanation": "The manual uses a sequence at approximately 300 m, 200 m and 100 m before an exit so that you can prepare in time."
+        },
+        "af": {
+          "title": "Afrit-afteltekens",
+          "key_point": "Hierdie tekens tel die oorblywende afstand tot 'n afrit af.",
+          "explanation": "Hulle help jou om betyds vir die afrit voor te berei."
+        },
+        "xh": {
+          "title": "Iimpawu zokubala umgama wokuphuma",
+          "key_point": "Ezi mpawu zibonisa umgama oshiyekileyo ukuya kwindawo yokuphuma.",
+          "explanation": "Zikunceda ulungiselele ukuphuma kwangethuba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1258,7 +1538,21 @@
           "title": "Right-of-way information",
           "key_point": "You have right of way at the intersection ahead, but still make sure other road users yield.",
           "explanation": "Do not slow unnecessarily, but never assume that another road user will obey the sign."
+        },
+        "af": {
+          "title": "Voorrang-inligting",
+          "key_point": "Jy het voorrang by die kruising voor, maar maak steeds seker dat ander padgebruikers toegee.",
+          "explanation": "Moenie aanvaar dat ander verkeer die teken sal gehoorsaam nie."
+        },
+        "xh": {
+          "title": "Ulwazi lwelungelo lokudlula",
+          "key_point": "Unelungelo lokudlula kwindawo yokudibana ngaphambili, kodwa qinisekisa ukuba abanye abasebenzisi bendlela bayakunika indlela.",
+          "explanation": "Musa ukucinga ukuba ezinye izithuthi ziya kusoloko zithobela uphawu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1280,7 +1574,21 @@
           "title": "Park and ride",
           "key_point": "This sign identifies parking connected to a bus or train service.",
           "explanation": "Use the parking area if you want to continue the journey by the public-transport service shown."
+        },
+        "af": {
+          "title": "Parkeer en ry verder",
+          "key_point": "Hierdie teken wys parkering wat met 'n bus- of treindiens verbind is.",
+          "explanation": "Parkeer daar as jy jou reis met openbare vervoer wil voortsit."
+        },
+        "xh": {
+          "title": "Paka uze uqhubeke ngezithuthi zikawonke-wonke",
+          "key_point": "Olu phawu lubonisa indawo yokupaka edityaniswe nenkonzo yebhasi okanye kaloliwe.",
+          "explanation": "Paka apho ukuba ufuna ukuqhubeka nohambo ngezithuthi zikawonke-wonke."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
