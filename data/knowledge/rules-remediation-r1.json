@@ -1491,7 +1491,21 @@
           "title": "Overall vehicle length",
           "key_point": "Vehicle length is legally limited by vehicle type.",
           "explanation": "For the ordinary 'other vehicle' category in the learner manual, overall length may not exceed 12.5 metres. Longer limits apply to specified trailers, articulated vehicles, bus-trains and vehicle combinations."
+        },
+        "af": {
+          "title": "Totale voertuiglengte",
+          "key_point": "Die wettige voertuiglengte word volgens voertuigtipe beperk.",
+          "explanation": "Die leerderhandleiding gee verskillende maksimum lengtes vir gewone voertuie, sleepwaens, geartikuleerde voertuie en voertuigkombinasies."
+        },
+        "xh": {
+          "title": "Ubude obupheleleyo besithuthi",
+          "key_point": "Ubude besithuthi bukhawulelwe ngokohlobo lwesithuthi.",
+          "explanation": "Incwadi yomfundi inika imida eyahlukeneyo kwiimoto eziqhelekileyo, ii-trailer, izithuthi ezidibeneyo neendibaniselwano zezithuthi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1513,7 +1527,21 @@
           "title": "Overall vehicle height",
           "key_point": "For vehicles other than a double-deck bus, the learner manual states a maximum overall height of 4.3 metres including the load.",
           "explanation": "A double-deck bus has a separate published limit."
+        },
+        "af": {
+          "title": "Totale voertuighoogte",
+          "key_point": "Vir voertuie anders as 'n dubbeldekbus bepaal die leerderhandleiding 'n maksimum hoogte van 4,3 meter, vrag ingesluit.",
+          "explanation": "'n Dubbeldekbus het 'n afsonderlike gepubliseerde limiet."
+        },
+        "xh": {
+          "title": "Ukuphakama okupheleleyo kwesithuthi",
+          "key_point": "Kwizithuthi ezingeyiyo ibhasi enamanqanaba amabini, incwadi yomfundi ichaza ukuphakama okuphezulu kwe-4,3 yeemitha kuquka nomthwalo.",
+          "explanation": "Ibhasi enamanqanaba amabini inomda owahlukileyo opapashiweyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1535,7 +1563,21 @@
           "title": "Overall vehicle width",
           "key_point": "For the ordinary 'other vehicle' category, the learner manual states a maximum overall width of 2.5 metres.",
           "explanation": "Specified buses and large goods vehicles have a separate 2.6-metre rule."
+        },
+        "af": {
+          "title": "Totale voertuigbreedte",
+          "key_point": "Vir die gewone kategorie 'ander voertuig' bepaal die leerderhandleiding 'n maksimum breedte van 2,5 meter.",
+          "explanation": "Sekere busse en groot goederevoertuie het 'n afsonderlike limiet."
+        },
+        "xh": {
+          "title": "Ububanzi obupheleleyo besithuthi",
+          "key_point": "Kudidi oluqhelekileyo 'lwesinye isithuthi', incwadi yomfundi ichaza ububanzi obuphezulu be-2,5 yeemitha.",
+          "explanation": "Ezinye iibhasi neelori ezinkulu zinemida eyahlukileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1557,7 +1599,21 @@
           "title": "Loads on a light vehicle",
           "key_point": "Loads must be secure, must not touch the road or block the driver's view, and must stay within the official load limits.",
           "explanation": "The learner manual also limits the height of ordinary goods carried on a motor-car roof to half the vehicle's height, with an exception for bicycles carried on the roof."
+        },
+        "af": {
+          "title": "Vragte op 'n ligte voertuig",
+          "key_point": "Vrag moet veilig vas wees, mag nie die pad raak of die bestuurder se uitsig blokkeer nie, en moet binne die amptelike perke bly.",
+          "explanation": "Bevestig alle vrag sodat dit nie kan skuif, afval of die voertuig onveilig maak nie."
+        },
+        "xh": {
+          "title": "Imithwalo kwimimoto elula",
+          "key_point": "Umthwalo kufuneka ubotshelelwe kakuhle, ungachukumisi indlela okanye uvale umbono womqhubi, kwaye uhlale kwimida esemthethweni.",
+          "explanation": "Qinisekisa wonke umthwalo ukuze ungashukumi, uwe okanye wenze isithuthi singakhuseleki."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1579,7 +1635,21 @@
           "title": "Persons on a goods vehicle",
           "key_point": "If people are carried on a goods vehicle, the carrying area must have protective enclosure of the height stated in the learner manual.",
           "explanation": "The manual states at least 350 mm above a seated person’s surface or 900 mm above a standing surface, and says passengers may not ride in a caravan."
+        },
+        "af": {
+          "title": "Persone op 'n goederevoertuig",
+          "key_point": "Waar persone op 'n goederevoertuig vervoer word, moet die laairuimte die beskermende omhulsel hê wat die leerderhandleiding vereis.",
+          "explanation": "Die beskerming moet geskik wees vir mense wat sit of staan; passasiers mag nie in 'n karavaan ry nie."
+        },
+        "xh": {
+          "title": "Abantu kwisithuthi sempahla",
+          "key_point": "Xa abantu bethuthwa kwisithuthi sempahla, indawo yokuthwala kufuneka ibe nokhuselo oluchazwe kwincwadi yomfundi.",
+          "explanation": "Ukhuselo kufuneka lufanele abantu abahleliyo okanye abamileyo; abakhweli akufanele bakhwele kwi-caravan."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1601,7 +1671,21 @@
           "title": "Motorcycle load projections",
           "key_point": "Goods on a motorcycle or sidecar must stay within the official projection limits.",
           "explanation": "The learner manual states no more than 600 mm in front of the front axle, 900 mm behind the rear axle, 450 mm beyond either side of the motorcycle wheels, and 300 mm beyond the outside of a sidecar wheel."
+        },
+        "af": {
+          "title": "Motorfiets se vraguitsteeksels",
+          "key_point": "Goedere op 'n motorfiets of syspan moet binne die amptelike uitsteekperke bly.",
+          "explanation": "Meet die vrag teen die voor-, agter- en sykante en maak seker dit bly binne die gepubliseerde perke."
+        },
+        "xh": {
+          "title": "Ukuphuma komthwalo kwisithuthuthu",
+          "key_point": "Impahla kwisithuthuthu okanye kwi-sidecar kufuneka ihlale kwimida esemthethweni yokuphuma.",
+          "explanation": "Jonga umthwalo ngaphambili, ngasemva nasemacaleni ukuze uhlale kwimida epapashiweyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1623,7 +1707,21 @@
           "title": "Light-vehicle load projections",
           "key_point": "A load on an ordinary light vehicle must stay within the official side, front and rear projection limits.",
           "explanation": "The learner manual gives 1.25 m from the centre line to either side, 300 mm beyond the front and 1.8 m beyond the rear, with a separate 150 mm limit for brackets beyond the widest part."
+        },
+        "af": {
+          "title": "Ligte voertuig se vraguitsteeksels",
+          "key_point": "'n Vrag op 'n gewone ligte voertuig moet binne die amptelike sy-, voor- en agteruitsteekperke bly.",
+          "explanation": "Beplan en beveilig die vrag voordat jy ry sodat dit nie te ver uitsteek nie."
+        },
+        "xh": {
+          "title": "Ukuphuma komthwalo kwimimoto elula",
+          "key_point": "Umthwalo kwimimoto elula kufuneka uhlale kwimida esemthethweni emacaleni, ngaphambili nangasemva.",
+          "explanation": "Cwangcisa uze ubophe umthwalo ngaphambi kokuhamba ukuze ungaphumi kakhulu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1645,7 +1743,21 @@
           "title": "Marking a projecting load",
           "key_point": "A load projecting more than the published limits must be marked so other road users can see it.",
           "explanation": "The learner manual requires a red 300 mm × 300 mm flag by day where a load projects more than 150 mm to the side or 300 mm to the rear, and white front/red rear reflectors at night or in poor visibility."
+        },
+        "af": {
+          "title": "Merk 'n uitstaande vrag",
+          "key_point": "'n Vrag wat verder as die gepubliseerde perke uitsteek, moet gemerk word sodat ander padgebruikers dit kan sien.",
+          "explanation": "Gebruik die vereiste waarskuwingsmerke, vlae of weerkaatsers volgens die omstandighede."
+        },
+        "xh": {
+          "title": "Phawula umthwalo ophumayo",
+          "key_point": "Umthwalo ophuma ngaphaya kwemida epapashiweyo kufuneka uphawulwe ukuze ubonakale kwabanye abasebenzisi bendlela.",
+          "explanation": "Sebenzisa iiflegi, iziphawuli okanye izibonakalisi ezifunekayo ngokwemeko."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1668,7 +1780,21 @@
           "title": "Intersections and right of way",
           "key_point": "At an uncontrolled traffic circle or similar junction, yield to traffic approaching from the right unless a traffic officer or sign gives a different instruction.",
           "explanation": "Always obey traffic officers and traffic signs when they control the intersection."
+        },
+        "af": {
+          "title": "Kruisings en voorrang",
+          "key_point": "By 'n onbeheerde verkeersirkel of soortgelyke aansluiting moet jy toegee aan verkeer wat van regs nader, tensy 'n beampte of teken anders bepaal.",
+          "explanation": "Volg altyd verkeersbeamptes en tekens wanneer hulle die kruising beheer."
+        },
+        "xh": {
+          "title": "Iindlela ezinqamlezanayo nelungelo lokudlula",
+          "key_point": "Kwi-traffic circle engalawulwayo okanye kwindawo efanayo, nika indlela kwizithuthi ezisondela ngasekunene ngaphandle kokuba igosa okanye uphawu luthi ngenye indlela.",
+          "explanation": "Soloko ulandela igosa lezendlela nemiqondiso xa zilawula indawo yokudibana."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1691,7 +1817,21 @@
           "title": "Parking restrictions",
           "key_point": "Do not park where a sign prohibits it, where you block access or visibility, or within the official distances and restricted places listed in the learner manual.",
           "explanation": "Examples include within 1.5 m of a fire hydrant, within 9 m before a pedestrian crossing, within 5 m of an intersection, on a traffic island or pedestrian area, or where the road is too narrow."
+        },
+        "af": {
+          "title": "Parkeerbeperkings",
+          "key_point": "Moenie parkeer waar 'n teken dit verbied, waar jy toegang of sig blokkeer, of binne verbode plekke en afstande nie.",
+          "explanation": "Let veral op kruisings, voetoorgange, brandkrane, verkeerseilande en nou paaie."
+        },
+        "xh": {
+          "title": "Imiqathango yokupaka",
+          "key_point": "Musa ukupaka apho uphawu luyakwalela, apho uvala ukufikelela okanye umbono, okanye kwiindawo nemigama ethintelweyo.",
+          "explanation": "Qaphela ngakumbi iindlela ezinqamlezanayo, iindawo zabahambi ngeenyawo, ii-hydrant, iziqithi zendlela neendlela ezimxinwa."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1714,7 +1854,21 @@
           "title": "Stopping restrictions",
           "key_point": "Do not stop on the roadway where stopping would obstruct or endanger other traffic, unless stopping is necessary for safety, required by an officer or beyond your control.",
           "explanation": "Stopping restrictions are stricter than ordinary parking rules because even a short stop can create a hazard."
+        },
+        "af": {
+          "title": "Stopbeperkings",
+          "key_point": "Moenie op die rybaan stop waar dit ander verkeer sal belemmer of in gevaar stel nie, behalwe waar stop vir veiligheid of volgens 'n bevel nodig is.",
+          "explanation": "Selfs 'n kort stop kan gevaarlik wees as dit verkeer se sig of beweging blokkeer."
+        },
+        "xh": {
+          "title": "Imiqathango yokuma",
+          "key_point": "Musa ukuma endleleni apho oko kuya kuthintela okanye kubeke ezinye izithuthi emngciphekweni, ngaphandle xa kufuneka ngenxa yokhuseleko okanye umyalelo.",
+          "explanation": "Nokuba kukuma okufutshane kunokuba yingozi xa kuvala umbono okanye ukuhamba kwezithuthi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1737,7 +1891,21 @@
           "title": "General duties of a driver or rider",
           "key_point": "Maintain control, keep a safe following distance, reverse only when safe and avoid actions that obstruct your view or control.",
           "explanation": "These general duties apply even where no separate sign is present."
+        },
+        "af": {
+          "title": "Algemene pligte van 'n bestuurder of ryer",
+          "key_point": "Behou beheer, hou 'n veilige volgafstand, ry net agteruit wanneer dit veilig is en vermy enigiets wat jou uitsig of beheer belemmer.",
+          "explanation": "Hierdie algemene pligte geld selfs wanneer daar nie 'n spesifieke verkeersteken is nie."
+        },
+        "xh": {
+          "title": "Imisebenzi jikelele yomqhubi okanye umkhweli",
+          "key_point": "Gcina ulawulo, gcina umgama okhuselekileyo, buyela umva kuphela xa kukhuselekile kwaye uphephe nantoni na evala umbono okanye ulawulo.",
+          "explanation": "Le misebenzi isebenza nokuba akukho mqondiso othile wendlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1760,7 +1928,21 @@
           "title": "Never drive while impaired",
           "key_point": "Do not drive or ride when alcohol, medication or another substance makes you unsafe to control the vehicle.",
           "explanation": "The safest learner rule is simple: impairment and driving do not mix. The app does not teach learners to calculate how much of an intoxicating substance they could use before driving."
+        },
+        "af": {
+          "title": "Moet nooit bestuur wanneer jy aangetas is nie",
+          "key_point": "Moenie bestuur of motorfiets ry wanneer alkohol, medikasie of 'n ander middel jou onveilig maak om die voertuig te beheer nie.",
+          "explanation": "Die veilige reël is eenvoudig: as jou oordeel of beheer aangetas is, moet jy nie bestuur nie."
+        },
+        "xh": {
+          "title": "Musa ukuqhuba xa uchaphazelekile",
+          "key_point": "Musa ukuqhuba okanye ukukhwela isithuthuthu xa utywala, iyeza okanye enye into ikwenza ungakwazi ukulawula isithuthi ngokukhuselekileyo.",
+          "explanation": "Umgaqo wokhuseleko ulula: ukuba isigqibo okanye ulawulo lwakho luchaphazelekile, musa ukuqhuba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1782,7 +1964,21 @@
           "title": "Learner's licence Code 1",
           "key_point": "Code 1 is the learner's licence category for motorcycles, including a motorcycle with or without a sidecar, motor tricycle or quadrucycle.",
           "explanation": "The national government service page currently uses the learner-licence labels Code 1, Code 2 and Code 3. Driving-licence categories such as A1 or A are a separate classification."
+        },
+        "af": {
+          "title": "Leerderlisensie Kode 1",
+          "key_point": "Kode 1 is die leerderlisensie-kategorie vir motorfietse, insluitend 'n motorfiets met of sonder 'n syspan, motordriewiel of vierwielmotorfiets.",
+          "explanation": "Die nasionale diens gebruik steeds die leerderkodes 1, 2 en 3; finale bestuurslisensiekategorieë word apart geklassifiseer."
+        },
+        "xh": {
+          "title": "Ilayisensi yomfundi Ikhowudi 1",
+          "key_point": "Ikhowudi 1 ludidi lwelayisensi yomfundi yezithuthuthu, kuquka isithuthuthu esine-sidecar okanye esingenayo, i-motor tricycle okanye i-quadrucycle.",
+          "explanation": "Inkonzo yesizwe isasebenzisa iiKhowudi 1, 2 no-3 zabafundi; iindidi zelayisensi yokuqhuba zahlukile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1804,7 +2000,21 @@
           "title": "Learner's licence Code 2",
           "key_point": "Code 2 covers motor vehicles other than motorcycles with a gross vehicle mass not exceeding 3 500 kg.",
           "explanation": "The national government service page currently includes light motor vehicles, minibuses, buses and goods vehicles within that mass limit."
+        },
+        "af": {
+          "title": "Leerderlisensie Kode 2",
+          "key_point": "Kode 2 dek motorvoertuie anders as motorfietse met 'n bruto voertuigmassa van hoogstens 3 500 kg.",
+          "explanation": "Dit sluit ligte motorvoertuie en ander voertuie binne daardie massalimiet in."
+        },
+        "xh": {
+          "title": "Ilayisensi yomfundi Ikhowudi 2",
+          "key_point": "Ikhowudi 2 igubungela izithuthi ezingezizo izithuthuthu ezinobunzima obupheleleyo obungagqithiyo kwi-3 500 kg.",
+          "explanation": "Oku kuquka iimoto ezilula nezinye izithuthi ezingaphakathi kwaloo mda wobunzima."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1827,7 +2037,21 @@
           "title": "Learner's licence validity and supervision",
           "key_point": "A learner's licence is valid for 24 months. Learner drivers must be supervised by a licensed driver when the vehicle category requires it.",
           "explanation": "Motorcycle learner rules differ from ordinary motor vehicles, so the app keeps Code 1 and Code 2 pathways separate."
+        },
+        "af": {
+          "title": "Geldigheid en toesig van 'n leerderlisensie",
+          "key_point": "'n Leerderlisensie is 24 maande geldig. Leerderbestuurders moet deur 'n gelisensieerde bestuurder toesig gehou word waar die voertuigkategorie dit vereis.",
+          "explanation": "Motorfietsreëls verskil van gewone motorvoertuie, daarom bly Kode 1 en Kode 2 apart."
+        },
+        "xh": {
+          "title": "Ixesha lokusebenza kwelayisensi yomfundi nokugadwa",
+          "key_point": "Ilayisensi yomfundi isebenza iinyanga ezingama-24. Umfundi kufuneka agadiwe ngumqhubi onelayisensi apho udidi lwesithuthi lufuna njalo.",
+          "explanation": "Imithetho yezithuthuthu iyahluka kweyeemoto eziqhelekileyo, ngoko iKhowudi 1 neKhowudi 2 zigcinwa zahlukile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -1850,7 +2074,21 @@
           "title": "Official study scope",
           "key_point": "The official preparation scope is Rules of the Road, Road Signs and Markings, and Vehicle Controls.",
           "explanation": "The Western Cape Government currently links learners directly to the NaTIS study material for these three areas and also states that printed learner manuals have been supplied to selected public libraries."
+        },
+        "af": {
+          "title": "Amptelike studiesomvang",
+          "key_point": "Die amptelike voorbereidingsomvang is Padreëls, Padtekens en -merke, en Voertuigkontroles.",
+          "explanation": "Hierdie drie domeine vorm die bronbeheerde kern van die app se leerinhoud."
+        },
+        "xh": {
+          "title": "Umda wokufunda osemthethweni",
+          "key_point": "Umda wokulungiselela osemthethweni yiMithetho yeNdlela, iMiqondiso neeMpawu zeNdlela, kunye noLawulo lweSithuthi.",
+          "explanation": "Ezi ndawo zintathu zenza isiseko esilawulwa yimithombo somxholo wokufunda we-app."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     }
   ]
