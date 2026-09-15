@@ -428,10 +428,13 @@ async function loadKnowledge() {
   state.knowledge = packs.flatMap(pack => pack.items || []);
 }
 async function loadVisuals() {
-  const res = await fetch("data/knowledge/sign-visual-map-r1.json");
-  if (!res.ok) throw new Error("Visual map failed to load");
-  const pack = await res.json();
-  state.visuals = pack.items || {};
+  const paths = ["data/knowledge/sign-visual-map-r1.json","data/knowledge/control-visual-map-r1.json"];
+  const responses = await Promise.all(paths.map(path => fetch(path)));
+  const packs = await Promise.all(responses.map(res => {
+    if (!res.ok) throw new Error("Visual map failed to load");
+    return res.json();
+  }));
+  state.visuals = Object.assign({}, ...packs.map(pack => pack.items || {}));
 }
 function mediaFor(item) {
   const media = state.visuals[item.id];
