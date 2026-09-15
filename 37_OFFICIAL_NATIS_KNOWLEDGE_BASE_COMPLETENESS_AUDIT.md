@@ -503,6 +503,60 @@ The overall Signs gate remains **PARTIAL / REMEDIATION REQUIRED** because reserv
 
 ---
 
+## 15. REMEDIATION PROGRESS — R4 RESERVATION + SELECTIVE RESTRICTION + TEMPORARY SIGNS
+
+### R4A — Temporary-sign interpretation — COMPLETE
+
+Added explicit Study knowledge that:
+- yellow-background signs indicate temporary conditions;
+- temporary signs require increased attention;
+- temporary sign numbers commonly begin with `T`;
+- typical temporary contexts include roadworks, collision scenes and temporary traffic control.
+
+### R4B — Reservation signs — CORE SET COMPLETE
+
+Added Study knowledge and original learner visuals for:
+- Bus reservation R301/TR301
+- Bus lane reservation R302/TR302 and begins R303/TR303
+- Pedal-cycle reservation R304/TR304
+- Parking / limited parking reservation R305-P/R306-P
+- Motorcycle reservation R307/TR307
+
+### R4C — Selective restriction signs — CORE SET COMPLETE
+
+Added Study knowledge and original learner visuals for:
+- time-period panels (R)502/(R)503;
+- reduced visibility (R)510;
+- daytime (R)511;
+- night time (R)512;
+- pay and display (R)523.
+
+### R4 Current counts
+
+- Rules dedicated remediation knowledge items: **7**
+- Signs / markings dedicated remediation knowledge items: **35**
+- Total dedicated remediation knowledge items: **42**
+- Source-mapped visual-learning entries: **48**
+- Offline audit cache: `mzansi-learner-driver-natis-audit-r5`
+
+### R4 Static QA
+
+- app.js syntax — PASS
+- sw.js syntax — PASS
+- Rules knowledge JSON — PASS
+- Signs knowledge JSON — PASS
+- visual-map JSON — PASS
+- production app.js — UNCHANGED
+- production sw.js — UNCHANGED
+
+### R4 audit decision
+
+The Reservation and Selective Restriction categories have moved from broad representative coverage to **core learner-knowledge coverage**. They remain subject to the final full-code inventory check before the complete Signs gate can pass.
+
+The overall audit remains **FAIL — REMEDIATION REQUIRED**.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
