@@ -1,0 +1,305 @@
+{
+  "pack_id": "natis-controls-remediation-r1",
+  "section": "controls",
+  "status": "ENGLISH_SOURCE_MASTER_AUDIT_ONLY_DO_NOT_DEPLOY",
+  "source_control": {
+    "primary": "Official NaTIS Vehicle Controls learner material and K53 public manuals",
+    "note": "This pack completes identification and theory-level control/application knowledge without teaching practical riding or driving manoeuvres."
+  },
+  "items": [
+    {
+      "id": "knowledge-control-code1-seat",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-seat",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: seat",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle seat",
+          "key_point": "The seat is the part of the motorcycle designed to support the rider.",
+          "explanation": "Recognising the main motorcycle components is part of the learner control/component study material."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-engine",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-engine",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: engine",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle engine",
+          "key_point": "The engine supplies power to the motorcycle.",
+          "explanation": "Learners should be able to identify the engine as one of the main motorcycle components."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-speedometer",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-speedometer",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: speedometer",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle speedometer",
+          "key_point": "The speedometer shows the motorcycle's road speed.",
+          "explanation": "It helps the rider monitor speed and remain within the applicable limit."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-ignition",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-ignition",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: ignition",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle ignition",
+          "key_point": "The ignition control switches the motorcycle's electrical/engine system on or off.",
+          "explanation": "Learners should recognise the ignition as a named motorcycle control/component."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-starter",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-starter-button",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS/K53 motorcycle public material — starter button",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Starter button",
+          "key_point": "The starter button is the control used to start the engine when the motorcycle is designed with an electric starter.",
+          "explanation": "The official public K53 motorcycle material identifies the starter button among the controls near the right handgrip."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-wheels",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-wheels",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: wheels",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle wheels",
+          "key_point": "The front and rear wheels support the motorcycle and provide road contact through the tyres.",
+          "explanation": "Learners should recognise the wheels and tyres as major visual components."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-silencer",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-silencer",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: silencer",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle silencer",
+          "key_point": "The silencer forms part of the exhaust system and reduces exhaust noise.",
+          "explanation": "It is a named motorcycle component in the official learner material."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-headlamp",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-headlamp-component",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: headlamp",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle headlamp",
+          "key_point": "The headlamp is the forward-facing lamp that helps the motorcycle be seen and illuminates the road.",
+          "explanation": "The learner must recognise the headlamp as a major motorcycle component."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-shock",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-shock-absorber",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle visual components: shock absorber",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Shock absorber",
+          "key_point": "The shock absorber is part of the motorcycle suspension system.",
+          "explanation": "It helps control movement of the motorcycle over uneven road surfaces."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code1-control-groups",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "motorcycle-control-groups",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — motorcycle control/function sample material",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle control groups",
+          "key_point": "Different road actions require the rider to recognise and coordinate the correct controls, such as throttle, brakes, clutch, gear lever, steering and indicators.",
+          "explanation": "The learner-theory goal is to know which controls are associated with slowing/stopping, changing gear, steering and signalling. Practical use belongs in supervised rider training."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code2-mirror-check",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "light-vehicle-mirror-awareness",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — rear-view mirrors and control/function sample material",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Mirror awareness",
+          "key_point": "Rear-view mirrors help the driver know what traffic is behind and alongside the vehicle before a road action.",
+          "explanation": "The learner should recognise the centre and side mirrors and understand their observation purpose."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code2-control-groups",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "light-vehicle-control-groups",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — light vehicle control/function sample material",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Light-vehicle control groups",
+          "key_point": "Learners should know which controls are associated with steering, slowing/stopping, changing gear, signalling and securing a parked vehicle.",
+          "explanation": "This is theory-level identification. Practical operation belongs in supervised driver training."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code2-manual-auto",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "manual-automatic-difference",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — manual versus automatic vehicle note",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Manual and automatic controls",
+          "key_point": "A manual vehicle normally has clutch, brake and accelerator pedals. An automatic vehicle does not have a clutch pedal.",
+          "explanation": "The gear selector also differs between manual and automatic vehicles."
+        }
+      }
+    },
+    {
+      "id": "knowledge-control-code2-parking-brake",
+      "kind": "knowledge",
+      "section": "controls",
+      "topic": "parking-brake-variation",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-008",
+        "locator": "NaTIS Vehicle Controls — parking brake may be hand- or foot-operated",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Parking brake variations",
+          "key_point": "The parking brake may be hand-operated or, on some vehicles, foot-operated.",
+          "explanation": "Its purpose is to help keep the vehicle stationary after parking."
+        }
+      }
+    }
+  ]
+}
