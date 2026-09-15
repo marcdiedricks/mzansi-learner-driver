@@ -28,7 +28,21 @@
           "title": "Dipped beam",
           "key_point": "A dipped-beam headlamp must be adjusted and maintained so that it adequately lights the road ahead.",
           "explanation": "The official learner manual says dipped beam must allow the driver or rider to see a person, vehicle or substantial object at least 45 metres ahead. This distance remains held for current-regulation verification before release certification."
+        },
+        "af": {
+          "title": "Dimbalk",
+          "key_point": "'n Dimbalkoplig moet so verstel en onderhou word dat dit die pad voor voldoende verlig.",
+          "explanation": "Gebruik dimlig om die pad voor te verlig sonder om ander padgebruikers onnodig te verblind."
+        },
+        "xh": {
+          "title": "Isibane esisezantsi",
+          "key_point": "Isibane esisezantsi kufuneka silungiswe size sigcinwe ukuze sikhanyise indlela engaphambili ngokwaneleyo.",
+          "explanation": "Sebenzisa isibane esisezantsi ukuze ubone indlela ngaphandle kokukhanyisa ngokugqithisileyo kwabanye abasebenzisi bendlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -51,7 +65,21 @@
           "title": "Parking lamps",
           "key_point": "Do not drive a moving vehicle on a public road using only its parking lamps.",
           "explanation": "Parking lamps are not a substitute for the normal lamps required while the vehicle is being driven."
+        },
+        "af": {
+          "title": "Parkeerligte",
+          "key_point": "Moenie 'n bewegende voertuig op 'n openbare pad bestuur deur slegs parkeerligte te gebruik nie.",
+          "explanation": "Parkeerligte vervang nie die normale ligte wat tydens bestuur vereis word nie."
+        },
+        "xh": {
+          "title": "Izibane zokupaka",
+          "key_point": "Musa ukuqhuba isithuthi esihambayo endleleni yoluntu usebenzisa kuphela izibane zokupaka.",
+          "explanation": "Izibane zokupaka azithathi ndawo yezibane eziqhelekileyo ezifunekayo xa uqhuba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -74,7 +102,21 @@
           "title": "Rear lamps",
           "key_point": "A motorcycle and a light motor vehicle used on a public road must have rear lighting that shows red to the rear.",
           "explanation": "Rear lamps make the vehicle visible from behind. The exact current equipment wording is being cross-checked against the operative regulations before final release certification."
+        },
+        "af": {
+          "title": "Agterligte",
+          "key_point": "'n Motorfiets en 'n ligte motorvoertuig op 'n openbare pad moet agterligte hê wat rooi na agter wys.",
+          "explanation": "Agterligte help ander padgebruikers om die voertuig van agter af te sien."
+        },
+        "xh": {
+          "title": "Izibane zangasemva",
+          "key_point": "Isithuthuthu nemoto elula esetyenziswa endleleni yoluntu kufuneka zibe nezibane zangasemva ezibonisa umbala obomvu ngasemva.",
+          "explanation": "Izibane zangasemva zinceda abanye abasebenzisi bendlela babone isithuthi ngasemva."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -97,7 +139,21 @@
           "title": "Stop lamps",
           "key_point": "A light motor vehicle or motorcycle used on a public road must have rear stop lamps that show red when braking.",
           "explanation": "A stop lamp warns following road users that the vehicle is slowing or stopping. Detailed visibility measurements remain under current-regulation verification."
+        },
+        "af": {
+          "title": "Remligte",
+          "key_point": "'n Ligte motorvoertuig of motorfiets op 'n openbare pad moet rooi remligte hê wat wys wanneer gerem word.",
+          "explanation": "Remligte waarsku verkeer agter jou dat jy stadiger ry of stop."
+        },
+        "xh": {
+          "title": "Izibane zokuqhobosha",
+          "key_point": "Imoto elula okanye isithuthuthu endleleni yoluntu kufuneka sibe nezibane ezibomvu ezikhanya xa kuqhoboshwa.",
+          "explanation": "Ezi zibane zilumkisa izithuthi ezingasemva ukuba uyacotha okanye uyema."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -119,7 +175,21 @@
           "title": "Number-plate lamp",
           "key_point": "A motor vehicle used on a public road must have a rear number-plate lamp that illuminates the registration plate.",
           "explanation": "The purpose is to keep the registration plate visible at night. The manual's exact distance requirement remains under current-regulation verification."
+        },
+        "af": {
+          "title": "Nommerplaatlig",
+          "key_point": "'n Motorvoertuig moet 'n agterste nommerplaatlig hê wat die registrasieplaat verlig.",
+          "explanation": "Die lig help om die registrasieplaat snags leesbaar te hou."
+        },
+        "xh": {
+          "title": "Isibane senombolo yobhaliso",
+          "key_point": "Imoto kufuneka ibe nesibane sangasemva esikhanyisa inombolo yobhaliso.",
+          "explanation": "Esi sibane sinceda ukuba inombolo yobhaliso ifundeke ebusuku."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -142,7 +212,21 @@
           "title": "Reckless or negligent driving",
           "key_point": "A person may not drive a vehicle on a public road recklessly or negligently.",
           "explanation": "Road conditions, traffic, speed and the manner of driving all matter when deciding whether driving was reckless or negligent."
+        },
+        "af": {
+          "title": "Roekelose of nalatige bestuur",
+          "key_point": "'n Persoon mag nie roekeloos of nalatig op 'n openbare pad bestuur nie.",
+          "explanation": "Padtoestande, verkeer, spoed en die manier van bestuur tel alles wanneer veilige bestuur beoordeel word."
+        },
+        "xh": {
+          "title": "Ukuqhuba ngokungakhathali okanye ngokungakhathaleli",
+          "key_point": "Umntu akavumelekanga ukuqhuba isithuthi endleleni yoluntu ngokungakhathali okanye ngokungenankathalo.",
+          "explanation": "Imeko yendlela, izithuthi, isantya nendlela oqhuba ngayo zonke zibalulekile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -165,7 +249,21 @@
           "title": "Inconsiderate driving",
           "key_point": "A person may not drive on a public road without reasonable consideration for other people using the road.",
           "explanation": "Safe driving includes consideration for other road users, not only avoiding a collision or breaking a speed limit."
+        },
+        "af": {
+          "title": "Onbedagsame bestuur",
+          "key_point": "'n Persoon mag nie bestuur sonder redelike agting vir ander padgebruikers nie.",
+          "explanation": "Veilige bestuur beteken ook dat jy ander mense op die pad in ag neem."
+        },
+        "xh": {
+          "title": "Ukuqhuba ngaphandle kokuqwalasela abanye",
+          "key_point": "Umntu akavumelekanga ukuqhuba ngaphandle kokuqwalasela ngokufanelekileyo abanye abasebenzisi bendlela.",
+          "explanation": "Ukuqhuba ngokukhuselekileyo kuthetha nokucingela abanye abantu endleleni."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -188,7 +286,21 @@
           "title": "Driving on a divided public road",
           "key_point": "Use the left-hand roadway unless a traffic sign or traffic officer directs or permits you to use another roadway.",
           "explanation": "Where a public road is divided into separate roadways, traffic normally keeps to the left-hand roadway."
+        },
+        "af": {
+          "title": "Bestuur op 'n verdeelde openbare pad",
+          "key_point": "Gebruik die linker rybaan tensy 'n verkeersbord of verkeersbeampte jou anders aanwys of toelaat.",
+          "explanation": "Op 'n verdeelde pad bly verkeer normaalweg op die linker rybaan."
+        },
+        "xh": {
+          "title": "Ukuqhuba kwindlela yoluntu eyahluliweyo",
+          "key_point": "Sebenzisa icala lasekhohlo lendlela ngaphandle kokuba uphawu okanye igosa lezendlela likuyalela okanye likuvumela ngenye indlela.",
+          "explanation": "Kwindlela eyahluliweyo izithuthi zihlala zisebenzisa indlela yasekhohlo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -211,7 +323,21 @@
           "title": "Keep left on the roadway",
           "key_point": "Drive on the left side of the roadway and do not unnecessarily encroach into the right half.",
           "explanation": "Move left safely when another vehicle wants to pass and do not accelerate until it has passed."
+        },
+        "af": {
+          "title": "Hou links op die rybaan",
+          "key_point": "Bestuur aan die linkerkant van die rybaan en beweeg nie onnodig in die regterhelfte in nie.",
+          "explanation": "Beweeg veilig links wanneer 'n ander voertuig wil verbysteek en moenie versnel totdat dit verby is nie."
+        },
+        "xh": {
+          "title": "Hlala ngasekhohlo endleleni",
+          "key_point": "Qhuba kwicala lasekhohlo lendlela kwaye ungangeni ngokungeyomfuneko kwicala lasekunene.",
+          "explanation": "Hamba ngasekhohlo ngokukhuselekileyo xa esinye isithuthi sifuna ukudlula kwaye ungakhawulezisi de sidlule."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -233,7 +359,21 @@
           "title": "Driving on the shoulder",
           "key_point": "Do not normally drive on the shoulder. A light vehicle may use it only in limited safe circumstances allowed by the rules.",
           "explanation": "The learner manual describes daytime use while being overtaken, provided it is safe and visibility is adequate. The exact conditions remain under the current-regulation verification gate."
+        },
+        "af": {
+          "title": "Bestuur op die skouer",
+          "key_point": "Moenie normaalweg op die padskouer bestuur nie. 'n Ligte voertuig mag dit net in beperkte veilige omstandighede gebruik.",
+          "explanation": "Gebruik die skouer slegs wanneer die reëls dit toelaat en wanneer dit veilig is."
+        },
+        "xh": {
+          "title": "Ukuqhuba egxalabeni lendlela",
+          "key_point": "Musa ukuqhuba egxalabeni lendlela ngokuqhelekileyo. Imoto elula inokulisebenzisa kuphela kwiimeko ezithile ezikhuselekileyo.",
+          "explanation": "Sebenzisa igxalaba kuphela xa imithetho ivuma kwaye kukhuselekile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -256,7 +396,21 @@
           "title": "Changing lanes",
           "key_point": "Change from one marked lane to another only when you can do so without obstructing or endangering other traffic.",
           "explanation": "Check mirrors and blind spots, signal in good time and move only when there is a safe gap."
+        },
+        "af": {
+          "title": "Van baan verander",
+          "key_point": "Verander slegs van een gemerkte baan na 'n ander wanneer jy dit kan doen sonder om verkeer te belemmer of in gevaar te stel.",
+          "explanation": "Kontroleer spieëls en blindekolle, dui betyds aan en beweeg net wanneer daar 'n veilige gaping is."
+        },
+        "xh": {
+          "title": "Ukutshintsha iilayini",
+          "key_point": "Tshintsha ukusuka kwenye ilayini ephawulweyo uye kwenye kuphela xa ungathinteli okanye ubeke ezinye izithuthi emngciphekweni.",
+          "explanation": "Jonga izibuko neendawo ezingabonakaliyo, bonisa kwangethuba uze utshintshe kuphela xa kukho indawo ekhuselekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -279,7 +433,21 @@
           "title": "Direction indicators",
           "key_point": "Use direction indicators when turning or changing lanes.",
           "explanation": "Indicators communicate your intended movement to other road users. Vehicle-equipment details remain subject to the current-regulation check."
+        },
+        "af": {
+          "title": "Rigtingwysers",
+          "key_point": "Gebruik rigtingwysers wanneer jy draai of van baan verander.",
+          "explanation": "Rigtingwysers wys ander padgebruikers wat jy van plan is om te doen."
+        },
+        "xh": {
+          "title": "Izalathisi zokujika",
+          "key_point": "Sebenzisa izalathisi xa ujika okanye utshintsha ilayini.",
+          "explanation": "Izalathisi zixelela abanye abasebenzisi bendlela into oceba ukuyenza."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -301,7 +469,21 @@
           "title": "Motorcycle rear reflector",
           "key_point": "A motorcycle used on a public road must have a red retro-reflector fitted at the rear.",
           "explanation": "The reflector helps other road users see the motorcycle from behind in low-light conditions."
+        },
+        "af": {
+          "title": "Motorfiets se agterste weerkaatser",
+          "key_point": "'n Motorfiets op 'n openbare pad moet 'n rooi weerkaatser aan die agterkant hê.",
+          "explanation": "Die weerkaatser help om die motorfiets in swak lig van agter af sigbaar te maak."
+        },
+        "xh": {
+          "title": "Isibonakalisi sangasemva sesithuthuthu",
+          "key_point": "Isithuthuthu endleleni yoluntu kufuneka sibe nesibonakalisi esibomvu ngasemva.",
+          "explanation": "Isibonakalisi sinceda ukuba isithuthuthu sibonakale ngasemva xa ukukhanya kubuthathaka."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -323,7 +505,21 @@
           "title": "Light-vehicle rear reflectors",
           "key_point": "A light motor vehicle must have red retro-reflectors at the rear.",
           "explanation": "The learner manual specifies one on each side. The exact current equipment wording is being checked against operative regulations."
+        },
+        "af": {
+          "title": "Ligte voertuig se agterste weerkaatsers",
+          "key_point": "'n Ligte motorvoertuig moet rooi weerkaatsers aan die agterkant hê.",
+          "explanation": "Die weerkaatsers verbeter die voertuig se sigbaarheid van agter af."
+        },
+        "xh": {
+          "title": "Izibonakalisi zangasemva zemoto elula",
+          "key_point": "Imoto elula kufuneka ibe nezibonakalisi ezibomvu ngasemva.",
+          "explanation": "Izibonakalisi zenza imoto ibonakale ngcono ngasemva."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -346,7 +542,21 @@
           "title": "Passing on the left",
           "key_point": "Overtaking is normally on the right. Passing on the left is allowed only in specific safe situations permitted by the rules.",
           "explanation": "Do not treat the left side as a general overtaking lane. The detailed exceptions remain tied to the official rule set and current-regulation check."
+        },
+        "af": {
+          "title": "Aan die linkerkant verbygaan",
+          "key_point": "Verbysteek is normaalweg aan die regterkant. Verbygaan links word net in spesifieke veilige gevalle toegelaat.",
+          "explanation": "Moenie die linkerkant as 'n gewone verbysteekbaan gebruik nie."
+        },
+        "xh": {
+          "title": "Ukudlula ngasekhohlo",
+          "key_point": "Ukudlula kuqhele ukwenziwa ngasekunene. Ukudlula ngasekhohlo kuvumelekile kuphela kwiimeko ezithile ezikhuselekileyo.",
+          "explanation": "Musa ukuphatha icala lasekhohlo njengendawo eqhelekileyo yokudlula."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -368,7 +578,21 @@
           "title": "Motorcycle rider control",
           "key_point": "Ride so that you maintain complete control of the motorcycle and a clear view of the road and traffic.",
           "explanation": "Baggage must be carried so that it does not obstruct your view or prevent proper control."
+        },
+        "af": {
+          "title": "Beheer van 'n motorfiets",
+          "key_point": "Ry so dat jy volle beheer oor die motorfiets en 'n duidelike uitsig oor die pad en verkeer behou.",
+          "explanation": "Bagasie mag nie jou uitsig of beheer oor die motorfiets belemmer nie."
+        },
+        "xh": {
+          "title": "Ulawulo lwesithuthuthu",
+          "key_point": "Khwela ngendlela egcina ulawulo olupheleleyo lwesithuthuthu kunye nombono ocacileyo wendlela nezithuthi.",
+          "explanation": "Imithwalo mayingavali umbono wakho okanye iphazamise ulawulo lwesithuthuthu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -390,7 +614,21 @@
           "title": "Do not hold onto another moving vehicle",
           "key_point": "A motorcycle rider or passenger must not take hold of another vehicle that is moving.",
           "explanation": "The motorcycle must be controlled independently and safely at all times."
+        },
+        "af": {
+          "title": "Moenie aan 'n ander bewegende voertuig vashou nie",
+          "key_point": "'n Motorfietsryer of passasier mag nie aan 'n ander voertuig wat beweeg vashou nie.",
+          "explanation": "Die motorfiets moet onafhanklik en veilig beheer word."
+        },
+        "xh": {
+          "title": "Musa ukubambelela kwesinye isithuthi esihambayo",
+          "key_point": "Umkhweli okanye umgibeli wesithuthuthu akavumelekanga ukubambelela kwesinye isithuthi esihambayo.",
+          "explanation": "Isithuthuthu kufuneka silawulwe ngokuzimeleyo nangokukhuselekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -412,7 +650,21 @@
           "title": "Motorcycles travelling together",
           "key_point": "Motorcycles travelling in the same lane should ride in single file, except as allowed while overtaking.",
           "explanation": "The rule reduces conflict between motorcycles sharing the same lane and other road users."
+        },
+        "af": {
+          "title": "Motorfietse wat saam ry",
+          "key_point": "Motorfietse wat in dieselfde baan ry, moet enkelgelid ry, behalwe waar verbysteek toegelaat word.",
+          "explanation": "Dit help om konflik tussen motorfietse en ander padgebruikers te verminder."
+        },
+        "xh": {
+          "title": "Izithuthuthu ezihamba kunye",
+          "key_point": "Izithuthuthu ezihamba kwilayini enye kufuneka zihambe ngomgca omnye, ngaphandle xa ukudlula kuvumelekile.",
+          "explanation": "Oku kunceda ukunciphisa ungquzulwano phakathi kwezithuthuthu nabanye abasebenzisi bendlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -434,7 +686,21 @@
           "title": "Motorcycle sidecar",
           "key_point": "A sidecar used on a public road must be attached on the correct side of the motorcycle.",
           "explanation": "The learner manual specifies the left side and contains an engine-capacity condition. Those equipment details remain under current-regulation verification."
+        },
+        "af": {
+          "title": "Motorfiets-syspan",
+          "key_point": "'n Syspan wat op 'n openbare pad gebruik word, moet aan die korrekte kant van die motorfiets vasgemaak wees.",
+          "explanation": "Die leerderhandleiding plaas die syspan aan die linkerkant; besonderhede bly onder regsverifikasie."
+        },
+        "xh": {
+          "title": "I-sidecar yesithuthuthu",
+          "key_point": "I-sidecar esetyenziswa endleleni yoluntu kufuneka ifakwe kwicala elichanekileyo lesithuthuthu.",
+          "explanation": "Incwadi yomfundi ibeka i-sidecar kwicala lasekhohlo; iinkcukacha zisaphantsi kovavanyo lomthetho."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -457,7 +723,21 @@
           "title": "Leaving a vehicle on a public road",
           "key_point": "Do not leave a vehicle standing indefinitely on a public road.",
           "explanation": "The learner manual sets different time periods inside and outside urban areas. Those exact periods remain under the current-regulation verification gate before release certification."
+        },
+        "af": {
+          "title": "Om 'n voertuig op 'n openbare pad te laat",
+          "key_point": "Moenie 'n voertuig vir 'n onbepaalde tyd op 'n openbare pad laat staan nie.",
+          "explanation": "Die presiese tydperke verskil volgens ligging en moet volgens die toepaslike reëls gevolg word."
+        },
+        "xh": {
+          "title": "Ukushiya isithuthi endleleni yoluntu",
+          "key_point": "Musa ukushiya isithuthi simile endleleni yoluntu ixesha elingenasiphelo.",
+          "explanation": "Amaxesha achanekileyo ayahluka ngokwendawo kwaye kufuneka kulandelwe imithetho esebenzayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
