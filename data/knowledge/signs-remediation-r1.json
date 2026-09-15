@@ -1506,12 +1506,12 @@
         "af": {
           "title": "Afrit-afteltekens",
           "key_point": "Hierdie tekens tel die oorblywende afstand tot 'n afrit af.",
-          "explanation": "Hulle help jou om betyds vir die afrit voor te berei."
+          "explanation": "Die handleiding gebruik 'n volgorde ongeveer 300 m, 200 m en 100 m voor 'n afrit sodat jy betyds kan voorberei."
         },
         "xh": {
           "title": "Iimpawu zokubala umgama wokuphuma",
           "key_point": "Ezi mpawu zibonisa umgama oshiyekileyo ukuya kwindawo yokuphuma.",
-          "explanation": "Zikunceda ulungiselele ukuphuma kwangethuba."
+          "explanation": "Incwadi isebenzisa ulandelelwano malunga ne-300 m, 200 m ne-100 m phambi kokuphuma ukuze ulungiselele kwangethuba."
         }
       },
       "language_qa": {
@@ -2946,12 +2946,12 @@
         "af": {
           "title": "Snelweg-rigtingstekens",
           "key_point": "Snelwegtekens gee vooraf-, baan- en afritinligting sodat bestuurders betyds die korrekte baan kan kies.",
-          "explanation": "Lees bestemming, roete, baan en pylinligting saam."
+          "explanation": "Die app leer die kern-afritvolgorde GA1–GA6 afsonderlik. Ander snelwegtekens gebruik dieselfde beginsel: lees roete-, bestemming-, baan- en pylinligting saam."
         },
         "xh": {
           "title": "Iimpawu zesalathiso sendlela enkulu",
           "key_point": "Iimpawu zendlela enkulu zinika ulwazi lwangaphambili, lwelayini nolokuphuma ukuze umqhubi akhethe ilayini echanekileyo kwangethuba.",
-          "explanation": "Funda indawo oya kuyo, indlela, ilayini neentolo kunye."
+          "explanation": "I-app ifundisa ngokwahlukeneyo ulandelelwano oluphambili lokuphuma GA1–GA6. Ezinye iimpawu zendlela enkulu zisebenzisa umgaqo ofanayo: funda indlela, indawo oya kuyo, ilayini neentolo kunye."
         }
       },
       "language_qa": {
