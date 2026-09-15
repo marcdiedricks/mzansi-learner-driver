@@ -1656,6 +1656,248 @@
           "explanation": "A flashing amber disc requires caution rather than an automatic stop."
         }
       }
+    },
+    {
+      "id": "knowledge-guidance-location-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "location-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Guidance: location signs GLS/GL families",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Location signs",
+          "key_point": "Location signs identify places such as streets, suburbs, towns, borders, passes, interchanges and named routes.",
+          "explanation": "The wording on these signs varies by place, so the learner must understand their purpose rather than memorise a fixed destination name."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-national",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "national-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — national route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "National route marker",
+          "key_point": "A national route marker identifies a numbered national route.",
+          "explanation": "The route number changes by location; learn the route-marker shape and function rather than one specific route number."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-provincial",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "provincial-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — provincial route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Provincial route marker",
+          "key_point": "A provincial route marker identifies a numbered provincial route.",
+          "explanation": "The route number varies by location. The important knowledge is recognising the marker type and following the route number shown."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-regional",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "regional-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — regional route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Regional route marker",
+          "key_point": "A regional route marker identifies a numbered regional route.",
+          "explanation": "Use the displayed route number to follow the correct regional road."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-metro",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "metropolitan-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — metropolitan route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Metropolitan route marker",
+          "key_point": "A metropolitan route marker identifies a numbered route within a metropolitan road network.",
+          "explanation": "The letter and number shown vary by city and route."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-direction-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "direction-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Guidance direction signs: ground-mounted / overhead / map- and stack-type",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Direction signs",
+          "key_point": "Direction signs show destinations, route numbers, lane choices and the direction to follow.",
+          "explanation": "Read destination text, arrows, route markers and lane information together before changing position."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-freeway-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-direction-system",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Freeway direction signs",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway direction signs",
+          "key_point": "Freeway guidance signs provide advance, lane and exit information so that drivers can choose the correct lane in good time.",
+          "explanation": "The app separately teaches the GA1–GA6 core exit sequence. Other freeway signs use the same principle: read route, destination, lane and arrow information together."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-tourism-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "tourism-service-guidance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC Road Traffic Signs — tourism and service guidance symbols",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Tourism and service guidance",
+          "key_point": "Tourism and service signs guide road users to attractions, emergency services, fuel, food, accommodation, parking and other facilities.",
+          "explanation": "The exact pictogram varies with the facility. Treat the pictogram and any accompanying text as guidance, not as a regulatory instruction."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-diagrammatic-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "diagrammatic-guidance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC Road Traffic Signs — diagrammatic signs: lane changes, merges, obstructions and lane-use layouts",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Diagrammatic guidance signs",
+          "key_point": "Diagrammatic signs show the road layout ahead, including merging, diverging, obstructions and lane-use changes.",
+          "explanation": "Use the diagram to choose the correct lane early and safely."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-local-pedestrian-toll",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "local-pedestrian-toll-guidance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "SADC Road Traffic Signs Manual — local direction, pedestrian direction and toll direction sign families",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Local, pedestrian and toll guidance",
+          "key_point": "Special guidance signs may direct local traffic, pedestrians or vehicles approaching toll facilities.",
+          "explanation": "Follow the destination, lane and directional information shown. These are variable-content guidance signs rather than fixed regulatory symbols."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-variable-message",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "variable-message-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "SADC Road Traffic Signs Manual — Variable Message Signs",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Variable message signs",
+          "key_point": "Read and obey the current message displayed on an electronic or variable sign.",
+          "explanation": "The message can change to warn about incidents, lane closures, congestion or another temporary condition."
+        }
+      }
     }
   ]
 }
