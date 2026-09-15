@@ -261,6 +261,83 @@
         "en": "Schematic off-ramp terminal direction sign"
       },
       "official_ref": "GA6"
+    },
+    "knowledge-sign-temporary-concept": {
+      "src": "assets/signs/temporary-sign-concept.svg",
+      "alt": {
+        "en": "Temporary road sign concept with yellow background"
+      },
+      "official_ref": "Temporary sign concept"
+    },
+    "knowledge-sign-r301": {
+      "src": "assets/signs/bus-reservation.svg",
+      "alt": {
+        "en": "Bus reservation sign concept"
+      },
+      "official_ref": "R301/TR301"
+    },
+    "knowledge-sign-r302-r303": {
+      "src": "assets/signs/bus-lane-reservation.svg",
+      "alt": {
+        "en": "Bus lane reservation sign concept"
+      },
+      "official_ref": "R302/R303"
+    },
+    "knowledge-sign-r304": {
+      "src": "assets/signs/cycle-reservation.svg",
+      "alt": {
+        "en": "Pedal-cycle reservation sign concept"
+      },
+      "official_ref": "R304"
+    },
+    "knowledge-sign-r305-r306": {
+      "src": "assets/signs/parking-reservation.svg",
+      "alt": {
+        "en": "Parking reservation sign concept"
+      },
+      "official_ref": "R305-P/R306-P"
+    },
+    "knowledge-sign-r307": {
+      "src": "assets/signs/motorcycle-reservation.svg",
+      "alt": {
+        "en": "Motorcycle reservation sign concept"
+      },
+      "official_ref": "R307"
+    },
+    "knowledge-sign-r502-r503": {
+      "src": "assets/signs/secondary-time-periods.svg",
+      "alt": {
+        "en": "Secondary time-period restriction panel"
+      },
+      "official_ref": "(R)502/(R)503"
+    },
+    "knowledge-sign-r510": {
+      "src": "assets/signs/secondary-reduced-visibility.svg",
+      "alt": {
+        "en": "Reduced-visibility secondary restriction panel"
+      },
+      "official_ref": "(R)510"
+    },
+    "knowledge-sign-r511": {
+      "src": "assets/signs/secondary-daytime.svg",
+      "alt": {
+        "en": "Daytime secondary restriction panel"
+      },
+      "official_ref": "(R)511"
+    },
+    "knowledge-sign-r512": {
+      "src": "assets/signs/secondary-night.svg",
+      "alt": {
+        "en": "Night-time secondary restriction panel"
+      },
+      "official_ref": "(R)512"
+    },
+    "knowledge-sign-r523": {
+      "src": "assets/signs/pay-and-display.svg",
+      "alt": {
+        "en": "Pay-and-display parking panel concept"
+      },
+      "official_ref": "(R)523"
     }
   }
 }
