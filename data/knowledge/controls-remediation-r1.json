@@ -25,7 +25,21 @@
           "title": "Motorcycle seat",
           "key_point": "The seat is the part of the motorcycle designed to support the rider.",
           "explanation": "Recognising the main motorcycle components is part of the learner control/component study material."
+        },
+        "af": {
+          "title": "Motorfietssitplek",
+          "key_point": "Die sitplek is die deel van die motorfiets wat ontwerp is om die ryer te ondersteun.",
+          "explanation": "Die herkenning van die belangrikste motorfietskomponente vorm deel van die leerdermateriaal oor kontroles en komponente."
+        },
+        "xh": {
+          "title": "Isihlalo sesithuthuthu",
+          "key_point": "Isihlalo yinxalenye yesithuthuthu eyenzelwe ukuxhasa umkhweli.",
+          "explanation": "Ukukwazi ukuqaphela amacandelo aphambili esithuthuthu yinxalenye yezinto zokufunda zomfundi malunga nolawulo namacandelo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -46,7 +60,21 @@
           "title": "Motorcycle engine",
           "key_point": "The engine supplies power to the motorcycle.",
           "explanation": "Learners should be able to identify the engine as one of the main motorcycle components."
+        },
+        "af": {
+          "title": "Motorfietsenjin",
+          "key_point": "Die enjin verskaf krag aan die motorfiets.",
+          "explanation": "Leerders moet die enjin as een van die belangrikste motorfietskomponente kan herken."
+        },
+        "xh": {
+          "title": "Injini yesithuthuthu",
+          "key_point": "Injini inika isithuthuthu amandla.",
+          "explanation": "Abafundi kufuneka bakwazi ukuqaphela injini njengenye yamacandelo aphambili esithuthuthu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -67,7 +95,21 @@
           "title": "Motorcycle speedometer",
           "key_point": "The speedometer shows the motorcycle's road speed.",
           "explanation": "It helps the rider monitor speed and remain within the applicable limit."
+        },
+        "af": {
+          "title": "Motorfietsspoedmeter",
+          "key_point": "Die spoedmeter wys die motorfiets se padsnelheid.",
+          "explanation": "Dit help die ryer om spoed dop te hou en binne die toepaslike spoedgrens te bly."
+        },
+        "xh": {
+          "title": "Isilinganisi-santya sesithuthuthu",
+          "key_point": "Isilinganisi-santya sibonisa isantya sesithuthuthu endleleni.",
+          "explanation": "Sinceda umkhweli alandele isantya aze ahlale ngaphakathi komda wesantya osebenzayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -88,7 +130,21 @@
           "title": "Motorcycle ignition",
           "key_point": "The ignition control switches the motorcycle's electrical/engine system on or off.",
           "explanation": "Learners should recognise the ignition as a named motorcycle control/component."
+        },
+        "af": {
+          "title": "Motorfietsontsteking",
+          "key_point": "Die ontstekingsbeheer skakel die motorfiets se elektriese/enjinstelsel aan of af.",
+          "explanation": "Leerders moet die ontsteking as 'n benoemde motorfietsbeheer of komponent kan herken."
+        },
+        "xh": {
+          "title": "Isitshixo sokuvula isithuthuthu",
+          "key_point": "Ulawulo lokuvula lucima okanye luvule inkqubo yombane/yenjini yesithuthuthu.",
+          "explanation": "Abafundi kufuneka bakwazi ukuqaphela olu lawulo njengenye yezixhobo zesithuthuthu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -109,7 +165,21 @@
           "title": "Starter button",
           "key_point": "The starter button is the control used to start the engine when the motorcycle is designed with an electric starter.",
           "explanation": "The official public K53 motorcycle material identifies the starter button among the controls near the right handgrip."
+        },
+        "af": {
+          "title": "Aansitknoppie",
+          "key_point": "Die aansitknoppie word gebruik om die enjin te begin wanneer die motorfiets 'n elektriese aansitter het.",
+          "explanation": "Die openbare K53-motorfietsmateriaal identifiseer die aansitknoppie onder die kontroles naby die regterhandgreep."
+        },
+        "xh": {
+          "title": "Iqhosha lokuqalisa",
+          "key_point": "Iqhosha lokuqalisa lisetyenziswa ukuqalisa injini xa isithuthuthu sinesiqalisi sombane.",
+          "explanation": "Izinto zoluntu ze-K53 zesithuthuthu zilibala iqhosha lokuqalisa phakathi kolawulo olukufutshane nesiphatho sasekunene."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -130,7 +200,21 @@
           "title": "Motorcycle wheels",
           "key_point": "The front and rear wheels support the motorcycle and provide road contact through the tyres.",
           "explanation": "Learners should recognise the wheels and tyres as major visual components."
+        },
+        "af": {
+          "title": "Motorfietswiele",
+          "key_point": "Die voor- en agterwiele ondersteun die motorfiets en maak deur die bande kontak met die pad.",
+          "explanation": "Leerders moet die wiele en bande as belangrike visuele komponente kan herken."
+        },
+        "xh": {
+          "title": "Amavili esithuthuthu",
+          "key_point": "Ivili langaphambili nelangasemva lixhasa isithuthuthu kwaye amatayara adibana nendlela.",
+          "explanation": "Abafundi kufuneka bakwazi ukuqaphela amavili namatayara njengamacandelo abalulekileyo abonakalayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -151,7 +235,21 @@
           "title": "Motorcycle silencer",
           "key_point": "The silencer forms part of the exhaust system and reduces exhaust noise.",
           "explanation": "It is a named motorcycle component in the official learner material."
+        },
+        "af": {
+          "title": "Motorfietsdemper",
+          "key_point": "Die demper vorm deel van die uitlaatstelsel en verminder uitlaatgeraas.",
+          "explanation": "Dit is 'n benoemde motorfietskomponent in die amptelike leerdermateriaal."
+        },
+        "xh": {
+          "title": "Isinciphisi-ngxolo sesithuthuthu",
+          "key_point": "Isinciphisi-ngxolo siyinxalenye yenkqubo yokukhupha umsi kwaye sinciphisa ingxolo.",
+          "explanation": "Sibizwa njengelinye lamacandelo esithuthuthu kwizinto ezisemthethweni zomfundi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -172,7 +270,21 @@
           "title": "Motorcycle headlamp",
           "key_point": "The headlamp is the forward-facing lamp that helps the motorcycle be seen and illuminates the road.",
           "explanation": "The learner must recognise the headlamp as a major motorcycle component."
+        },
+        "af": {
+          "title": "Motorfietskoplig",
+          "key_point": "Die koplig is die vorentoe-gerigte lig wat help dat die motorfiets gesien word en die pad verlig.",
+          "explanation": "Die leerder moet die koplig as 'n belangrike motorfietskomponent kan herken."
+        },
+        "xh": {
+          "title": "Isibane sangaphambili sesithuthuthu",
+          "key_point": "Isibane sangaphambili sijonge phambili, sinceda ukuba isithuthuthu sibonakale kwaye sikhanyise indlela.",
+          "explanation": "Umfundi kufuneka akwazi ukusichonga njengenye yezona nxalenye zibalulekileyo zesithuthuthu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -193,7 +305,21 @@
           "title": "Shock absorber",
           "key_point": "The shock absorber is part of the motorcycle suspension system.",
           "explanation": "It helps control movement of the motorcycle over uneven road surfaces."
+        },
+        "af": {
+          "title": "Skokbreker",
+          "key_point": "Die skokbreker vorm deel van die motorfiets se veringstelsel.",
+          "explanation": "Dit help om die motorfiets se beweging oor ongelyke padoppervlakke te beheer."
+        },
+        "xh": {
+          "title": "Isinciphisi sokungcangcazela",
+          "key_point": "Isinciphisi sokungcangcazela siyinxalenye yenkqubo yokuxhoma yesithuthuthu.",
+          "explanation": "Sinceda ukulawula ukuhamba kwesithuthuthu kwiindlela ezingalinganiyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -214,7 +340,21 @@
           "title": "Motorcycle control groups",
           "key_point": "Different road actions require the rider to recognise and coordinate the correct controls, such as throttle, brakes, clutch, gear lever, steering and indicators.",
           "explanation": "The learner-theory goal is to know which controls are associated with slowing/stopping, changing gear, steering and signalling. Practical use belongs in supervised rider training."
+        },
+        "af": {
+          "title": "Motorfietsbeheergroepe",
+          "key_point": "Verskillende padhandelinge vereis dat die ryer die regte kontroles herken en koördineer, soos versneller, remme, koppelaar, rathefboom, stuur en rigtingwysers.",
+          "explanation": "Die teoretiese leerdoel is om te weet watter kontroles met stadiger ry/stop, ratwisseling, stuur en aandui verband hou. Praktiese gebruik hoort by toesig-ryopleiding."
+        },
+        "xh": {
+          "title": "Amaqela olawulo esithuthuthu",
+          "key_point": "Izenzo ezahlukeneyo endleleni zifuna umkhweli aqaphele aze adibanise ulawulo oluchanekileyo, njenge-throttle, iziqhoboshi, clutch, gear lever, steering kunye nezalathisi.",
+          "explanation": "Injongo yethiyori kukwazi ukuba loluphi ulawulo olusetyenziswa ekucothiseni/ekumeni, ekutshintsheni iigiya, ekuqhubeni nasekuboniseni. Ukusetyenziswa ngokwenene kufuneka kufundiswe phantsi kweliso."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -235,7 +375,21 @@
           "title": "Mirror awareness",
           "key_point": "Rear-view mirrors help the driver know what traffic is behind and alongside the vehicle before a road action.",
           "explanation": "The learner should recognise the centre and side mirrors and understand their observation purpose."
+        },
+        "af": {
+          "title": "Spieëlbewustheid",
+          "key_point": "Truspieëls help die bestuurder om verkeer agter en langs die voertuig te ken voordat 'n padhandeling uitgevoer word.",
+          "explanation": "Die leerder moet die middel- en syspieëls kan herken en hul waarnemingsdoel verstaan."
+        },
+        "xh": {
+          "title": "Ukuqaphela ngezibuko",
+          "key_point": "Izibuko zokujonga emva zinceda umqhubi azi ngezithuthi ezisemva nasecaleni phambi kokwenza intshukumo endleleni.",
+          "explanation": "Umfundi kufuneka akwazi ukuqaphela izibuko eziphakathi nezasemacaleni aze aqonde injongo yazo yokujonga."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -256,7 +410,21 @@
           "title": "Light-vehicle control groups",
           "key_point": "Learners should know which controls are associated with steering, slowing/stopping, changing gear, signalling and securing a parked vehicle.",
           "explanation": "This is theory-level identification. Practical operation belongs in supervised driver training."
+        },
+        "af": {
+          "title": "Ligte voertuig se beheergroepe",
+          "key_point": "Leerders moet weet watter kontroles met stuur, stadiger ry/stop, ratwisseling, aandui en die beveiliging van 'n geparkeerde voertuig verband hou.",
+          "explanation": "Dit is teoretiese identifikasie. Praktiese bediening hoort by toesig-bestuuropleiding."
+        },
+        "xh": {
+          "title": "Amaqela olawulo emoto elula",
+          "key_point": "Abafundi kufuneka bazi ukuba loluphi ulawulo olusetyenziswa ekuqhubeni, ekucothiseni/ekumeni, ekutshintsheni iigiya, ekuboniseni nasekukhuseleni imoto xa ipakiwe.",
+          "explanation": "Le yinxalenye yethiyori. Ukusebenzisa ulawulo ngokwenene kufuneka kufundiswe phantsi kweliso."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -277,7 +445,21 @@
           "title": "Manual and automatic controls",
           "key_point": "A manual vehicle normally has clutch, brake and accelerator pedals. An automatic vehicle does not have a clutch pedal.",
           "explanation": "The gear selector also differs between manual and automatic vehicles."
+        },
+        "af": {
+          "title": "Handrat- en outomatiese kontroles",
+          "key_point": "'n Handratvoertuig het gewoonlik koppelaar-, rem- en versnellerpedale. 'n Outomatiese voertuig het nie 'n koppelaarpedaal nie.",
+          "explanation": "Die ratkeurder verskil ook tussen handrat- en outomatiese voertuie."
+        },
+        "xh": {
+          "title": "Ulawulo lwemoto ye-manual ne-automatic",
+          "key_point": "Imoto ye-manual idla ngokuba ne-clutch, brake ne-accelerator pedals. Imoto ye-automatic ayinayo i-clutch pedal.",
+          "explanation": "Isikhethi segiya naso siyahluka phakathi kweemoto ze-manual neze-automatic."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -298,7 +480,21 @@
           "title": "Parking brake variations",
           "key_point": "The parking brake may be hand-operated or, on some vehicles, foot-operated.",
           "explanation": "Its purpose is to help keep the vehicle stationary after parking."
+        },
+        "af": {
+          "title": "Parkeerrem-variasies",
+          "key_point": "Die parkeerrem kan met die hand of, op sommige voertuie, met die voet bedien word.",
+          "explanation": "Die doel daarvan is om die voertuig stil te help hou nadat dit geparkeer is."
+        },
+        "xh": {
+          "title": "Iintlobo zesibambi sokupaka",
+          "key_point": "Isibambi sokupaka sinokusebenza ngesandla okanye, kwezinye iimoto, ngonyawo.",
+          "explanation": "Injongo yaso kukunceda ukugcina imoto ime emva kokuba ipakiwe."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     }
   ]
