@@ -528,6 +528,680 @@
           "explanation": "The manual also restricts pedestrians and animals on freeways and requires drivers to allow a vehicle ahead to merge safely from an on-ramp."
         }
       }
+    },
+    {
+      "id": "knowledge-rules-6-8",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "number-plates",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.8 — Number plates",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Number plates",
+          "key_point": "Number plates must be fitted in the prescribed positions and must be clearly legible and visible.",
+          "explanation": "The learner manual places a plate at the rear of a motorcycle, motor tricycle or trailer, and at both the front and rear of other motor vehicles."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-9",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "fog-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.9 — Fog lamps",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Fog lamps",
+          "key_point": "Fog lamps should be used only when visibility is poor because of conditions such as fog, mist, dust, smoke or snow.",
+          "explanation": "Do not use fog lamps as ordinary driving lights in clear conditions."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-10",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "spot-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.10 — Spot lamp",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Spot lamps",
+          "key_point": "An adjustable spot lamp is not for ordinary unrestricted road use.",
+          "explanation": "The learner manual limits adjustable spot-lamp use to specified official, emergency, professional and essential-service purposes."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-11",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "unobstructed-view-mirrors",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.11 — Driving view unobstructed / rear-view mirrors",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Clear driving view and mirrors",
+          "key_point": "The driver or rider must have a clear view ahead and to both sides and must be able to see traffic behind using suitable mirrors.",
+          "explanation": "For light vehicles, the learner manual explains the required exterior/interior mirror arrangement and the additional exterior mirror needed when an interior mirror cannot give a clear rear view."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-12-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-steering-gear",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.12.1 — Motorcycle steering gear",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Motorcycle steering gear",
+          "key_point": "Motorcycle steering gear must allow safe and efficient steering and the handlebars must comply with the official dimensions.",
+          "explanation": "The learner manual states handlebar widths of 600–800 mm for motorcycles of 200 cc or more, and 500–800 mm below 200 cc, with limits on handgrip height relative to the seat."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-12-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "light-vehicle-steering-gear",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.12.2 — Light motor vehicle steering gear",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Light-vehicle steering gear",
+          "key_point": "All steering parts must be maintained so that the vehicle can be steered safely and efficiently.",
+          "explanation": "A vehicle with defective steering must not be used on a public road."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-13",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "turning-radius",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.13 — Turning radius",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Turning radius",
+          "key_point": "The learner manual states that a motor vehicle used on a public road may not have a turning radius exceeding 13.1 metres.",
+          "explanation": "This is part of the published vehicle-roadworthiness study material."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-14-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-brakes",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.14.1 — Motorcycle brakes",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Motorcycle braking systems",
+          "key_point": "A motorcycle must have two independent braking systems: one acting on the front wheel and one on the rear wheel or wheels.",
+          "explanation": "Both braking systems must be in proper working order."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-19",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "windscreen",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.19 — Windscreen",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Windscreen",
+          "key_point": "The windscreen must provide enough visibility for safe driving and must be made of safety glass.",
+          "explanation": "The learner manual also states a minimum visible-light transmittance of 70 percent through the windscreen."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-20",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "windscreen-wipers",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.20 — Windscreen wipers",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Windscreen wipers",
+          "key_point": "A vehicle with a windscreen must have at least one effective windscreen wiper.",
+          "explanation": "The wiper must clear the outside of the windscreen directly in front of the driver continuously and adequately."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-21",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "exhaust-system",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.21 — Exhaust silencers / exhaust pipes",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Exhaust system",
+          "key_point": "A motor vehicle must have an effective exhaust silencer and must not emit exhaust in a way that creates danger, nuisance or obstructed visibility.",
+          "explanation": "The exhaust system must also be positioned and maintained so that fumes do not leak into the driver or passenger area."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-22",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "fuel-electrical-battery",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.22 — Fuel tank, electrical wiring and battery",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Fuel system, wiring and battery",
+          "key_point": "Fuel-system parts, electrical wiring and the battery must be safely installed, maintained and not create a source of danger.",
+          "explanation": "The fuel tank must also have an effective cap."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-23",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "engine-cover",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.23 — Engine",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Engine safety",
+          "key_point": "A light motor vehicle must have its engine covered so that it is not a source of danger.",
+          "explanation": "This forms part of the official learner roadworthiness material."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-24",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "emergency-warning-triangle",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.24 — Emergency warning signs (triangles)",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Emergency warning triangle",
+          "key_point": "Certain goods vehicles, minibuses, buses and heavy vehicles must carry an emergency warning triangle; ordinary motor cars and motorcycles are excluded in the learner manual.",
+          "explanation": "When required for a stationary vehicle, the manual places the triangle at least 45 metres away in the direction from which traffic approaches, with the reflective side facing approaching traffic."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-25",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "excessive-noise",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.25 — Excessive noise",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Excessive vehicle noise",
+          "key_point": "Do not operate a vehicle on a public road in a way that causes excessive noise.",
+          "explanation": "This rule applies to both riders and drivers."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-26",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "speedometer",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.26 — Speedometers",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Speedometer",
+          "key_point": "A motor vehicle designed for or capable of 60 km/h or more must have a speedometer in good working order.",
+          "explanation": "The speedometer allows the driver or rider to monitor road speed."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-28",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "passenger-vehicle-for-reward-speed",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.28 — Passenger vehicles conveying persons for reward",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Passenger vehicles for reward",
+          "key_point": "The learner manual states a 100 km/h maximum for a bus or minibus conveying passengers for reward.",
+          "explanation": "This is a vehicle-class rule and does not replace a lower posted speed limit."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-30",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "overall-length",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.30 — Overall length of vehicles",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Overall vehicle length",
+          "key_point": "Vehicle length is legally limited by vehicle type.",
+          "explanation": "For the ordinary 'other vehicle' category in the learner manual, overall length may not exceed 12.5 metres. Longer limits apply to specified trailers, articulated vehicles, bus-trains and vehicle combinations."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-31",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "overall-height",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.31 — Overall height of vehicle",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Overall vehicle height",
+          "key_point": "For vehicles other than a double-deck bus, the learner manual states a maximum overall height of 4.3 metres including the load.",
+          "explanation": "A double-deck bus has a separate published limit."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-32",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "overall-width",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.32 — Overall width of vehicles",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Overall vehicle width",
+          "key_point": "For the ordinary 'other vehicle' category, the learner manual states a maximum overall width of 2.5 metres.",
+          "explanation": "Specified buses and large goods vehicles have a separate 2.6-metre rule."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-33-extra",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "goods-roof-load",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — Conveyance of goods",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Loads on a light vehicle",
+          "key_point": "Loads must be secure, must not touch the road or block the driver's view, and must stay within the official load limits.",
+          "explanation": "The learner manual also limits the height of ordinary goods carried on a motor-car roof to half the vehicle's height, with an exception for bicycles carried on the roof."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-34",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "persons-on-goods-vehicle",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.34 — Persons carried on goods vehicle",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Persons on a goods vehicle",
+          "key_point": "If people are carried on a goods vehicle, the carrying area must have protective enclosure of the height stated in the learner manual.",
+          "explanation": "The manual states at least 350 mm above a seated person’s surface or 900 mm above a standing surface, and says passengers may not ride in a caravan."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-35-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-load-projection",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.35 — Motorcycle projections / overhang",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Motorcycle load projections",
+          "key_point": "Goods on a motorcycle or sidecar must stay within the official projection limits.",
+          "explanation": "The learner manual states no more than 600 mm in front of the front axle, 900 mm behind the rear axle, 450 mm beyond either side of the motorcycle wheels, and 300 mm beyond the outside of a sidecar wheel."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-35-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "light-vehicle-load-projection",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.35 — Light vehicle projections / overhang",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Light-vehicle load projections",
+          "key_point": "A load on an ordinary light vehicle must stay within the official side, front and rear projection limits.",
+          "explanation": "The learner manual gives 1.25 m from the centre line to either side, 300 mm beyond the front and 1.8 m beyond the rear, with a separate 150 mm limit for brackets beyond the widest part."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-36",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "projecting-load-flags-reflectors",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.36 — Warning flags / reflectors",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Marking a projecting load",
+          "key_point": "A load projecting more than the published limits must be marked so other road users can see it.",
+          "explanation": "The learner manual requires a red 300 mm × 300 mm flag by day where a load projects more than 150 mm to the side or 300 mm to the rear, and white front/red rear reflectors at night or in poor visibility."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-46",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "intersection-right-of-way",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.46 — Intersections / traffic-circle right of way",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Intersections and right of way",
+          "key_point": "At an uncontrolled traffic circle or similar junction, yield to traffic approaching from the right unless a traffic officer or sign gives a different instruction.",
+          "explanation": "Always obey traffic officers and traffic signs when they control the intersection."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-47",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "parking-restrictions-full",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.47 — Parking",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Parking restrictions",
+          "key_point": "Do not park where a sign prohibits it, where you block access or visibility, or within the official distances and restricted places listed in the learner manual.",
+          "explanation": "Examples include within 1.5 m of a fire hydrant, within 9 m before a pedestrian crossing, within 5 m of an intersection, on a traffic island or pedestrian area, or where the road is too narrow."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-48",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "stopping-restrictions-full",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.48 — Stopping",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Stopping restrictions",
+          "key_point": "Do not stop on the roadway where stopping would obstruct or endanger other traffic, unless stopping is necessary for safety, required by an officer or beyond your control.",
+          "explanation": "Stopping restrictions are stricter than ordinary parking rules because even a short stop can create a hazard."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-49",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "general-driver-rider-duties-full",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.49 — General duties of driver/rider",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "General duties of a driver or rider",
+          "key_point": "Maintain control, keep a safe following distance, reverse only when safe and avoid actions that obstruct your view or control.",
+          "explanation": "These general duties apply even where no separate sign is present."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-65-safety",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "driving-impaired",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.65 — Driving while impaired",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "safety_rule_only_numeric_thresholds_not_learner_card",
+      "language": {
+        "en": {
+          "title": "Never drive while impaired",
+          "key_point": "Do not drive or ride when alcohol, medication or another substance makes you unsafe to control the vehicle.",
+          "explanation": "The safest learner rule is simple: impairment and driving do not mix. The app does not teach learners to calculate how much of an intoxicating substance they could use before driving."
+        }
+      }
     }
   ]
 }
