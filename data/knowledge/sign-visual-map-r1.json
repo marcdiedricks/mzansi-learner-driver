@@ -478,6 +478,83 @@
         "en": "Flashing amber traffic signal concept"
       },
       "official_ref": "Traffic signal"
+    },
+    "knowledge-guidance-location-family": {
+      "src": "assets/signs/guidance-location.svg",
+      "alt": {
+        "en": "Example location guidance sign"
+      },
+      "official_ref": "GLS/GL family"
+    },
+    "knowledge-guidance-route-national": {
+      "src": "assets/signs/route-marker-national.svg",
+      "alt": {
+        "en": "Example national route marker"
+      },
+      "official_ref": "National route marker family"
+    },
+    "knowledge-guidance-route-provincial": {
+      "src": "assets/signs/route-marker-provincial.svg",
+      "alt": {
+        "en": "Example provincial route marker"
+      },
+      "official_ref": "Provincial route marker family"
+    },
+    "knowledge-guidance-route-regional": {
+      "src": "assets/signs/route-marker-regional.svg",
+      "alt": {
+        "en": "Example regional route marker"
+      },
+      "official_ref": "Regional route marker family"
+    },
+    "knowledge-guidance-route-metro": {
+      "src": "assets/signs/route-marker-metro.svg",
+      "alt": {
+        "en": "Example metropolitan route marker"
+      },
+      "official_ref": "Metropolitan route marker family"
+    },
+    "knowledge-guidance-direction-family": {
+      "src": "assets/signs/guidance-direction.svg",
+      "alt": {
+        "en": "Example direction guidance sign"
+      },
+      "official_ref": "Direction sign family"
+    },
+    "knowledge-guidance-freeway-family": {
+      "src": "assets/signs/freeway-advance-exit.svg",
+      "alt": {
+        "en": "Example freeway direction guidance sign"
+      },
+      "official_ref": "Freeway direction family"
+    },
+    "knowledge-guidance-tourism-family": {
+      "src": "assets/signs/guidance-tourism-services.svg",
+      "alt": {
+        "en": "Tourism and service guidance symbol examples"
+      },
+      "official_ref": "Tourism/service family"
+    },
+    "knowledge-guidance-diagrammatic-family": {
+      "src": "assets/signs/diagrammatic-lanes.svg",
+      "alt": {
+        "en": "Diagrammatic lane guidance example"
+      },
+      "official_ref": "Diagrammatic family"
+    },
+    "knowledge-guidance-local-pedestrian-toll": {
+      "src": "assets/signs/guidance-direction.svg",
+      "alt": {
+        "en": "Variable local and toll direction guidance example"
+      },
+      "official_ref": "Local/pedestrian/toll guidance"
+    },
+    "knowledge-guidance-variable-message": {
+      "src": "assets/signs/variable-message.svg",
+      "alt": {
+        "en": "Example variable message sign"
+      },
+      "official_ref": "Variable message sign family"
     }
   }
 }
