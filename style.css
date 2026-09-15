@@ -307,6 +307,31 @@ h1 { margin: 0; font-size: clamp(1.25rem, 5vw, 1.55rem); line-height: 1.13; }
 .topic-purple .topic-no { color: var(--purple); background: #f0e9ff; }
 
 .question-card { border-top: 4px solid var(--navy); }
+.learning-visual {
+  margin: .8rem 0 1rem;
+  padding: .8rem;
+  display: grid;
+  place-items: center;
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.learning-visual img {
+  display: block;
+  width: min(52vw, 220px);
+  max-height: 220px;
+  object-fit: contain;
+}
+.learning-visual figcaption {
+  margin-top: .45rem;
+  color: var(--muted);
+  font-size: .74rem;
+  font-weight: 750;
+}
+html.high-contrast .learning-visual {
+  border: 2px solid #000;
+  background: #fff;
+}
 .question-meta { display: flex; justify-content: space-between; gap: .5rem; align-items: center; margin-bottom: .65rem; }
 .question-count { font-size: .75rem; color: var(--muted); font-weight: 700; }
 .question-card h3 { margin: .2rem 0 .85rem; font-size: 1.16rem; line-height: 1.35; }
