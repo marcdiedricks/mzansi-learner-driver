@@ -1202,6 +1202,96 @@
           "explanation": "The safest learner rule is simple: impairment and driving do not mix. The app does not teach learners to calculate how much of an intoxicating substance they could use before driving."
         }
       }
+    },
+    {
+      "id": "knowledge-process-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "learner-code1-current",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-013",
+        "locator": "South African Government learner's licence service — Code 1",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Learner's licence Code 1",
+          "key_point": "Code 1 is the learner's licence category for motorcycles, including a motorcycle with or without a sidecar, motor tricycle or quadrucycle.",
+          "explanation": "The national government service page currently uses the learner-licence labels Code 1, Code 2 and Code 3. Driving-licence categories such as A1 or A are a separate classification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-process-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "learner-code2-current",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-013",
+        "locator": "South African Government learner's licence service — Code 2",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Learner's licence Code 2",
+          "key_point": "Code 2 covers motor vehicles other than motorcycles with a gross vehicle mass not exceeding 3 500 kg.",
+          "explanation": "The national government service page currently includes light motor vehicles, minibuses, buses and goods vehicles within that mass limit."
+        }
+      }
+    },
+    {
+      "id": "knowledge-process-validity",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "learner-licence-validity-supervision",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-013",
+        "locator": "South African Government learner's licence service — validity and supervision",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Learner's licence validity and supervision",
+          "key_point": "A learner's licence is valid for 24 months. Learner drivers must be supervised by a licensed driver when the vehicle category requires it.",
+          "explanation": "Motorcycle learner rules differ from ordinary motor vehicles, so the app keeps Code 1 and Code 2 pathways separate."
+        }
+      }
+    },
+    {
+      "id": "knowledge-process-study-scope",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "official-study-scope",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-014",
+        "locator": "Western Cape Government learner's licence service — preparing for your test",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Official study scope",
+          "key_point": "The official preparation scope is Rules of the Road, Road Signs and Markings, and Vehicle Controls.",
+          "explanation": "The Western Cape Government currently links learners directly to the NaTIS study material for these three areas and also states that printed learner manuals have been supplied to selected public libraries."
+        }
+      }
     }
   ]
 }
