@@ -1,6 +1,7 @@
 const state = {
   questions: [],
   knowledge: [],
+  visuals: {},
   activeVehicleGroup: "code2",
   mockQuestions: [],
   mockIndex: 0,
@@ -426,6 +427,18 @@ async function loadKnowledge() {
   }));
   state.knowledge = packs.flatMap(pack => pack.items || []);
 }
+async function loadVisuals() {
+  const res = await fetch("data/knowledge/sign-visual-map-r1.json");
+  if (!res.ok) throw new Error("Visual map failed to load");
+  const pack = await res.json();
+  state.visuals = pack.items || {};
+}
+function mediaFor(item) {
+  const media = state.visuals[item.id];
+  if (!media?.src) return "";
+  const alt = media.alt?.[lang()] || media.alt?.en || "";
+  return `<figure class="learning-visual"><img src="${media.src}" alt="${alt}" loading="lazy"><figcaption>${media.official_ref || ""}</figcaption></figure>`;
+}
 function questionText(q) {
   return q.language?.[lang()] || q.language?.en || q;
 }
@@ -454,6 +467,7 @@ function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
         <span class="question-count">${metaText}</span>
       </div>
       <h3 id="${questionId}">${txt.question}</h3>
+      ${mediaFor(q)}
       <div class="speech-row">
         <button class="speech-btn question-speech-btn" type="button" data-idle-key="readAloud" aria-pressed="false">${tr("readAloud")}</button>
         <span class="speech-status" role="status" aria-live="polite"></span>
@@ -597,6 +611,7 @@ async function renderStudyGuide() {
         <span class="question-count">${tr("studyProgress")} ${progress}</span>
       </div>
       <h3>${txt.title}</h3>
+      ${mediaFor(item)}
       <div class="feedback">
         <strong>${tr("keyPoint")}</strong><br>${txt.keyPoint}
       </div>
@@ -738,6 +753,7 @@ function renderMockQuestion(q, container, onDone, metaText, continueLabel) {
         <span class="question-count">${metaText}</span>
       </div>
       <h3 id="${questionId}">${txt.question}</h3>
+      ${mediaFor(q)}
       <div class="speech-row">
         <button class="speech-btn question-speech-btn" type="button" data-idle-key="readAloud" aria-pressed="false">${tr("readAloud")}</button>
         <span class="speech-status" role="status" aria-live="polite"></span>
@@ -929,7 +945,7 @@ async function init(){
   applyAccessibilitySettings(savedAccessibility);
   updatePathwayUI();
   updateConnection();
-  try{await loadQuestions();await loadKnowledge();await refreshHome();}catch(err){document.getElementById("homeProgress").textContent=tr("pilotLoadFail");}
+  try{await loadQuestions();await loadKnowledge();await loadVisuals();await refreshHome();}catch(err){document.getElementById("homeProgress").textContent=tr("pilotLoadFail");}
   if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
 init();
