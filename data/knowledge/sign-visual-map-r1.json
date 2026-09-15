@@ -338,6 +338,146 @@
         "en": "Pay-and-display parking panel concept"
       },
       "official_ref": "(R)523"
+    },
+    "knowledge-sign-r401": {
+      "src": "assets/signs/freeway-begins-dual.svg",
+      "alt": {
+        "en": "Dual-carriageway freeway begins learning symbol"
+      },
+      "official_ref": "R401"
+    },
+    "knowledge-sign-r402": {
+      "src": "assets/signs/freeway-begins-single.svg",
+      "alt": {
+        "en": "Single-carriageway freeway begins learning symbol"
+      },
+      "official_ref": "R402"
+    },
+    "knowledge-sign-r403": {
+      "src": "assets/signs/woonerf.svg",
+      "alt": {
+        "en": "Woonerf shared-area learning symbol"
+      },
+      "official_ref": "R403"
+    },
+    "knowledge-sign-r600": {
+      "src": "assets/signs/de-restriction.svg",
+      "alt": {
+        "en": "De-restriction learning symbol"
+      },
+      "official_ref": "R600"
+    },
+    "knowledge-info-countdown": {
+      "src": "assets/signs/countdown-exit.svg",
+      "alt": {
+        "en": "Exit countdown information sign concept"
+      },
+      "official_ref": "IN3/IN2/IN1"
+    },
+    "knowledge-info-right-of-way": {
+      "src": "assets/signs/right-of-way-info.svg",
+      "alt": {
+        "en": "Right-of-way information sign concept"
+      },
+      "official_ref": "IN7"
+    },
+    "knowledge-info-park-ride": {
+      "src": "assets/signs/park-and-ride.svg",
+      "alt": {
+        "en": "Park-and-ride information sign concept"
+      },
+      "official_ref": "IN9/IN10"
+    },
+    "knowledge-info-centre": {
+      "src": "assets/signs/information-centre.svg",
+      "alt": {
+        "en": "Information centre symbol"
+      },
+      "official_ref": "IN12"
+    },
+    "knowledge-info-coordinated-signals": {
+      "src": "assets/signs/coordinated-signals.svg",
+      "alt": {
+        "en": "Co-ordinated traffic signals information concept"
+      },
+      "official_ref": "IN14"
+    },
+    "knowledge-marking-wm6": {
+      "src": "assets/markings/lane-reduction-wm6.svg",
+      "alt": {
+        "en": "Lane reduction arrows road marking"
+      },
+      "official_ref": "WM6.1/WM6.2/WM6.3"
+    },
+    "knowledge-marking-wm7": {
+      "src": "assets/markings/mandatory-direction-ahead-wm7.svg",
+      "alt": {
+        "en": "Mandatory direction arrow ahead road marking"
+      },
+      "official_ref": "WM7"
+    },
+    "knowledge-marking-wm8": {
+      "src": "assets/markings/prohibition-line-ahead-wm8.svg",
+      "alt": {
+        "en": "No overtaking or no crossing line ahead road marking"
+      },
+      "official_ref": "WM8"
+    },
+    "knowledge-marking-wm10": {
+      "src": "assets/markings/speed-hump-wm10.svg",
+      "alt": {
+        "en": "Speed hump road marking"
+      },
+      "official_ref": "WM10"
+    },
+    "knowledge-marking-gm2": {
+      "src": "assets/markings/guide-lines-gm2.svg",
+      "alt": {
+        "en": "Guide lines through an intersection"
+      },
+      "official_ref": "GM2"
+    },
+    "knowledge-marking-gm3": {
+      "src": "assets/markings/bifurcation-gm3.svg",
+      "alt": {
+        "en": "Bifurcation arrows road marking"
+      },
+      "official_ref": "GM3"
+    },
+    "knowledge-signal-flashing-red-arrow": {
+      "src": "assets/signals/flashing-red-left.svg",
+      "alt": {
+        "en": "Flashing red left arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-amber-arrow": {
+      "src": "assets/signals/amber-arrow.svg",
+      "alt": {
+        "en": "Constant amber arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-flashing-green-arrow": {
+      "src": "assets/signals/green-arrow.svg",
+      "alt": {
+        "en": "Green arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-constant-green-arrow": {
+      "src": "assets/signals/green-arrow.svg",
+      "alt": {
+        "en": "Constant green arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-flashing-amber-disc": {
+      "src": "assets/signals/flashing-amber.svg",
+      "alt": {
+        "en": "Flashing amber traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
     }
   }
 }
