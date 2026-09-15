@@ -167,6 +167,367 @@
           "explanation": "Safe driving includes consideration for other road users, not only avoiding a collision or breaking a speed limit."
         }
       }
+    },
+    {
+      "id": "knowledge-rules-6-37",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "divided-public-road",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.37 — Driving on divided public road",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Driving on a divided public road",
+          "key_point": "Use the left-hand roadway unless a traffic sign or traffic officer directs or permits you to use another roadway.",
+          "explanation": "Where a public road is divided into separate roadways, traffic normally keeps to the left-hand roadway."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-38",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "keep-left-general",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.38 — Driving on left side of roadway",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Keep left on the roadway",
+          "key_point": "Drive on the left side of the roadway and do not unnecessarily encroach into the right half.",
+          "explanation": "Move left safely when another vehicle wants to pass and do not accelerate until it has passed."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-39",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "shoulder-driving",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.39 — Prohibition on driving on shoulder except in certain circumstances",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Driving on the shoulder",
+          "key_point": "Do not normally drive on the shoulder. A light vehicle may use it only in limited safe circumstances allowed by the rules.",
+          "explanation": "The learner manual describes daytime use while being overtaken, provided it is safe and visibility is adequate. The exact conditions remain under the current-regulation verification gate."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-40",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "lane-changing",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.40 — Lane changing",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Changing lanes",
+          "key_point": "Change from one marked lane to another only when you can do so without obstructing or endangering other traffic.",
+          "explanation": "Check mirrors and blind spots, signal in good time and move only when there is a safe gap."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-42",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "direction-indicators-use",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.42 — Direction indicators",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Direction indicators",
+          "key_point": "Use direction indicators when turning or changing lanes.",
+          "explanation": "Indicators communicate your intended movement to other road users. Vehicle-equipment details remain subject to the current-regulation check."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-43-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-retro-reflector",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.43.1 — Motorcycle retro-reflector",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycle rear reflector",
+          "key_point": "A motorcycle used on a public road must have a red retro-reflector fitted at the rear.",
+          "explanation": "The reflector helps other road users see the motorcycle from behind in low-light conditions."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-43-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "light-vehicle-retro-reflectors",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.43.2 — Light motor vehicle retro-reflectors",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Light-vehicle rear reflectors",
+          "key_point": "A light motor vehicle must have red retro-reflectors at the rear.",
+          "explanation": "The learner manual specifies one on each side. The exact current equipment wording is being checked against operative regulations."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-45-left-pass",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "passing-on-left-exceptions",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — Overtaking/passing, limited left-passing exceptions",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Passing on the left",
+          "key_point": "Overtaking is normally on the right. Passing on the left is allowed only in specific safe situations permitted by the rules.",
+          "explanation": "Do not treat the left side as a general overtaking lane. The detailed exceptions remain tied to the official rule set and current-regulation check."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-50-motorcycle-control",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-complete-control",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.50 — Duties relating to motorcycles",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycle rider control",
+          "key_point": "Ride so that you maintain complete control of the motorcycle and a clear view of the road and traffic.",
+          "explanation": "Baggage must be carried so that it does not obstruct your view or prevent proper control."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-50-no-holding",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-no-holding-moving-vehicle",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.50 — Rider/passenger must not take hold of another moving vehicle",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Do not hold onto another moving vehicle",
+          "key_point": "A motorcycle rider or passenger must not take hold of another vehicle that is moving.",
+          "explanation": "The motorcycle must be controlled independently and safely at all times."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-50-single-file",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-single-file",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.50 — Motorcycles in single file, subject to overtaking rule",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycles travelling together",
+          "key_point": "Motorcycles travelling in the same lane should ride in single file, except as allowed while overtaking.",
+          "explanation": "The rule reduces conflict between motorcycles sharing the same lane and other road users."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-51",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-sidecar",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.51 — Sidecar attachment",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycle sidecar",
+          "key_point": "A sidecar used on a public road must be attached on the correct side of the motorcycle.",
+          "explanation": "The learner manual specifies the left side and contains an engine-capacity condition. Those equipment details remain under current-regulation verification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-54",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "vehicle-left-abandoned",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.54 — Vehicle left/abandoned",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Leaving a vehicle on a public road",
+          "key_point": "Do not leave a vehicle standing indefinitely on a public road.",
+          "explanation": "The learner manual sets different time periods inside and outside urban areas. Those exact periods remain under the current-regulation verification gate before release certification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-55",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "damage-public-road",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.55 — Damage to public roads",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Do not damage the road",
+          "key_point": "Do not operate or move a vehicle in a way that damages the roadway.",
+          "explanation": "The manual also prohibits deliberately dragging or spinning wheels on the road except in an emergency."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-56-freeway-users",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "freeway-prohibited-users",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.56 — Freeways: prohibited vehicles/users",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Who may use a freeway",
+          "key_point": "Not every road user or vehicle is allowed on a freeway.",
+          "explanation": "The official learner manual excludes several slow or unsuitable road users and vehicle types. Exact category thresholds remain under current-regulation verification."
+        }
+      }
+    },
+    {
+      "id": "knowledge-rules-6-56-freeway-behaviour",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "freeway-behaviour",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.56 — Freeway stopping, pedestrians/animals and merging",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Freeway behaviour",
+          "key_point": "Do not stop on a freeway except where the rules allow it, and remain alert to vehicles merging from on-ramps.",
+          "explanation": "The manual also restricts pedestrians and animals on freeways and requires drivers to allow a vehicle ahead to merge safely from an on-ramp."
+        }
+      }
     }
   ]
 }
