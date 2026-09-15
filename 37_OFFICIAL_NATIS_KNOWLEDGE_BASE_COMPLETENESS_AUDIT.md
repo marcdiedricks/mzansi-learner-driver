@@ -25,6 +25,15 @@ The audit does **not** attempt to reproduce confidential CLLT questions. It maps
 4. Current National Road Traffic Act / Regulations where old manual wording or numeric/legal claims require confirmation.
 5. Current physical learner pack/manual distributed in the Western Cape — edition/version still to be physically verified.
 
+## 2A. CURRENT-LAW CONTROL
+
+Legal verification will use only provisions that are **currently in force**.
+
+- The National Road Traffic Act page records later amendments, including the 2024 Amendment Act, but commencement must be checked before treating an amendment as operative.
+- A further amendment of the National Road Traffic Regulations was published **for comment** in August 2026. Draft proposals are not treated as current learner law.
+- Where the 2012 learner manual and current operative law differ, current operative law controls the app content.
+- Numeric/legal rules remain **LEGAL REVIEW** until a current operative source is confirmed.
+
 ## 3. STATUS DEFINITIONS
 
 - **COMPLETE** — applicable published knowledge is adequately available to Study and supported by Practice.
