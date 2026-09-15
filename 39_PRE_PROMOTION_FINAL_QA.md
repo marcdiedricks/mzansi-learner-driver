@@ -26,29 +26,30 @@ Production: **UNCHANGED / NOT DEPLOYED**
 | Learner-progress reset retained | PASS |
 | Offline audit cache | `mzansi-learner-driver-natis-audit-r10` |
 
-## RELEASE BLOCKER FOUND
+## MULTILINGUAL STATIC GATE — CLOSED
 
-The new 157-item Knowledge Layer currently contains:
+The 157-item Knowledge Layer now contains:
 - English: **157 / 157**
-- Afrikaans: **0 / 157**
-- isiXhosa: **0 / 157**
+- Afrikaans draft: **157 / 157**
+- isiXhosa draft: **157 / 157**
+- Afrikaans status: **157 / 157 LANGUAGE_QA_PENDING**
+- isiXhosa status: **157 / 157 LANGUAGE_QA_PENDING**
+- Numeric value mismatches EN vs AF/XH: **0**
 
-The app currently falls back to English when the selected language has no Knowledge Layer translation.
+The static multilingual release blocker is therefore closed.
 
-Therefore the branch is:
+Human language approval remains a separate post-static QA requirement. The app must not describe Afrikaans or isiXhosa as human-approved until competent reviewers sign them off.
 
-### **TECHNICALLY READY FOR ENGLISH PHONE ACCEPTANCE**
-but
-### **NOT READY FOR MULTILINGUAL PRODUCTION PROMOTION**
+The branch is now:
 
-This is not a reason to reopen the NaTIS knowledge audit. It is a separate translation-release gate.
+### **READY FOR CONTROLLED MULTILINGUAL PHONE ACCEPTANCE**
 
 ## DIRECT RELEASE SEQUENCE
 
-1. Freeze the audited English source master.
-2. Add Afrikaans and isiXhosa draft translations for all 157 Knowledge Layer items.
-3. Mark those translations `LANGUAGE_QA_PENDING`.
-4. Run static translation completeness check: 157/157 AF and 157/157 XH.
+1. English source master — FROZEN.
+2. Afrikaans and isiXhosa draft translations — COMPLETE.
+3. `LANGUAGE_QA_PENDING` status — COMPLETE.
+4. Static translation completeness and numeric consistency — PASS.
 5. Do one phone acceptance on the held build:
    - Code 1 and Code 2
    - English / Afrikaans / isiXhosa
@@ -63,8 +64,8 @@ This is not a reason to reopen the NaTIS knowledge audit. It is a separate trans
 
 ## RELEASE DECISION
 
-**DO NOT DEPLOY YET.**
+**DO NOT MERGE TO PRODUCTION YET.**
 
-Reason: deploying now would introduce English fallback into the new knowledge cards for Afrikaans and isiXhosa learners.
+Static QA is complete. The only technical step before promotion is one controlled phone acceptance of the held branch. A draft pull request / Deploy Preview may be used for that test without merging production.
 
-No more broad NaTIS research is required. The only current workstream is translation completion, then one phone test, then one promotion decision.
+No more broad NaTIS research is required.
