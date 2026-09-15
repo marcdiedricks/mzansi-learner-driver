@@ -534,6 +534,248 @@
           "explanation": "This sign is placed at the end of the off-ramp and shows the direction of destinations from the intersecting road."
         }
       }
+    },
+    {
+      "id": "knowledge-sign-temporary-concept",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "temporary-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §§1–2 — temporary signs / sign interpretation",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Temporary road signs",
+          "key_point": "A yellow-background sign warns that normal conditions have changed and that extra attention is required.",
+          "explanation": "Temporary signs are used for situations such as roadworks, collision scenes and temporary traffic control. A sign number beginning with T identifies a temporary sign."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r301",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bus-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Bus reservation R301/TR301 and bus parking reservation R301-P/TR301-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bus reservation",
+          "key_point": "Do not enter or park in a bus-reserved area unless you are driving a bus.",
+          "explanation": "Reservation signs set aside a road, lane or parking area for a particular class of road user or vehicle."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r302-r303",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bus-lane-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Bus lane reservation R302/TR302 and begins R303/TR303",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bus lane reservation",
+          "key_point": "Do not use a bus-only lane if you are not driving a permitted bus.",
+          "explanation": "The reservation sign identifies a lane for buses only; the 'begins' version shows where the reserved lane starts."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r304",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pedal-cycle-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Pedal cycle lane/parking reservation R304/TR304 and R304-P/TR304-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pedal-cycle reservation",
+          "key_point": "Do not use a cycle-reserved lane or parking area unless you are riding a bicycle.",
+          "explanation": "This reservation protects space intended specifically for pedal cyclists."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r305-r306",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "parking-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Parking reservation R305-P/TR305-P and limited parking R306-P/TR306-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Parking reservation",
+          "key_point": "Park only according to the conditions shown, including any fee or maximum-stay limit.",
+          "explanation": "The learner manual distinguishes ordinary reserved parking from limited parking where a maximum stay may apply."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r307",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "motorcycle-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Motorcycle reservation R307/TR307 and parking reservation R307-P/TR307-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle reservation",
+          "key_point": "A motorcycle-reserved road area or parking area may be used only by motorcycles.",
+          "explanation": "If you are not riding a motorcycle, do not use the road or parking area reserved by this sign."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r502-r503",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-time-periods",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Time-limit subgroup (R)502/(R)503",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Selective time periods",
+          "key_point": "A regulatory sign with a time-period secondary sign applies only during the times or days shown.",
+          "explanation": "Read the primary regulatory sign together with the secondary time panel before deciding what is permitted."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r510",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-reduced-visibility",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Reduced visibility (R)510",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Reduced-visibility restriction",
+          "key_point": "The primary regulatory sign applies when visibility is reduced.",
+          "explanation": "This secondary sign makes the restriction conditional on poor visibility."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r511",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-daytime",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Daytime (R)511",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Daytime restriction",
+          "key_point": "The primary regulatory sign applies during daytime.",
+          "explanation": "The secondary sign limits the operation of the main restriction to daytime."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r512",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-nighttime",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Night time (R)512",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Night-time restriction",
+          "key_point": "The primary regulatory sign applies during night time.",
+          "explanation": "The secondary sign limits the operation of the main restriction to night-time conditions."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r523",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pay-and-display",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Pay and display (R)523",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pay and display",
+          "key_point": "Pay the required parking fee and display the proof of payment as directed.",
+          "explanation": "This secondary sign is used with a parking regulation to show that payment is required."
+        }
+      }
     }
   ]
 }
