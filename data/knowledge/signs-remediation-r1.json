@@ -2402,7 +2402,21 @@
           "title": "Information arrows",
           "key_point": "Follow the direction shown for your lane or roadway.",
           "explanation": "Do not drive contrary to the arrow unless a traffic officer directs you otherwise."
+        },
+        "af": {
+          "title": "Inligtingspyle",
+          "key_point": "Volg die rigting wat vir jou baan of rybaan aangedui word.",
+          "explanation": "Moenie teen die aangeduide rigting ry tensy 'n verkeersbeampte jou anders aanwys nie."
+        },
+        "xh": {
+          "title": "Iintolo zolwazi",
+          "key_point": "Landela icala elibonisiweyo kwilayini okanye endleleni yakho.",
+          "explanation": "Musa ukuhamba ngokuchasene nalo ngaphandle kokuba igosa lezendlela likuyalela ngenye indlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2424,7 +2438,21 @@
           "title": "Bicycle crossing lines",
           "key_point": "Watch for cyclists crossing or waiting to cross.",
           "explanation": "The lines identify the part of the road intended for cyclists to cross."
+        },
+        "af": {
+          "title": "Fietsoorganglyne",
+          "key_point": "Let op vir fietsryers wat oorsteek of wag om oor te steek.",
+          "explanation": "Die lyne wys die gedeelte van die pad waar fietsryers kan kruis."
+        },
+        "xh": {
+          "title": "Imigca yokuwela iibhayisekile",
+          "key_point": "Qaphela abakhweli beebhayisekile abawelayo okanye abalinde ukuwela.",
+          "explanation": "Imigca ibonisa indawo yendlela apho iibhayisekile zinokuwela khona."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2446,7 +2474,21 @@
           "title": "Road-marking symbols",
           "key_point": "A painted symbol can identify a reserved user group or a destination.",
           "explanation": "Do not use a marked reserved area if you are not part of the group identified by the symbol."
+        },
+        "af": {
+          "title": "Padmerksimbole",
+          "key_point": "'n Geverfde simbool kan 'n gereserveerde gebruikersgroep of bestemming aandui.",
+          "explanation": "Moenie 'n gereserveerde gebied gebruik as jy nie tot die aangeduide groep behoort nie."
+        },
+        "xh": {
+          "title": "Iisimboli ezipendwe endleleni",
+          "key_point": "Isimboli epende endleleni inokubonisa iqela eligcinelwe indawo okanye indawo ekuya kuyo.",
+          "explanation": "Musa ukusebenzisa indawo egcinelweyo ukuba awungomnye wabasebenzisi ababonisiweyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2468,7 +2510,21 @@
           "title": "Word markings",
           "key_point": "Read the road message and respond to the condition or danger it identifies.",
           "explanation": "Word markings provide extra information directly on the roadway."
+        },
+        "af": {
+          "title": "Woordmerke",
+          "key_point": "Lees die boodskap op die pad en reageer op die toestand of gevaar wat dit aandui.",
+          "explanation": "Woordmerke gee bykomende inligting direk op die rybaan."
+        },
+        "xh": {
+          "title": "Amagama apendwe endleleni",
+          "key_point": "Funda umyalezo opendwe endleleni uze usabele kwimeko okanye ingozi oyichazayo.",
+          "explanation": "La magama anika ulwazi olongezelelweyo ngqo endleleni."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2490,7 +2546,21 @@
           "title": "Flashing red arrow left",
           "key_point": "Stop first. You may turn left only when it is safe and after yielding to pedestrians and conflicting traffic.",
           "explanation": "Treat the signal as a stop before making the permitted left turn."
+        },
+        "af": {
+          "title": "Flikkerende rooi pyl links",
+          "key_point": "Stop eers. Jy mag net links draai wanneer dit veilig is en nadat jy aan voetgangers en kruisende verkeer toegegee het.",
+          "explanation": "Behandel die sein soos 'n stop voordat jy links draai."
+        },
+        "xh": {
+          "title": "Utolo olubomvu oludanyazayo ngasekhohlo",
+          "key_point": "Yima kuqala. Ungajika ngasekhohlo kuphela xa kukhuselekile nasemva kokunika indlela kubahambi ngeenyawo nakwizithuthi ezinqamlezayo.",
+          "explanation": "Phatha lo mqondiso njengokuma ngaphambi kokujika."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2512,7 +2582,21 @@
           "title": "Constant amber arrow",
           "key_point": "Stop and wait for the signal that permits movement in the arrow direction.",
           "explanation": "Do not proceed simply because the arrow is illuminated amber."
+        },
+        "af": {
+          "title": "Vaste amberpyl",
+          "key_point": "Stop en wag vir die sein wat beweging in die pyl se rigting toelaat.",
+          "explanation": "Moenie voortgaan net omdat die amberpyl brand nie."
+        },
+        "xh": {
+          "title": "Utolo olumthubi olungadanyaziyo",
+          "key_point": "Yima ulinde umqondiso ovumela ukuhamba kwicala lotolo.",
+          "explanation": "Musa ukuqhubeka nje kuba utolo olumthubi lukhanyile."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2534,7 +2618,21 @@
           "title": "Flashing green arrow",
           "key_point": "You have right of way in the direction shown by the flashing green arrow.",
           "explanation": "Proceed in the indicated direction while remaining alert to road users who may disobey their controls."
+        },
+        "af": {
+          "title": "Flikkerende groen pyl",
+          "key_point": "Jy het voorrang in die rigting wat deur die flikkerende groen pyl aangedui word.",
+          "explanation": "Beweeg in die aangeduide rigting maar bly oplettend vir ander padgebruikers."
+        },
+        "xh": {
+          "title": "Utolo oluluhlaza oludanyazayo",
+          "key_point": "Unelungelo lokudlula kwicala eliboniswe lutolo oluluhlaza oludanyazayo.",
+          "explanation": "Hamba kwicala elibonisiweyo kodwa uhlale uqaphele abanye abasebenzisi bendlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2556,7 +2654,21 @@
           "title": "Constant green arrow",
           "key_point": "Traffic must proceed in the direction shown by the green arrow.",
           "explanation": "The arrow can be used to control the permitted direction of travel."
+        },
+        "af": {
+          "title": "Vaste groen pyl",
+          "key_point": "Verkeer moet in die rigting van die groen pyl voortgaan.",
+          "explanation": "Die pyl beheer die toegelate rigting van beweging."
+        },
+        "xh": {
+          "title": "Utolo oluluhlaza olungadanyaziyo",
+          "key_point": "Izithuthi kufuneka zihambe kwicala eliboniswe lutolo oluluhlaza.",
+          "explanation": "Utolo lulawula icala elivumelekileyo lokuhamba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2578,7 +2690,21 @@
           "title": "Flashing amber signal",
           "key_point": "Proceed carefully and yield to pedestrians.",
           "explanation": "A flashing amber disc requires caution rather than an automatic stop."
+        },
+        "af": {
+          "title": "Flikkerende ambersein",
+          "key_point": "Gaan versigtig voort en gee pad aan voetgangers.",
+          "explanation": "'n Flikkerende ambersein vereis versigtigheid eerder as 'n outomatiese stop."
+        },
+        "xh": {
+          "title": "Isibane esimthubi esidanyazayo",
+          "key_point": "Qhubeka ngononophelo uze unike indlela kubahambi ngeenyawo.",
+          "explanation": "Isibane esimthubi esidanyazayo sifuna uqaphele, hayi ukuba ume ngokuzenzekelayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2600,7 +2726,21 @@
           "title": "Location signs",
           "key_point": "Location signs identify places such as streets, suburbs, towns, borders, passes, interchanges and named routes.",
           "explanation": "The wording on these signs varies by place, so the learner must understand their purpose rather than memorise a fixed destination name."
+        },
+        "af": {
+          "title": "Liggingstekens",
+          "key_point": "Liggingstekens identifiseer plekke soos strate, voorstede, dorpe, grense, passe, wisselaars en benoemde roetes.",
+          "explanation": "Leer die doel van die teken; die pleknaam self verander van plek tot plek."
+        },
+        "xh": {
+          "title": "Iimpawu zendawo",
+          "key_point": "Iimpawu zendawo zibonisa izitalato, iidolophu, imida, iipasi, iindawo zokudibana neendlela ezibiziweyo.",
+          "explanation": "Funda injongo yophawu; igama lendawo liyahluka ngokwendawo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2622,7 +2762,21 @@
           "title": "National route marker",
           "key_point": "A national route marker identifies a numbered national route.",
           "explanation": "The route number changes by location; learn the route-marker shape and function rather than one specific route number."
+        },
+        "af": {
+          "title": "Nasionale roetemerker",
+          "key_point": "'n Nasionale roetemerker identifiseer 'n genommerde nasionale roete.",
+          "explanation": "Volg die roetenommer wat op die merker aangedui word."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yesizwe",
+          "key_point": "Isiphawuli sendlela yesizwe sibonisa indlela yesizwe enenombolo.",
+          "explanation": "Landela inombolo yendlela eboniswe kwisiphawuli."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2644,7 +2798,21 @@
           "title": "Provincial route marker",
           "key_point": "A provincial route marker identifies a numbered provincial route.",
           "explanation": "The route number varies by location. The important knowledge is recognising the marker type and following the route number shown."
+        },
+        "af": {
+          "title": "Provinsiale roetemerker",
+          "key_point": "'n Provinsiale roetemerker identifiseer 'n genommerde provinsiale roete.",
+          "explanation": "Die roetenommer verander volgens die ligging."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yephondo",
+          "key_point": "Isiphawuli sendlela yephondo sibonisa indlela yephondo enenombolo.",
+          "explanation": "Inombolo yendlela iyahluka ngokwendawo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2666,7 +2834,21 @@
           "title": "Regional route marker",
           "key_point": "A regional route marker identifies a numbered regional route.",
           "explanation": "Use the displayed route number to follow the correct regional road."
+        },
+        "af": {
+          "title": "Streeksroetemerker",
+          "key_point": "'n Streeksroetemerker identifiseer 'n genommerde streeksroete.",
+          "explanation": "Gebruik die roetenommer om die korrekte streekspad te volg."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yommandla",
+          "key_point": "Isiphawuli sendlela yommandla sibonisa indlela yommandla enenombolo.",
+          "explanation": "Sebenzisa inombolo yendlela ukuze ulandele indlela echanekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2688,7 +2870,21 @@
           "title": "Metropolitan route marker",
           "key_point": "A metropolitan route marker identifies a numbered route within a metropolitan road network.",
           "explanation": "The letter and number shown vary by city and route."
+        },
+        "af": {
+          "title": "Metropolitaanse roetemerker",
+          "key_point": "'n Metropolitaanse roetemerker identifiseer 'n genommerde roete binne 'n metropolitaanse padnetwerk.",
+          "explanation": "Die letter en nommer wissel volgens stad en roete."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yedolophu enkulu",
+          "key_point": "Isiphawuli sendlela yedolophu enkulu sibonisa indlela enenombolo ngaphakathi kwenethiwekhi yedolophu enkulu.",
+          "explanation": "Unobumba nenombolo ziyahluka ngokwesixeko nendlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2710,7 +2906,21 @@
           "title": "Direction signs",
           "key_point": "Direction signs show destinations, route numbers, lane choices and the direction to follow.",
           "explanation": "Read destination text, arrows, route markers and lane information together before changing position."
+        },
+        "af": {
+          "title": "Rigtingstekens",
+          "key_point": "Rigtingstekens wys bestemmings, roetenommers, baankeuses en die rigting wat gevolg moet word.",
+          "explanation": "Lees die teks, pyle, roetemerkers en baaninligting saam."
+        },
+        "xh": {
+          "title": "Iimpawu zesalathiso",
+          "key_point": "Iimpawu zesalathiso zibonisa iindawo oya kuzo, iinombolo zeendlela, ukhetho lwelayini nendlela omele ulandele.",
+          "explanation": "Funda umbhalo, iintolo, iziphawuli zeendlela nolwazi lwelayini kunye."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2732,7 +2942,21 @@
           "title": "Freeway direction signs",
           "key_point": "Freeway guidance signs provide advance, lane and exit information so that drivers can choose the correct lane in good time.",
           "explanation": "The app separately teaches the GA1–GA6 core exit sequence. Other freeway signs use the same principle: read route, destination, lane and arrow information together."
+        },
+        "af": {
+          "title": "Snelweg-rigtingstekens",
+          "key_point": "Snelwegtekens gee vooraf-, baan- en afritinligting sodat bestuurders betyds die korrekte baan kan kies.",
+          "explanation": "Lees bestemming, roete, baan en pylinligting saam."
+        },
+        "xh": {
+          "title": "Iimpawu zesalathiso sendlela enkulu",
+          "key_point": "Iimpawu zendlela enkulu zinika ulwazi lwangaphambili, lwelayini nolokuphuma ukuze umqhubi akhethe ilayini echanekileyo kwangethuba.",
+          "explanation": "Funda indawo oya kuyo, indlela, ilayini neentolo kunye."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2754,7 +2978,21 @@
           "title": "Tourism and service guidance",
           "key_point": "Tourism and service signs guide road users to attractions, emergency services, fuel, food, accommodation, parking and other facilities.",
           "explanation": "The exact pictogram varies with the facility. Treat the pictogram and any accompanying text as guidance, not as a regulatory instruction."
+        },
+        "af": {
+          "title": "Toerisme- en diensrigting",
+          "key_point": "Toerisme- en dienstekens lei padgebruikers na besienswaardighede, nooddienste, brandstof, kos, verblyf, parkering en ander fasiliteite.",
+          "explanation": "Die simbool verander volgens die fasiliteit en dien as rigtinginligting."
+        },
+        "xh": {
+          "title": "Isikhokelo sezokhenketho neenkonzo",
+          "key_point": "Iimpawu zezokhenketho neenkonzo zikhokela abasebenzisi bendlela kwiindawo zokhenketho, iinkonzo zongxamiseko, amafutha, ukutya, indawo yokulala, ukupaka nezinye iinkonzo.",
+          "explanation": "Isimboli iyahluka ngokwenkonzo kwaye sisikhokelo, hayi umyalelo wolawulo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2776,7 +3014,21 @@
           "title": "Diagrammatic guidance signs",
           "key_point": "Diagrammatic signs show the road layout ahead, including merging, diverging, obstructions and lane-use changes.",
           "explanation": "Use the diagram to choose the correct lane early and safely."
+        },
+        "af": {
+          "title": "Diagrammatiese rigtingstekens",
+          "key_point": "Diagrammatiese tekens wys die pad-uitleg voor, insluitend invoeging, vertakking, versperrings en baanveranderinge.",
+          "explanation": "Gebruik die diagram om vroeg die korrekte baan te kies."
+        },
+        "xh": {
+          "title": "Iimpawu zesikhokelo ezinemizobo",
+          "key_point": "Iimpawu ezinemizobo zibonisa indlela eyakhiwe ngayo ngaphambili, kuquka ukudibana, ukwahluka, imiqobo notshintsho lwelayini.",
+          "explanation": "Sebenzisa umzobo ukuze ukhethe ilayini echanekileyo kwangethuba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2798,7 +3050,21 @@
           "title": "Local, pedestrian and toll guidance",
           "key_point": "Special guidance signs may direct local traffic, pedestrians or vehicles approaching toll facilities.",
           "explanation": "Follow the destination, lane and directional information shown. These are variable-content guidance signs rather than fixed regulatory symbols."
+        },
+        "af": {
+          "title": "Plaaslike, voetganger- en tolrigting",
+          "key_point": "Spesiale rigtingstekens kan plaaslike verkeer, voetgangers of voertuie wat 'n tolgerief nader, lei.",
+          "explanation": "Volg die bestemming-, baan- en rigtinginligting wat aangedui word."
+        },
+        "xh": {
+          "title": "Isikhokelo sendawo, sabahambi ngeenyawo nesetoll",
+          "key_point": "Iimpawu ezikhethekileyo zingakhokela izithuthi zasekuhlaleni, abahambi ngeenyawo okanye izithuthi ezisondela kwindawo yetoll.",
+          "explanation": "Landela ulwazi lwendawo oya kuyo, ilayini nesalathiso."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -2820,7 +3086,21 @@
           "title": "Variable message signs",
           "key_point": "Read and obey the current message displayed on an electronic or variable sign.",
           "explanation": "The message can change to warn about incidents, lane closures, congestion or another temporary condition."
+        },
+        "af": {
+          "title": "Veranderlike boodskaptekens",
+          "key_point": "Lees en gehoorsaam die huidige boodskap wat op 'n elektroniese of veranderlike teken vertoon word.",
+          "explanation": "Die boodskap kan waarsku oor ongelukke, baansluitings, opeenhoping of ander tydelike toestande."
+        },
+        "xh": {
+          "title": "Iimpawu zemiyalezo etshintshayo",
+          "key_point": "Funda uze ulandele umyalezo wangoku oboniswe kuphawu lwe-elektroniki okanye olutshintshayo.",
+          "explanation": "Umyalezo unokulumkisa ngeengozi, ukuvalwa kweelayini, ukuxinana okanye ezinye iimeko zethutyana."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     }
   ]
