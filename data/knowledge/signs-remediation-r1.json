@@ -26,7 +26,21 @@
           "title": "Minimum speed sign",
           "key_point": "Do not drive slower than the speed shown on the sign.",
           "explanation": "This command sign is used where very slow traffic could disrupt traffic flow. The displayed number is the minimum speed in km/h."
+        },
+        "af": {
+          "title": "Minimumspoedteken",
+          "key_point": "Moenie stadiger ry as die spoed wat op die teken aangedui word nie.",
+          "explanation": "Die teken word gebruik waar baie stadige verkeer die verkeersvloei kan belemmer."
+        },
+        "xh": {
+          "title": "Uphawu lwesantya esisezantsi",
+          "key_point": "Musa ukuqhuba ngaphantsi kwesantya esiboniswe kuphawu.",
+          "explanation": "Uphawu lusetyenziswa apho ukuhamba kancinci kakhulu kunokuphazamisa ukuhamba kwezithuthi."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -48,7 +62,21 @@
           "title": "Keep right",
           "key_point": "Pass to the right of the obstruction when the Keep Right sign applies.",
           "explanation": "The sign is used at an obstruction such as a traffic island and tells you which side of the obstruction to use."
+        },
+        "af": {
+          "title": "Hou regs",
+          "key_point": "Gaan regs van die versperring verby wanneer die Hou Regs-teken geld.",
+          "explanation": "Die teken wys aan watter kant van 'n versperring jy moet verbygaan."
+        },
+        "xh": {
+          "title": "Hlala ngasekunene",
+          "key_point": "Dlula ngasekunene komqobo xa olu phawu lusebenza.",
+          "explanation": "Uphawu lubonisa icala omele ulisebenzise xa udlula umqobo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -70,7 +98,21 @@
           "title": "Proceed right only",
           "key_point": "Drive only in the direction shown by the right-pointing arrow.",
           "explanation": "This command sign is used at intersections to control the direction in which traffic may proceed."
+        },
+        "af": {
+          "title": "Gaan slegs regs",
+          "key_point": "Ry slegs in die rigting wat deur die regsgerigte pyl aangedui word.",
+          "explanation": "Hierdie bevelteken beheer die toegelate rigting by 'n aansluiting."
+        },
+        "xh": {
+          "title": "Qhubeka ngasekunene kuphela",
+          "key_point": "Qhuba kuphela kwicala eliboniswe lutolo olujonge ngasekunene.",
+          "explanation": "Olu phawu lulawula indlela evumelekileyo kwindawo yokudibana."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -92,7 +134,21 @@
           "title": "Pedestrians only",
           "key_point": "The indicated road or part of the road is reserved for pedestrians.",
           "explanation": "Drivers and riders must not use the part of the road reserved by this command sign."
+        },
+        "af": {
+          "title": "Slegs voetgangers",
+          "key_point": "Die aangeduide pad of deel van die pad is vir voetgangers gereserveer.",
+          "explanation": "Bestuurders en ryers mag nie die gereserveerde deel gebruik nie."
+        },
+        "xh": {
+          "title": "Abahambi ngeenyawo kuphela",
+          "key_point": "Indlela okanye inxalenye yayo ibekelwe abahambi ngeenyawo.",
+          "explanation": "Abaqhubi nabakhweli bezithuthuthu akufanele bayisebenzise loo ndawo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -114,7 +170,21 @@
           "title": "Cyclists only",
           "key_point": "The indicated road or part of the road is reserved for cyclists.",
           "explanation": "Drivers and riders who are not using a pedal cycle must not use the part of the road reserved by this sign."
+        },
+        "af": {
+          "title": "Slegs fietsryers",
+          "key_point": "Die aangeduide pad of deel van die pad is vir fietsryers gereserveer.",
+          "explanation": "Ander voertuie mag nie die gereserveerde deel gebruik nie."
+        },
+        "xh": {
+          "title": "Abakhweli beebhayisekile kuphela",
+          "key_point": "Indlela okanye inxalenye yayo ibekelwe abakhweli beebhayisekile.",
+          "explanation": "Ezinye izithuthi akufanele zisebenzise loo ndawo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -136,7 +206,21 @@
           "title": "Railway crossing ahead marking",
           "key_point": "Slow down and be ready to stop before the railway crossing.",
           "explanation": "This warning marking is placed before a railway crossing to give additional warning that the crossing is ahead."
+        },
+        "af": {
+          "title": "Spooroorgang voor-padmerk",
+          "key_point": "Ry stadiger en wees gereed om voor die spooroorgang te stop.",
+          "explanation": "Die merk gee bykomende waarskuwing dat 'n spooroorgang voorlê."
+        },
+        "xh": {
+          "title": "Uphawu lwendlela lokuwela koololiwe ngaphambili",
+          "key_point": "Cotha uze ulungele ukuma phambi kwendawo yokuwela koololiwe.",
+          "explanation": "Olu phawu lwendlela lunika isilumkiso esongezelelweyo sokuba kukho indawo yokuwela koololiwe ngaphambili."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -158,7 +242,21 @@
           "title": "Continuity lines",
           "key_point": "A lane beside a continuity line may soon turn away or meet a break in the roadway.",
           "explanation": "Check mirrors and blind spots and allow for other traffic changing lanes. The marking warns that an intersection or off-ramp affects the continuing lane arrangement."
+        },
+        "af": {
+          "title": "Kontinuïteitslyne",
+          "key_point": "'n Baan langs 'n kontinuïteitslyn kan binnekort wegdraai of 'n onderbreking in die rybaan bereik.",
+          "explanation": "Let op vir voertuie wat van baan verander en kies jou baan vroeg."
+        },
+        "xh": {
+          "title": "Imigca yokuqhubeka",
+          "key_point": "Ilayini esecaleni komgca wokuqhubeka inokuthi kungekudala ijike okanye ifike kwindawo etshintsha ngayo indlela.",
+          "explanation": "Qaphela izithuthi ezitshintsha iilayini uze ukhethe ilayini kwangethuba."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -180,7 +278,21 @@
           "title": "Dividing lines",
           "key_point": "Traffic on the other side of the dividing line is travelling in the opposite direction.",
           "explanation": "Stay alert for approaching vehicles and keep safely to your side of the road."
+        },
+        "af": {
+          "title": "Skeidingslyne",
+          "key_point": "Verkeer aan die ander kant van die skeidingslyn beweeg in die teenoorgestelde rigting.",
+          "explanation": "Bly aan jou kant van die pad en let op aankomende verkeer."
+        },
+        "xh": {
+          "title": "Imigca yokwahlula",
+          "key_point": "Izithuthi kwelinye icala lomgca wokwahlula zihamba kwelinye icala.",
+          "explanation": "Hlala kwicala lakho lendlela uze uqaphele izithuthi eziza kuwe."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -202,7 +314,21 @@
           "title": "Reversible lane lines",
           "key_point": "The direction of traffic in the marked lane can change at different times.",
           "explanation": "Look for the lane-control signals that apply and be alert for traffic travelling in the opposite direction."
+        },
+        "af": {
+          "title": "Omkeerbare baanlyne",
+          "key_point": "Die verkeersrigting in die gemerkte baan kan op verskillende tye verander.",
+          "explanation": "Volg die toepaslike baanbeheerseine."
+        },
+        "xh": {
+          "title": "Imigca yelayini etshintsha icala",
+          "key_point": "Indlela yokuhamba kwezithuthi kule layini inokutshintsha ngamaxesha ahlukeneyo.",
+          "explanation": "Landela iimpawu zolawulo lwelayini ezisebenzayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -224,7 +350,21 @@
           "title": "Height limit",
           "key_point": "Do not enter if your vehicle or load is higher than the height shown.",
           "explanation": "The sign warns of a height restriction ahead. Use another route if your vehicle or load exceeds the indicated height."
+        },
+        "af": {
+          "title": "Hoogtebeperking",
+          "key_point": "Moenie ingaan as jou voertuig of vrag hoër is as die hoogte op die teken nie.",
+          "explanation": "Gebruik 'n ander roete indien jou voertuig of vrag die aangeduide hoogte oorskry."
+        },
+        "xh": {
+          "title": "Umda wokuphakama",
+          "key_point": "Musa ukungena ukuba isithuthi okanye umthwalo wakho uphezulu kunomlinganiselo obonisiwe.",
+          "explanation": "Sebenzisa enye indlela ukuba isithuthi okanye umthwalo wakho ugqitha kumda obonisiweyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -246,7 +386,21 @@
           "title": "Length limit",
           "key_point": "Do not use the road if your vehicle or combination is longer than the length shown.",
           "explanation": "The restriction protects roads where long vehicles may not be able to negotiate curves safely."
+        },
+        "af": {
+          "title": "Lengtebeperking",
+          "key_point": "Moenie die pad gebruik as jou voertuig of kombinasie langer is as die lengte wat aangedui word nie.",
+          "explanation": "Die beperking beskerm paaie waar lang voertuie nie veilig kan beweeg nie."
+        },
+        "xh": {
+          "title": "Umda wobude",
+          "key_point": "Musa ukusebenzisa indlela ukuba isithuthi okanye indibaniselwano yakho inde kunobude obubonisiwe.",
+          "explanation": "Umda ukhusela iindlela apho izithuthi ezinde zingenakuhamba ngokukhuselekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -268,7 +422,21 @@
           "title": "Excessive noise prohibited",
           "key_point": "Do not proceed with a vehicle producing excessive noise, and avoid unnecessary hooter use where this sign applies.",
           "explanation": "The sign is used in noise-sensitive areas. The manual also links it to a restriction on hooter use after the sign."
+        },
+        "af": {
+          "title": "Oormatige geraas verbode",
+          "key_point": "Moenie voortgaan met 'n voertuig wat oormatige geraas maak nie en vermy onnodige toetergebruik waar die teken geld.",
+          "explanation": "Die teken word in geraassensitiewe gebiede gebruik."
+        },
+        "xh": {
+          "title": "Ingxolo egqithisileyo ayivumelekanga",
+          "key_point": "Musa ukuqhubeka ngesithuthi esenza ingxolo egqithisileyo kwaye uphephe ukusebenzisa ihutha ngaphandle kwesidingo.",
+          "explanation": "Uphawu lusetyenziswa kwiindawo ezibuthathaka kwingxolo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -290,7 +458,21 @@
           "title": "Hitch-hiking prohibited",
           "key_point": "Do not stop to pick up hitch-hikers where the prohibition applies.",
           "explanation": "The official learner manual says the sign prohibits hitch-hiking and restricts drivers from picking up passengers for the distance stated in the manual."
+        },
+        "af": {
+          "title": "Duimgooi verbode",
+          "key_point": "Moenie stop om duimgooiers op te laai waar die verbod geld nie.",
+          "explanation": "Die teken verbied duimgooi in die aangeduide gebied."
+        },
+        "xh": {
+          "title": "Ukucela ilifti akuvumelekanga",
+          "key_point": "Musa ukuma ukuthatha abantu abacela ilifti apho olu thintelo lusebenza.",
+          "explanation": "Uphawu luyakwalela ukucela ilifti kuloo ndawo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -312,7 +494,21 @@
           "title": "Unauthorised vehicles prohibited",
           "key_point": "Do not enter unless you have special authorisation.",
           "explanation": "This sign closes a road or road section to ordinary traffic. Temporary versions are commonly used at roadworks."
+        },
+        "af": {
+          "title": "Ongemagtigde voertuie verbode",
+          "key_point": "Moenie ingaan tensy jy spesiale magtiging het nie.",
+          "explanation": "Hierdie teken sluit 'n pad of padgedeelte vir gewone verkeer."
+        },
+        "xh": {
+          "title": "Izithuthi ezingagunyaziswanga azivumelekanga",
+          "key_point": "Musa ukungena ngaphandle kokuba unemvume ekhethekileyo.",
+          "explanation": "Olu phawu luvala indlela okanye inxalenye yendlela kwizithuthi eziqhelekileyo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -334,7 +530,21 @@
           "title": "Left turn ahead prohibited",
           "key_point": "Do not turn left at the upcoming intersection.",
           "explanation": "This prohibition is placed before the junction so you can choose another route before reaching it."
+        },
+        "af": {
+          "title": "Linksdraai vorentoe verbode",
+          "key_point": "Moenie by die komende kruising links draai nie.",
+          "explanation": "Die teken waarsku jou vooraf sodat jy 'n ander roete kan kies."
+        },
+        "xh": {
+          "title": "Ukujika ngasekhohlo ngaphambili akuvumelekanga",
+          "key_point": "Musa ukujika ngasekhohlo kwindawo yokudibana ezayo.",
+          "explanation": "Uphawu lukuxelela kwangaphambili ukuze ukhethe enye indlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -356,7 +566,21 @@
           "title": "Right turn ahead prohibited",
           "key_point": "Do not turn right at the upcoming intersection.",
           "explanation": "This prohibition is placed before the junction so you can choose another route before reaching it."
+        },
+        "af": {
+          "title": "Regsdraai vorentoe verbode",
+          "key_point": "Moenie by die komende kruising regs draai nie.",
+          "explanation": "Die teken waarsku jou vooraf sodat jy 'n ander roete kan kies."
+        },
+        "xh": {
+          "title": "Ukujika ngasekunene ngaphambili akuvumelekanga",
+          "key_point": "Musa ukujika ngasekunene kwindawo yokudibana ezayo.",
+          "explanation": "Uphawu lukuxelela kwangaphambili ukuze ukhethe enye indlela."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -378,7 +602,21 @@
           "title": "Overtaking prohibited",
           "key_point": "Do not overtake where the sign applies.",
           "explanation": "The learner manual associates this sign with a defined prohibition distance. Obey any additional distance or secondary-message information displayed."
+        },
+        "af": {
+          "title": "Verbysteek verbode",
+          "key_point": "Moenie verbysteek waar die teken geld nie.",
+          "explanation": "Volg enige bykomende afstand- of boodskapplaat wat saam met die teken vertoon word."
+        },
+        "xh": {
+          "title": "Ukudlula akuvumelekanga",
+          "key_point": "Musa ukudlula apho olu phawu lusebenza.",
+          "explanation": "Landela naluphi na ulwazi olongezelelweyo lomgama okanye umyalezo oboniswa nophawu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -400,7 +638,21 @@
           "title": "Freeway pre-advance exit direction",
           "key_point": "An off-ramp exit is coming. If you intend to leave the freeway, prepare to move left in good time.",
           "explanation": "The manual places this sign well before the exit so drivers have early warning of the routes available ahead."
+        },
+        "af": {
+          "title": "Vroeë snelweg-afritrigting",
+          "key_point": "'n Afrit kom nader. As jy die snelweg wil verlaat, berei betyds voor om links te beweeg.",
+          "explanation": "Die teken gee vroeë waarskuwing oor die afrit en bestemmings."
+        },
+        "xh": {
+          "title": "Isalathiso sokuqala sokuphuma kwindlela enkulu",
+          "key_point": "Ukuphuma kusondele. Ukuba ufuna ukuphuma, lungiselela ukuya ngasekhohlo kwangethuba.",
+          "explanation": "Uphawu lunika isilumkiso kwangaphambili malunga nokuphuma neendawo eziya kuzo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -422,7 +674,21 @@
           "title": "Freeway advance exit direction",
           "key_point": "The freeway exit is getting closer. Move toward the left lane in good time if you are leaving.",
           "explanation": "This sign gives another advance indication of the exit and destinations served by it."
+        },
+        "af": {
+          "title": "Vooraf-afritrigting",
+          "key_point": "Die snelwegafrit kom nader. Beweeg betyds na die linkerbaan as jy gaan afdraai.",
+          "explanation": "Die teken gee nog 'n vooraf-aanduiding van die afrit."
+        },
+        "xh": {
+          "title": "Isalathiso sokuphuma esisondelayo",
+          "key_point": "Ukuphuma kwindlela enkulu kuyasondela. Hamba kwilayini yasekhohlo kwangethuba ukuba uza kuphuma.",
+          "explanation": "Uphawu lunika olunye ulwazi lwangaphambili malunga nokuphuma."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -444,7 +710,21 @@
           "title": "Supplementary exit direction",
           "key_point": "If you are taking the exit, you should already be positioning in the extreme left lane.",
           "explanation": "This sign confirms the approaching off-ramp shortly before the exit."
+        },
+        "af": {
+          "title": "Aanvullende afritrigting",
+          "key_point": "As jy die afrit neem, behoort jy reeds in die heel linkse baan te wees.",
+          "explanation": "Die teken bevestig dat die afrit baie naby is."
+        },
+        "xh": {
+          "title": "Isalathiso esongezelelweyo sokuphuma",
+          "key_point": "Ukuba uza kuphuma, kufuneka sele ukwilayini ekude ngasekhohlo.",
+          "explanation": "Uphawu luqinisekisa ukuba ukuphuma kusondele kakhulu."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -466,7 +746,21 @@
           "title": "Freeway exit direction",
           "key_point": "This marks the actual exit. Leave the freeway only from the correct exit lane.",
           "explanation": "The sign is positioned at or very near the off-ramp to show exactly where the exit begins."
+        },
+        "af": {
+          "title": "Snelweg-afritrigting",
+          "key_point": "Hierdie teken merk die werklike afrit. Verlaat die snelweg net vanuit die korrekte afritbaan.",
+          "explanation": "Die teken staan by of baie naby die begin van die afrit."
+        },
+        "xh": {
+          "title": "Isalathiso sokuphuma kwindlela enkulu",
+          "key_point": "Olu phawu luphawula indawo yokuphuma. Phuma kuphela kwilayini echanekileyo.",
+          "explanation": "Uphawu lubekwa apho ukuphuma kuqala khona okanye kufutshane kakhulu nalapho."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
@@ -488,7 +782,21 @@
           "title": "Gore exit direction",
           "key_point": "Pass on the exit side if you are leaving the freeway and on the through-road side if you are continuing.",
           "explanation": "The gore sign marks the separation between the off-ramp and the continuing freeway."
+        },
+        "af": {
+          "title": "Gore-afritrigting",
+          "key_point": "Gebruik die afritkant as jy die snelweg verlaat en die deurpadkant as jy voortgaan.",
+          "explanation": "Die teken merk die skeiding tussen die afrit en die snelweg wat voortgaan."
+        },
+        "xh": {
+          "title": "Isalathiso se-gore sokuphuma",
+          "key_point": "Sebenzisa icala lokuphuma ukuba uyaphuma, okanye icala lendlela eqhubekayo ukuba uyaqhubeka.",
+          "explanation": "Uphawu lubonisa ukwahlukana phakathi kwendlela yokuphuma nendlela enkulu eqhubekayo."
         }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
       }
     },
     {
