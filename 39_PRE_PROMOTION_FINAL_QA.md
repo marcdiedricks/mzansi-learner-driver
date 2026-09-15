@@ -69,3 +69,14 @@ The branch is now:
 Static QA is complete. The only technical step before promotion is one controlled phone acceptance of the held branch. A draft pull request / Deploy Preview may be used for that test without merging production.
 
 No more broad NaTIS research is required.
+
+
+## CONTROLLED PHONE-ACCEPTANCE PREVIEW
+
+Draft PR: **#39**  
+Head commit: `876b91f9b4b1701a10b9fd8e370e192163592f97`  
+Netlify Deploy Preview: **READY**  
+Deploy ID: `6aa923f293243a0008786a37`  
+Preview URL: `https://deploy-preview-39--mzansi-learner-driver.netlify.app`
+
+Production remains unchanged. This preview exists only for final phone acceptance before any merge.
