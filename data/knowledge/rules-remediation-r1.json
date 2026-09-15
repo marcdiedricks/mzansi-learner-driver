@@ -1,0 +1,2095 @@
+{
+  "pack_id": "natis-rules-remediation-r1",
+  "section": "rules",
+  "status": "ENGLISH_SOURCE_MASTER_AUDIT_ONLY_DO_NOT_DEPLOY",
+  "source_control": {
+    "primary": "NaTIS Rules of the Road v1.01 (June 2012)",
+    "current_law_support": "National Road Traffic Act 93 of 1996 for sections 63-64",
+    "note": "Items with legal_review_status=pending remain held from release certification until current regulations are checked."
+  },
+  "items": [
+    {
+      "id": "knowledge-rules-6-3",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "dipped-beam",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.3 — Dipped beam",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Dipped beam",
+          "key_point": "A dipped-beam headlamp must be adjusted and maintained so that it adequately lights the road ahead.",
+          "explanation": "The official learner manual says dipped beam must allow the driver or rider to see a person, vehicle or substantial object at least 45 metres ahead. This distance remains held for current-regulation verification before release certification."
+        },
+        "af": {
+          "title": "Dimbalk",
+          "key_point": "'n Dimbalkoplig moet so verstel en onderhou word dat dit die pad voor voldoende verlig.",
+          "explanation": "Die amptelike leerderhandleiding bepaal dat dimlig die bestuurder of ryer moet help om 'n persoon, voertuig of groot voorwerp minstens 45 meter voor te sien. Hierdie afstand bly onder huidige regulasieverifikasie."
+        },
+        "xh": {
+          "title": "Isibane esisezantsi",
+          "key_point": "Isibane esisezantsi kufuneka silungiswe size sigcinwe ukuze sikhanyise indlela engaphambili ngokwaneleyo.",
+          "explanation": "Incwadi yomfundi esemthethweni ithi isibane esisezantsi kufuneka sincede umqhubi okanye umkhweli abone umntu, isithuthi okanye into enkulu ubuncinane kwiimitha ezingama-45 ngaphambili. Lo mgama usaphantsi kovavanyo lwemigaqo yangoku."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-4",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "parking-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.4 — Parking lamps",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Parking lamps",
+          "key_point": "Do not drive a moving vehicle on a public road using only its parking lamps.",
+          "explanation": "Parking lamps are not a substitute for the normal lamps required while the vehicle is being driven."
+        },
+        "af": {
+          "title": "Parkeerligte",
+          "key_point": "Moenie 'n bewegende voertuig op 'n openbare pad bestuur deur slegs parkeerligte te gebruik nie.",
+          "explanation": "Parkeerligte vervang nie die normale ligte wat tydens bestuur vereis word nie."
+        },
+        "xh": {
+          "title": "Izibane zokupaka",
+          "key_point": "Musa ukuqhuba isithuthi esihambayo endleleni yoluntu usebenzisa kuphela izibane zokupaka.",
+          "explanation": "Izibane zokupaka azithathi ndawo yezibane eziqhelekileyo ezifunekayo xa uqhuba."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-5",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "rear-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.5 — Rear lamps",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Rear lamps",
+          "key_point": "A motorcycle and a light motor vehicle used on a public road must have rear lighting that shows red to the rear.",
+          "explanation": "Rear lamps make the vehicle visible from behind. The exact current equipment wording is being cross-checked against the operative regulations before final release certification."
+        },
+        "af": {
+          "title": "Agterligte",
+          "key_point": "'n Motorfiets en 'n ligte motorvoertuig op 'n openbare pad moet agterligte hê wat rooi na agter wys.",
+          "explanation": "Agterligte help ander padgebruikers om die voertuig van agter af te sien."
+        },
+        "xh": {
+          "title": "Izibane zangasemva",
+          "key_point": "Isithuthuthu nemoto elula esetyenziswa endleleni yoluntu kufuneka zibe nezibane zangasemva ezibonisa umbala obomvu ngasemva.",
+          "explanation": "Izibane zangasemva zinceda abanye abasebenzisi bendlela babone isithuthi ngasemva."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-6",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "stop-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.6 — Stop lamp",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Stop lamps",
+          "key_point": "A light motor vehicle or motorcycle used on a public road must have rear stop lamps that show red when braking.",
+          "explanation": "A stop lamp warns following road users that the vehicle is slowing or stopping. Detailed visibility measurements remain under current-regulation verification."
+        },
+        "af": {
+          "title": "Remligte",
+          "key_point": "'n Ligte motorvoertuig of motorfiets op 'n openbare pad moet rooi remligte hê wat wys wanneer gerem word.",
+          "explanation": "Remligte waarsku verkeer agter jou dat jy stadiger ry of stop."
+        },
+        "xh": {
+          "title": "Izibane zokuqhobosha",
+          "key_point": "Imoto elula okanye isithuthuthu endleleni yoluntu kufuneka sibe nezibane ezibomvu ezikhanya xa kuqhoboshwa.",
+          "explanation": "Ezi zibane zilumkisa izithuthi ezingasemva ukuba uyacotha okanye uyema."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-7",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "number-plate-lamp",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.7 — Number plate lamp",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Number-plate lamp",
+          "key_point": "A motor vehicle used on a public road must have a rear number-plate lamp that illuminates the registration plate.",
+          "explanation": "The purpose is to keep the registration plate visible at night. The manual's exact distance requirement remains under current-regulation verification."
+        },
+        "af": {
+          "title": "Nommerplaatlig",
+          "key_point": "'n Motorvoertuig moet 'n agterste nommerplaatlig hê wat die registrasieplaat verlig.",
+          "explanation": "Die lig help om die registrasieplaat snags leesbaar te hou."
+        },
+        "xh": {
+          "title": "Isibane senombolo yobhaliso",
+          "key_point": "Imoto kufuneka ibe nesibane sangasemva esikhanyisa inombolo yobhaliso.",
+          "explanation": "Esi sibane sinceda ukuba inombolo yobhaliso ifundeke ebusuku."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-63",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "reckless-negligent-driving",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-012",
+        "locator": "National Road Traffic Act 93 of 1996 §63 — Reckless or negligent driving",
+        "verification_status": "current_act_verified"
+      },
+      "legal_review_status": "current_act_verified",
+      "language": {
+        "en": {
+          "title": "Reckless or negligent driving",
+          "key_point": "A person may not drive a vehicle on a public road recklessly or negligently.",
+          "explanation": "Road conditions, traffic, speed and the manner of driving all matter when deciding whether driving was reckless or negligent."
+        },
+        "af": {
+          "title": "Roekelose of nalatige bestuur",
+          "key_point": "'n Persoon mag nie roekeloos of nalatig op 'n openbare pad bestuur nie.",
+          "explanation": "Padtoestande, verkeer, spoed en die manier van bestuur tel alles wanneer veilige bestuur beoordeel word."
+        },
+        "xh": {
+          "title": "Ukuqhuba ngokungakhathali okanye ngokungakhathaleli",
+          "key_point": "Umntu akavumelekanga ukuqhuba isithuthi endleleni yoluntu ngokungakhathali okanye ngokungenankathalo.",
+          "explanation": "Imeko yendlela, izithuthi, isantya nendlela oqhuba ngayo zonke zibalulekile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-64",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "inconsiderate-driving",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-012",
+        "locator": "National Road Traffic Act 93 of 1996 §64 — Inconsiderate driving",
+        "verification_status": "current_act_verified"
+      },
+      "legal_review_status": "current_act_verified",
+      "language": {
+        "en": {
+          "title": "Inconsiderate driving",
+          "key_point": "A person may not drive on a public road without reasonable consideration for other people using the road.",
+          "explanation": "Safe driving includes consideration for other road users, not only avoiding a collision or breaking a speed limit."
+        },
+        "af": {
+          "title": "Onbedagsame bestuur",
+          "key_point": "'n Persoon mag nie bestuur sonder redelike agting vir ander padgebruikers nie.",
+          "explanation": "Veilige bestuur beteken ook dat jy ander mense op die pad in ag neem."
+        },
+        "xh": {
+          "title": "Ukuqhuba ngaphandle kokuqwalasela abanye",
+          "key_point": "Umntu akavumelekanga ukuqhuba ngaphandle kokuqwalasela ngokufanelekileyo abanye abasebenzisi bendlela.",
+          "explanation": "Ukuqhuba ngokukhuselekileyo kuthetha nokucingela abanye abantu endleleni."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-37",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "divided-public-road",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.37 — Driving on divided public road",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Driving on a divided public road",
+          "key_point": "Use the left-hand roadway unless a traffic sign or traffic officer directs or permits you to use another roadway.",
+          "explanation": "Where a public road is divided into separate roadways, traffic normally keeps to the left-hand roadway."
+        },
+        "af": {
+          "title": "Bestuur op 'n verdeelde openbare pad",
+          "key_point": "Gebruik die linker rybaan tensy 'n verkeersbord of verkeersbeampte jou anders aanwys of toelaat.",
+          "explanation": "Op 'n verdeelde pad bly verkeer normaalweg op die linker rybaan."
+        },
+        "xh": {
+          "title": "Ukuqhuba kwindlela yoluntu eyahluliweyo",
+          "key_point": "Sebenzisa icala lasekhohlo lendlela ngaphandle kokuba uphawu okanye igosa lezendlela likuyalela okanye likuvumela ngenye indlela.",
+          "explanation": "Kwindlela eyahluliweyo izithuthi zihlala zisebenzisa indlela yasekhohlo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-38",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "keep-left-general",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.38 — Driving on left side of roadway",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Keep left on the roadway",
+          "key_point": "Drive on the left side of the roadway and do not unnecessarily encroach into the right half.",
+          "explanation": "Move left safely when another vehicle wants to pass and do not accelerate until it has passed."
+        },
+        "af": {
+          "title": "Hou links op die rybaan",
+          "key_point": "Bestuur aan die linkerkant van die rybaan en beweeg nie onnodig in die regterhelfte in nie.",
+          "explanation": "Beweeg veilig links wanneer 'n ander voertuig wil verbysteek en moenie versnel totdat dit verby is nie."
+        },
+        "xh": {
+          "title": "Hlala ngasekhohlo endleleni",
+          "key_point": "Qhuba kwicala lasekhohlo lendlela kwaye ungangeni ngokungeyomfuneko kwicala lasekunene.",
+          "explanation": "Hamba ngasekhohlo ngokukhuselekileyo xa esinye isithuthi sifuna ukudlula kwaye ungakhawulezisi de sidlule."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-39",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "shoulder-driving",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.39 — Prohibition on driving on shoulder except in certain circumstances",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Driving on the shoulder",
+          "key_point": "Do not normally drive on the shoulder. A light vehicle may use it only in limited safe circumstances allowed by the rules.",
+          "explanation": "The learner manual describes daytime use while being overtaken, provided it is safe and visibility is adequate. The exact conditions remain under the current-regulation verification gate."
+        },
+        "af": {
+          "title": "Bestuur op die skouer",
+          "key_point": "Moenie normaalweg op die padskouer bestuur nie. 'n Ligte voertuig mag dit net in beperkte veilige omstandighede gebruik.",
+          "explanation": "Gebruik die skouer slegs wanneer die reëls dit toelaat en wanneer dit veilig is."
+        },
+        "xh": {
+          "title": "Ukuqhuba egxalabeni lendlela",
+          "key_point": "Musa ukuqhuba egxalabeni lendlela ngokuqhelekileyo. Imoto elula inokulisebenzisa kuphela kwiimeko ezithile ezikhuselekileyo.",
+          "explanation": "Sebenzisa igxalaba kuphela xa imithetho ivuma kwaye kukhuselekile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-40",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "lane-changing",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.40 — Lane changing",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Changing lanes",
+          "key_point": "Change from one marked lane to another only when you can do so without obstructing or endangering other traffic.",
+          "explanation": "Check mirrors and blind spots, signal in good time and move only when there is a safe gap."
+        },
+        "af": {
+          "title": "Van baan verander",
+          "key_point": "Verander slegs van een gemerkte baan na 'n ander wanneer jy dit kan doen sonder om verkeer te belemmer of in gevaar te stel.",
+          "explanation": "Kontroleer spieëls en blindekolle, dui betyds aan en beweeg net wanneer daar 'n veilige gaping is."
+        },
+        "xh": {
+          "title": "Ukutshintsha iilayini",
+          "key_point": "Tshintsha ukusuka kwenye ilayini ephawulweyo uye kwenye kuphela xa ungathinteli okanye ubeke ezinye izithuthi emngciphekweni.",
+          "explanation": "Jonga izibuko neendawo ezingabonakaliyo, bonisa kwangethuba uze utshintshe kuphela xa kukho indawo ekhuselekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-42",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "direction-indicators-use",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.42 — Direction indicators",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Direction indicators",
+          "key_point": "Use direction indicators when turning or changing lanes.",
+          "explanation": "Indicators communicate your intended movement to other road users. Vehicle-equipment details remain subject to the current-regulation check."
+        },
+        "af": {
+          "title": "Rigtingwysers",
+          "key_point": "Gebruik rigtingwysers wanneer jy draai of van baan verander.",
+          "explanation": "Rigtingwysers wys ander padgebruikers wat jy van plan is om te doen."
+        },
+        "xh": {
+          "title": "Izalathisi zokujika",
+          "key_point": "Sebenzisa izalathisi xa ujika okanye utshintsha ilayini.",
+          "explanation": "Izalathisi zixelela abanye abasebenzisi bendlela into oceba ukuyenza."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-43-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-retro-reflector",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.43.1 — Motorcycle retro-reflector",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycle rear reflector",
+          "key_point": "A motorcycle used on a public road must have a red retro-reflector fitted at the rear.",
+          "explanation": "The reflector helps other road users see the motorcycle from behind in low-light conditions."
+        },
+        "af": {
+          "title": "Motorfiets se agterste weerkaatser",
+          "key_point": "'n Motorfiets op 'n openbare pad moet 'n rooi weerkaatser aan die agterkant hê.",
+          "explanation": "Die weerkaatser help om die motorfiets in swak lig van agter af sigbaar te maak."
+        },
+        "xh": {
+          "title": "Isibonakalisi sangasemva sesithuthuthu",
+          "key_point": "Isithuthuthu endleleni yoluntu kufuneka sibe nesibonakalisi esibomvu ngasemva.",
+          "explanation": "Isibonakalisi sinceda ukuba isithuthuthu sibonakale ngasemva xa ukukhanya kubuthathaka."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-43-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "light-vehicle-retro-reflectors",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.43.2 — Light motor vehicle retro-reflectors",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Light-vehicle rear reflectors",
+          "key_point": "A light motor vehicle must have red retro-reflectors at the rear.",
+          "explanation": "The learner manual specifies one on each side. The exact current equipment wording is being checked against operative regulations."
+        },
+        "af": {
+          "title": "Ligte voertuig se agterste weerkaatsers",
+          "key_point": "'n Ligte motorvoertuig moet rooi weerkaatsers aan die agterkant hê.",
+          "explanation": "Die weerkaatsers verbeter die voertuig se sigbaarheid van agter af."
+        },
+        "xh": {
+          "title": "Izibonakalisi zangasemva zemoto elula",
+          "key_point": "Imoto elula kufuneka ibe nezibonakalisi ezibomvu ngasemva.",
+          "explanation": "Izibonakalisi zenza imoto ibonakale ngcono ngasemva."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-45-left-pass",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "passing-on-left-exceptions",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.45 — Overtaking/passing, limited left-passing exceptions",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Passing on the left",
+          "key_point": "Overtaking is normally on the right. Passing on the left is allowed only in specific safe situations permitted by the rules.",
+          "explanation": "Do not treat the left side as a general overtaking lane. The detailed exceptions remain tied to the official rule set and current-regulation check."
+        },
+        "af": {
+          "title": "Aan die linkerkant verbygaan",
+          "key_point": "Verbysteek is normaalweg aan die regterkant. Verbygaan links word net in spesifieke veilige gevalle toegelaat.",
+          "explanation": "Moenie die linkerkant as 'n gewone verbysteekbaan gebruik nie."
+        },
+        "xh": {
+          "title": "Ukudlula ngasekhohlo",
+          "key_point": "Ukudlula kuqhele ukwenziwa ngasekunene. Ukudlula ngasekhohlo kuvumelekile kuphela kwiimeko ezithile ezikhuselekileyo.",
+          "explanation": "Musa ukuphatha icala lasekhohlo njengendawo eqhelekileyo yokudlula."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-50-motorcycle-control",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-complete-control",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.50 — Duties relating to motorcycles",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycle rider control",
+          "key_point": "Ride so that you maintain complete control of the motorcycle and a clear view of the road and traffic.",
+          "explanation": "Baggage must be carried so that it does not obstruct your view or prevent proper control."
+        },
+        "af": {
+          "title": "Beheer van 'n motorfiets",
+          "key_point": "Ry so dat jy volle beheer oor die motorfiets en 'n duidelike uitsig oor die pad en verkeer behou.",
+          "explanation": "Bagasie mag nie jou uitsig of beheer oor die motorfiets belemmer nie."
+        },
+        "xh": {
+          "title": "Ulawulo lwesithuthuthu",
+          "key_point": "Khwela ngendlela egcina ulawulo olupheleleyo lwesithuthuthu kunye nombono ocacileyo wendlela nezithuthi.",
+          "explanation": "Imithwalo mayingavali umbono wakho okanye iphazamise ulawulo lwesithuthuthu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-50-no-holding",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-no-holding-moving-vehicle",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.50 — Rider/passenger must not take hold of another moving vehicle",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Do not hold onto another moving vehicle",
+          "key_point": "A motorcycle rider or passenger must not take hold of another vehicle that is moving.",
+          "explanation": "The motorcycle must be controlled independently and safely at all times."
+        },
+        "af": {
+          "title": "Moenie aan 'n ander bewegende voertuig vashou nie",
+          "key_point": "'n Motorfietsryer of passasier mag nie aan 'n ander voertuig wat beweeg vashou nie.",
+          "explanation": "Die motorfiets moet onafhanklik en veilig beheer word."
+        },
+        "xh": {
+          "title": "Musa ukubambelela kwesinye isithuthi esihambayo",
+          "key_point": "Umkhweli okanye umgibeli wesithuthuthu akavumelekanga ukubambelela kwesinye isithuthi esihambayo.",
+          "explanation": "Isithuthuthu kufuneka silawulwe ngokuzimeleyo nangokukhuselekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-50-single-file",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-single-file",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.50 — Motorcycles in single file, subject to overtaking rule",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycles travelling together",
+          "key_point": "Motorcycles travelling in the same lane should ride in single file, except as allowed while overtaking.",
+          "explanation": "The rule reduces conflict between motorcycles sharing the same lane and other road users."
+        },
+        "af": {
+          "title": "Motorfietse wat saam ry",
+          "key_point": "Motorfietse wat in dieselfde baan ry, moet enkelgelid ry, behalwe waar verbysteek toegelaat word.",
+          "explanation": "Dit help om konflik tussen motorfietse en ander padgebruikers te verminder."
+        },
+        "xh": {
+          "title": "Izithuthuthu ezihamba kunye",
+          "key_point": "Izithuthuthu ezihamba kwilayini enye kufuneka zihambe ngomgca omnye, ngaphandle xa ukudlula kuvumelekile.",
+          "explanation": "Oku kunceda ukunciphisa ungquzulwano phakathi kwezithuthuthu nabanye abasebenzisi bendlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-51",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-sidecar",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.51 — Sidecar attachment",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Motorcycle sidecar",
+          "key_point": "A sidecar used on a public road must be attached on the correct side of the motorcycle.",
+          "explanation": "The learner manual specifies the left side and contains an engine-capacity condition. Those equipment details remain under current-regulation verification."
+        },
+        "af": {
+          "title": "Motorfiets-syspan",
+          "key_point": "'n Syspan wat op 'n openbare pad gebruik word, moet aan die korrekte kant van die motorfiets vasgemaak wees.",
+          "explanation": "Die leerderhandleiding plaas die syspan aan die linkerkant; besonderhede bly onder regsverifikasie."
+        },
+        "xh": {
+          "title": "I-sidecar yesithuthuthu",
+          "key_point": "I-sidecar esetyenziswa endleleni yoluntu kufuneka ifakwe kwicala elichanekileyo lesithuthuthu.",
+          "explanation": "Incwadi yomfundi ibeka i-sidecar kwicala lasekhohlo; iinkcukacha zisaphantsi kovavanyo lomthetho."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-54",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "vehicle-left-abandoned",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.54 — Vehicle left/abandoned",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Leaving a vehicle on a public road",
+          "key_point": "Do not leave a vehicle standing indefinitely on a public road.",
+          "explanation": "The learner manual sets different time periods inside and outside urban areas. Those exact periods remain under the current-regulation verification gate before release certification."
+        },
+        "af": {
+          "title": "Om 'n voertuig op 'n openbare pad te laat",
+          "key_point": "Moenie 'n voertuig vir 'n onbepaalde tyd op 'n openbare pad laat staan nie.",
+          "explanation": "Die presiese tydperke verskil volgens ligging en moet volgens die toepaslike reëls gevolg word."
+        },
+        "xh": {
+          "title": "Ukushiya isithuthi endleleni yoluntu",
+          "key_point": "Musa ukushiya isithuthi simile endleleni yoluntu ixesha elingenasiphelo.",
+          "explanation": "Amaxesha achanekileyo ayahluka ngokwendawo kwaye kufuneka kulandelwe imithetho esebenzayo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-55",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "damage-public-road",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.55 — Damage to public roads",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Do not damage the road",
+          "key_point": "Do not operate or move a vehicle in a way that damages the roadway.",
+          "explanation": "The manual also prohibits deliberately dragging or spinning wheels on the road except in an emergency."
+        },
+        "af": {
+          "title": "Moenie die pad beskadig nie",
+          "key_point": "Moenie 'n voertuig gebruik of beweeg op 'n manier wat die rybaan beskadig nie.",
+          "explanation": "Moenie wiele doelbewus sleep of laat tol op 'n manier wat die pad beskadig nie, behalwe waar noodoptrede nodig is."
+        },
+        "xh": {
+          "title": "Musa ukonakalisa indlela",
+          "key_point": "Musa ukusebenzisa okanye ukuhambisa isithuthi ngendlela eyonakalisa indlela.",
+          "explanation": "Musa ukurhuqa okanye ukujikelezisa amavili ngenjongo ngendlela eyonakalisa indlela, ngaphandle kwemeko engxamisekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-56-freeway-users",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "freeway-prohibited-users",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.56 — Freeways: prohibited vehicles/users",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Who may use a freeway",
+          "key_point": "Not every road user or vehicle is allowed on a freeway.",
+          "explanation": "The official learner manual excludes several slow or unsuitable road users and vehicle types. Exact category thresholds remain under current-regulation verification."
+        },
+        "af": {
+          "title": "Wie mag 'n snelweg gebruik",
+          "key_point": "Nie elke padgebruiker of voertuig word op 'n snelweg toegelaat nie.",
+          "explanation": "Sekere stadige of ongeskikte voertuie en padgebruikers word uitgesluit. Volg die snelwegreëls en tekens."
+        },
+        "xh": {
+          "title": "Ngubani onokusebenzisa indlela enkulu",
+          "key_point": "Ayinguye wonke umsebenzisi wendlela okanye isithuthi esivumelekileyo kwindlela enkulu.",
+          "explanation": "Ezinye izithuthi ezicothayo okanye ezingafanelekanga kunye nabasebenzisi bendlela azivumelekanga. Landela imithetho nemiqondiso yendlela enkulu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-56-freeway-behaviour",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "freeway-behaviour",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.56 — Freeway stopping, pedestrians/animals and merging",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "pending_current_regulations_check",
+      "language": {
+        "en": {
+          "title": "Freeway behaviour",
+          "key_point": "Do not stop on a freeway except where the rules allow it, and remain alert to vehicles merging from on-ramps.",
+          "explanation": "The manual also restricts pedestrians and animals on freeways and requires drivers to allow a vehicle ahead to merge safely from an on-ramp."
+        },
+        "af": {
+          "title": "Gedrag op 'n snelweg",
+          "key_point": "Moenie op 'n snelweg stop nie, behalwe waar die reëls dit toelaat, en let op voertuie wat vanaf opritte invoeg.",
+          "explanation": "Bestuur vooruitdenkend, hou veilige afstand en laat veilige invoeging toe waar nodig."
+        },
+        "xh": {
+          "title": "Indlela yokuziphatha kwindlela enkulu",
+          "key_point": "Musa ukuma kwindlela enkulu ngaphandle apho imithetho ivuma khona, kwaye qaphela izithuthi ezidibanayo zisuka kwi-on-ramp.",
+          "explanation": "Qhuba ucinga phambili, gcina umgama okhuselekileyo kwaye vumela ukudibana kwezithuthi ngokukhuselekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-8",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "number-plates",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.8 — Number plates",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Number plates",
+          "key_point": "Number plates must be fitted in the prescribed positions and must be clearly legible and visible.",
+          "explanation": "The learner manual places a plate at the rear of a motorcycle, motor tricycle or trailer, and at both the front and rear of other motor vehicles."
+        },
+        "af": {
+          "title": "Nommerplate",
+          "key_point": "Nommerplate moet in die voorgeskrewe posisies aangebring word en duidelik leesbaar en sigbaar wees.",
+          "explanation": "Motorfietse het die registrasieplaat agter; ander voertuie het plate waar die reëls dit vereis."
+        },
+        "xh": {
+          "title": "Iipleyiti zenombolo",
+          "key_point": "Iipleyiti zenombolo kufuneka zibekwe kwiindawo ezimiselweyo kwaye zifundeke zize zibonakale kakuhle.",
+          "explanation": "Izithuthuthu zinenombolo yobhaliso ngasemva; ezinye izithuthi zineepleyiti apho imithetho ifuna khona."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-9",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "fog-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.9 — Fog lamps",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Fog lamps",
+          "key_point": "Fog lamps should be used only when visibility is poor because of conditions such as fog, mist, dust, smoke or snow.",
+          "explanation": "Do not use fog lamps as ordinary driving lights in clear conditions."
+        },
+        "af": {
+          "title": "Misligte",
+          "key_point": "Gebruik misligte slegs wanneer sigbaarheid swak is weens toestande soos mis, stof, rook of swaar weer.",
+          "explanation": "Moenie misligte as gewone ryligte in helder toestande gebruik nie."
+        },
+        "xh": {
+          "title": "Izibane zenkungu",
+          "key_point": "Sebenzisa izibane zenkungu kuphela xa ukubona kubuthathaka ngenxa yenkungu, uthuli, umsi okanye imozulu embi.",
+          "explanation": "Musa ukuzisebenzisa njengezibane eziqhelekileyo xa indlela icacile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-10",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "spot-lamps",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.10 — Spot lamp",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Spot lamps",
+          "key_point": "An adjustable spot lamp is not for ordinary unrestricted road use.",
+          "explanation": "The learner manual limits adjustable spot-lamp use to specified official, emergency, professional and essential-service purposes."
+        },
+        "af": {
+          "title": "Soekligte",
+          "key_point": "'n Verstelbare soeklig is nie vir gewone onbeperkte gebruik op openbare paaie bedoel nie.",
+          "explanation": "Gebruik soekligte slegs waar die wet of 'n toegelate diens dit voorsien."
+        },
+        "xh": {
+          "title": "Izibane zokukhangela",
+          "key_point": "Isibane sokukhangela esilungisekayo asenzelwanga ukusetyenziswa okuqhelekileyo okungenamda endleleni yoluntu.",
+          "explanation": "Sisebenzise kuphela apho umthetho okanye inkonzo egunyazisiweyo ivuma khona."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-11",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "unobstructed-view-mirrors",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.11 — Driving view unobstructed / rear-view mirrors",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Clear driving view and mirrors",
+          "key_point": "The driver or rider must have a clear view ahead and to both sides and must be able to see traffic behind using suitable mirrors.",
+          "explanation": "For light vehicles, the learner manual explains the required exterior/interior mirror arrangement and the additional exterior mirror needed when an interior mirror cannot give a clear rear view."
+        },
+        "af": {
+          "title": "Duidelike uitsig en spieëls",
+          "key_point": "Die bestuurder of ryer moet 'n duidelike uitsig vorentoe en na beide kante hê en verkeer agter met geskikte spieëls kan sien.",
+          "explanation": "Spieëls en die vooruitsig moet nie so geblokkeer wees dat veilige bestuur belemmer word nie."
+        },
+        "xh": {
+          "title": "Umbono ocacileyo nezibuko",
+          "key_point": "Umqhubi okanye umkhweli kufuneka abe nombono ocacileyo phambili nasemacaleni kwaye abone izithuthi ezingasemva ngezibuko ezifanelekileyo.",
+          "explanation": "Izibuko nombono wangaphambili akufanele kuthintelwe ngendlela ephazamisa ukuqhuba ngokukhuselekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-12-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-steering-gear",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.12.1 — Motorcycle steering gear",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Motorcycle steering gear",
+          "key_point": "Motorcycle steering gear must allow safe and efficient steering and the handlebars must comply with the official dimensions.",
+          "explanation": "The learner manual states handlebar widths of 600–800 mm for motorcycles of 200 cc or more, and 500–800 mm below 200 cc, with limits on handgrip height relative to the seat."
+        },
+        "af": {
+          "title": "Motorfiets-stuurmeganisme",
+          "key_point": "Die motorfiets se stuurmeganisme moet veilige en doeltreffende stuur moontlik maak en die handvatsels moet aan die vereistes voldoen.",
+          "explanation": "Die leerderhandleiding bepaal handvatselwydtes van 600–800 mm vir motorfietse van 200 cc of meer, en 500–800 mm vir motorfietse onder 200 cc, met perke op die handgreephoogte relatief tot die sitplek."
+        },
+        "xh": {
+          "title": "Inkqubo yokujika yesithuthuthu",
+          "key_point": "Inkqubo yokujika yesithuthuthu kufuneka ivumele ukujika ngokukhuselekileyo nangempumelelo kwaye iziphatho zihambelane neemfuno.",
+          "explanation": "Incwadi yomfundi ichaza ububanzi beziphatho obuyi-600–800 mm kwizithuthuthu ezine-200 cc nangaphezulu, kunye ne-500–800 mm kwezisezantsi kwe-200 cc, kunye nemida yokuphakama kwezibambo xa kuthelekiswa nesihlalo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-12-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "light-vehicle-steering-gear",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.12.2 — Light motor vehicle steering gear",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Light-vehicle steering gear",
+          "key_point": "All steering parts must be maintained so that the vehicle can be steered safely and efficiently.",
+          "explanation": "A vehicle with defective steering must not be used on a public road."
+        },
+        "af": {
+          "title": "Ligte voertuig se stuurmeganisme",
+          "key_point": "Alle stuuronderdele moet so onderhou word dat die voertuig veilig en doeltreffend bestuur kan word.",
+          "explanation": "'n Voertuig met gebrekkige stuurwerk mag nie op 'n openbare pad gebruik word nie."
+        },
+        "xh": {
+          "title": "Inkqubo yokujika yemoto elula",
+          "key_point": "Zonke iinxalenye zokujika kufuneka zigcinwe ukuze imoto ikwazi ukuqhutywa ngokukhuselekileyo nangempumelelo.",
+          "explanation": "Imoto enenkqubo yokujika engasebenzi kakuhle akufanele isetyenziswe endleleni yoluntu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-13",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "turning-radius",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.13 — Turning radius",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Turning radius",
+          "key_point": "The learner manual states that a motor vehicle used on a public road may not have a turning radius exceeding 13.1 metres.",
+          "explanation": "This is part of the published vehicle-roadworthiness study material."
+        },
+        "af": {
+          "title": "Draairadius",
+          "key_point": "Die leerderhandleiding bepaal dat 'n motorvoertuig op 'n openbare pad nie 'n draairadius van meer as 13,1 meter mag hê nie.",
+          "explanation": "Dit vorm deel van die gepubliseerde voertuig-padwaardigheidsmateriaal."
+        },
+        "xh": {
+          "title": "Iradiyasi yokujika",
+          "key_point": "Incwadi yomfundi ithi isithuthi endleleni yoluntu asimele sibe neradiyasi yokujika engaphezu kwe-13,1 yeemitha.",
+          "explanation": "Oku kuyinxalenye yezinto ezipapashiweyo malunga nokufaneleka kwesithuthi endleleni."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-14-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-brakes",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.14.1 — Motorcycle brakes",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Motorcycle braking systems",
+          "key_point": "A motorcycle must have two independent braking systems: one acting on the front wheel and one on the rear wheel or wheels.",
+          "explanation": "Both braking systems must be in proper working order."
+        },
+        "af": {
+          "title": "Motorfiets-remstelsels",
+          "key_point": "'n Motorfiets moet twee onafhanklike remstelsels hê: een vir die voorwiel en een vir die agterwiel of -wiele.",
+          "explanation": "Albei remstelsels moet in goeie werkende toestand wees."
+        },
+        "xh": {
+          "title": "Iinkqubo zokuqhobosha zesithuthuthu",
+          "key_point": "Isithuthuthu kufuneka sibe neenkqubo ezimbini ezizimeleyo zokuqhobosha: enye kwivili langaphambili nenye kwivili okanye kumavili angasemva.",
+          "explanation": "Zombini iinkqubo zokuqhobosha kufuneka zisebenze kakuhle."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-19",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "windscreen",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.19 — Windscreen",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Windscreen",
+          "key_point": "The windscreen must provide enough visibility for safe driving and must be made of safety glass.",
+          "explanation": "The learner manual also states a minimum visible-light transmittance of 70 percent through the windscreen."
+        },
+        "af": {
+          "title": "Voorruit",
+          "key_point": "Die voorruit moet genoeg sig vir veilige bestuur bied en van veiligheidsglas gemaak wees.",
+          "explanation": "Die leerderhandleiding bepaal ook 'n minimum sigbare-lig-deurlaatbaarheid van 70 persent deur die voorruit."
+        },
+        "xh": {
+          "title": "I-windscreen",
+          "key_point": "I-windscreen kufuneka inike umbono owaneleyo wokuqhuba ngokukhuselekileyo kwaye yenziwe ngeglasi yokhuseleko.",
+          "explanation": "Incwadi yomfundi ikwathi i-windscreen kufuneka ivumele ubuncinane i-70 pesenti yokukhanya okubonakalayo ukuba kudlule."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-20",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "windscreen-wipers",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.20 — Windscreen wipers",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Windscreen wipers",
+          "key_point": "A vehicle with a windscreen must have at least one effective windscreen wiper.",
+          "explanation": "The wiper must clear the outside of the windscreen directly in front of the driver continuously and adequately."
+        },
+        "af": {
+          "title": "Voorruitveërs",
+          "key_point": "'n Voertuig met 'n voorruit moet minstens een doeltreffende voorruitveër hê.",
+          "explanation": "Die veër moet die gedeelte voor die bestuurder voldoende skoonmaak."
+        },
+        "xh": {
+          "title": "Ii-wiper ze-windscreen",
+          "key_point": "Isithuthi esine-windscreen kufuneka sibe nobuncinane i-wiper enye esebenzayo.",
+          "explanation": "I-wiper kufuneka icoce ngokwaneleyo indawo ephambi komqhubi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-21",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "exhaust-system",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.21 — Exhaust silencers / exhaust pipes",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Exhaust system",
+          "key_point": "A motor vehicle must have an effective exhaust silencer and must not emit exhaust in a way that creates danger, nuisance or obstructed visibility.",
+          "explanation": "The exhaust system must also be positioned and maintained so that fumes do not leak into the driver or passenger area."
+        },
+        "af": {
+          "title": "Uitlaatstelsel",
+          "key_point": "'n Motorvoertuig moet 'n doeltreffende uitlaatdemper hê en mag nie uitlaatgasse op 'n gevaarlike of hinderlike manier vrystel nie.",
+          "explanation": "Die uitlaatstelsel moet goed onderhou word en nie uitlaatgasse in die bestuurder- of passasiersruimte laat lek nie."
+        },
+        "xh": {
+          "title": "Inkqubo yokukhupha umsi",
+          "key_point": "Isithuthi kufuneka sibe nesinciphisi-ngxolo esisebenzayo kwaye singakhuphi umsi ngendlela eyingozi okanye ephazamisayo.",
+          "explanation": "Inkqubo yokukhupha umsi kufuneka igcinwe kakuhle kwaye ingavumeli umsi ungene kwindawo yomqhubi okanye yabakhweli."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-22",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "fuel-electrical-battery",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.22 — Fuel tank, electrical wiring and battery",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Fuel system, wiring and battery",
+          "key_point": "Fuel-system parts, electrical wiring and the battery must be safely installed, maintained and not create a source of danger.",
+          "explanation": "The fuel tank must also have an effective cap."
+        },
+        "af": {
+          "title": "Brandstofstelsel, bedrading en battery",
+          "key_point": "Brandstofonderdele, elektriese bedrading en die battery moet veilig geïnstalleer en onderhou word en mag nie gevaar veroorsaak nie.",
+          "explanation": "Die brandstoftenk moet ook 'n doeltreffende dop hê."
+        },
+        "xh": {
+          "title": "Inkqubo yamafutha, iingcingo nombane webhetri",
+          "key_point": "Iinxalenye zamafutha, iingcingo zombane nebhetri kufuneka zifakwe zize zigcinwe ngokukhuselekileyo kwaye zingabi ngumthombo wengozi.",
+          "explanation": "Itanki yamafutha kufuneka ibe nesivalo esisebenzayo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-23",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "engine-cover",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.23 — Engine",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Engine safety",
+          "key_point": "A light motor vehicle must have its engine covered so that it is not a source of danger.",
+          "explanation": "This forms part of the official learner roadworthiness material."
+        },
+        "af": {
+          "title": "Enjinveiligheid",
+          "key_point": "'n Ligte motorvoertuig se enjin moet bedek wees sodat dit nie 'n bron van gevaar is nie.",
+          "explanation": "Dit vorm deel van die amptelike leerdermateriaal oor voertuigveiligheid."
+        },
+        "xh": {
+          "title": "Ukhuseleko lwenjini",
+          "key_point": "Injini yemoto elula kufuneka igqunywe ukuze ingabi ngumthombo wengozi.",
+          "explanation": "Oku kuyinxalenye yezinto ezisemthethweni zomfundi malunga nokhuseleko lwesithuthi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-24",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "emergency-warning-triangle",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.24 — Emergency warning signs (triangles)",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Emergency warning triangle",
+          "key_point": "Certain goods vehicles, minibuses, buses and heavy vehicles must carry an emergency warning triangle; ordinary motor cars and motorcycles are excluded in the learner manual.",
+          "explanation": "When required for a stationary vehicle, the manual places the triangle at least 45 metres away in the direction from which traffic approaches, with the reflective side facing approaching traffic."
+        },
+        "af": {
+          "title": "Noodwaarskuwingsdriehoek",
+          "key_point": "Sekere goederevoertuie, minibusse, busse en swaar voertuie moet 'n noodwaarskuwingsdriehoek dra; gewone motors en motorfietse word in die leerderhandleiding uitgesluit.",
+          "explanation": "Wanneer dit vir 'n stilstaande voertuig vereis word, plaas die handleiding die driehoek minstens 45 meter weg in die rigting waarvandaan verkeer nader, met die weerkaatsende kant na naderende verkeer."
+        },
+        "xh": {
+          "title": "Unxantathu wesilumkiso sengxamiseko",
+          "key_point": "Ezinye iilori, i-minibus, iibhasi nezithuthi ezinzima kufuneka ziphathe unxantathu wesilumkiso; iimoto eziqhelekileyo nezithuthuthu azibandakanywa kwincwadi yomfundi.",
+          "explanation": "Xa kufuneka kwisithuthi esimileyo, incwadi ibeka unxantathu ubuncinane kwiimitha ezingama-45 ukusuka kwisithuthi kwicala apho izithuthi zisondela khona, icala elibonakalisa ukukhanya lijonge kuzo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-25",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "excessive-noise",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.25 — Excessive noise",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Excessive vehicle noise",
+          "key_point": "Do not operate a vehicle on a public road in a way that causes excessive noise.",
+          "explanation": "This rule applies to both riders and drivers."
+        },
+        "af": {
+          "title": "Oormatige voertuiggeraas",
+          "key_point": "Moenie 'n voertuig op 'n openbare pad gebruik op 'n manier wat oormatige geraas veroorsaak nie.",
+          "explanation": "Die reël geld vir bestuurders sowel as motorfietsryers."
+        },
+        "xh": {
+          "title": "Ingxolo egqithisileyo yesithuthi",
+          "key_point": "Musa ukusebenzisa isithuthi endleleni yoluntu ngendlela ebangela ingxolo egqithisileyo.",
+          "explanation": "Lo mgaqo usebenza kubo bonke abaqhubi nabakhweli bezithuthuthu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-26",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "speedometer",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.26 — Speedometers",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Speedometer",
+          "key_point": "A motor vehicle designed for or capable of 60 km/h or more must have a speedometer in good working order.",
+          "explanation": "The speedometer allows the driver or rider to monitor road speed."
+        },
+        "af": {
+          "title": "Spoedmeter",
+          "key_point": "'n Motorvoertuig wat vir 60 km/h of meer ontwerp is of dit kan bereik, moet 'n werkende spoedmeter hê.",
+          "explanation": "Die spoedmeter help die bestuurder of ryer om padsnelheid te monitor."
+        },
+        "xh": {
+          "title": "Isilinganisi-santya",
+          "key_point": "Isithuthi esenzelwe okanye esinokufikelela kwi-60 km/h nangaphezulu kufuneka sibe nesilinganisi-santya esisebenzayo.",
+          "explanation": "Isilinganisi-santya sinceda umqhubi okanye umkhweli alandele isantya endleleni."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-28",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "passenger-vehicle-for-reward-speed",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.28 — Passenger vehicles conveying persons for reward",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Passenger vehicles for reward",
+          "key_point": "The learner manual states a 100 km/h maximum for a bus or minibus conveying passengers for reward.",
+          "explanation": "This is a vehicle-class rule and does not replace a lower posted speed limit."
+        },
+        "af": {
+          "title": "Passasiersvoertuie teen vergoeding",
+          "key_point": "Die leerderhandleiding bepaal 'n maksimum van 100 km/h vir 'n bus of minibus wat passasiers teen vergoeding vervoer.",
+          "explanation": "'n Laer aangeplakte spoedgrens bly van toepassing waar dit aangedui word."
+        },
+        "xh": {
+          "title": "Izithuthi zabakhweli ezisebenza ngemali",
+          "key_point": "Incwadi yomfundi ichaza ubuninzi be-100 km/h kwibhasi okanye i-minibus ethutha abakhweli ngemali.",
+          "explanation": "Umda wesantya osezantsi oboniswe kuphawu usasebenza apho ubekwe khona."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-30",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "overall-length",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.30 — Overall length of vehicles",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Overall vehicle length",
+          "key_point": "Vehicle length is legally limited by vehicle type.",
+          "explanation": "For the ordinary 'other vehicle' category in the learner manual, overall length may not exceed 12.5 metres. Longer limits apply to specified trailers, articulated vehicles, bus-trains and vehicle combinations."
+        },
+        "af": {
+          "title": "Totale voertuiglengte",
+          "key_point": "Die wettige voertuiglengte word volgens voertuigtipe beperk.",
+          "explanation": "Vir die gewone kategorie 'ander voertuig' in die leerderhandleiding mag die totale lengte nie 12,5 meter oorskry nie. Langer perke geld vir bepaalde sleepwaens, geartikuleerde voertuie, bus-treine en voertuigkombinasies."
+        },
+        "xh": {
+          "title": "Ubude obupheleleyo besithuthi",
+          "key_point": "Ubude besithuthi bukhawulelwe ngokohlobo lwesithuthi.",
+          "explanation": "Kudidi oluqhelekileyo 'lwesinye isithuthi' kwincwadi yomfundi, ubude obupheleleyo abumele bugqithe kwi-12,5 yeemitha. Imida emide isebenza kwezinye ii-trailer, izithuthi ezidibeneyo, iibhasi ezidityanisiweyo neendibaniselwano zezithuthi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-31",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "overall-height",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.31 — Overall height of vehicle",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Overall vehicle height",
+          "key_point": "For vehicles other than a double-deck bus, the learner manual states a maximum overall height of 4.3 metres including the load.",
+          "explanation": "A double-deck bus has a separate published limit."
+        },
+        "af": {
+          "title": "Totale voertuighoogte",
+          "key_point": "Vir voertuie anders as 'n dubbeldekbus bepaal die leerderhandleiding 'n maksimum hoogte van 4,3 meter, vrag ingesluit.",
+          "explanation": "'n Dubbeldekbus het 'n afsonderlike gepubliseerde limiet."
+        },
+        "xh": {
+          "title": "Ukuphakama okupheleleyo kwesithuthi",
+          "key_point": "Kwizithuthi ezingeyiyo ibhasi enamanqanaba amabini, incwadi yomfundi ichaza ukuphakama okuphezulu kwe-4,3 yeemitha kuquka nomthwalo.",
+          "explanation": "Ibhasi enamanqanaba amabini inomda owahlukileyo opapashiweyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-32",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "overall-width",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.32 — Overall width of vehicles",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Overall vehicle width",
+          "key_point": "For the ordinary 'other vehicle' category, the learner manual states a maximum overall width of 2.5 metres.",
+          "explanation": "Specified buses and large goods vehicles have a separate 2.6-metre rule."
+        },
+        "af": {
+          "title": "Totale voertuigbreedte",
+          "key_point": "Vir die gewone kategorie 'ander voertuig' bepaal die leerderhandleiding 'n maksimum breedte van 2,5 meter.",
+          "explanation": "Bepaalde busse en groot goederevoertuie het 'n afsonderlike reël van 2,6 meter."
+        },
+        "xh": {
+          "title": "Ububanzi obupheleleyo besithuthi",
+          "key_point": "Kudidi oluqhelekileyo 'lwesinye isithuthi', incwadi yomfundi ichaza ububanzi obuphezulu be-2,5 yeemitha.",
+          "explanation": "Ezinye iibhasi neelori ezinkulu zinomgaqo owahlukileyo we-2,6 yeemitha."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-33-extra",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "goods-roof-load",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.33 — Conveyance of goods",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Loads on a light vehicle",
+          "key_point": "Loads must be secure, must not touch the road or block the driver's view, and must stay within the official load limits.",
+          "explanation": "The learner manual also limits the height of ordinary goods carried on a motor-car roof to half the vehicle's height, with an exception for bicycles carried on the roof."
+        },
+        "af": {
+          "title": "Vragte op 'n ligte voertuig",
+          "key_point": "Vrag moet veilig vas wees, mag nie die pad raak of die bestuurder se uitsig blokkeer nie, en moet binne die amptelike perke bly.",
+          "explanation": "Bevestig alle vrag sodat dit nie kan skuif, afval of die voertuig onveilig maak nie."
+        },
+        "xh": {
+          "title": "Imithwalo kwimimoto elula",
+          "key_point": "Umthwalo kufuneka ubotshelelwe kakuhle, ungachukumisi indlela okanye uvale umbono womqhubi, kwaye uhlale kwimida esemthethweni.",
+          "explanation": "Qinisekisa wonke umthwalo ukuze ungashukumi, uwe okanye wenze isithuthi singakhuseleki."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-34",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "persons-on-goods-vehicle",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.34 — Persons carried on goods vehicle",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Persons on a goods vehicle",
+          "key_point": "If people are carried on a goods vehicle, the carrying area must have protective enclosure of the height stated in the learner manual.",
+          "explanation": "The manual states at least 350 mm above a seated person’s surface or 900 mm above a standing surface, and says passengers may not ride in a caravan."
+        },
+        "af": {
+          "title": "Persone op 'n goederevoertuig",
+          "key_point": "Waar persone op 'n goederevoertuig vervoer word, moet die laairuimte die beskermende omhulsel hê wat die leerderhandleiding vereis.",
+          "explanation": "Die handleiding bepaal minstens 350 mm bo die oppervlak waarop 'n sittende persoon sit, of 900 mm bo die oppervlak waarop 'n staande persoon staan, en bepaal dat passasiers nie in 'n karavaan mag ry nie."
+        },
+        "xh": {
+          "title": "Abantu kwisithuthi sempahla",
+          "key_point": "Xa abantu bethuthwa kwisithuthi sempahla, indawo yokuthwala kufuneka ibe nokhuselo oluchazwe kwincwadi yomfundi.",
+          "explanation": "Incwadi ichaza ubuncinane i-350 mm ngaphezu komphezulu apho umntu ehleli khona okanye i-900 mm ngaphezu komphezulu apho umntu emi khona, kwaye ithi abakhweli abavumelekanga ukukhwela kwi-caravan."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-35-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "motorcycle-load-projection",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.35 — Motorcycle projections / overhang",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Motorcycle load projections",
+          "key_point": "Goods on a motorcycle or sidecar must stay within the official projection limits.",
+          "explanation": "The learner manual states no more than 600 mm in front of the front axle, 900 mm behind the rear axle, 450 mm beyond either side of the motorcycle wheels, and 300 mm beyond the outside of a sidecar wheel."
+        },
+        "af": {
+          "title": "Motorfiets se vraguitsteeksels",
+          "key_point": "Goedere op 'n motorfiets of syspan moet binne die amptelike uitsteekperke bly.",
+          "explanation": "Die leerderhandleiding bepaal hoogstens 600 mm voor die vooras, 900 mm agter die agteras, 450 mm verby enige kant van die motorfietswiele en 300 mm verby die buitekant van 'n syspanwiel."
+        },
+        "xh": {
+          "title": "Ukuphuma komthwalo kwisithuthuthu",
+          "key_point": "Impahla kwisithuthuthu okanye kwi-sidecar kufuneka ihlale kwimida esemthethweni yokuphuma.",
+          "explanation": "Incwadi yomfundi ichaza ubuninzi be-600 mm phambi kwe-axle yangaphambili, i-900 mm emva kwe-axle yangasemva, i-450 mm ngaphaya kwelinye icala lamavili esithuthuthu, kunye ne-300 mm ngaphaya kwecala elingaphandle levili le-sidecar."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-35-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "light-vehicle-load-projection",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.35 — Light vehicle projections / overhang",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Light-vehicle load projections",
+          "key_point": "A load on an ordinary light vehicle must stay within the official side, front and rear projection limits.",
+          "explanation": "The learner manual gives 1.25 m from the centre line to either side, 300 mm beyond the front and 1.8 m beyond the rear, with a separate 150 mm limit for brackets beyond the widest part."
+        },
+        "af": {
+          "title": "Ligte voertuig se vraguitsteeksels",
+          "key_point": "'n Vrag op 'n gewone ligte voertuig moet binne die amptelike sy-, voor- en agteruitsteekperke bly.",
+          "explanation": "Die leerderhandleiding gee 1,25 m vanaf die middellyn na enige kant, 300 mm verby die voorkant en 1,8 m verby die agterkant, met 'n afsonderlike 150 mm-perk vir hakies wat verby die wydste deel uitsteek."
+        },
+        "xh": {
+          "title": "Ukuphuma komthwalo kwimimoto elula",
+          "key_point": "Umthwalo kwimimoto elula kufuneka uhlale kwimida esemthethweni emacaleni, ngaphambili nangasemva.",
+          "explanation": "Incwadi yomfundi inika i-1,25 m ukusuka kumgca osembindini ukuya kwelinye icala, i-300 mm ngaphaya komphambili kunye ne-1,8 m ngaphaya komva, kunye nomda owahlukileyo we-150 mm kwizibiyeli eziphuma ngaphaya kweyona ndawo ibanzi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-36",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "projecting-load-flags-reflectors",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.36 — Warning flags / reflectors",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Marking a projecting load",
+          "key_point": "A load projecting more than the published limits must be marked so other road users can see it.",
+          "explanation": "The learner manual requires a red 300 mm × 300 mm flag by day where a load projects more than 150 mm to the side or 300 mm to the rear, and white front/red rear reflectors at night or in poor visibility."
+        },
+        "af": {
+          "title": "Merk 'n uitstaande vrag",
+          "key_point": "'n Vrag wat verder as die gepubliseerde perke uitsteek, moet gemerk word sodat ander padgebruikers dit kan sien.",
+          "explanation": "Die leerderhandleiding vereis bedags 'n rooi vlag van 300 mm × 300 mm waar 'n vrag meer as 150 mm na die kant of 300 mm na agter uitsteek, en snags of by swak sig wit weerkaatsers voor en rooi weerkaatsers agter."
+        },
+        "xh": {
+          "title": "Phawula umthwalo ophumayo",
+          "key_point": "Umthwalo ophuma ngaphaya kwemida epapashiweyo kufuneka uphawulwe ukuze ubonakale kwabanye abasebenzisi bendlela.",
+          "explanation": "Incwadi yomfundi ifuna emini iflegi ebomvu eyi-300 mm × 300 mm xa umthwalo uphuma ngaphezu kwe-150 mm ecaleni okanye i-300 mm ngasemva, kwaye ebusuku okanye xa ukubona kubuthathaka kufunwa izibonakalisi ezimhlophe ngaphambili nezibomvu ngasemva."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-46",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "intersection-right-of-way",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.46 — Intersections / traffic-circle right of way",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Intersections and right of way",
+          "key_point": "At an uncontrolled traffic circle or similar junction, yield to traffic approaching from the right unless a traffic officer or sign gives a different instruction.",
+          "explanation": "Always obey traffic officers and traffic signs when they control the intersection."
+        },
+        "af": {
+          "title": "Kruisings en voorrang",
+          "key_point": "By 'n onbeheerde verkeersirkel of soortgelyke aansluiting moet jy toegee aan verkeer wat van regs nader, tensy 'n beampte of teken anders bepaal.",
+          "explanation": "Volg altyd verkeersbeamptes en tekens wanneer hulle die kruising beheer."
+        },
+        "xh": {
+          "title": "Iindlela ezinqamlezanayo nelungelo lokudlula",
+          "key_point": "Kwi-traffic circle engalawulwayo okanye kwindawo efanayo, nika indlela kwizithuthi ezisondela ngasekunene ngaphandle kokuba igosa okanye uphawu luthi ngenye indlela.",
+          "explanation": "Soloko ulandela igosa lezendlela nemiqondiso xa zilawula indawo yokudibana."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-47",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "parking-restrictions-full",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.47 — Parking",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Parking restrictions",
+          "key_point": "Do not park where a sign prohibits it, where you block access or visibility, or within the official distances and restricted places listed in the learner manual.",
+          "explanation": "Examples include within 1.5 m of a fire hydrant, within 9 m before a pedestrian crossing, within 5 m of an intersection, on a traffic island or pedestrian area, or where the road is too narrow."
+        },
+        "af": {
+          "title": "Parkeerbeperkings",
+          "key_point": "Moenie parkeer waar 'n teken dit verbied, waar jy toegang of sig blokkeer, of binne verbode plekke en afstande nie.",
+          "explanation": "Voorbeelde sluit in binne 1,5 m van 'n brandkraan, binne 9 m voor 'n voetoorgang, binne 5 m van 'n kruising, op 'n verkeerseiland of voetgangergebied, of waar die pad te nou is."
+        },
+        "xh": {
+          "title": "Imiqathango yokupaka",
+          "key_point": "Musa ukupaka apho uphawu luyakwalela, apho uvala ukufikelela okanye umbono, okanye kwiindawo nemigama ethintelweyo.",
+          "explanation": "Imizekelo iquka ngaphakathi kwe-1,5 m ukusuka kwi-hydrant, ngaphakathi kwe-9 m phambi kwendawo yokuwela abahambi ngeenyawo, ngaphakathi kwe-5 m ukusuka kwindawo yokudibana, kwisiqithi sezithuthi okanye kwindawo yabahambi ngeenyawo, okanye apho indlela imxinwa kakhulu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-48",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "stopping-restrictions-full",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.48 — Stopping",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "Stopping restrictions",
+          "key_point": "Do not stop on the roadway where stopping would obstruct or endanger other traffic, unless stopping is necessary for safety, required by an officer or beyond your control.",
+          "explanation": "Stopping restrictions are stricter than ordinary parking rules because even a short stop can create a hazard."
+        },
+        "af": {
+          "title": "Stopbeperkings",
+          "key_point": "Moenie op die rybaan stop waar dit ander verkeer sal belemmer of in gevaar stel nie, behalwe waar stop vir veiligheid of volgens 'n bevel nodig is.",
+          "explanation": "Selfs 'n kort stop kan gevaarlik wees as dit verkeer se sig of beweging blokkeer."
+        },
+        "xh": {
+          "title": "Imiqathango yokuma",
+          "key_point": "Musa ukuma endleleni apho oko kuya kuthintela okanye kubeke ezinye izithuthi emngciphekweni, ngaphandle xa kufuneka ngenxa yokhuseleko okanye umyalelo.",
+          "explanation": "Nokuba kukuma okufutshane kunokuba yingozi xa kuvala umbono okanye ukuhamba kwezithuthi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-49",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "general-driver-rider-duties-full",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.49 — General duties of driver/rider",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "official_current_learner_source",
+      "language": {
+        "en": {
+          "title": "General duties of a driver or rider",
+          "key_point": "Maintain control, keep a safe following distance, reverse only when safe and avoid actions that obstruct your view or control.",
+          "explanation": "These general duties apply even where no separate sign is present."
+        },
+        "af": {
+          "title": "Algemene pligte van 'n bestuurder of ryer",
+          "key_point": "Behou beheer, hou 'n veilige volgafstand, ry net agteruit wanneer dit veilig is en vermy enigiets wat jou uitsig of beheer belemmer.",
+          "explanation": "Hierdie algemene pligte geld selfs wanneer daar nie 'n spesifieke verkeersteken is nie."
+        },
+        "xh": {
+          "title": "Imisebenzi jikelele yomqhubi okanye umkhweli",
+          "key_point": "Gcina ulawulo, gcina umgama okhuselekileyo, buyela umva kuphela xa kukhuselekile kwaye uphephe nantoni na evala umbono okanye ulawulo.",
+          "explanation": "Le misebenzi isebenza nokuba akukho mqondiso othile wendlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-rules-6-65-safety",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "driving-impaired",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-006",
+        "locator": "NaTIS Rules of the Road v1.01 §6.65 — Driving while impaired",
+        "verification_status": "source_verified"
+      },
+      "legal_review_status": "safety_rule_only_numeric_thresholds_not_learner_card",
+      "language": {
+        "en": {
+          "title": "Never drive while impaired",
+          "key_point": "Do not drive or ride when alcohol, medication or another substance makes you unsafe to control the vehicle.",
+          "explanation": "The safest learner rule is simple: impairment and driving do not mix. The app does not teach learners to calculate how much of an intoxicating substance they could use before driving."
+        },
+        "af": {
+          "title": "Moet nooit bestuur wanneer jy aangetas is nie",
+          "key_point": "Moenie bestuur of motorfiets ry wanneer alkohol, medikasie of 'n ander middel jou onveilig maak om die voertuig te beheer nie.",
+          "explanation": "Die veilige reël is eenvoudig: as jou oordeel of beheer aangetas is, moet jy nie bestuur nie."
+        },
+        "xh": {
+          "title": "Musa ukuqhuba xa uchaphazelekile",
+          "key_point": "Musa ukuqhuba okanye ukukhwela isithuthuthu xa utywala, iyeza okanye enye into ikwenza ungakwazi ukulawula isithuthi ngokukhuselekileyo.",
+          "explanation": "Umgaqo wokhuseleko ulula: ukuba isigqibo okanye ulawulo lwakho luchaphazelekile, musa ukuqhuba."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-process-code1",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "learner-code1-current",
+      "vehicle_group": [
+        "code1"
+      ],
+      "source": {
+        "source_id": "SRC-013",
+        "locator": "South African Government learner's licence service — Code 1",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Learner's licence Code 1",
+          "key_point": "Code 1 is the learner's licence category for motorcycles, including a motorcycle with or without a sidecar, motor tricycle or quadrucycle.",
+          "explanation": "The national government service page currently uses the learner-licence labels Code 1, Code 2 and Code 3. Driving-licence categories such as A1 or A are a separate classification."
+        },
+        "af": {
+          "title": "Leerderlisensie Kode 1",
+          "key_point": "Kode 1 is die leerderlisensie-kategorie vir motorfietse, insluitend 'n motorfiets met of sonder 'n syspan, motordriewiel of vierwielmotorfiets.",
+          "explanation": "Die nasionale regeringsdiensblad gebruik tans die leerderlisensie-etikette Kode 1, Kode 2 en Kode 3. Bestuurslisensiekategorieë soos A1 of A is 'n afsonderlike klassifikasie."
+        },
+        "xh": {
+          "title": "Ilayisensi yomfundi Ikhowudi 1",
+          "key_point": "Ikhowudi 1 ludidi lwelayisensi yomfundi yezithuthuthu, kuquka isithuthuthu esine-sidecar okanye esingenayo, i-motor tricycle okanye i-quadrucycle.",
+          "explanation": "Iphepha lenkonzo karhulumente wesizwe ngoku lisebenzisa iilebhile zelayisensi yomfundi Ikhowudi 1, Ikhowudi 2 neKhowudi 3. Iindidi zelayisensi yokuqhuba ezifana no-A1 okanye A zahlukile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-process-code2",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "learner-code2-current",
+      "vehicle_group": [
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-013",
+        "locator": "South African Government learner's licence service — Code 2",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Learner's licence Code 2",
+          "key_point": "Code 2 covers motor vehicles other than motorcycles with a gross vehicle mass not exceeding 3 500 kg.",
+          "explanation": "The national government service page currently includes light motor vehicles, minibuses, buses and goods vehicles within that mass limit."
+        },
+        "af": {
+          "title": "Leerderlisensie Kode 2",
+          "key_point": "Kode 2 dek motorvoertuie anders as motorfietse met 'n bruto voertuigmassa van hoogstens 3 500 kg.",
+          "explanation": "Dit sluit ligte motorvoertuie en ander voertuie binne daardie massalimiet in."
+        },
+        "xh": {
+          "title": "Ilayisensi yomfundi Ikhowudi 2",
+          "key_point": "Ikhowudi 2 igubungela izithuthi ezingezizo izithuthuthu ezinobunzima obupheleleyo obungagqithiyo kwi-3 500 kg.",
+          "explanation": "Oku kuquka iimoto ezilula nezinye izithuthi ezingaphakathi kwaloo mda wobunzima."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-process-validity",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "learner-licence-validity-supervision",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-013",
+        "locator": "South African Government learner's licence service — validity and supervision",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Learner's licence validity and supervision",
+          "key_point": "A learner's licence is valid for 24 months. Learner drivers must be supervised by a licensed driver when the vehicle category requires it.",
+          "explanation": "Motorcycle learner rules differ from ordinary motor vehicles, so the app keeps Code 1 and Code 2 pathways separate."
+        },
+        "af": {
+          "title": "Geldigheid en toesig van 'n leerderlisensie",
+          "key_point": "'n Leerderlisensie is 24 maande geldig. Leerderbestuurders moet deur 'n gelisensieerde bestuurder toesig gehou word waar die voertuigkategorie dit vereis.",
+          "explanation": "Motorfietsreëls verskil van gewone motorvoertuie, daarom bly Kode 1 en Kode 2 apart."
+        },
+        "xh": {
+          "title": "Ixesha lokusebenza kwelayisensi yomfundi nokugadwa",
+          "key_point": "Ilayisensi yomfundi isebenza iinyanga ezingama-24. Umfundi kufuneka agadiwe ngumqhubi onelayisensi apho udidi lwesithuthi lufuna njalo.",
+          "explanation": "Imithetho yezithuthuthu iyahluka kweyeemoto eziqhelekileyo, ngoko iKhowudi 1 neKhowudi 2 zigcinwa zahlukile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-process-study-scope",
+      "kind": "knowledge",
+      "section": "rules",
+      "topic": "official-study-scope",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-014",
+        "locator": "Western Cape Government learner's licence service — preparing for your test",
+        "verification_status": "current_service_verified"
+      },
+      "legal_review_status": "current_service_verified",
+      "language": {
+        "en": {
+          "title": "Official study scope",
+          "key_point": "The official preparation scope is Rules of the Road, Road Signs and Markings, and Vehicle Controls.",
+          "explanation": "The Western Cape Government currently links learners directly to the NaTIS study material for these three areas and also states that printed learner manuals have been supplied to selected public libraries."
+        },
+        "af": {
+          "title": "Amptelike studiesomvang",
+          "key_point": "Die amptelike voorbereidingsomvang is Padreëls, Padtekens en -merke, en Voertuigkontroles.",
+          "explanation": "Hierdie drie domeine vorm die bronbeheerde kern van die app se leerinhoud."
+        },
+        "xh": {
+          "title": "Umda wokufunda osemthethweni",
+          "key_point": "Umda wokulungiselela osemthethweni yiMithetho yeNdlela, iMiqondiso neeMpawu zeNdlela, kunye noLawulo lweSithuthi.",
+          "explanation": "Ezi ndawo zintathu zenza isiseko esilawulwa yimithombo somxholo wokufunda we-app."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    }
+  ]
+}

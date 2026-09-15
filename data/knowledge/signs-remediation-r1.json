@@ -1,0 +1,3107 @@
+{
+  "pack_id": "natis-signs-remediation-r1",
+  "section": "signs",
+  "status": "ENGLISH_SOURCE_MASTER_AUDIT_ONLY_DO_NOT_DEPLOY",
+  "source_control": {
+    "primary": "NaTIS Road Traffic Signs v1.00 (June 2012)",
+    "note": "This pack closes published learner-study gaps in command signs and warning markings. It uses original explanatory wording and original schematic visuals; it does not copy manual page artwork."
+  },
+  "items": [
+    {
+      "id": "knowledge-sign-r101",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "minimum-speed-sign",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Minimum speed sign R101/TR101",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Minimum speed sign",
+          "key_point": "Do not drive slower than the speed shown on the sign.",
+          "explanation": "This command sign is used where very slow traffic could disrupt traffic flow. The displayed number is the minimum speed in km/h."
+        },
+        "af": {
+          "title": "Minimumspoedteken",
+          "key_point": "Moenie stadiger ry as die spoed wat op die teken aangedui word nie.",
+          "explanation": "Die teken word gebruik waar baie stadige verkeer die verkeersvloei kan belemmer."
+        },
+        "xh": {
+          "title": "Uphawu lwesantya esisezantsi",
+          "key_point": "Musa ukuqhuba ngaphantsi kwesantya esiboniswe kuphawu.",
+          "explanation": "Uphawu lusetyenziswa apho ukuhamba kancinci kakhulu kunokuphazamisa ukuhamba kwezithuthi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r104",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "keep-right-sign",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Keep right R104",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Keep right",
+          "key_point": "Pass to the right of the obstruction when the Keep Right sign applies.",
+          "explanation": "The sign is used at an obstruction such as a traffic island and tells you which side of the obstruction to use."
+        },
+        "af": {
+          "title": "Hou regs",
+          "key_point": "Gaan regs van die versperring verby wanneer die Hou Regs-teken geld.",
+          "explanation": "Die teken wys aan watter kant van 'n versperring jy moet verbygaan."
+        },
+        "xh": {
+          "title": "Hlala ngasekunene",
+          "key_point": "Dlula ngasekunene komqobo xa olu phawu lusebenza.",
+          "explanation": "Uphawu lubonisa icala omele ulisebenzise xa udlula umqobo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r106",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "proceed-right-only",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Proceed right only R106",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Proceed right only",
+          "key_point": "Drive only in the direction shown by the right-pointing arrow.",
+          "explanation": "This command sign is used at intersections to control the direction in which traffic may proceed."
+        },
+        "af": {
+          "title": "Gaan slegs regs",
+          "key_point": "Ry slegs in die rigting wat deur die regsgerigte pyl aangedui word.",
+          "explanation": "Hierdie bevelteken beheer die toegelate rigting by 'n aansluiting."
+        },
+        "xh": {
+          "title": "Qhubeka ngasekunene kuphela",
+          "key_point": "Qhuba kuphela kwicala eliboniswe lutolo olujonge ngasekunene.",
+          "explanation": "Olu phawu lulawula indlela evumelekileyo kwindawo yokudibana."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r110",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pedestrians-only",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Pedestrians only R110",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pedestrians only",
+          "key_point": "The indicated road or part of the road is reserved for pedestrians.",
+          "explanation": "Drivers and riders must not use the part of the road reserved by this command sign."
+        },
+        "af": {
+          "title": "Slegs voetgangers",
+          "key_point": "Die aangeduide pad of deel van die pad is vir voetgangers gereserveer.",
+          "explanation": "Bestuurders en ryers mag nie die gereserveerde deel gebruik nie."
+        },
+        "xh": {
+          "title": "Abahambi ngeenyawo kuphela",
+          "key_point": "Indlela okanye inxalenye yayo ibekelwe abahambi ngeenyawo.",
+          "explanation": "Abaqhubi nabakhweli bezithuthuthu akufanele bayisebenzise loo ndawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r111",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "cyclists-only",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.2 — Cyclists only R111",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Cyclists only",
+          "key_point": "The indicated road or part of the road is reserved for cyclists.",
+          "explanation": "Drivers and riders who are not using a pedal cycle must not use the part of the road reserved by this sign."
+        },
+        "af": {
+          "title": "Slegs fietsryers",
+          "key_point": "Die aangeduide pad of deel van die pad is vir fietsryers gereserveer.",
+          "explanation": "Ander voertuie mag nie die gereserveerde deel gebruik nie."
+        },
+        "xh": {
+          "title": "Abakhweli beebhayisekile kuphela",
+          "key_point": "Indlela okanye inxalenye yayo ibekelwe abakhweli beebhayisekile.",
+          "explanation": "Ezinye izithuthi akufanele zisebenzise loo ndawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm1",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "railway-crossing-ahead-marking",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Railway crossing ahead WM1",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Railway crossing ahead marking",
+          "key_point": "Slow down and be ready to stop before the railway crossing.",
+          "explanation": "This warning marking is placed before a railway crossing to give additional warning that the crossing is ahead."
+        },
+        "af": {
+          "title": "Spooroorgang voor-padmerk",
+          "key_point": "Ry stadiger en wees gereed om voor die spooroorgang te stop.",
+          "explanation": "Die merk gee bykomende waarskuwing dat 'n spooroorgang voorlê."
+        },
+        "xh": {
+          "title": "Uphawu lwendlela lokuwela koololiwe ngaphambili",
+          "key_point": "Cotha uze ulungele ukuma phambi kwendawo yokuwela koololiwe.",
+          "explanation": "Olu phawu lwendlela lunika isilumkiso esongezelelweyo sokuba kukho indawo yokuwela koololiwe ngaphambili."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm2",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "continuity-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Continuity lines WM2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Continuity lines",
+          "key_point": "A lane beside a continuity line may soon turn away or meet a break in the roadway.",
+          "explanation": "Check mirrors and blind spots and allow for other traffic changing lanes. The marking warns that an intersection or off-ramp affects the continuing lane arrangement."
+        },
+        "af": {
+          "title": "Kontinuïteitslyne",
+          "key_point": "'n Baan langs 'n kontinuïteitslyn kan binnekort wegdraai of 'n onderbreking in die rybaan bereik.",
+          "explanation": "Let op vir voertuie wat van baan verander en kies jou baan vroeg."
+        },
+        "xh": {
+          "title": "Imigca yokuqhubeka",
+          "key_point": "Ilayini esecaleni komgca wokuqhubeka inokuthi kungekudala ijike okanye ifike kwindawo etshintsha ngayo indlela.",
+          "explanation": "Qaphela izithuthi ezitshintsha iilayini uze ukhethe ilayini kwangethuba."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm3",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "dividing-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Dividing lines WM3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Dividing lines",
+          "key_point": "Traffic on the other side of the dividing line is travelling in the opposite direction.",
+          "explanation": "Stay alert for approaching vehicles and keep safely to your side of the road."
+        },
+        "af": {
+          "title": "Skeidingslyne",
+          "key_point": "Verkeer aan die ander kant van die skeidingslyn beweeg in die teenoorgestelde rigting.",
+          "explanation": "Bly aan jou kant van die pad en let op aankomende verkeer."
+        },
+        "xh": {
+          "title": "Imigca yokwahlula",
+          "key_point": "Izithuthi kwelinye icala lomgca wokwahlula zihamba kwelinye icala.",
+          "explanation": "Hlala kwicala lakho lendlela uze uqaphele izithuthi eziza kuwe."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm4",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "reversible-lane-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Reversible lane lines WM4",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Reversible lane lines",
+          "key_point": "The direction of traffic in the marked lane can change at different times.",
+          "explanation": "Look for the lane-control signals that apply and be alert for traffic travelling in the opposite direction."
+        },
+        "af": {
+          "title": "Omkeerbare baanlyne",
+          "key_point": "Die verkeersrigting in die gemerkte baan kan op verskillende tye verander.",
+          "explanation": "Volg die toepaslike baanbeheerseine."
+        },
+        "xh": {
+          "title": "Imigca yelayini etshintsha icala",
+          "key_point": "Indlela yokuhamba kwezithuthi kule layini inokutshintsha ngamaxesha ahlukeneyo.",
+          "explanation": "Landela iimpawu zolawulo lwelayini ezisebenzayo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r204",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "height-limit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Height limit R204/TR204",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Height limit",
+          "key_point": "Do not enter if your vehicle or load is higher than the height shown.",
+          "explanation": "The sign warns of a height restriction ahead. Use another route if your vehicle or load exceeds the indicated height."
+        },
+        "af": {
+          "title": "Hoogtebeperking",
+          "key_point": "Moenie ingaan as jou voertuig of vrag hoër is as die hoogte op die teken nie.",
+          "explanation": "Gebruik 'n ander roete indien jou voertuig of vrag die aangeduide hoogte oorskry."
+        },
+        "xh": {
+          "title": "Umda wokuphakama",
+          "key_point": "Musa ukungena ukuba isithuthi okanye umthwalo wakho uphezulu kunomlinganiselo obonisiwe.",
+          "explanation": "Sebenzisa enye indlela ukuba isithuthi okanye umthwalo wakho ugqitha kumda obonisiweyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r205",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "length-limit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Length limit R205/TR205",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Length limit",
+          "key_point": "Do not use the road if your vehicle or combination is longer than the length shown.",
+          "explanation": "The restriction protects roads where long vehicles may not be able to negotiate curves safely."
+        },
+        "af": {
+          "title": "Lengtebeperking",
+          "key_point": "Moenie die pad gebruik as jou voertuig of kombinasie langer is as die lengte wat aangedui word nie.",
+          "explanation": "Die beperking beskerm paaie waar lang voertuie nie veilig kan beweeg nie."
+        },
+        "xh": {
+          "title": "Umda wobude",
+          "key_point": "Musa ukusebenzisa indlela ukuba isithuthi okanye indibaniselwano yakho inde kunobude obubonisiwe.",
+          "explanation": "Umda ukhusela iindlela apho izithuthi ezinde zingenakuhamba ngokukhuselekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r206",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "excessive-noise-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Excessive noise prohibited R206",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Excessive noise prohibited",
+          "key_point": "Do not proceed with a vehicle producing excessive noise, and avoid unnecessary hooter use where this sign applies.",
+          "explanation": "The sign is used in noise-sensitive areas. The manual also links it to a restriction on hooter use after the sign."
+        },
+        "af": {
+          "title": "Oormatige geraas verbode",
+          "key_point": "Moenie voortgaan met 'n voertuig wat oormatige geraas maak nie en vermy onnodige toetergebruik waar die teken geld.",
+          "explanation": "Die teken word in geraassensitiewe gebiede gebruik."
+        },
+        "xh": {
+          "title": "Ingxolo egqithisileyo ayivumelekanga",
+          "key_point": "Musa ukuqhubeka ngesithuthi esenza ingxolo egqithisileyo kwaye uphephe ukusebenzisa ihutha ngaphandle kwesidingo.",
+          "explanation": "Uphawu lusetyenziswa kwiindawo ezibuthathaka kwingxolo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r207",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "hitchhiking-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Hitch-hiking prohibited R207",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Hitch-hiking prohibited",
+          "key_point": "Do not stop to pick up hitch-hikers where the prohibition applies.",
+          "explanation": "The official learner manual says the sign prohibits hitch-hiking and restricts drivers from picking up passengers for the distance stated in the manual."
+        },
+        "af": {
+          "title": "Duimgooi verbode",
+          "key_point": "Moenie stop om duimgooiers op te laai waar die verbod geld nie.",
+          "explanation": "Die teken verbied duimgooi in die aangeduide gebied."
+        },
+        "xh": {
+          "title": "Ukucela ilifti akuvumelekanga",
+          "key_point": "Musa ukuma ukuthatha abantu abacela ilifti apho olu thintelo lusebenza.",
+          "explanation": "Uphawu luyakwalela ukucela ilifti kuloo ndawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r208",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "unauthorised-vehicles-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Unauthorised vehicles prohibited R208/TR208",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Unauthorised vehicles prohibited",
+          "key_point": "Do not enter unless you have special authorisation.",
+          "explanation": "This sign closes a road or road section to ordinary traffic. Temporary versions are commonly used at roadworks."
+        },
+        "af": {
+          "title": "Ongemagtigde voertuie verbode",
+          "key_point": "Moenie ingaan tensy jy spesiale magtiging het nie.",
+          "explanation": "Hierdie teken sluit 'n pad of padgedeelte vir gewone verkeer."
+        },
+        "xh": {
+          "title": "Izithuthi ezingagunyaziswanga azivumelekanga",
+          "key_point": "Musa ukungena ngaphandle kokuba unemvume ekhethekileyo.",
+          "explanation": "Olu phawu luvala indlela okanye inxalenye yendlela kwizithuthi eziqhelekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r209",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "left-turn-ahead-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Left turn ahead prohibited R209/TR209",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Left turn ahead prohibited",
+          "key_point": "Do not turn left at the upcoming intersection.",
+          "explanation": "This prohibition is placed before the junction so you can choose another route before reaching it."
+        },
+        "af": {
+          "title": "Linksdraai vorentoe verbode",
+          "key_point": "Moenie by die komende kruising links draai nie.",
+          "explanation": "Die teken waarsku jou vooraf sodat jy 'n ander roete kan kies."
+        },
+        "xh": {
+          "title": "Ukujika ngasekhohlo ngaphambili akuvumelekanga",
+          "key_point": "Musa ukujika ngasekhohlo kwindawo yokudibana ezayo.",
+          "explanation": "Uphawu lukuxelela kwangaphambili ukuze ukhethe enye indlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r210",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "right-turn-ahead-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Right turn ahead prohibited R210/TR210",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Right turn ahead prohibited",
+          "key_point": "Do not turn right at the upcoming intersection.",
+          "explanation": "This prohibition is placed before the junction so you can choose another route before reaching it."
+        },
+        "af": {
+          "title": "Regsdraai vorentoe verbode",
+          "key_point": "Moenie by die komende kruising regs draai nie.",
+          "explanation": "Die teken waarsku jou vooraf sodat jy 'n ander roete kan kies."
+        },
+        "xh": {
+          "title": "Ukujika ngasekunene ngaphambili akuvumelekanga",
+          "key_point": "Musa ukujika ngasekunene kwindawo yokudibana ezayo.",
+          "explanation": "Uphawu lukuxelela kwangaphambili ukuze ukhethe enye indlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r214",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "overtaking-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Overtaking prohibited R214/TR214",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Overtaking prohibited",
+          "key_point": "Do not overtake where the sign applies.",
+          "explanation": "The learner manual associates this sign with a defined prohibition distance. Obey any additional distance or secondary-message information displayed."
+        },
+        "af": {
+          "title": "Verbysteek verbode",
+          "key_point": "Moenie verbysteek waar die teken geld nie.",
+          "explanation": "Volg enige bykomende afstand- of boodskapplaat wat saam met die teken vertoon word."
+        },
+        "xh": {
+          "title": "Ukudlula akuvumelekanga",
+          "key_point": "Musa ukudlula apho olu phawu lusebenza.",
+          "explanation": "Landela naluphi na ulwazi olongezelelweyo lomgama okanye umyalezo oboniswa nophawu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga1",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-pre-advance-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Pre-advance exit direction GA1",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway pre-advance exit direction",
+          "key_point": "An off-ramp exit is coming. If you intend to leave the freeway, prepare to move left in good time.",
+          "explanation": "The manual places this sign well before the exit so drivers have early warning of the routes available ahead."
+        },
+        "af": {
+          "title": "Vroeë snelweg-afritrigting",
+          "key_point": "'n Afrit kom nader. As jy die snelweg wil verlaat, berei betyds voor om links te beweeg.",
+          "explanation": "Die teken gee vroeë waarskuwing oor die afrit en bestemmings."
+        },
+        "xh": {
+          "title": "Isalathiso sokuqala sokuphuma kwindlela enkulu",
+          "key_point": "Ukuphuma kusondele. Ukuba ufuna ukuphuma, lungiselela ukuya ngasekhohlo kwangethuba.",
+          "explanation": "Uphawu lunika isilumkiso kwangaphambili malunga nokuphuma neendawo eziya kuzo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga2",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-advance-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Advance exit direction GA2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway advance exit direction",
+          "key_point": "The freeway exit is getting closer. Move toward the left lane in good time if you are leaving.",
+          "explanation": "This sign gives another advance indication of the exit and destinations served by it."
+        },
+        "af": {
+          "title": "Vooraf-afritrigting",
+          "key_point": "Die snelwegafrit kom nader. Beweeg betyds na die linkerbaan as jy gaan afdraai.",
+          "explanation": "Die teken gee nog 'n vooraf-aanduiding van die afrit."
+        },
+        "xh": {
+          "title": "Isalathiso sokuphuma esisondelayo",
+          "key_point": "Ukuphuma kwindlela enkulu kuyasondela. Hamba kwilayini yasekhohlo kwangethuba ukuba uza kuphuma.",
+          "explanation": "Uphawu lunika olunye ulwazi lwangaphambili malunga nokuphuma."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga23",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-supplementary-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Supplementary exit direction GA2/3, TGA2/3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Supplementary exit direction",
+          "key_point": "If you are taking the exit, you should already be positioning in the extreme left lane.",
+          "explanation": "This sign confirms the approaching off-ramp shortly before the exit."
+        },
+        "af": {
+          "title": "Aanvullende afritrigting",
+          "key_point": "As jy die afrit neem, behoort jy reeds in die heel linkse baan te wees.",
+          "explanation": "Die teken bevestig dat die afrit baie naby is."
+        },
+        "xh": {
+          "title": "Isalathiso esongezelelweyo sokuphuma",
+          "key_point": "Ukuba uza kuphuma, kufuneka sele ukwilayini ekude ngasekhohlo.",
+          "explanation": "Uphawu luqinisekisa ukuba ukuphuma kusondele kakhulu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga3",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-exit-direction",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Exit direction GA3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway exit direction",
+          "key_point": "This marks the actual exit. Leave the freeway only from the correct exit lane.",
+          "explanation": "The sign is positioned at or very near the off-ramp to show exactly where the exit begins."
+        },
+        "af": {
+          "title": "Snelweg-afritrigting",
+          "key_point": "Hierdie teken merk die werklike afrit. Verlaat die snelweg net vanuit die korrekte afritbaan.",
+          "explanation": "Die teken staan by of baie naby die begin van die afrit."
+        },
+        "xh": {
+          "title": "Isalathiso sokuphuma kwindlela enkulu",
+          "key_point": "Olu phawu luphawula indawo yokuphuma. Phuma kuphela kwilayini echanekileyo.",
+          "explanation": "Uphawu lubekwa apho ukuphuma kuqala khona okanye kufutshane kakhulu nalapho."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga4",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-gore-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Gore exit GA4/TGA4",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Gore exit direction",
+          "key_point": "Pass on the exit side if you are leaving the freeway and on the through-road side if you are continuing.",
+          "explanation": "The gore sign marks the separation between the off-ramp and the continuing freeway."
+        },
+        "af": {
+          "title": "Gore-afritrigting",
+          "key_point": "Gebruik die afritkant as jy die snelweg verlaat en die deurpadkant as jy voortgaan.",
+          "explanation": "Die teken merk die skeiding tussen die afrit en die snelweg wat voortgaan."
+        },
+        "xh": {
+          "title": "Isalathiso se-gore sokuphuma",
+          "key_point": "Sebenzisa icala lokuphuma ukuba uyaphuma, okanye icala lendlela eqhubekayo ukuba uyaqhubeka.",
+          "explanation": "Uphawu lubonisa ukwahlukana phakathi kwendlela yokuphuma nendlela enkulu eqhubekayo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga5",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "off-ramp-advance-terminal",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Advance off-ramp terminal direction GA5",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Advance off-ramp terminal direction",
+          "key_point": "Choose the correct lane before reaching the intersection at the end of the off-ramp.",
+          "explanation": "The sign tells you in advance which lane leads to the destination you want after the off-ramp."
+        },
+        "af": {
+          "title": "Vooraf-rigting by afrit-eindpunt",
+          "key_point": "Kies die korrekte baan voordat jy die kruising aan die einde van die afrit bereik.",
+          "explanation": "Die teken help jou vooraf om die regte baan vir jou bestemming te kies."
+        },
+        "xh": {
+          "title": "Isalathiso sangaphambili ekupheleni kwe-off-ramp",
+          "key_point": "Khetha ilayini echanekileyo ngaphambi kokufika kwindawo yokudibana ekupheleni kwe-off-ramp.",
+          "explanation": "Uphawu lukunceda ukhethe ilayini efanelekileyo yendawo oya kuyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga6",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "off-ramp-terminal-direction",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Off-ramp terminal direction GA6",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Off-ramp terminal direction",
+          "key_point": "Slow down, obey the intersection controls and turn in the direction of your destination.",
+          "explanation": "This sign is placed at the end of the off-ramp and shows the direction of destinations from the intersecting road."
+        },
+        "af": {
+          "title": "Rigting by afrit-eindpunt",
+          "key_point": "Ry stadiger, gehoorsaam die kruisingbeheer en draai in die rigting van jou bestemming.",
+          "explanation": "Die teken wys die rigting van bestemmings vanaf die pad aan die einde van die afrit."
+        },
+        "xh": {
+          "title": "Isalathiso ekupheleni kwe-off-ramp",
+          "key_point": "Cotha, landela ulawulo lwendawo yokudibana uze ujike kwicala lendawo oya kuyo.",
+          "explanation": "Uphawu lubonisa indlela eya kwiindawo ezahlukeneyo ukusuka kwindlela ekupheleni kwe-off-ramp."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-temporary-concept",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "temporary-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §§1–2 — temporary signs / sign interpretation",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Temporary road signs",
+          "key_point": "A yellow-background sign warns that normal conditions have changed and that extra attention is required.",
+          "explanation": "Temporary signs are used for situations such as roadworks, collision scenes and temporary traffic control. A sign number beginning with T identifies a temporary sign."
+        },
+        "af": {
+          "title": "Tydelike padtekens",
+          "key_point": "'n Teken met 'n geel agtergrond waarsku dat normale toestande verander het en dat ekstra aandag nodig is.",
+          "explanation": "Tydelike tekens word gebruik by onder meer padwerke, ongelukke en tydelike verkeersbeheer."
+        },
+        "xh": {
+          "title": "Iimpawu zendlela zethutyana",
+          "key_point": "Uphawu olunemvelaphi etyheli lulumkisa ukuba iimeko eziqhelekileyo zitshintshile kwaye kufuneka uqaphele ngakumbi.",
+          "explanation": "Iimpawu zethutyana zisetyenziswa kwiindlela ezilungiswayo, kwiingozi nakulawulo lwezithuthi lwethutyana."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r301",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bus-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Bus reservation R301/TR301 and bus parking reservation R301-P/TR301-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bus reservation",
+          "key_point": "Do not enter or park in a bus-reserved area unless you are driving a bus.",
+          "explanation": "Reservation signs set aside a road, lane or parking area for a particular class of road user or vehicle."
+        },
+        "af": {
+          "title": "Busreservering",
+          "key_point": "Moenie 'n gebied wat vir busse gereserveer is binnegaan of daar parkeer tensy jy 'n bus bestuur nie.",
+          "explanation": "Reserveringstekens hou 'n pad, baan of parkeerplek vir 'n spesifieke voertuigklas."
+        },
+        "xh": {
+          "title": "Indawo ebekelwe iibhasi",
+          "key_point": "Musa ukungena okanye ukupaka kwindawo ebekelwe iibhasi ngaphandle kokuba uqhuba ibhasi.",
+          "explanation": "Iimpawu zokubekelwa bucala zigcinela indlela, ilayini okanye indawo yokupaka udidi oluthile lwesithuthi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r302-r303",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bus-lane-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Bus lane reservation R302/TR302 and begins R303/TR303",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bus lane reservation",
+          "key_point": "Do not use a bus-only lane if you are not driving a permitted bus.",
+          "explanation": "The reservation sign identifies a lane for buses only; the 'begins' version shows where the reserved lane starts."
+        },
+        "af": {
+          "title": "Busbaanreservering",
+          "key_point": "Moenie 'n busbaan gebruik as jy nie 'n toegelate bus bestuur nie.",
+          "explanation": "Die teken identifiseer 'n baan wat vir busse gereserveer is."
+        },
+        "xh": {
+          "title": "Ilayini ebekelwe iibhasi",
+          "key_point": "Musa ukusebenzisa ilayini yeebhasi ukuba awuqhubi ibhasi evumelekileyo.",
+          "explanation": "Uphawu lubonisa ilayini ebekelwe iibhasi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r304",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pedal-cycle-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Pedal cycle lane/parking reservation R304/TR304 and R304-P/TR304-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pedal-cycle reservation",
+          "key_point": "Do not use a cycle-reserved lane or parking area unless you are riding a bicycle.",
+          "explanation": "This reservation protects space intended specifically for pedal cyclists."
+        },
+        "af": {
+          "title": "Fietsreservering",
+          "key_point": "Moenie 'n baan of parkeerplek wat vir fietse gereserveer is gebruik tensy jy 'n fiets ry nie.",
+          "explanation": "Die reservering beskerm ruimte wat vir fietsryers bedoel is."
+        },
+        "xh": {
+          "title": "Indawo ebekelwe iibhayisekile",
+          "key_point": "Musa ukusebenzisa ilayini okanye indawo yokupaka ebekelwe iibhayisekile ngaphandle kokuba ukhwele ibhayisekile.",
+          "explanation": "Le ndawo igcinelwe abakhweli beebhayisekile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r305-r306",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "parking-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Parking reservation R305-P/TR305-P and limited parking R306-P/TR306-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Parking reservation",
+          "key_point": "Park only according to the conditions shown, including any fee or maximum-stay limit.",
+          "explanation": "The learner manual distinguishes ordinary reserved parking from limited parking where a maximum stay may apply."
+        },
+        "af": {
+          "title": "Parkeerreservering",
+          "key_point": "Parkeer slegs volgens die voorwaardes op die teken, insluitend enige fooi of maksimum tyd.",
+          "explanation": "Lees die parkeerreël en enige bykomende paneel saam."
+        },
+        "xh": {
+          "title": "Indawo yokupaka ebekelweyo",
+          "key_point": "Paka kuphela ngokwemiqathango ebonisiweyo, kuquka intlawulo okanye ixesha eliphezulu.",
+          "explanation": "Funda umthetho wokupaka kunye nayo nayiphi na ipaneli eyongezelelweyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r307",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "motorcycle-reservation",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.4 — Motorcycle reservation R307/TR307 and parking reservation R307-P/TR307-P",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Motorcycle reservation",
+          "key_point": "A motorcycle-reserved road area or parking area may be used only by motorcycles.",
+          "explanation": "If you are not riding a motorcycle, do not use the road or parking area reserved by this sign."
+        },
+        "af": {
+          "title": "Motorfietsreservering",
+          "key_point": "'n Pad- of parkeergebied wat vir motorfietse gereserveer is, mag net deur motorfietse gebruik word.",
+          "explanation": "Ander voertuigklasse mag nie die gereserveerde ruimte gebruik nie."
+        },
+        "xh": {
+          "title": "Indawo ebekelwe izithuthuthu",
+          "key_point": "Indawo yendlela okanye yokupaka ebekelwe izithuthuthu ingasetyenziswa kuphela zizithuthuthu.",
+          "explanation": "Ezinye iintlobo zezithuthi akufanele zisebenzise loo ndawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r502-r503",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-time-periods",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Time-limit subgroup (R)502/(R)503",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Selective time periods",
+          "key_point": "A regulatory sign with a time-period secondary sign applies only during the times or days shown.",
+          "explanation": "Read the primary regulatory sign together with the secondary time panel before deciding what is permitted."
+        },
+        "af": {
+          "title": "Geselekteerde tydperke",
+          "key_point": "'n Regulerende teken met 'n tydpaneel geld net gedurende die tye of dae wat aangedui word.",
+          "explanation": "Lees die hoofteken en die tydpaneel saam."
+        },
+        "xh": {
+          "title": "Amaxesha athile",
+          "key_point": "Uphawu lolawulo olunepaneli yexesha lusebenza kuphela ngamaxesha okanye ngeentsuku ezibonisiweyo.",
+          "explanation": "Funda uphawu oluphambili kunye nepanele yexesha kunye."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r510",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-reduced-visibility",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Reduced visibility (R)510",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Reduced-visibility restriction",
+          "key_point": "The primary regulatory sign applies when visibility is reduced.",
+          "explanation": "This secondary sign makes the restriction conditional on poor visibility."
+        },
+        "af": {
+          "title": "Beperking by swak sig",
+          "key_point": "Die hoof-regulerende teken geld wanneer sigbaarheid verminder is.",
+          "explanation": "Die bykomende paneel maak die beperking afhanklik van swak sig."
+        },
+        "xh": {
+          "title": "Umda xa ukubona kubuthathaka",
+          "key_point": "Uphawu lolawulo oluphambili lusebenza xa ukubona kuncitshisiwe.",
+          "explanation": "Ipanele eyongezelelweyo yenza umda usebenze kuphela xa ukubona kubuthathaka."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r511",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-daytime",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Daytime (R)511",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Daytime restriction",
+          "key_point": "The primary regulatory sign applies during daytime.",
+          "explanation": "The secondary sign limits the operation of the main restriction to daytime."
+        },
+        "af": {
+          "title": "Dagtydbeperking",
+          "key_point": "Die hoof-regulerende teken geld gedurende die dag.",
+          "explanation": "Die bykomende teken beperk die reël tot dagligtyd."
+        },
+        "xh": {
+          "title": "Umda wemini",
+          "key_point": "Uphawu lolawulo oluphambili lusebenza emini.",
+          "explanation": "Ipanele eyongezelelweyo yenza umthetho usebenze ngexesha lasemini kuphela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r512",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "selective-nighttime",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Night time (R)512",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Night-time restriction",
+          "key_point": "The primary regulatory sign applies during night time.",
+          "explanation": "The secondary sign limits the operation of the main restriction to night-time conditions."
+        },
+        "af": {
+          "title": "Nagtydbeperking",
+          "key_point": "Die hoof-regulerende teken geld gedurende die nag.",
+          "explanation": "Die bykomende teken beperk die reël tot nagtyd."
+        },
+        "xh": {
+          "title": "Umda wasebusuku",
+          "key_point": "Uphawu lolawulo oluphambili lusebenza ebusuku.",
+          "explanation": "Ipanele eyongezelelweyo yenza umthetho usebenze ngexesha lasebusuku kuphela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r523",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pay-and-display",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.6 — Pay and display (R)523",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pay and display",
+          "key_point": "Pay the required parking fee and display the proof of payment as directed.",
+          "explanation": "This secondary sign is used with a parking regulation to show that payment is required."
+        },
+        "af": {
+          "title": "Betaal en vertoon",
+          "key_point": "Betaal die vereiste parkeerfooi en vertoon die bewys van betaling soos aangedui.",
+          "explanation": "Hierdie paneel wys dat betaling vir parkering vereis word."
+        },
+        "xh": {
+          "title": "Hlawula uze ubonise",
+          "key_point": "Hlawula imali yokupaka efunekayo uze ubonise ubungqina bentlawulo njengoko kuyalelwe.",
+          "explanation": "Le paneli ibonisa ukuba kufuneka kuhlawulwe ukupaka."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r401",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "dual-freeway-begins",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.5 — Dual-carriageway freeway begins R401",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Dual-carriageway freeway begins",
+          "key_point": "From this sign onward, the rules that apply to freeways are in force.",
+          "explanation": "The sign marks the start of a dual-carriageway freeway. Follow all freeway rules from this point."
+        },
+        "af": {
+          "title": "Dubbelrybaan-snelweg begin",
+          "key_point": "Vanaf hierdie teken geld die reëls wat op snelweë van toepassing is.",
+          "explanation": "Die teken merk die begin van 'n dubbelrybaan-snelweg."
+        },
+        "xh": {
+          "title": "Kuqala indlela enkulu enezindlela ezimbini ezahluliweyo",
+          "key_point": "Ukusukela kolu phawu, imithetho yendlela enkulu iyasebenza.",
+          "explanation": "Uphawu luphawula ukuqala kwendlela enkulu enezindlela ezimbini ezahluliweyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r402",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "single-freeway-begins",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.5 — Single-carriageway freeway begins R402",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Single-carriageway freeway begins",
+          "key_point": "From this sign onward, freeway rules apply.",
+          "explanation": "This sign marks the start of a single-carriageway freeway."
+        },
+        "af": {
+          "title": "Enkelrybaan-snelweg begin",
+          "key_point": "Vanaf hierdie teken geld snelwegreëls.",
+          "explanation": "Die teken merk die begin van 'n enkelrybaan-snelweg."
+        },
+        "xh": {
+          "title": "Kuqala indlela enkulu enendlela enye",
+          "key_point": "Ukusukela kolu phawu, imithetho yendlela enkulu iyasebenza.",
+          "explanation": "Uphawu luphawula ukuqala kwendlela enkulu enendlela enye."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r403",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "woonerf",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.5 — Woonerf R403",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Woonerf",
+          "key_point": "Drive slowly and give special priority and attention to pedestrians in the shared residential area.",
+          "explanation": "The learner manual describes special access, pedestrian-priority and low-speed conditions inside a woonerf. Numeric and vehicle-mass details remain subject to the legal verification gate before release certification."
+        },
+        "af": {
+          "title": "Woonerf",
+          "key_point": "Ry stadig en gee besondere voorkeur en aandag aan voetgangers in die gedeelde woongebied.",
+          "explanation": "Dit is 'n gedeelde gebied waar voertuie besonder versigtig moet beweeg."
+        },
+        "xh": {
+          "title": "Indawo yokuhlala ekwabelwana ngayo",
+          "key_point": "Qhuba kancinci uze unike abahambi ngeenyawo ingqalelo ephambili kwindawo yokuhlala ekwabelwana ngayo.",
+          "explanation": "Le yindawo ekwabelwana ngayo apho izithuthi kufuneka zihambe ngononophelo olukhulu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-combination-regulatory",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "combination-regulatory-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.7 — Combination signs (regulatory)",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Combination regulatory signs",
+          "key_point": "Read the main regulatory sign together with every secondary panel or condition attached to it.",
+          "explanation": "A combination may limit a rule by time, vehicle class, distance, visibility or another condition. The full combined message determines what you must do."
+        },
+        "af": {
+          "title": "Gekombineerde regulerende tekens",
+          "key_point": "Lees die hoof-regulerende teken saam met elke bykomende paneel of voorwaarde wat daaraan geheg is.",
+          "explanation": "Tyd, voertuigklas, afstand, sigbaarheid of ander voorwaardes kan die betekenis verander."
+        },
+        "xh": {
+          "title": "Iimpawu zolawulo ezidityanisiweyo",
+          "key_point": "Funda uphawu lolawulo oluphambili kunye nayo yonke ipaneli okanye imeko eyongezelelweyo.",
+          "explanation": "Ixesha, udidi lwesithuthi, umgama, ukubona okanye ezinye iimeko zinokutshintsha umyalezo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-combination-warning",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "combination-warning-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §4.4 — Combination signs (warning)",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Combination warning signs",
+          "key_point": "Interpret the warning sign together with its speed, distance, text or other supplementary message.",
+          "explanation": "Combination warning signs add details such as recommended speed, distance to the hazard, length of the hazard or a text warning."
+        },
+        "af": {
+          "title": "Gekombineerde waarskuwingstekens",
+          "key_point": "Vertolk die waarskuwingsteken saam met die spoed-, afstand-, teks- of ander bykomende boodskap.",
+          "explanation": "Die bykomende boodskap gee meer besonderhede oor die gevaar."
+        },
+        "xh": {
+          "title": "Iimpawu zesilumkiso ezidityanisiweyo",
+          "key_point": "Tolika uphawu lwesilumkiso kunye nesantya, umgama, umbhalo okanye omnye umyalezo owongezelelweyo.",
+          "explanation": "Umyalezo owongezelelweyo unika iinkcukacha ezingakumbi ngengozi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-sign-r600",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "de-restriction",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.8 — De-restriction signs R600",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "De-restriction sign",
+          "key_point": "The matching restriction ends from this point.",
+          "explanation": "A de-restriction sign cancels the restriction shown by the similar symbol without the cancellation mark."
+        },
+        "af": {
+          "title": "Opheffing van beperking",
+          "key_point": "Die ooreenstemmende beperking eindig vanaf hierdie punt.",
+          "explanation": "Die teken kanselleer die beperking wat deur die soortgelyke simbool aangedui is."
+        },
+        "xh": {
+          "title": "Ukuphela komda",
+          "key_point": "Umda ohambelanayo uphela ukusukela kule ndawo.",
+          "explanation": "Uphawu lurhoxisa umda oboniswe sisimboli esifanayo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-countdown",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "countdown-information",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Count down signs IN3/IN2/IN1 and temporary variants",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Exit countdown signs",
+          "key_point": "These signs count down the remaining distance to an exit.",
+          "explanation": "The manual uses a sequence at approximately 300 m, 200 m and 100 m before an exit so that you can prepare in time."
+        },
+        "af": {
+          "title": "Afrit-afteltekens",
+          "key_point": "Hierdie tekens tel die oorblywende afstand tot 'n afrit af.",
+          "explanation": "Die handleiding gebruik 'n volgorde ongeveer 300 m, 200 m en 100 m voor 'n afrit sodat jy betyds kan voorberei."
+        },
+        "xh": {
+          "title": "Iimpawu zokubala umgama wokuphuma",
+          "key_point": "Ezi mpawu zibonisa umgama oshiyekileyo ukuya kwindawo yokuphuma.",
+          "explanation": "Incwadi isebenzisa ulandelelwano malunga ne-300 m, 200 m ne-100 m phambi kokuphuma ukuze ulungiselele kwangethuba."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-right-of-way",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "right-of-way-information",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Right-of-way IN7",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Right-of-way information",
+          "key_point": "You have right of way at the intersection ahead, but still make sure other road users yield.",
+          "explanation": "Do not slow unnecessarily, but never assume that another road user will obey the sign."
+        },
+        "af": {
+          "title": "Voorrang-inligting",
+          "key_point": "Jy het voorrang by die kruising voor, maar maak steeds seker dat ander padgebruikers toegee.",
+          "explanation": "Moenie aanvaar dat ander verkeer die teken sal gehoorsaam nie."
+        },
+        "xh": {
+          "title": "Ulwazi lwelungelo lokudlula",
+          "key_point": "Unelungelo lokudlula kwindawo yokudibana ngaphambili, kodwa qinisekisa ukuba abanye abasebenzisi bendlela bayakunika indlela.",
+          "explanation": "Musa ukucinga ukuba ezinye izithuthi ziya kusoloko zithobela uphawu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-park-ride",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "park-and-ride",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Park and ride IN9/IN10",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Park and ride",
+          "key_point": "This sign identifies parking connected to a bus or train service.",
+          "explanation": "Use the parking area if you want to continue the journey by the public-transport service shown."
+        },
+        "af": {
+          "title": "Parkeer en ry verder",
+          "key_point": "Hierdie teken wys parkering wat met 'n bus- of treindiens verbind is.",
+          "explanation": "Parkeer daar as jy jou reis met openbare vervoer wil voortsit."
+        },
+        "xh": {
+          "title": "Paka uze uqhubeke ngezithuthi zikawonke-wonke",
+          "key_point": "Olu phawu lubonisa indawo yokupaka edityaniswe nenkonzo yebhasi okanye kaloliwe.",
+          "explanation": "Paka apho ukuba ufuna ukuqhubeka nohambo ngezithuthi zikawonke-wonke."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-supplementary",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "supplementary-information-plates",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Supplementary plates IN11 series",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Supplementary information plate",
+          "key_point": "Read the supplementary plate together with the main sign.",
+          "explanation": "It can explain the danger, a safe or recommended speed, how far away the condition is or how long it continues."
+        },
+        "af": {
+          "title": "Aanvullende inligtingsplaat",
+          "key_point": "Lees die aanvullende plaat saam met die hoofteken.",
+          "explanation": "Dit kan die gevaar, aanbevole spoed, afstand of duur van die toestand verduidelik."
+        },
+        "xh": {
+          "title": "Ipaneli yolwazi olongezelelweyo",
+          "key_point": "Funda ipaneli eyongezelelweyo kunye nophawu oluphambili.",
+          "explanation": "Inokuchaza ingozi, isantya esicetyiswayo, umgama okanye ixesha lemeko."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-centre",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "information-centre",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Information centre IN12",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Information centre",
+          "key_point": "An information office or notice board is available here.",
+          "explanation": "You may obtain information about the local area at the place indicated."
+        },
+        "af": {
+          "title": "Inligtingsentrum",
+          "key_point": "'n Inligtingskantoor of kennisgewingbord is hier beskikbaar.",
+          "explanation": "Jy kan daar plaaslike inligting kry."
+        },
+        "xh": {
+          "title": "Iziko lolwazi",
+          "key_point": "Kukho iofisi yolwazi okanye ibhodi yezaziso apha.",
+          "explanation": "Ungafumana ulwazi lwendawo apho."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-road-experiment",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "road-experiment",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Road experiment TIN13",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Road experiment",
+          "key_point": "Obey all other signs and watch carefully for people, vehicles and equipment involved in the temporary road experiment.",
+          "explanation": "The sign warns that research or a temporary experiment is taking place on the road."
+        },
+        "af": {
+          "title": "Padeksperiment",
+          "key_point": "Gehoorsaam alle ander tekens en let versigtig op mense, voertuie en toerusting wat by die tydelike padeksperiment betrokke is.",
+          "explanation": "Die teken waarsku dat navorsing of 'n tydelike eksperiment op die pad plaasvind."
+        },
+        "xh": {
+          "title": "Uvavanyo lwendlela",
+          "key_point": "Thobela zonke ezinye iimpawu uze uqaphele abantu, izithuthi nezixhobo ezinxulumene novavanyo lwendlela lwethutyana.",
+          "explanation": "Uphawu lulumkisa ukuba kukho uphando okanye uvavanyo lwethutyana endleleni."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-coordinated-signals",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "coordinated-traffic-signals",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Co-ordinated traffic signals IN14",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Co-ordinated traffic signals",
+          "key_point": "The indicated speed is a recommendation intended to help you meet successive green signals, not a speed limit.",
+          "explanation": "Even when following the recommended speed, enter every intersection only when it is safe."
+        },
+        "af": {
+          "title": "Gekoördineerde verkeersligte",
+          "key_point": "Die aangeduide spoed is 'n aanbeveling om opeenvolgende groen ligte te haal, nie 'n spoedgrens nie.",
+          "explanation": "Betree elke kruising slegs wanneer dit veilig is."
+        },
+        "xh": {
+          "title": "Iirobhothi ezilungelelanisiweyo",
+          "key_point": "Isantya esibonisiweyo sisicebiso sokukunceda ufike kwizibane eziluhlaza ezilandelelanayo, hayi umda wesantya.",
+          "explanation": "Ngena kwindawo nganye yokudibana kuphela xa kukhuselekile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-multiphase",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "multi-phase-signals",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Multi-phase traffic signals IN15",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Multi-phase traffic signals",
+          "key_point": "Do not move just because traffic in another direction starts moving. Wait for your own green signal.",
+          "explanation": "At a multi-phase intersection the normal sequence may differ, and your signal can remain red while other traffic receives green."
+        },
+        "af": {
+          "title": "Meerfase-verkeersligte",
+          "key_point": "Moenie beweeg net omdat verkeer in 'n ander rigting begin beweeg nie. Wag vir jou eie groen lig.",
+          "explanation": "By 'n meerfase-kruising kan ander verkeersrigtings groen kry terwyl jou lig rooi bly."
+        },
+        "xh": {
+          "title": "Iirobhothi zamacandelo amaninzi",
+          "key_point": "Musa ukuhamba nje kuba ezinye izithuthi kwenye indlela ziqalile ukuhamba. Linda isibane sakho esiluhlaza.",
+          "explanation": "Kwindawo yamacandelo amaninzi, ezinye izithuthi zinokufumana okuluhlaza ngelixa owakho umqondiso uselubomvu."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-bus-stop-ahead",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bus-stop-ahead",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Bus stop ahead IN16",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bus stop ahead",
+          "key_point": "Expect buses to slow or stop and watch for pedestrians nearby.",
+          "explanation": "Take extra care when passing the bus-stop area."
+        },
+        "af": {
+          "title": "Bushalte voor",
+          "key_point": "Verwag dat busse stadiger ry of stop en let op voetgangers naby.",
+          "explanation": "Wees ekstra versigtig wanneer jy die bushaltegebied verbysteek."
+        },
+        "xh": {
+          "title": "Isikhululo sebhasi ngaphambili",
+          "key_point": "Lindela iibhasi ukuba zicothe okanye zime kwaye uqaphele abahambi ngeenyawo abakufutshane.",
+          "explanation": "Qaphela ngakumbi xa udlula kwindawo yesikhululo sebhasi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-info-modal-transfer",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "modal-transfer",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §6 — Modal transfer IN17/IN18/IN19",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Modal transfer point",
+          "key_point": "A place for passengers to change between forms of transport is nearby.",
+          "explanation": "Slow or stop only when safe, and watch carefully for pedestrians who may cross the road."
+        },
+        "af": {
+          "title": "Oorstappunt",
+          "key_point": "'n Plek waar passasiers tussen verskillende vervoervorme kan oorskakel, is naby.",
+          "explanation": "Let op vir voetgangers wat na of van openbare vervoer beweeg."
+        },
+        "xh": {
+          "title": "Indawo yokutshintsha indlela yothutho",
+          "key_point": "Kukho indawo ekufutshane apho abakhweli batshintsha phakathi kweendlela zothutho.",
+          "explanation": "Qaphela abahambi ngeenyawo abaya okanye abaphuma kwizithuthi zikawonke-wonke."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm4",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "edge-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Left-edge RM4.1 and right-edge RM4.2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Road edge lines",
+          "key_point": "Edge lines show the usable edge of the roadway and are not ordinary lane lines.",
+          "explanation": "The left shoulder may be used only in limited circumstances described by the rules. A right-edge line on a one-way roadway or freeway should not be crossed."
+        },
+        "af": {
+          "title": "Padkantlyne",
+          "key_point": "Kantlyne wys die bruikbare rand van die rybaan en is nie gewone baanlyne nie.",
+          "explanation": "Gebruik die padskouer net waar die reëls dit toelaat."
+        },
+        "xh": {
+          "title": "Imigca esecaleni kwendlela",
+          "key_point": "Imigca esecaleni ibonisa umda osebenzayo wendlela kwaye ayizizo iilayini eziqhelekileyo.",
+          "explanation": "Sebenzisa igxalaba lendlela kuphela apho imithetho ivuma khona."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm6",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "parking-bay",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Parking bay RM6",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Parking bay",
+          "key_point": "Park completely inside the marked parking bay.",
+          "explanation": "Do not leave any part of the vehicle outside the bay or over the sidewalk."
+        },
+        "af": {
+          "title": "Parkeerplek",
+          "key_point": "Parkeer heeltemal binne die gemerkte parkeerplek.",
+          "explanation": "Moenie enige deel van die voertuig buite die gemerkte plek laat nie."
+        },
+        "xh": {
+          "title": "Indawo yokupaka",
+          "key_point": "Paka ngokupheleleyo ngaphakathi kwendawo yokupaka ephawulweyo.",
+          "explanation": "Musa ukushiya naliphi na icandelo lesithuthi ngaphandle kwendawo ephawulweyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm7",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "exclusive-parking-bay",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Exclusive parking bay RM7",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Exclusive parking bay",
+          "key_point": "Only the road user or vehicle class identified by the marking may park there.",
+          "explanation": "Examples include ambulance, bus, taxi, loading-zone and other specifically reserved bays."
+        },
+        "af": {
+          "title": "Eksklusiewe parkeerplek",
+          "key_point": "Net die padgebruiker of voertuigklas wat deur die merk aangedui word, mag daar parkeer.",
+          "explanation": "Voorbeelde sluit busse, taxi's, ambulansvoertuie of laaisones in."
+        },
+        "xh": {
+          "title": "Indawo yokupaka ekhethekileyo",
+          "key_point": "Kuphela ngumsebenzisi wendlela okanye udidi lwesithuthi oluboniswe luphawu olunokupaka apho.",
+          "explanation": "Imizekelo iquka iibhasi, iiteksi, ii-ambulensi okanye iindawo zokulayisha."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm9",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bus-lane-marking",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Bus lane marking RM9",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bus lane marking",
+          "key_point": "If you are not driving a permitted bus, do not use the marked bus lane during the times shown.",
+          "explanation": "The road marking identifies the reserved part of the carriageway."
+        },
+        "af": {
+          "title": "Busbaanmerk",
+          "key_point": "As jy nie 'n toegelate bus bestuur nie, moenie die gemerkte busbaan gebruik gedurende die tye wat aangedui word nie.",
+          "explanation": "Die padmerk identifiseer die gereserveerde baan."
+        },
+        "xh": {
+          "title": "Uphawu lwelayini yeebhasi",
+          "key_point": "Ukuba awuqhubi ibhasi evumelekileyo, musa ukusebenzisa ilayini yeebhasi ngamaxesha abonisiweyo.",
+          "explanation": "Uphawu lwendlela lubonisa ilayini ebekelwe iibhasi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm11",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "pedestrian-crossing-ahead-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Pedestrian crossing ahead lines RM11",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Pedestrian crossing ahead lines",
+          "key_point": "Do not overtake in the marked approach area and be ready to stop for pedestrians.",
+          "explanation": "The marking protects the approach to a pedestrian crossing."
+        },
+        "af": {
+          "title": "Voetoorgang-voorlyne",
+          "key_point": "Moenie in die gemerkte naderingsgebied verbysteek nie en wees gereed om vir voetgangers te stop.",
+          "explanation": "Die merk beskerm die aanloop na 'n voetoorgang."
+        },
+        "xh": {
+          "title": "Imigca yokulumkisa indawo yabahambi ngeenyawo",
+          "key_point": "Musa ukudlula kwindawo ephawulweyo yokusondela kwaye ulungele ukuma ngenxa yabahambi ngeenyawo.",
+          "explanation": "Uphawu lukhusela indawo esondela kwindawo yokuwela abahambi ngeenyawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm14",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bicycle-lane-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Bicycle lane lines RM14",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bicycle lane lines",
+          "key_point": "Do not drive in the area reserved for cyclists.",
+          "explanation": "The marked lane shows the road space set aside for bicycle traffic."
+        },
+        "af": {
+          "title": "Fietsbaanlyne",
+          "key_point": "Moenie in die gebied bestuur wat vir fietsryers gereserveer is nie.",
+          "explanation": "Die lyne wys die ruimte wat vir fietse bedoel is."
+        },
+        "xh": {
+          "title": "Imigca yelayini yeebhayisekile",
+          "key_point": "Musa ukuqhuba kwindawo ebekelwe abakhweli beebhayisekile.",
+          "explanation": "Imigca ibonisa indawo ebekelwe iibhayisekile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-rm15",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "traffic-circle-arrows",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.1 — Traffic circle mandatory directional arrows RM15",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Traffic-circle direction arrows",
+          "key_point": "Drive around the circle only in the direction shown by the arrows.",
+          "explanation": "The manual also reminds learners to yield according to the traffic-circle or mini-circle rules that apply."
+        },
+        "af": {
+          "title": "Verkeersirkel-rigtingpyle",
+          "key_point": "Ry net om die sirkel in die rigting wat deur die pyle aangedui word.",
+          "explanation": "Volg ook die toepaslike toegee-reëls by die sirkel."
+        },
+        "xh": {
+          "title": "Iintolo zesalathiso se-traffic circle",
+          "key_point": "Hamba ujikeleze kuphela kwicala eliboniswe ziintolo.",
+          "explanation": "Landela nemithetho yokunika indlela esebenzayo kwi-traffic circle."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm5",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "yield-control-ahead-marking",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Yield control ahead WM5",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Yield control ahead marking",
+          "key_point": "A yield control is ahead. Slow down and be ready to stop.",
+          "explanation": "Watch for traffic approaching the intersection and give way when required."
+        },
+        "af": {
+          "title": "Toeheebeheer voor-merk",
+          "key_point": "'n Toeheebeheer lê voor. Ry stadiger en wees gereed om te stop.",
+          "explanation": "Let op verkeer by die kruising en gee pad wanneer dit nodig is."
+        },
+        "xh": {
+          "title": "Uphawu lokunika indlela ngaphambili",
+          "key_point": "Kukho indawo yokunika indlela ngaphambili. Cotha uze ulungele ukuma.",
+          "explanation": "Qaphela izithuthi kwindawo yokudibana kwaye unike indlela xa kufuneka."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm6",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "lane-reduction-arrows",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Lane reduction arrows WM6.1/WM6.2/WM6.3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Lane reduction arrows",
+          "key_point": "One or more lanes end ahead. Change lanes early and safely.",
+          "explanation": "Check blind spots carefully, especially where lanes reduce from both sides."
+        },
+        "af": {
+          "title": "Baanverminderingspyle",
+          "key_point": "Een of meer bane eindig voor. Verander vroeg en veilig van baan.",
+          "explanation": "Kontroleer blindekolle voordat jy invoeg."
+        },
+        "xh": {
+          "title": "Iintolo zokuncipha kweelayini",
+          "key_point": "Enye okanye ezinye iilayini ziphela ngaphambili. Tshintsha ilayini kwangethuba nangokukhuselekileyo.",
+          "explanation": "Jonga iindawo ezingabonakaliyo ngaphambi kokudibana nenye ilayini."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm7",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "mandatory-direction-ahead",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Mandatory direction arrow ahead WM7",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Mandatory direction ahead marking",
+          "key_point": "You will soon have to follow the direction shown, so choose the correct lane in time.",
+          "explanation": "The marking warns you before the mandatory direction applies at the next intersection."
+        },
+        "af": {
+          "title": "Verpligte rigting voor-merk",
+          "key_point": "Jy sal binnekort die rigting moet volg wat aangedui word; kies dus betyds die korrekte baan.",
+          "explanation": "Die merk waarsku jou voordat die verpligte rigting begin."
+        },
+        "xh": {
+          "title": "Uphawu lwendlela yesalathiso esinyanzelekileyo ngaphambili",
+          "key_point": "Kungekudala kuya kufuneka ulandele icala elibonisiweyo, ngoko khetha ilayini echanekileyo kwangethuba.",
+          "explanation": "Uphawu lukulumkisa ngaphambi kokuba isalathiso esinyanzelekileyo siqale."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm8",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "prohibition-line-ahead",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — No overtaking/no crossing line ahead WM8",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "No-overtaking or no-crossing line ahead",
+          "key_point": "Return to the correct side of the road before the prohibition line begins.",
+          "explanation": "The marking warns that a no-overtaking or no-crossing line is ahead."
+        },
+        "af": {
+          "title": "Geen-verbysteek- of geen-kruislyn voor",
+          "key_point": "Keer terug na die korrekte kant van die pad voordat die verbodslyn begin.",
+          "explanation": "Die merk waarsku dat 'n verbodslyn voorlê."
+        },
+        "xh": {
+          "title": "Umgca wokungadluli okanye wokungaweli ngaphambili",
+          "key_point": "Buyela kwicala elichanekileyo lendlela ngaphambi kokuba umgca wothintelo uqale.",
+          "explanation": "Uphawu lulumkisa ukuba kukho umgca wothintelo ngaphambili."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm9",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "arrestor-bed-ahead",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Arrestor bed ahead WM9",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Arrestor bed ahead",
+          "key_point": "An emergency arrestor bed is ahead for a vehicle whose brakes have failed.",
+          "explanation": "Do not enter an arrestor bed in normal driving."
+        },
+        "af": {
+          "title": "Noodrembed voor",
+          "key_point": "'n Noodrembed lê voor vir 'n voertuig waarvan die remme gefaal het.",
+          "explanation": "Moenie dit tydens gewone bestuur gebruik nie."
+        },
+        "xh": {
+          "title": "Indawo yokumisa isithuthi esingasakwazi kuqhobosha ngaphambili",
+          "key_point": "Kukho indawo yokumisa engxamisekileyo ngaphambili yesithuthi esiphulukene neziqhoboshi.",
+          "explanation": "Musa ukuyisebenzisa ekuqhubeni okuqhelekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-wm10",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "speed-hump-marking",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.2 — Speed hump WM10",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Speed-hump road marking",
+          "key_point": "Slow down before the speed hump.",
+          "explanation": "The marking warns that a raised speed-control feature is immediately ahead."
+        },
+        "af": {
+          "title": "Spoedhobbel-padmerk",
+          "key_point": "Ry stadiger voordat jy die spoedhobbel bereik.",
+          "explanation": "Die merk waarsku dat 'n verhoogde spoedbeheerfunksie onmiddellik voorlê."
+        },
+        "xh": {
+          "title": "Uphawu lwendlela lwe-speed hump",
+          "key_point": "Cotha ngaphambi kokufika kwi-speed hump.",
+          "explanation": "Uphawu lulumkisa ukuba kukho indawo ephakanyisiweyo yokunciphisa isantya ngaphambili."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-gm2",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "guide-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Guide lines GM2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Guide lines",
+          "key_point": "Follow the guide lines through the intersection.",
+          "explanation": "They show the correct path for turning or passing through a complex intersection."
+        },
+        "af": {
+          "title": "Gidslyne",
+          "key_point": "Volg die gidslyne deur die kruising.",
+          "explanation": "Hulle wys die korrekte pad deur 'n ingewikkelde aansluiting."
+        },
+        "xh": {
+          "title": "Imigca yesikhokelo",
+          "key_point": "Landela imigca yesikhokelo kwindawo yokudibana.",
+          "explanation": "Ibonisa indlela echanekileyo yokuhamba kwindawo enzima yokudibana."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-gm3",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bifurcation-arrows",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Bifurcation arrows GM3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bifurcation arrows",
+          "key_point": "The number of lanes increases ahead. Stay within the lane markings.",
+          "explanation": "Do not straddle lane lines as the roadway divides into additional lanes."
+        },
+        "af": {
+          "title": "Vertakkingspyle",
+          "key_point": "Die aantal bane neem voor toe. Bly binne die baanmerke.",
+          "explanation": "Moenie baanlyne oorskry of oor twee bane ry soos die pad vertak nie."
+        },
+        "xh": {
+          "title": "Iintolo zokwahluka kweendlela",
+          "key_point": "Inani leelayini liyanda ngaphambili. Hlala ngaphakathi kwemigca yelayini.",
+          "explanation": "Musa ukuhamba phezu kwemigca njengoko indlela yahluleka ibe ziilayini ezininzi."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-gm4",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "information-arrows",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Information arrows GM4.1/GM4.2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Information arrows",
+          "key_point": "Follow the direction shown for your lane or roadway.",
+          "explanation": "Do not drive contrary to the arrow unless a traffic officer directs you otherwise."
+        },
+        "af": {
+          "title": "Inligtingspyle",
+          "key_point": "Volg die rigting wat vir jou baan of rybaan aangedui word.",
+          "explanation": "Moenie teen die aangeduide rigting ry tensy 'n verkeersbeampte jou anders aanwys nie."
+        },
+        "xh": {
+          "title": "Iintolo zolwazi",
+          "key_point": "Landela icala elibonisiweyo kwilayini okanye endleleni yakho.",
+          "explanation": "Musa ukuhamba ngokuchasene nalo ngaphandle kokuba igosa lezendlela likuyalela ngenye indlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-gm5",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "bicycle-crossing-lines",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Bicycle crossing lines GM5",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Bicycle crossing lines",
+          "key_point": "Watch for cyclists crossing or waiting to cross.",
+          "explanation": "The lines identify the part of the road intended for cyclists to cross."
+        },
+        "af": {
+          "title": "Fietsoorganglyne",
+          "key_point": "Let op vir fietsryers wat oorsteek of wag om oor te steek.",
+          "explanation": "Die lyne wys die gedeelte van die pad waar fietsryers kan kruis."
+        },
+        "xh": {
+          "title": "Imigca yokuwela iibhayisekile",
+          "key_point": "Qaphela abakhweli beebhayisekile abawelayo okanye abalinde ukuwela.",
+          "explanation": "Imigca ibonisa indawo yendlela apho iibhayisekile zinokuwela khona."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-gm6",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "road-marking-symbols",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Road marking symbols GM6.1/GM6.2/GM6.3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Road-marking symbols",
+          "key_point": "A painted symbol can identify a reserved user group or a destination.",
+          "explanation": "Do not use a marked reserved area if you are not part of the group identified by the symbol."
+        },
+        "af": {
+          "title": "Padmerksimbole",
+          "key_point": "'n Geverfde simbool kan 'n gereserveerde gebruikersgroep of bestemming aandui.",
+          "explanation": "Moenie 'n gereserveerde gebied gebruik as jy nie tot die aangeduide groep behoort nie."
+        },
+        "xh": {
+          "title": "Iisimboli ezipendwe endleleni",
+          "key_point": "Isimboli epende endleleni inokubonisa iqela eligcinelwe indawo okanye indawo ekuya kuyo.",
+          "explanation": "Musa ukusebenzisa indawo egcinelweyo ukuba awungomnye wabasebenzisi ababonisiweyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-marking-gm7",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "word-markings",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §7.3 — Word markings GM7",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Word markings",
+          "key_point": "Read the road message and respond to the condition or danger it identifies.",
+          "explanation": "Word markings provide extra information directly on the roadway."
+        },
+        "af": {
+          "title": "Woordmerke",
+          "key_point": "Lees die boodskap op die pad en reageer op die toestand of gevaar wat dit aandui.",
+          "explanation": "Woordmerke gee bykomende inligting direk op die rybaan."
+        },
+        "xh": {
+          "title": "Amagama apendwe endleleni",
+          "key_point": "Funda umyalezo opendwe endleleni uze usabele kwimeko okanye ingozi oyichazayo.",
+          "explanation": "La magama anika ulwazi olongezelelweyo ngqo endleleni."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-signal-flashing-red-arrow",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "flashing-red-arrow-left",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Flashing red arrow to the left",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Flashing red arrow left",
+          "key_point": "Stop first. You may turn left only when it is safe and after yielding to pedestrians and conflicting traffic.",
+          "explanation": "Treat the signal as a stop before making the permitted left turn."
+        },
+        "af": {
+          "title": "Flikkerende rooi pyl links",
+          "key_point": "Stop eers. Jy mag net links draai wanneer dit veilig is en nadat jy aan voetgangers en kruisende verkeer toegegee het.",
+          "explanation": "Behandel die sein soos 'n stop voordat jy links draai."
+        },
+        "xh": {
+          "title": "Utolo olubomvu oludanyazayo ngasekhohlo",
+          "key_point": "Yima kuqala. Ungajika ngasekhohlo kuphela xa kukhuselekile nasemva kokunika indlela kubahambi ngeenyawo nakwizithuthi ezinqamlezayo.",
+          "explanation": "Phatha lo mqondiso njengokuma ngaphambi kokujika."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-signal-amber-arrow",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "constant-amber-arrow",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Constant amber arrow",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Constant amber arrow",
+          "key_point": "Stop and wait for the signal that permits movement in the arrow direction.",
+          "explanation": "Do not proceed simply because the arrow is illuminated amber."
+        },
+        "af": {
+          "title": "Vaste amberpyl",
+          "key_point": "Stop en wag vir die sein wat beweging in die pyl se rigting toelaat.",
+          "explanation": "Moenie voortgaan net omdat die amberpyl brand nie."
+        },
+        "xh": {
+          "title": "Utolo olumthubi olungadanyaziyo",
+          "key_point": "Yima ulinde umqondiso ovumela ukuhamba kwicala lotolo.",
+          "explanation": "Musa ukuqhubeka nje kuba utolo olumthubi lukhanyile."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-signal-flashing-green-arrow",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "flashing-green-arrow",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Flashing green arrows",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Flashing green arrow",
+          "key_point": "You have right of way in the direction shown by the flashing green arrow.",
+          "explanation": "Proceed in the indicated direction while remaining alert to road users who may disobey their controls."
+        },
+        "af": {
+          "title": "Flikkerende groen pyl",
+          "key_point": "Jy het voorrang in die rigting wat deur die flikkerende groen pyl aangedui word.",
+          "explanation": "Beweeg in die aangeduide rigting maar bly oplettend vir ander padgebruikers."
+        },
+        "xh": {
+          "title": "Utolo oluluhlaza oludanyazayo",
+          "key_point": "Unelungelo lokudlula kwicala eliboniswe lutolo oluluhlaza oludanyazayo.",
+          "explanation": "Hamba kwicala elibonisiweyo kodwa uhlale uqaphele abanye abasebenzisi bendlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-signal-constant-green-arrow",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "constant-green-arrow",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Constant green arrow",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Constant green arrow",
+          "key_point": "Traffic must proceed in the direction shown by the green arrow.",
+          "explanation": "The arrow can be used to control the permitted direction of travel."
+        },
+        "af": {
+          "title": "Vaste groen pyl",
+          "key_point": "Verkeer moet in die rigting van die groen pyl voortgaan.",
+          "explanation": "Die pyl beheer die toegelate rigting van beweging."
+        },
+        "xh": {
+          "title": "Utolo oluluhlaza olungadanyaziyo",
+          "key_point": "Izithuthi kufuneka zihambe kwicala eliboniswe lutolo oluluhlaza.",
+          "explanation": "Utolo lulawula icala elivumelekileyo lokuhamba."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-signal-flashing-amber-disc",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "flashing-amber-disc",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §8 — Flashing amber disc",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Flashing amber signal",
+          "key_point": "Proceed carefully and yield to pedestrians.",
+          "explanation": "A flashing amber disc requires caution rather than an automatic stop."
+        },
+        "af": {
+          "title": "Flikkerende ambersein",
+          "key_point": "Gaan versigtig voort en gee pad aan voetgangers.",
+          "explanation": "'n Flikkerende ambersein vereis versigtigheid eerder as 'n outomatiese stop."
+        },
+        "xh": {
+          "title": "Isibane esimthubi esidanyazayo",
+          "key_point": "Qhubeka ngononophelo uze unike indlela kubahambi ngeenyawo.",
+          "explanation": "Isibane esimthubi esidanyazayo sifuna uqaphele, hayi ukuba ume ngokuzenzekelayo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-location-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "location-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Guidance: location signs GLS/GL families",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Location signs",
+          "key_point": "Location signs identify places such as streets, suburbs, towns, borders, passes, interchanges and named routes.",
+          "explanation": "The wording on these signs varies by place, so the learner must understand their purpose rather than memorise a fixed destination name."
+        },
+        "af": {
+          "title": "Liggingstekens",
+          "key_point": "Liggingstekens identifiseer plekke soos strate, voorstede, dorpe, grense, passe, wisselaars en benoemde roetes.",
+          "explanation": "Leer die doel van die teken; die pleknaam self verander van plek tot plek."
+        },
+        "xh": {
+          "title": "Iimpawu zendawo",
+          "key_point": "Iimpawu zendawo zibonisa izitalato, iidolophu, imida, iipasi, iindawo zokudibana neendlela ezibiziweyo.",
+          "explanation": "Funda injongo yophawu; igama lendawo liyahluka ngokwendawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-national",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "national-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — national route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "National route marker",
+          "key_point": "A national route marker identifies a numbered national route.",
+          "explanation": "The route number changes by location; learn the route-marker shape and function rather than one specific route number."
+        },
+        "af": {
+          "title": "Nasionale roetemerker",
+          "key_point": "'n Nasionale roetemerker identifiseer 'n genommerde nasionale roete.",
+          "explanation": "Volg die roetenommer wat op die merker aangedui word."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yesizwe",
+          "key_point": "Isiphawuli sendlela yesizwe sibonisa indlela yesizwe enenombolo.",
+          "explanation": "Landela inombolo yendlela eboniswe kwisiphawuli."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-provincial",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "provincial-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — provincial route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Provincial route marker",
+          "key_point": "A provincial route marker identifies a numbered provincial route.",
+          "explanation": "The route number varies by location. The important knowledge is recognising the marker type and following the route number shown."
+        },
+        "af": {
+          "title": "Provinsiale roetemerker",
+          "key_point": "'n Provinsiale roetemerker identifiseer 'n genommerde provinsiale roete.",
+          "explanation": "Die roetenommer verander volgens die ligging."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yephondo",
+          "key_point": "Isiphawuli sendlela yephondo sibonisa indlela yephondo enenombolo.",
+          "explanation": "Inombolo yendlela iyahluka ngokwendawo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-regional",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "regional-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — regional route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Regional route marker",
+          "key_point": "A regional route marker identifies a numbered regional route.",
+          "explanation": "Use the displayed route number to follow the correct regional road."
+        },
+        "af": {
+          "title": "Streeksroetemerker",
+          "key_point": "'n Streeksroetemerker identifiseer 'n genommerde streeksroete.",
+          "explanation": "Gebruik die roetenommer om die korrekte streekspad te volg."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yommandla",
+          "key_point": "Isiphawuli sendlela yommandla sibonisa indlela yommandla enenombolo.",
+          "explanation": "Sebenzisa inombolo yendlela ukuze ulandele indlela echanekileyo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-route-metro",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "metropolitan-route-marker",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC guidance signs — metropolitan route marker family",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Metropolitan route marker",
+          "key_point": "A metropolitan route marker identifies a numbered route within a metropolitan road network.",
+          "explanation": "The letter and number shown vary by city and route."
+        },
+        "af": {
+          "title": "Metropolitaanse roetemerker",
+          "key_point": "'n Metropolitaanse roetemerker identifiseer 'n genommerde roete binne 'n metropolitaanse padnetwerk.",
+          "explanation": "Die letter en nommer wissel volgens stad en roete."
+        },
+        "xh": {
+          "title": "Isiphawuli sendlela yedolophu enkulu",
+          "key_point": "Isiphawuli sendlela yedolophu enkulu sibonisa indlela enenombolo ngaphakathi kwenethiwekhi yedolophu enkulu.",
+          "explanation": "Unobumba nenombolo ziyahluka ngokwesixeko nendlela."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-direction-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "direction-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Guidance direction signs: ground-mounted / overhead / map- and stack-type",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Direction signs",
+          "key_point": "Direction signs show destinations, route numbers, lane choices and the direction to follow.",
+          "explanation": "Read destination text, arrows, route markers and lane information together before changing position."
+        },
+        "af": {
+          "title": "Rigtingstekens",
+          "key_point": "Rigtingstekens wys bestemmings, roetenommers, baankeuses en die rigting wat gevolg moet word.",
+          "explanation": "Lees die teks, pyle, roetemerkers en baaninligting saam."
+        },
+        "xh": {
+          "title": "Iimpawu zesalathiso",
+          "key_point": "Iimpawu zesalathiso zibonisa iindawo oya kuzo, iinombolo zeendlela, ukhetho lwelayini nendlela omele ulandele.",
+          "explanation": "Funda umbhalo, iintolo, iziphawuli zeendlela nolwazi lwelayini kunye."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-freeway-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-direction-system",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs — Freeway direction signs",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway direction signs",
+          "key_point": "Freeway guidance signs provide advance, lane and exit information so that drivers can choose the correct lane in good time.",
+          "explanation": "The app separately teaches the GA1–GA6 core exit sequence. Other freeway signs use the same principle: read route, destination, lane and arrow information together."
+        },
+        "af": {
+          "title": "Snelweg-rigtingstekens",
+          "key_point": "Snelwegtekens gee vooraf-, baan- en afritinligting sodat bestuurders betyds die korrekte baan kan kies.",
+          "explanation": "Die app leer die kern-afritvolgorde GA1–GA6 afsonderlik. Ander snelwegtekens gebruik dieselfde beginsel: lees roete-, bestemming-, baan- en pylinligting saam."
+        },
+        "xh": {
+          "title": "Iimpawu zesalathiso sendlela enkulu",
+          "key_point": "Iimpawu zendlela enkulu zinika ulwazi lwangaphambili, lwelayini nolokuphuma ukuze umqhubi akhethe ilayini echanekileyo kwangethuba.",
+          "explanation": "I-app ifundisa ngokwahlukeneyo ulandelelwano oluphambili lokuphuma GA1–GA6. Ezinye iimpawu zendlela enkulu zisebenzisa umgaqo ofanayo: funda indlela, indawo oya kuyo, ilayini neentolo kunye."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-tourism-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "tourism-service-guidance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC Road Traffic Signs — tourism and service guidance symbols",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Tourism and service guidance",
+          "key_point": "Tourism and service signs guide road users to attractions, emergency services, fuel, food, accommodation, parking and other facilities.",
+          "explanation": "The exact pictogram varies with the facility. Treat the pictogram and any accompanying text as guidance, not as a regulatory instruction."
+        },
+        "af": {
+          "title": "Toerisme- en diensrigting",
+          "key_point": "Toerisme- en dienstekens lei padgebruikers na besienswaardighede, nooddienste, brandstof, kos, verblyf, parkering en ander fasiliteite.",
+          "explanation": "Die simbool verander volgens die fasiliteit en dien as rigtinginligting."
+        },
+        "xh": {
+          "title": "Isikhokelo sezokhenketho neenkonzo",
+          "key_point": "Iimpawu zezokhenketho neenkonzo zikhokela abasebenzisi bendlela kwiindawo zokhenketho, iinkonzo zongxamiseko, amafutha, ukutya, indawo yokulala, ukupaka nezinye iinkonzo.",
+          "explanation": "Isimboli iyahluka ngokwenkonzo kwaye sisikhokelo, hayi umyalelo wolawulo."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-diagrammatic-family",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "diagrammatic-guidance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS/SADC Road Traffic Signs — diagrammatic signs: lane changes, merges, obstructions and lane-use layouts",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Diagrammatic guidance signs",
+          "key_point": "Diagrammatic signs show the road layout ahead, including merging, diverging, obstructions and lane-use changes.",
+          "explanation": "Use the diagram to choose the correct lane early and safely."
+        },
+        "af": {
+          "title": "Diagrammatiese rigtingstekens",
+          "key_point": "Diagrammatiese tekens wys die pad-uitleg voor, insluitend invoeging, vertakking, versperrings en baanveranderinge.",
+          "explanation": "Gebruik die diagram om vroeg die korrekte baan te kies."
+        },
+        "xh": {
+          "title": "Iimpawu zesikhokelo ezinemizobo",
+          "key_point": "Iimpawu ezinemizobo zibonisa indlela eyakhiwe ngayo ngaphambili, kuquka ukudibana, ukwahluka, imiqobo notshintsho lwelayini.",
+          "explanation": "Sebenzisa umzobo ukuze ukhethe ilayini echanekileyo kwangethuba."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-local-pedestrian-toll",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "local-pedestrian-toll-guidance",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "SADC Road Traffic Signs Manual — local direction, pedestrian direction and toll direction sign families",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Local, pedestrian and toll guidance",
+          "key_point": "Special guidance signs may direct local traffic, pedestrians or vehicles approaching toll facilities.",
+          "explanation": "Follow the destination, lane and directional information shown. These are variable-content guidance signs rather than fixed regulatory symbols."
+        },
+        "af": {
+          "title": "Plaaslike, voetganger- en tolrigting",
+          "key_point": "Spesiale rigtingstekens kan plaaslike verkeer, voetgangers of voertuie wat 'n tolgerief nader, lei.",
+          "explanation": "Volg die bestemming-, baan- en rigtinginligting wat aangedui word."
+        },
+        "xh": {
+          "title": "Isikhokelo sendawo, sabahambi ngeenyawo nesetoll",
+          "key_point": "Iimpawu ezikhethekileyo zingakhokela izithuthi zasekuhlaleni, abahambi ngeenyawo okanye izithuthi ezisondela kwindawo yetoll.",
+          "explanation": "Landela ulwazi lwendawo oya kuyo, ilayini nesalathiso."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    },
+    {
+      "id": "knowledge-guidance-variable-message",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "variable-message-signs",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "SADC Road Traffic Signs Manual — Variable Message Signs",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Variable message signs",
+          "key_point": "Read and obey the current message displayed on an electronic or variable sign.",
+          "explanation": "The message can change to warn about incidents, lane closures, congestion or another temporary condition."
+        },
+        "af": {
+          "title": "Veranderlike boodskaptekens",
+          "key_point": "Lees en gehoorsaam die huidige boodskap wat op 'n elektroniese of veranderlike teken vertoon word.",
+          "explanation": "Die boodskap kan waarsku oor ongelukke, baansluitings, opeenhoping of ander tydelike toestande."
+        },
+        "xh": {
+          "title": "Iimpawu zemiyalezo etshintshayo",
+          "key_point": "Funda uze ulandele umyalezo wangoku oboniswe kuphawu lwe-elektroniki okanye olutshintshayo.",
+          "explanation": "Umyalezo unokulumkisa ngeengozi, ukuvalwa kweelayini, ukuxinana okanye ezinye iimeko zethutyana."
+        }
+      },
+      "language_qa": {
+        "af": "LANGUAGE_QA_PENDING",
+        "xh": "LANGUAGE_QA_PENDING"
+      }
+    }
+  ]
+}

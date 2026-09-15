@@ -1,5 +1,7 @@
 const state = {
   questions: [],
+  knowledge: [],
+  visuals: {},
   activeVehicleGroup: "code2",
   mockQuestions: [],
   mockIndex: 0,
@@ -416,6 +418,30 @@ async function loadQuestions() {
   if (state.questions.length !== 186) throw new Error("Expected 186 completion questions");
   if (!eligibleQuestions().length) throw new Error("No eligible Code 2 questions available");
 }
+async function loadKnowledge() {
+  const paths = ["data/knowledge/rules-remediation-r1.json","data/knowledge/signs-remediation-r1.json","data/knowledge/controls-remediation-r1.json"];
+  const responses = await Promise.all(paths.map(path => fetch(path)));
+  const packs = await Promise.all(responses.map(res => {
+    if (!res.ok) throw new Error("Knowledge pack failed to load");
+    return res.json();
+  }));
+  state.knowledge = packs.flatMap(pack => pack.items || []);
+}
+async function loadVisuals() {
+  const paths = ["data/knowledge/sign-visual-map-r1.json","data/knowledge/control-visual-map-r1.json"];
+  const responses = await Promise.all(paths.map(path => fetch(path)));
+  const packs = await Promise.all(responses.map(res => {
+    if (!res.ok) throw new Error("Visual map failed to load");
+    return res.json();
+  }));
+  state.visuals = Object.assign({}, ...packs.map(pack => pack.items || {}));
+}
+function mediaFor(item) {
+  const media = state.visuals[item.id];
+  if (!media?.src) return "";
+  const alt = media.alt?.[lang()] || media.alt?.en || "";
+  return `<figure class="learning-visual"><img src="${media.src}" alt="${alt}" loading="lazy"><figcaption>${media.official_ref || ""}</figcaption></figure>`;
+}
 function questionText(q) {
   return q.language?.[lang()] || q.language?.en || q;
 }
@@ -444,6 +470,7 @@ function renderQuestion(q, container, onDone, metaText = tr("pilotQuestion")) {
         <span class="question-count">${metaText}</span>
       </div>
       <h3 id="${questionId}">${txt.question}</h3>
+      ${mediaFor(q)}
       <div class="speech-row">
         <button class="speech-btn question-speech-btn" type="button" data-idle-key="readAloud" aria-pressed="false">${tr("readAloud")}</button>
         <span class="speech-status" role="status" aria-live="polite"></span>
@@ -512,6 +539,26 @@ function isEligibleForActiveVehicle(q) {
 function eligibleQuestions(section = null) {
   return state.questions.filter(q => isEligibleForActiveVehicle(q) && (!section || q.section === section));
 }
+function eligibleStudyItems(section = null) {
+  const knowledge = state.knowledge.filter(item => isEligibleForActiveVehicle(item) && (!section || item.section === section));
+  if (knowledge.length) return knowledge;
+  return eligibleQuestions(section);
+}
+function studyItemText(item) {
+  const txt = item.language?.[lang()] || item.language?.en || {};
+  if (item.kind === "knowledge") {
+    return {
+      title: txt.title || item.topic || tr("keyPoint"),
+      keyPoint: txt.key_point || "",
+      explanation: txt.explanation || ""
+    };
+  }
+  return {
+    title: txt.question || "",
+    keyPoint: Array.isArray(txt.options) ? txt.options[item.correct_index] : "",
+    explanation: txt.explanation || ""
+  };
+}
 
 function updateStudyFocusUI() {
   document.querySelectorAll(".study-focus-btn").forEach(btn => {
@@ -538,7 +585,7 @@ document.querySelectorAll(".study-focus-btn").forEach(btn => {
 async function renderStudyGuide() {
   const box = document.getElementById("studyBox");
   if (!box) return;
-  const pool = eligibleQuestions(state.studySection).slice().sort((a,b) => a.id.localeCompare(b.id, undefined, {numeric:true}));
+  const pool = eligibleStudyItems(state.studySection).slice().sort((a,b) => a.id.localeCompare(b.id, undefined, {numeric:true}));
   if (!pool.length) {
     box.innerHTML = `<div class="result-card status-warn"><div class="result-title">${tr("packUnavailable")}</div></div>`;
     return;
@@ -549,13 +596,12 @@ async function renderStudyGuide() {
   if (state.studyIndex >= pool.length) state.studyIndex = 0;
   if (state.studyIndex < 0) state.studyIndex = pool.length - 1;
 
-  const q = pool[state.studyIndex];
-  const txt = questionText(q);
-  const correct = txt.options[q.correct_index];
+  const item = pool[state.studyIndex];
+  const txt = studyItemText(item);
   const seenKey = pathwayKey(`studySeen:${state.studySection}`);
   const seen = await dbGet(seenKey, []);
-  if (!seen.includes(q.id)) {
-    seen.push(q.id);
+  if (!seen.includes(item.id)) {
+    seen.push(item.id);
     await dbSet(seenKey, seen);
   }
   await dbSet(positionKey, state.studyIndex);
@@ -564,12 +610,13 @@ async function renderStudyGuide() {
   box.innerHTML = `
     <div class="question-card">
       <div class="question-meta">
-        <span class="section-pill ${q.section}">${sectionLabel(q.section)}</span>
+        <span class="section-pill ${item.section}">${sectionLabel(item.section)}</span>
         <span class="question-count">${tr("studyProgress")} ${progress}</span>
       </div>
-      <h3>${txt.question}</h3>
+      <h3>${txt.title}</h3>
+      ${mediaFor(item)}
       <div class="feedback">
-        <strong>${tr("keyPoint")}</strong><br>${correct}
+        <strong>${tr("keyPoint")}</strong><br>${txt.keyPoint}
       </div>
       <div class="result-card status-info">
         <strong>${tr("whyItMatters")}</strong>
@@ -709,6 +756,7 @@ function renderMockQuestion(q, container, onDone, metaText, continueLabel) {
         <span class="question-count">${metaText}</span>
       </div>
       <h3 id="${questionId}">${txt.question}</h3>
+      ${mediaFor(q)}
       <div class="speech-row">
         <button class="speech-btn question-speech-btn" type="button" data-idle-key="readAloud" aria-pressed="false">${tr("readAloud")}</button>
         <span class="speech-status" role="status" aria-live="polite"></span>
@@ -900,7 +948,7 @@ async function init(){
   applyAccessibilitySettings(savedAccessibility);
   updatePathwayUI();
   updateConnection();
-  try{await loadQuestions();await refreshHome();}catch(err){document.getElementById("homeProgress").textContent=tr("pilotLoadFail");}
+  try{await loadQuestions();await loadKnowledge();await loadVisuals();await refreshHome();}catch(err){document.getElementById("homeProgress").textContent=tr("pilotLoadFail");}
   if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
 init();

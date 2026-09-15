@@ -1,0 +1,700 @@
+{
+  "version": "sign-visual-r1",
+  "status": "AUDIT_BRANCH_ONLY_DO_NOT_DEPLOY",
+  "note": "Original schematic learning visuals. They are not scans or copied manual artwork. Each visual is source-mapped to the official NaTIS sign meaning already used by the corresponding question.",
+  "items": {
+    "signs-004": {
+      "src": "assets/signs/stop.svg",
+      "alt": {
+        "en": "STOP road sign"
+      },
+      "official_ref": "R1.1"
+    },
+    "signs-005": {
+      "src": "assets/signs/stop.svg",
+      "alt": {
+        "en": "STOP road sign"
+      },
+      "official_ref": "R1.1"
+    },
+    "signs-023": {
+      "src": "assets/signs/yield.svg",
+      "alt": {
+        "en": "Yield road sign"
+      },
+      "official_ref": "R2"
+    },
+    "signs-011": {
+      "src": "assets/signs/no-entry.svg",
+      "alt": {
+        "en": "No Entry road sign"
+      },
+      "official_ref": "R3"
+    },
+    "signs-014": {
+      "src": "assets/signs/speed-limit-60.svg",
+      "alt": {
+        "en": "Example speed limit sign showing 60 kilometres per hour"
+      },
+      "official_ref": "R201 example"
+    },
+    "signs-020": {
+      "src": "assets/signs/keep-left.svg",
+      "alt": {
+        "en": "Keep Left road sign"
+      },
+      "official_ref": "R103"
+    },
+    "signs-017": {
+      "src": "assets/signs/no-u-turn.svg",
+      "alt": {
+        "en": "No U-turn road sign"
+      },
+      "official_ref": "R213"
+    },
+    "signs-013": {
+      "src": "assets/signs/children-warning.svg",
+      "alt": {
+        "en": "Children warning road sign"
+      },
+      "official_ref": "W308/TW308"
+    },
+    "signs-035": {
+      "src": "assets/signs/traffic-circle-warning.svg",
+      "alt": {
+        "en": "Traffic circle warning road sign"
+      },
+      "official_ref": "W201/TW201"
+    },
+    "signs-046": {
+      "src": "assets/signs/pedestrian-crossing-warning.svg",
+      "alt": {
+        "en": "Pedestrian crossing warning road sign"
+      },
+      "official_ref": "W306/TW306"
+    },
+    "signs-059": {
+      "src": "assets/signs/slippery-road-warning.svg",
+      "alt": {
+        "en": "Slippery road warning sign"
+      },
+      "official_ref": "W333"
+    },
+    "signs-032": {
+      "src": "assets/signs/railway-crossing-warning.svg",
+      "alt": {
+        "en": "Railway crossing warning sign"
+      },
+      "official_ref": "W403/W404"
+    },
+    "signs-052": {
+      "src": "assets/signs/railway-crossing-warning.svg",
+      "alt": {
+        "en": "Railway crossing warning sign"
+      },
+      "official_ref": "W318/TW318"
+    },
+    "knowledge-sign-r101": {
+      "src": "assets/signs/minimum-speed-40.svg",
+      "alt": {
+        "en": "Example minimum speed sign showing 40 kilometres per hour"
+      },
+      "official_ref": "R101/TR101 example"
+    },
+    "knowledge-sign-r104": {
+      "src": "assets/signs/keep-right.svg",
+      "alt": {
+        "en": "Keep Right road sign"
+      },
+      "official_ref": "R104"
+    },
+    "knowledge-sign-r106": {
+      "src": "assets/signs/proceed-right-only.svg",
+      "alt": {
+        "en": "Proceed Right Only road sign"
+      },
+      "official_ref": "R106"
+    },
+    "knowledge-sign-r110": {
+      "src": "assets/signs/pedestrians-only.svg",
+      "alt": {
+        "en": "Pedestrians Only road sign"
+      },
+      "official_ref": "R110"
+    },
+    "knowledge-sign-r111": {
+      "src": "assets/signs/cyclists-only.svg",
+      "alt": {
+        "en": "Cyclists Only road sign"
+      },
+      "official_ref": "R111"
+    },
+    "knowledge-marking-wm1": {
+      "src": "assets/markings/railway-crossing-ahead-wm1.svg",
+      "alt": {
+        "en": "Railway crossing ahead road marking"
+      },
+      "official_ref": "WM1"
+    },
+    "knowledge-marking-wm2": {
+      "src": "assets/markings/continuity-lines-wm2.svg",
+      "alt": {
+        "en": "Continuity lines road marking"
+      },
+      "official_ref": "WM2"
+    },
+    "knowledge-marking-wm3": {
+      "src": "assets/markings/dividing-lines-wm3.svg",
+      "alt": {
+        "en": "Dividing lines road marking"
+      },
+      "official_ref": "WM3"
+    },
+    "knowledge-marking-wm4": {
+      "src": "assets/markings/reversible-lane-lines-wm4.svg",
+      "alt": {
+        "en": "Reversible lane lines road marking"
+      },
+      "official_ref": "WM4"
+    },
+    "knowledge-sign-r204": {
+      "src": "assets/signs/height-limit.svg",
+      "alt": {
+        "en": "Height limit road sign"
+      },
+      "official_ref": "R204/TR204"
+    },
+    "knowledge-sign-r205": {
+      "src": "assets/signs/length-limit.svg",
+      "alt": {
+        "en": "Length limit road sign"
+      },
+      "official_ref": "R205/TR205"
+    },
+    "knowledge-sign-r206": {
+      "src": "assets/signs/excessive-noise-prohibited.svg",
+      "alt": {
+        "en": "Excessive noise prohibited road sign"
+      },
+      "official_ref": "R206"
+    },
+    "knowledge-sign-r207": {
+      "src": "assets/signs/hitchhiking-prohibited.svg",
+      "alt": {
+        "en": "Hitch-hiking prohibited road sign"
+      },
+      "official_ref": "R207"
+    },
+    "knowledge-sign-r208": {
+      "src": "assets/signs/unauthorised-vehicles-prohibited.svg",
+      "alt": {
+        "en": "Unauthorised vehicles prohibited road sign"
+      },
+      "official_ref": "R208/TR208"
+    },
+    "knowledge-sign-r209": {
+      "src": "assets/signs/left-turn-ahead-prohibited.svg",
+      "alt": {
+        "en": "Left turn ahead prohibited road sign"
+      },
+      "official_ref": "R209/TR209"
+    },
+    "knowledge-sign-r210": {
+      "src": "assets/signs/right-turn-ahead-prohibited.svg",
+      "alt": {
+        "en": "Right turn ahead prohibited road sign"
+      },
+      "official_ref": "R210/TR210"
+    },
+    "knowledge-sign-r214": {
+      "src": "assets/signs/overtaking-prohibited.svg",
+      "alt": {
+        "en": "Overtaking prohibited road sign"
+      },
+      "official_ref": "R214/TR214"
+    },
+    "knowledge-guidance-ga1": {
+      "src": "assets/signs/freeway-pre-advance-exit.svg",
+      "alt": {
+        "en": "Schematic freeway pre-advance exit direction sign"
+      },
+      "official_ref": "GA1"
+    },
+    "knowledge-guidance-ga2": {
+      "src": "assets/signs/freeway-advance-exit.svg",
+      "alt": {
+        "en": "Schematic freeway advance exit direction sign"
+      },
+      "official_ref": "GA2"
+    },
+    "knowledge-guidance-ga23": {
+      "src": "assets/signs/freeway-supplementary-exit.svg",
+      "alt": {
+        "en": "Schematic supplementary freeway exit direction sign"
+      },
+      "official_ref": "GA2/3"
+    },
+    "knowledge-guidance-ga3": {
+      "src": "assets/signs/freeway-exit-direction.svg",
+      "alt": {
+        "en": "Schematic freeway exit direction sign"
+      },
+      "official_ref": "GA3"
+    },
+    "knowledge-guidance-ga4": {
+      "src": "assets/signs/freeway-gore-exit.svg",
+      "alt": {
+        "en": "Schematic freeway gore exit direction sign"
+      },
+      "official_ref": "GA4/TGA4"
+    },
+    "knowledge-guidance-ga5": {
+      "src": "assets/signs/off-ramp-advance-terminal.svg",
+      "alt": {
+        "en": "Schematic advance off-ramp terminal direction sign"
+      },
+      "official_ref": "GA5"
+    },
+    "knowledge-guidance-ga6": {
+      "src": "assets/signs/off-ramp-terminal.svg",
+      "alt": {
+        "en": "Schematic off-ramp terminal direction sign"
+      },
+      "official_ref": "GA6"
+    },
+    "knowledge-sign-temporary-concept": {
+      "src": "assets/signs/temporary-sign-concept.svg",
+      "alt": {
+        "en": "Temporary road sign concept with yellow background"
+      },
+      "official_ref": "Temporary sign concept"
+    },
+    "knowledge-sign-r301": {
+      "src": "assets/signs/bus-reservation.svg",
+      "alt": {
+        "en": "Bus reservation sign concept"
+      },
+      "official_ref": "R301/TR301"
+    },
+    "knowledge-sign-r302-r303": {
+      "src": "assets/signs/bus-lane-reservation.svg",
+      "alt": {
+        "en": "Bus lane reservation sign concept"
+      },
+      "official_ref": "R302/R303"
+    },
+    "knowledge-sign-r304": {
+      "src": "assets/signs/cycle-reservation.svg",
+      "alt": {
+        "en": "Pedal-cycle reservation sign concept"
+      },
+      "official_ref": "R304"
+    },
+    "knowledge-sign-r305-r306": {
+      "src": "assets/signs/parking-reservation.svg",
+      "alt": {
+        "en": "Parking reservation sign concept"
+      },
+      "official_ref": "R305-P/R306-P"
+    },
+    "knowledge-sign-r307": {
+      "src": "assets/signs/motorcycle-reservation.svg",
+      "alt": {
+        "en": "Motorcycle reservation sign concept"
+      },
+      "official_ref": "R307"
+    },
+    "knowledge-sign-r502-r503": {
+      "src": "assets/signs/secondary-time-periods.svg",
+      "alt": {
+        "en": "Secondary time-period restriction panel"
+      },
+      "official_ref": "(R)502/(R)503"
+    },
+    "knowledge-sign-r510": {
+      "src": "assets/signs/secondary-reduced-visibility.svg",
+      "alt": {
+        "en": "Reduced-visibility secondary restriction panel"
+      },
+      "official_ref": "(R)510"
+    },
+    "knowledge-sign-r511": {
+      "src": "assets/signs/secondary-daytime.svg",
+      "alt": {
+        "en": "Daytime secondary restriction panel"
+      },
+      "official_ref": "(R)511"
+    },
+    "knowledge-sign-r512": {
+      "src": "assets/signs/secondary-night.svg",
+      "alt": {
+        "en": "Night-time secondary restriction panel"
+      },
+      "official_ref": "(R)512"
+    },
+    "knowledge-sign-r523": {
+      "src": "assets/signs/pay-and-display.svg",
+      "alt": {
+        "en": "Pay-and-display parking panel concept"
+      },
+      "official_ref": "(R)523"
+    },
+    "knowledge-sign-r401": {
+      "src": "assets/signs/freeway-begins-dual.svg",
+      "alt": {
+        "en": "Dual-carriageway freeway begins learning symbol"
+      },
+      "official_ref": "R401"
+    },
+    "knowledge-sign-r402": {
+      "src": "assets/signs/freeway-begins-single.svg",
+      "alt": {
+        "en": "Single-carriageway freeway begins learning symbol"
+      },
+      "official_ref": "R402"
+    },
+    "knowledge-sign-r403": {
+      "src": "assets/signs/woonerf.svg",
+      "alt": {
+        "en": "Woonerf shared-area learning symbol"
+      },
+      "official_ref": "R403"
+    },
+    "knowledge-sign-r600": {
+      "src": "assets/signs/de-restriction.svg",
+      "alt": {
+        "en": "De-restriction learning symbol"
+      },
+      "official_ref": "R600"
+    },
+    "knowledge-info-countdown": {
+      "src": "assets/signs/countdown-exit.svg",
+      "alt": {
+        "en": "Exit countdown information sign concept"
+      },
+      "official_ref": "IN3/IN2/IN1"
+    },
+    "knowledge-info-right-of-way": {
+      "src": "assets/signs/right-of-way-info.svg",
+      "alt": {
+        "en": "Right-of-way information sign concept"
+      },
+      "official_ref": "IN7"
+    },
+    "knowledge-info-park-ride": {
+      "src": "assets/signs/park-and-ride.svg",
+      "alt": {
+        "en": "Park-and-ride information sign concept"
+      },
+      "official_ref": "IN9/IN10"
+    },
+    "knowledge-info-centre": {
+      "src": "assets/signs/information-centre.svg",
+      "alt": {
+        "en": "Information centre symbol"
+      },
+      "official_ref": "IN12"
+    },
+    "knowledge-info-coordinated-signals": {
+      "src": "assets/signs/coordinated-signals.svg",
+      "alt": {
+        "en": "Co-ordinated traffic signals information concept"
+      },
+      "official_ref": "IN14"
+    },
+    "knowledge-marking-wm6": {
+      "src": "assets/markings/lane-reduction-wm6.svg",
+      "alt": {
+        "en": "Lane reduction arrows road marking"
+      },
+      "official_ref": "WM6.1/WM6.2/WM6.3"
+    },
+    "knowledge-marking-wm7": {
+      "src": "assets/markings/mandatory-direction-ahead-wm7.svg",
+      "alt": {
+        "en": "Mandatory direction arrow ahead road marking"
+      },
+      "official_ref": "WM7"
+    },
+    "knowledge-marking-wm8": {
+      "src": "assets/markings/prohibition-line-ahead-wm8.svg",
+      "alt": {
+        "en": "No overtaking or no crossing line ahead road marking"
+      },
+      "official_ref": "WM8"
+    },
+    "knowledge-marking-wm10": {
+      "src": "assets/markings/speed-hump-wm10.svg",
+      "alt": {
+        "en": "Speed hump road marking"
+      },
+      "official_ref": "WM10"
+    },
+    "knowledge-marking-gm2": {
+      "src": "assets/markings/guide-lines-gm2.svg",
+      "alt": {
+        "en": "Guide lines through an intersection"
+      },
+      "official_ref": "GM2"
+    },
+    "knowledge-marking-gm3": {
+      "src": "assets/markings/bifurcation-gm3.svg",
+      "alt": {
+        "en": "Bifurcation arrows road marking"
+      },
+      "official_ref": "GM3"
+    },
+    "knowledge-signal-flashing-red-arrow": {
+      "src": "assets/signals/flashing-red-left.svg",
+      "alt": {
+        "en": "Flashing red left arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-amber-arrow": {
+      "src": "assets/signals/amber-arrow.svg",
+      "alt": {
+        "en": "Constant amber arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-flashing-green-arrow": {
+      "src": "assets/signals/green-arrow.svg",
+      "alt": {
+        "en": "Green arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-constant-green-arrow": {
+      "src": "assets/signals/green-arrow.svg",
+      "alt": {
+        "en": "Constant green arrow traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-signal-flashing-amber-disc": {
+      "src": "assets/signals/flashing-amber.svg",
+      "alt": {
+        "en": "Flashing amber traffic signal concept"
+      },
+      "official_ref": "Traffic signal"
+    },
+    "knowledge-guidance-location-family": {
+      "src": "assets/signs/guidance-location.svg",
+      "alt": {
+        "en": "Example location guidance sign"
+      },
+      "official_ref": "GLS/GL family"
+    },
+    "knowledge-guidance-route-national": {
+      "src": "assets/signs/route-marker-national.svg",
+      "alt": {
+        "en": "Example national route marker"
+      },
+      "official_ref": "National route marker family"
+    },
+    "knowledge-guidance-route-provincial": {
+      "src": "assets/signs/route-marker-provincial.svg",
+      "alt": {
+        "en": "Example provincial route marker"
+      },
+      "official_ref": "Provincial route marker family"
+    },
+    "knowledge-guidance-route-regional": {
+      "src": "assets/signs/route-marker-regional.svg",
+      "alt": {
+        "en": "Example regional route marker"
+      },
+      "official_ref": "Regional route marker family"
+    },
+    "knowledge-guidance-route-metro": {
+      "src": "assets/signs/route-marker-metro.svg",
+      "alt": {
+        "en": "Example metropolitan route marker"
+      },
+      "official_ref": "Metropolitan route marker family"
+    },
+    "knowledge-guidance-direction-family": {
+      "src": "assets/signs/guidance-direction.svg",
+      "alt": {
+        "en": "Example direction guidance sign"
+      },
+      "official_ref": "Direction sign family"
+    },
+    "knowledge-guidance-freeway-family": {
+      "src": "assets/signs/freeway-advance-exit.svg",
+      "alt": {
+        "en": "Example freeway direction guidance sign"
+      },
+      "official_ref": "Freeway direction family"
+    },
+    "knowledge-guidance-tourism-family": {
+      "src": "assets/signs/guidance-tourism-services.svg",
+      "alt": {
+        "en": "Tourism and service guidance symbol examples"
+      },
+      "official_ref": "Tourism/service family"
+    },
+    "knowledge-guidance-diagrammatic-family": {
+      "src": "assets/signs/diagrammatic-lanes.svg",
+      "alt": {
+        "en": "Diagrammatic lane guidance example"
+      },
+      "official_ref": "Diagrammatic family"
+    },
+    "knowledge-guidance-local-pedestrian-toll": {
+      "src": "assets/signs/guidance-direction.svg",
+      "alt": {
+        "en": "Variable local and toll direction guidance example"
+      },
+      "official_ref": "Local/pedestrian/toll guidance"
+    },
+    "knowledge-guidance-variable-message": {
+      "src": "assets/signs/variable-message.svg",
+      "alt": {
+        "en": "Example variable message sign"
+      },
+      "official_ref": "Variable message sign family"
+    },
+    "knowledge-sign-combination-regulatory": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Combination regulatory sign example"
+      },
+      "official_ref": "§3.7 combination signs"
+    },
+    "knowledge-sign-combination-warning": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Combination warning sign example"
+      },
+      "official_ref": "§4.4 combination warning signs"
+    },
+    "knowledge-info-supplementary": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Supplementary information panel example"
+      },
+      "official_ref": "IN11 series"
+    },
+    "knowledge-info-road-experiment": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Temporary road experiment sign concept"
+      },
+      "official_ref": "TIN13"
+    },
+    "knowledge-info-multiphase": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Multi-phase traffic signal concept"
+      },
+      "official_ref": "IN15"
+    },
+    "knowledge-info-bus-stop-ahead": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Bus stop ahead concept"
+      },
+      "official_ref": "IN16"
+    },
+    "knowledge-info-modal-transfer": {
+      "src": "assets/signs/sign-concepts-reference-board.svg",
+      "alt": {
+        "en": "Modal transfer point concept"
+      },
+      "official_ref": "IN17/IN18/IN19"
+    },
+    "knowledge-marking-rm4": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Road edge line examples"
+      },
+      "official_ref": "RM4.1/RM4.2"
+    },
+    "knowledge-marking-rm6": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Parking bay marking example"
+      },
+      "official_ref": "RM6"
+    },
+    "knowledge-marking-rm7": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Exclusive parking bay marking example"
+      },
+      "official_ref": "RM7"
+    },
+    "knowledge-marking-rm9": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Bus lane marking example"
+      },
+      "official_ref": "RM9"
+    },
+    "knowledge-marking-rm11": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Pedestrian crossing approach marking example"
+      },
+      "official_ref": "RM11"
+    },
+    "knowledge-marking-rm14": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Bicycle lane marking example"
+      },
+      "official_ref": "RM14"
+    },
+    "knowledge-marking-rm15": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Traffic-circle directional marking example"
+      },
+      "official_ref": "RM15"
+    },
+    "knowledge-marking-wm5": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Yield-control-ahead marking example"
+      },
+      "official_ref": "WM5"
+    },
+    "knowledge-marking-wm9": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Arrestor-bed-ahead marking concept"
+      },
+      "official_ref": "WM9"
+    },
+    "knowledge-marking-gm4": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Information arrow marking examples"
+      },
+      "official_ref": "GM4.1/GM4.2"
+    },
+    "knowledge-marking-gm5": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Bicycle crossing marking example"
+      },
+      "official_ref": "GM5"
+    },
+    "knowledge-marking-gm6": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Road marking symbol examples"
+      },
+      "official_ref": "GM6"
+    },
+    "knowledge-marking-gm7": {
+      "src": "assets/markings/markings-reference-board.svg",
+      "alt": {
+        "en": "Word marking examples"
+      },
+      "official_ref": "GM7"
+    }
+  }
+}
