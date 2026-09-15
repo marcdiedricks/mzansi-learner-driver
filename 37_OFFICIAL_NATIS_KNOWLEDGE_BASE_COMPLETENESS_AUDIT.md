@@ -706,6 +706,49 @@ Overall audit remains **FAIL — REMEDIATION REQUIRED**.
 
 ---
 
+## 18. FINAL CLOSEOUT — SUPERSEDES EARLIER INTERIM FAIL / REMEDIATION STATUS
+
+This audit is now **CLOSED** for the English published learner-study source scope.
+
+Final source-master status:
+- English published NaTIS knowledge completeness — **PASS**
+- Code 1 motorcycle learner-theory scope — **PASS**
+- Code 2 light-vehicle learner-theory scope — **PASS**
+- Rules source coverage — **PASS**
+- Signs / markings / signals source coverage — **PASS**
+- Controls / components source coverage — **PASS**
+- Dedicated signs knowledge visuals — **86 / 86 mapped**
+- Dedicated controls knowledge visuals — **14 / 14 mapped**
+- Offline knowledge packs / mapped visual assets — **cached**
+- app.js syntax — **PASS**
+- sw.js syntax — **PASS**
+
+Counts at closeout:
+- Existing question bank — **186**
+- Dedicated knowledge items — **157**
+  - Rules — 57
+  - Signs / Markings / Signals — 86
+  - Controls / Components — 14
+- Total Study-source items — **343**
+- Duplicate dedicated knowledge IDs — 0
+- Missing knowledge source locators — 0
+- Missing English knowledge fields — 0
+
+The final authoritative closeout is:
+`38_FINAL_NATIS_KNOWLEDGE_BASE_AUDIT_CLOSEOUT.md`
+
+Separate gates that do **not** reopen this knowledge-completeness audit:
+1. Targeted current-law maintenance for older numeric/manual provisions.
+2. One-time physical-pack version difference check if an actual different printed pack is supplied.
+3. Visual-fidelity QA before any claim that original learner schematics exactly reproduce Department artwork.
+4. Competent human Afrikaans / isiXhosa approval.
+5. Phone acceptance before promoting the held branch.
+6. Learner-outcome pilot after promotion.
+
+Do not repeat broad NaTIS completeness research unless a new official source/version is produced.
+
+---
+
 ## RELEASE CONTROL
 
 Until this audit passes:
