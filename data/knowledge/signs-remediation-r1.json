@@ -204,6 +204,336 @@
           "explanation": "Look for the lane-control signals that apply and be alert for traffic travelling in the opposite direction."
         }
       }
+    },
+    {
+      "id": "knowledge-sign-r204",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "height-limit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Height limit R204/TR204",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Height limit",
+          "key_point": "Do not enter if your vehicle or load is higher than the height shown.",
+          "explanation": "The sign warns of a height restriction ahead. Use another route if your vehicle or load exceeds the indicated height."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r205",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "length-limit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Length limit R205/TR205",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Length limit",
+          "key_point": "Do not use the road if your vehicle or combination is longer than the length shown.",
+          "explanation": "The restriction protects roads where long vehicles may not be able to negotiate curves safely."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r206",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "excessive-noise-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Excessive noise prohibited R206",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Excessive noise prohibited",
+          "key_point": "Do not proceed with a vehicle producing excessive noise, and avoid unnecessary hooter use where this sign applies.",
+          "explanation": "The sign is used in noise-sensitive areas. The manual also links it to a restriction on hooter use after the sign."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r207",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "hitchhiking-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Hitch-hiking prohibited R207",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Hitch-hiking prohibited",
+          "key_point": "Do not stop to pick up hitch-hikers where the prohibition applies.",
+          "explanation": "The official learner manual says the sign prohibits hitch-hiking and restricts drivers from picking up passengers for the distance stated in the manual."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r208",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "unauthorised-vehicles-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Unauthorised vehicles prohibited R208/TR208",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Unauthorised vehicles prohibited",
+          "key_point": "Do not enter unless you have special authorisation.",
+          "explanation": "This sign closes a road or road section to ordinary traffic. Temporary versions are commonly used at roadworks."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r209",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "left-turn-ahead-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Left turn ahead prohibited R209/TR209",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Left turn ahead prohibited",
+          "key_point": "Do not turn left at the upcoming intersection.",
+          "explanation": "This prohibition is placed before the junction so you can choose another route before reaching it."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r210",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "right-turn-ahead-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Right turn ahead prohibited R210/TR210",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Right turn ahead prohibited",
+          "key_point": "Do not turn right at the upcoming intersection.",
+          "explanation": "This prohibition is placed before the junction so you can choose another route before reaching it."
+        }
+      }
+    },
+    {
+      "id": "knowledge-sign-r214",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "overtaking-prohibited",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §3.3 — Overtaking prohibited R214/TR214",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Overtaking prohibited",
+          "key_point": "Do not overtake where the sign applies.",
+          "explanation": "The learner manual associates this sign with a defined prohibition distance. Obey any additional distance or secondary-message information displayed."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga1",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-pre-advance-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Pre-advance exit direction GA1",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway pre-advance exit direction",
+          "key_point": "An off-ramp exit is coming. If you intend to leave the freeway, prepare to move left in good time.",
+          "explanation": "The manual places this sign well before the exit so drivers have early warning of the routes available ahead."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga2",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-advance-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Advance exit direction GA2",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway advance exit direction",
+          "key_point": "The freeway exit is getting closer. Move toward the left lane in good time if you are leaving.",
+          "explanation": "This sign gives another advance indication of the exit and destinations served by it."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga23",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-supplementary-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Supplementary exit direction GA2/3, TGA2/3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Supplementary exit direction",
+          "key_point": "If you are taking the exit, you should already be positioning in the extreme left lane.",
+          "explanation": "This sign confirms the approaching off-ramp shortly before the exit."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga3",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-exit-direction",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Exit direction GA3",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Freeway exit direction",
+          "key_point": "This marks the actual exit. Leave the freeway only from the correct exit lane.",
+          "explanation": "The sign is positioned at or very near the off-ramp to show exactly where the exit begins."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga4",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "freeway-gore-exit",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Gore exit GA4/TGA4",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Gore exit direction",
+          "key_point": "Pass on the exit side if you are leaving the freeway and on the through-road side if you are continuing.",
+          "explanation": "The gore sign marks the separation between the off-ramp and the continuing freeway."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga5",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "off-ramp-advance-terminal",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Advance off-ramp terminal direction GA5",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Advance off-ramp terminal direction",
+          "key_point": "Choose the correct lane before reaching the intersection at the end of the off-ramp.",
+          "explanation": "The sign tells you in advance which lane leads to the destination you want after the off-ramp."
+        }
+      }
+    },
+    {
+      "id": "knowledge-guidance-ga6",
+      "kind": "knowledge",
+      "section": "signs",
+      "topic": "off-ramp-terminal-direction",
+      "vehicle_group": [
+        "code1",
+        "code2"
+      ],
+      "source": {
+        "source_id": "SRC-007",
+        "locator": "NaTIS Road Traffic Signs §5.2 — Off-ramp terminal direction GA6",
+        "verification_status": "source_verified"
+      },
+      "language": {
+        "en": {
+          "title": "Off-ramp terminal direction",
+          "key_point": "Slow down, obey the intersection controls and turn in the direction of your destination.",
+          "explanation": "This sign is placed at the end of the off-ramp and shows the direction of destinations from the intersecting road."
+        }
+      }
     }
   ]
 }
